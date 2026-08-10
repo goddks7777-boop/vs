@@ -1,22 +1,28 @@
 {
-  "time": "2026-08-11T07:07:55+09:00",
+  "time": "2026-08-11T08:55:57+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9601758,
-    "returnPct": -3.982,
+    "value": 9548785,
+    "returnPct": -4.512,
     "positions": [
       "ARB",
       "GRVT",
       "HOME"
     ],
-    "trades": 5,
+    "trades": 7,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "HOME",
+        "name": "디파이앱",
+        "comment": "ATR 가상손절 -11.03%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "HOME",
+        "name": "디파이앱",
+        "comment": "완성 1시간봉 6/7점·RSI 60.2·거래량 2.53배"
       }
     ]
   },
