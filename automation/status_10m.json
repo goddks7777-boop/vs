@@ -1,21 +1,43 @@
 {
-  "time": "2026-08-11T13:05:04+09:00",
-  "signalTime": "2026-08-11T11:00:00+09:00",
+  "time": "2026-08-11T13:06:37+09:00",
+  "signalTime": "2026-08-11T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10013667,
-    "returnPct": 0.137,
+    "value": 9980015,
+    "returnPct": -0.2,
     "positions": [
-      "XPL"
+      "XPL",
+      "0G",
+      "PRL",
+      "EDGE",
+      "LINK"
     ],
-    "trades": 1,
+    "trades": 5,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "BUY",
+        "symbol": "0G",
+        "name": "제로지",
+        "comment": "완성 1시간봉 7/7점·RSI 65.3·거래량 2.44배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "PRL",
+        "name": "펄",
+        "comment": "완성 1시간봉 7/7점·RSI 67.1·거래량 1.90배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "EDGE",
+        "name": "디피니티브",
+        "comment": "완성 1시간봉 6/7점·RSI 66.7·거래량 1.47배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "LINK",
+        "name": "체인링크",
+        "comment": "완성 1시간봉 6/7점·RSI 63.8·거래량 2.11배"
       }
     ]
   },
@@ -29,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-11T13:05:04+09:00",
-  "coinUpdatedAt": "2026-08-11T12:37:58+09:00"
+  "coinUpdatedAt": "2026-08-11T13:06:37+09:00"
 }
