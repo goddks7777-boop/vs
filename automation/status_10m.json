@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-12T03:41:16+09:00",
-  "signalTime": "2026-08-11T23:00:00+09:00",
+  "time": "2026-08-12T03:43:14+09:00",
+  "signalTime": "2026-08-12T02:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9943231,
-    "returnPct": -0.568,
+    "value": 9924942,
+    "returnPct": -0.751,
     "positions": [
       "0G",
       "PRL",
       "LINK",
-      "GEOD",
-      "TRX"
+      "TRX",
+      "FF"
     ],
-    "trades": 11,
+    "trades": 13,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "DRV",
-        "name": "디라이브",
+        "symbol": "GEOD",
+        "name": "지오드넷",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "TRX",
-        "name": "트론",
-        "comment": "완성 1시간봉 7/7점·RSI 62.5·거래량 1.36배"
+        "symbol": "FF",
+        "name": "팔콘파이낸스",
+        "comment": "완성 1시간봉 6/7점·RSI 54.5·거래량 1.23배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-12T03:41:16+09:00",
-  "coinUpdatedAt": "2026-08-12T00:47:56+09:00"
+  "coinUpdatedAt": "2026-08-12T03:43:14+09:00"
 }
