@@ -2,7 +2,7 @@ import json
 import math
 import urllib.parse
 import urllib.request
-from datetime import datetime, time
+from datetime import datetime, time, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -54,6 +54,12 @@ def coin_paper():
     metrics = {x["symbol"]: x for x in latest["items"]}
     prices = upbit_prices(metrics)
     actions = []
+    sold_this_run = set()
+    cooldown_since = NOW - timedelta(hours=1)
+    recent_sells = {
+        trade["symbol"] for trade in state.get("trades", [])
+        if trade.get("side") == "SELL" and datetime.fromisoformat(trade["time"]) >= cooldown_since
+    }
 
     def sell(symbol, reason):
         p = state["positions"][symbol]
@@ -65,6 +71,7 @@ def coin_paper():
         state["cash"] += gross - fee
         state["trades"].append({"time": NOW.isoformat(timespec="seconds"), "side": "SELL", "symbol": symbol, "name": x["name"], "price": fill, "amount": gross, "fee": fee, "pnl": pnl, "returnPct": pnl / p["cost"] * 100, "reason": reason})
         actions.append({"type": "SELL", "symbol": symbol, "name": x["name"], "comment": reason})
+        sold_this_run.add(symbol)
         del state["positions"][symbol]
 
     for symbol in list(state["positions"]):
@@ -87,7 +94,7 @@ def coin_paper():
             sell(symbol, reason)
 
     slots = MAX_POSITIONS - len(state["positions"])
-    candidates = [x for x in metrics.values() if x["symbol"] not in state["positions"] and x["symbol"] not in STABLES and x.get("comboScore", 0) >= 6 and x.get("rsi", 99) <= 68 and x.get("volumeRatio", 0) >= 1.2 and x.get("value24", 0) >= 1_000_000_000]
+    candidates = [x for x in metrics.values() if x["symbol"] not in state["positions"] and x["symbol"] not in STABLES and x["symbol"] not in recent_sells and x["symbol"] not in sold_this_run and x.get("comboScore", 0) >= 6 and x.get("rsi", 99) <= 68 and x.get("volumeRatio", 0) >= 1.2 and x.get("value24", 0) >= 1_000_000_000]
     candidates.sort(key=lambda x: (x["comboScore"], x["value24"]), reverse=True)
     for x in candidates[:slots]:
         budget = min(ORDER_BUDGET, state["cash"])
@@ -172,7 +179,9 @@ def stock_paper():
 
 coin = coin_paper()
 stock = stock_paper()
-status = {"time": NOW.isoformat(timespec="seconds"), "mode": "PAPER_ONLY", "actualOrders": 0, "coin": coin, "stock": stock}
+latest_signal = load("monitor_data/latest.json").get("time")
+status = {"time": NOW.isoformat(timespec="seconds"), "signalTime": latest_signal, "mode": "PAPER_ONLY", "actualOrders": 0, "coin": coin, "stock": stock}
 save("automation/status_10m.json", status)
 print(json.dumps(status, ensure_ascii=False))
+
 
