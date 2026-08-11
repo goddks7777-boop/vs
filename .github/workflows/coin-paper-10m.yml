@@ -2,7 +2,7 @@ name: 코인 10분 모의투자 점검
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "3-53/10 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -10,6 +10,8 @@ on:
       - ".github/workflows/coin-paper-10m.yml"
       - "automation/paper_10m.py"
       - "automation/refresh_coin_hourly.py"
+      - "automation/paper-live.js"
+      - "automation/validate_paper_system.py"
 
 permissions:
   contents: write
@@ -41,6 +43,7 @@ jobs:
         run: |
           python automation/inject_live_ui.py
           python automation/inject_paper_summary.py
+          python automation/validate_paper_system.py --market coin
 
       - name: 코인 상태와 모의투자 기록 저장
         run: |
@@ -54,4 +57,5 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
 

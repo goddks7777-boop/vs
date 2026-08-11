@@ -21,6 +21,13 @@ def load(name):
     return json.loads((ROOT / name).read_text(encoding="utf-8"))
 
 
+def load_optional(name, fallback):
+    try:
+        return load(name)
+    except (FileNotFoundError, json.JSONDecodeError, KeyError, ValueError):
+        return fallback
+
+
 def indicators(code):
     url = "https://fchart.stock.naver.com/sise.nhn?" + urllib.parse.urlencode({"symbol": code, "timeframe": "day", "count": 90, "requestType": 0})
     error = None
@@ -89,7 +96,7 @@ for item in universe:
     target.append({**item, "code": code, "price": cap.get("price") if cap else None, "change": cap.get("change") if cap else None, "amount": cap.get("tradedValue") if cap else None, "marketCap": cap.get("marketCap") if cap else None, "marketCapText": cap.get("marketCapText") if cap else "—"})
 
 path = ROOT / "stock_data" / "full_metrics.json"
-previous = load("stock_data/full_metrics.json") if path.exists() else {"items": []}
+previous = load_optional("stock_data/full_metrics.json", {"items": []})
 old = {x["symbol"]: x for x in previous.get("items", [])}
 pending = [x for x in target if x["code"] and (x["symbol"] not in old or old[x["symbol"]].get("calculatedFor") != TODAY or old[x["symbol"]].get("error"))]
 pending = pending[:LIMIT]
@@ -117,6 +124,9 @@ for item in target:
 
 complete = sum(x.get("score") is not None for x in items)
 output = {"time": datetime.now(KST).isoformat(timespec="seconds"), "universe": len(items), "complete": complete, "pending": len(items) - complete, "errorsThisRun": len(failures), "items": items}
-path.write_text(json.dumps(output, ensure_ascii=False), encoding="utf-8")
+temporary = path.with_suffix(".json.tmp")
+temporary.write_text(json.dumps(output, ensure_ascii=False), encoding="utf-8", newline="\n")
+temporary.replace(path)
 print(json.dumps({k: output[k] for k in ("universe", "complete", "pending", "errorsThisRun")}, ensure_ascii=False))
+
 

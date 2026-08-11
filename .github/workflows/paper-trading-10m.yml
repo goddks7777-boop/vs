@@ -3,8 +3,18 @@ name: 주식 10분 모의투자 점검
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7-57/10 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/paper-trading-10m.yml"
+      - "automation/paper_10m.py"
+      - "automation/refresh_stock_market_caps.py"
+      - "automation/refresh_stock_full_metrics.py"
+      - "automation/stock-paper-live.js"
+      - "automation/inject_stock_paper_ui.py"
+      - "automation/validate_paper_system.py"
 
 permissions:
   contents: write
@@ -26,9 +36,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 국내주식 현재가 모듈 설치
-        run: pip install --disable-pip-version-check yfinance
-
       - name: KOSPI·KOSDAQ 시가총액 갱신
         run: python automation/refresh_stock_market_caps.py
 
@@ -42,18 +49,22 @@ jobs:
         run: |
           python automation/inject_stock_market_cap.py
           python automation/inject_paper_summary.py
+          python automation/inject_stock_paper_ui.py
+          python automation/validate_paper_system.py --market stock
 
       - name: 상태와 가상투자 기록 저장
         run: |
           git config user.name "paper-trading-bot"
           git config user.email "paper-trading-bot@users.noreply.github.com"
-          git add stock_data/*.json automation/status_10m.json 주식_종합분석.html
+          git add stock_data/*.json automation/status_10m.json 주식_종합분석.html 주식_1주일_모의투자.html
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
             git commit -m "10분 모의투자 자동 갱신"
+            git pull --rebase origin main
             git push
           fi
+
 
 
 

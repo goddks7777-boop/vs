@@ -37,6 +37,14 @@ for market in ("KOSPI", "KOSDAQ"):
             break
         page += 1
 
+universe = json.loads((ROOT / "stock_data" / "universe.json").read_text(encoding="utf-8"))
+allowed = {(item["market"], item["name"]) for item in universe.get("items", []) if item.get("market") in ("KOSPI", "KOSDAQ")}
+deduplicated = {}
+for row in rows:
+    if (row["market"], row["name"]) in allowed:
+        deduplicated[(row["market"], row["code"])] = row
+rows = list(deduplicated.values())
+
 output = {
     "updatedAt": datetime.now(KST).isoformat(timespec="seconds"),
     "source": "Naver Finance domestic market-value list",
@@ -44,6 +52,9 @@ output = {
     "items": rows,
 }
 target = ROOT / "stock_data" / "market_caps.json"
-target.write_text(json.dumps(output, ensure_ascii=False), encoding="utf-8")
+temporary = target.with_suffix(".json.tmp")
+temporary.write_text(json.dumps(output, ensure_ascii=False), encoding="utf-8", newline="\n")
+temporary.replace(target)
 print(json.dumps({"marketCaps": len(rows), "updatedAt": output["updatedAt"]}, ensure_ascii=False))
+
 
