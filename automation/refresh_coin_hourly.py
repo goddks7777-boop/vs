@@ -14,6 +14,12 @@ BASE = "https://api.upbit.com/v1"
 KST = ZoneInfo("Asia/Seoul")
 
 
+def write_json_atomic(path, value):
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False), encoding="utf-8", newline="\n")
+    temporary.replace(path)
+
+
 def get(path, params=None):
     url = BASE + path + ("?" + urllib.parse.urlencode(params) if params else "")
     req = urllib.request.Request(url, headers={"User-Agent": "paper-trading-monitor/2.0"})
@@ -64,10 +70,13 @@ now = datetime.now(KST)
 completed_hour = now.replace(minute=0, second=0, microsecond=0) - timedelta(hours=1)
 latest_path = DATA / "latest.json"
 if latest_path.exists():
-    previous_time = datetime.fromisoformat(json.loads(latest_path.read_text(encoding="utf-8"))["time"])
-    if previous_time.replace(minute=0, second=0, microsecond=0) >= completed_hour:
-        print(json.dumps({"status": "SKIPPED", "reason": "completed hour already collected", "signalHour": completed_hour.isoformat()}, ensure_ascii=False))
-        raise SystemExit(0)
+    try:
+        previous_time = datetime.fromisoformat(json.loads(latest_path.read_text(encoding="utf-8"))["time"])
+        if previous_time.replace(minute=0, second=0, microsecond=0) >= completed_hour:
+            print(json.dumps({"status": "SKIPPED", "reason": "completed hour already collected", "signalHour": completed_hour.isoformat()}, ensure_ascii=False))
+            raise SystemExit(0)
+    except (json.JSONDecodeError, KeyError, ValueError):
+        print(json.dumps({"status": "RECOVERING", "reason": "invalid latest.json"}, ensure_ascii=False))
 
 markets = [row for row in get("/market/all") if row["market"].startswith("KRW-")]
 tickers = {}
@@ -103,10 +112,14 @@ for market in markets:
 snapshot = {"time": completed_hour.isoformat(), "collectedAt": now.isoformat(timespec="seconds"), "count": len(items), "errors": errors, "items": items}
 if latest_path.exists():
     (DATA / "previous.json").write_text(latest_path.read_text(encoding="utf-8"), encoding="utf-8")
-latest_path.write_text(json.dumps(snapshot, ensure_ascii=False), encoding="utf-8")
+write_json_atomic(latest_path, snapshot)
 history_path = DATA / "history.json"
-history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
+try:
+    history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
+except json.JSONDecodeError:
+    history = []
 history.append({"time": completed_hour.isoformat(), "up": sum(x["change24"] > 0 for x in items), "down": sum(x["change24"] < 0 for x in items), "overbought": sum(x["rsi"] >= 70 for x in items), "oversold": sum(x["rsi"] <= 30 for x in items), "value": sum(x["value24"] for x in items)})
-history_path.write_text(json.dumps(history[-720:], ensure_ascii=False), encoding="utf-8")
+write_json_atomic(history_path, history[-720:])
 print(json.dumps({"status": "UPDATED", "signalHour": completed_hour.isoformat(), "coins": len(items), "errors": len(errors)}, ensure_ascii=False))
+
 

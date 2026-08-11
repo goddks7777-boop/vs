@@ -1,0 +1,57 @@
+name: 코인 10분 모의투자 점검
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/coin-paper-10m.yml"
+      - "automation/paper_10m.py"
+      - "automation/refresh_coin_hourly.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-data-writer
+  cancel-in-progress: false
+
+jobs:
+  coin-paper-trading:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 저장소 받기
+        uses: actions/checkout@v5
+
+      - name: Python 준비
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 완성된 최신 1시간봉 지표 갱신
+        run: python automation/refresh_coin_hourly.py
+
+      - name: 코인 10분 모의 매수·매도 판단
+        run: python automation/paper_10m.py --market coin
+
+      - name: 코인 화면 JSON 연결 확인
+        run: |
+          python automation/inject_live_ui.py
+          python automation/inject_paper_summary.py
+
+      - name: 코인 상태와 모의투자 기록 저장
+        run: |
+          git config user.name "paper-trading-bot"
+          git config user.email "paper-trading-bot@users.noreply.github.com"
+          git add monitor_data/*.json automation/status_10m.json 코인_1주일_가상투자.html 업비트_1시간_모니터링.html
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "코인 10분 모의투자 자동 갱신"
+            git pull --rebase origin main
+            git push
+          fi
+
