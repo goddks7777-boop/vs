@@ -31,6 +31,9 @@ jobs:
       - name: 저장소 받기
         uses: actions/checkout@v5
 
+      - name: 최신 main 결과 이어받기
+        run: git pull --ff-only origin main
+
       - name: Python 준비
         uses: actions/setup-python@v6
         with:
