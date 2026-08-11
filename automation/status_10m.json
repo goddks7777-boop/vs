@@ -1,38 +1,36 @@
+
 {
-  "time": "2026-08-11T08:55:57+09:00",
+  "time": "2026-08-11T12:00:22+09:00",
+  "signalTime": "2026-08-11T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9548785,
-    "returnPct": -4.512,
+    "value": 9675659,
+    "returnPct": -3.243,
     "positions": [
       "ARB",
-      "GRVT",
-      "HOME"
+      "QUID",
+      "0G",
+      "BIRB",
+      "XEC"
     ],
-    "trades": 7,
+    "trades": 13,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "HOME",
-        "name": "디파이앱",
-        "comment": "ATR 가상손절 -11.03%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "HOME",
-        "name": "디파이앱",
-        "comment": "완성 1시간봉 6/7점·RSI 60.2·거래량 2.53배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
   "stock": {
-    "session": "KRX 장외시간·휴장: 가상체결 차단",
-    "tradeEnabled": false,
-    "value": 10000000,
-    "returnPct": 0.0,
-    "positions": 0,
-    "trades": 0,
-    "analyzed": 67
+    "session": "KRX 정규장 10분 점검",
+    "tradeEnabled": true,
+    "value": 9991744,
+    "returnPct": -0.083,
+    "positions": 5,
+    "trades": 5,
+    "analyzed": 2762
   }
 }
