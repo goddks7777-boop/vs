@@ -1,3 +1,4 @@
+import argparse
 import json
 import math
 import urllib.parse
@@ -30,7 +31,9 @@ def load(path):
 def save(path, value):
     target = ROOT / path
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary = target.with_suffix(target.suffix + ".tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
+    temporary.replace(target)
 
 
 def upbit_prices(symbols):
@@ -173,11 +176,24 @@ def stock_paper():
     return {"session": label, "tradeEnabled": regular, "value": round(value), "returnPct": round((value / state["initial"] - 1) * 100, 3), "positions": len(state.get("positions", {})), "trades": len(state.get("trades", [])), "analyzed": len(metrics)}
 
 
-coin = coin_paper()
-stock = stock_paper()
-latest_signal = load("monitor_data/latest.json").get("time")
-status = {"time": NOW.isoformat(timespec="seconds"), "signalTime": latest_signal, "mode": "PAPER_ONLY", "actualOrders": 0, "coin": coin, "stock": stock}
+parser = argparse.ArgumentParser(description="10분 모의투자 전용 실행기")
+parser.add_argument("--market", choices=("coin", "stock", "all"), default="all")
+args = parser.parse_args()
+
+status_path = ROOT / "automation" / "status_10m.json"
+status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {}
+status.update({
+    "time": NOW.isoformat(timespec="seconds"),
+    "mode": "PAPER_ONLY",
+    "actualOrders": 0,
+})
+if args.market in ("coin", "all"):
+    status["signalTime"] = load("monitor_data/latest.json").get("time")
+    status["coin"] = coin_paper()
+if args.market in ("stock", "all"):
+    status["stock"] = stock_paper()
 save("automation/status_10m.json", status)
 print(json.dumps(status, ensure_ascii=False))
+
 
 
