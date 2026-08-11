@@ -122,25 +122,21 @@ def coin_paper():
 
 def stock_paper():
     state = load("stock_data/paper_week_krx.json")
-    latest = load("stock_data/latest.json")
-    metrics = {x["symbol"]: x for x in latest.get("items", []) if x.get("market") in ("KOSPI", "KOSDAQ")}
+    full_path = ROOT / "stock_data" / "full_metrics.json"
+    latest = load("stock_data/full_metrics.json") if full_path.exists() else load("stock_data/latest.json")
+    metrics = {}
+    for row in latest.get("items", []):
+        if row.get("market") not in ("KOSPI", "KOSDAQ"):
+            continue
+        symbol = row.get("code") or row.get("symbol")
+        if symbol:
+            metrics[symbol] = {**row, "symbol": symbol}
     weekday = NOW.weekday() < 5 and NOW.date().isoformat() not in KRX_HOLIDAYS_2026
     regular = weekday and time(9, 0) <= NOW.time() <= time(15, 30)
     label = "KRX 정규장 10분 점검" if regular else "KRX 장외시간·휴장: 가상체결 차단"
     actions = []
     prices = {s: x.get("price") for s, x in metrics.items() if x.get("price")}
     if regular:
-        import yfinance as yf
-        yahoo = {s: s + (".KS" if x["market"] == "KOSPI" else ".KQ") for s, x in metrics.items()}
-        raw = yf.download(list(yahoo.values()), period="1d", interval="5m", group_by="ticker", auto_adjust=False, threads=True, progress=False)
-        for symbol, ticker in yahoo.items():
-            try:
-                frame = raw[ticker] if hasattr(raw.columns, "levels") else raw
-                close = frame["Close"].dropna()
-                if len(close): prices[symbol] = float(close.iloc[-1])
-            except Exception:
-                pass
-
         for symbol in list(state.get("positions", {})):
             if symbol not in prices or symbol not in metrics: continue
             p, x = state["positions"][symbol], metrics[symbol]
