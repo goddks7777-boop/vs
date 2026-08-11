@@ -2,9 +2,121 @@
   "start": "2026-08-11T02:28:29+09:00",
   "end": "2026-08-18T02:28:29+09:00",
   "initial": 10000000,
-  "cash": 10000000,
-  "positions": {},
-  "trades": [],
+  "cash": 0,
+  "positions": {
+    "096770": {
+      "name": "SK이노베이션",
+      "market": "KOSPI",
+      "entry": 126563.25,
+      "qty": 15.800005135772034,
+      "cost": 2000000,
+      "atrPct": 7.052,
+      "time": "2026-08-11T11:43:03+09:00",
+      "score": 5
+    },
+    "005800": {
+      "name": "신영와코루",
+      "market": "KOSPI",
+      "entry": 13466.73,
+      "qty": 148.49187590454403,
+      "cost": 2000000,
+      "atrPct": 2.867,
+      "time": "2026-08-11T12:00:22+09:00",
+      "score": 6
+    },
+    "050120": {
+      "name": "ES큐브",
+      "market": "KOSDAQ",
+      "entry": 3056.5274999999997,
+      "qty": 654.2391651964526,
+      "cost": 2000000,
+      "atrPct": 3.829,
+      "time": "2026-08-11T12:00:22+09:00",
+      "score": 6
+    },
+    "108675": {
+      "name": "LX하우시스우",
+      "market": "KOSPI",
+      "entry": 18399.195,
+      "qty": 108.68410275558251,
+      "cost": 2000000,
+      "atrPct": 3.787,
+      "time": "2026-08-11T12:00:22+09:00",
+      "score": 6
+    },
+    "481070": {
+      "name": "에이유브랜즈",
+      "market": "KOSDAQ",
+      "entry": 19509.75,
+      "qty": 102.4974692141109,
+      "cost": 2000000,
+      "atrPct": 8.698,
+      "time": "2026-08-11T12:00:22+09:00",
+      "score": 6
+    }
+  },
+  "trades": [
+    {
+      "time": "2026-08-11T11:43:03+09:00",
+      "side": "BUY",
+      "symbol": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI",
+      "price": 126563.25,
+      "fee": 300.0,
+      "pnl": null,
+      "returnPct": null,
+      "reason": "점수 5/6·RSI 56.6·ADX 20.4·거래량 1.37배"
+    },
+    {
+      "time": "2026-08-11T12:00:22+09:00",
+      "side": "BUY",
+      "symbol": "005800",
+      "name": "신영와코루",
+      "market": "KOSPI",
+      "price": 13466.73,
+      "fee": 300.0,
+      "pnl": null,
+      "returnPct": null,
+      "reason": "점수 6/6·RSI 61.7·ADX 20.6·거래량 7.86배"
+    },
+    {
+      "time": "2026-08-11T12:00:22+09:00",
+      "side": "BUY",
+      "symbol": "050120",
+      "name": "ES큐브",
+      "market": "KOSDAQ",
+      "price": 3056.5274999999997,
+      "fee": 300.0,
+      "pnl": null,
+      "returnPct": null,
+      "reason": "점수 6/6·RSI 64.3·ADX 30.9·거래량 4.82배"
+    },
+    {
+      "time": "2026-08-11T12:00:22+09:00",
+      "side": "BUY",
+      "symbol": "108675",
+      "name": "LX하우시스우",
+      "market": "KOSPI",
+      "price": 18399.195,
+      "fee": 300.0,
+      "pnl": null,
+      "returnPct": null,
+      "reason": "점수 6/6·RSI 67.7·ADX 20.3·거래량 2.64배"
+    },
+    {
+      "time": "2026-08-11T12:00:22+09:00",
+      "side": "BUY",
+      "symbol": "481070",
+      "name": "에이유브랜즈",
+      "market": "KOSDAQ",
+      "price": 19509.75,
+      "fee": 300.0,
+      "pnl": null,
+      "returnPct": null,
+      "reason": "점수 6/6·RSI 62.8·ADX 33.5·거래량 2.53배"
+    }
+  ],
   "journal": [
     {
       "time": "2026-08-11T02:28:29+09:00",
@@ -39,6 +151,27 @@
       "tradeEnabled": false,
       "notes": [
         "주식 주문은 만들지 않고 대기합니다."
+      ]
+    },
+    {
+      "runKey": "2026-08-11T11:4",
+      "time": "2026-08-11T11:43:03+09:00",
+      "session": "KRX 정규장 10분 점검",
+      "tradeEnabled": true,
+      "notes": [
+        "KOSPI SK이노베이션 가상매수: 점수 5/6·RSI 56.6·ADX 20.4·거래량 1.37배"
+      ]
+    },
+    {
+      "runKey": "2026-08-11T12:0",
+      "time": "2026-08-11T12:00:22+09:00",
+      "session": "KRX 정규장 10분 점검",
+      "tradeEnabled": true,
+      "notes": [
+        "KOSPI 신영와코루 가상매수: 점수 6/6·RSI 61.7·ADX 20.6·거래량 7.86배",
+        "KOSDAQ ES큐브 가상매수: 점수 6/6·RSI 64.3·ADX 30.9·거래량 4.82배",
+        "KOSPI LX하우시스우 가상매수: 점수 6/6·RSI 67.7·ADX 20.3·거래량 2.64배",
+        "KOSDAQ 에이유브랜즈 가상매수: 점수 6/6·RSI 62.8·ADX 33.5·거래량 2.53배"
       ]
     }
   ],
