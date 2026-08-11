@@ -1,3 +1,4 @@
+
 name: 10분 모의투자 점검
 
 on:
@@ -44,12 +45,13 @@ jobs:
         run: |
           python automation/inject_live_ui.py
           python automation/inject_stock_market_cap.py
+          python automation/inject_paper_summary.py
 
       - name: 상태와 가상투자 기록 저장
         run: |
           git config user.name "paper-trading-bot"
           git config user.email "paper-trading-bot@users.noreply.github.com"
-          git add monitor_data/*.json stock_data/*.json automation/status_10m.json 코인_1주일_가상투자.html 주식_종합분석.html
+          git add monitor_data/*.json stock_data/*.json automation/status_10m.json 코인_1주일_가상투자.html 주식_종합분석.html 업비트_1시간_모니터링.html
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
