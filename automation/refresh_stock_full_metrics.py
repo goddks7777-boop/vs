@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 KST = ZoneInfo("Asia/Seoul")
 TODAY = datetime.now(KST).date().isoformat().replace("-", "")
-LIMIT = int(os.environ.get("STOCK_REFRESH_LIMIT", "400"))
+LIMIT = int(os.environ.get("STOCK_REFRESH_LIMIT", "3000"))
 
 
 def load(name):
