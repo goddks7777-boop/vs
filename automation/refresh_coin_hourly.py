@@ -72,7 +72,13 @@ completed_hour = now.replace(minute=0, second=0, microsecond=0) - timedelta(hour
 latest_path = DATA / "latest.json"
 if latest_path.exists():
     try:
-        previous_time = datetime.fromisoformat(json.loads(latest_path.read_text(encoding="utf-8"))["time"])
+        current_snapshot = json.loads(latest_path.read_text(encoding="utf-8"))
+        previous_time = datetime.fromisoformat(current_snapshot["time"])
+        previous_path = DATA / "previous.json"
+        try:
+            json.loads(previous_path.read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError, KeyError, ValueError):
+            write_json_atomic(previous_path, current_snapshot)
         if previous_time.replace(minute=0, second=0, microsecond=0) >= completed_hour:
             print(json.dumps({"status": "SKIPPED", "reason": "completed hour already collected", "signalHour": completed_hour.isoformat()}, ensure_ascii=False))
             raise SystemExit(0)
@@ -121,7 +127,7 @@ with ThreadPoolExecutor(max_workers=3) as executor:
 
 snapshot = {"time": completed_hour.isoformat(), "collectedAt": now.isoformat(timespec="seconds"), "count": len(items), "errors": errors, "items": items}
 if latest_path.exists():
-    (DATA / "previous.json").write_text(latest_path.read_text(encoding="utf-8"), encoding="utf-8")
+    write_json_atomic(DATA / "previous.json", json.loads(latest_path.read_text(encoding="utf-8")))
 write_json_atomic(latest_path, snapshot)
 history_path = DATA / "history.json"
 try:
@@ -131,5 +137,6 @@ except json.JSONDecodeError:
 history.append({"time": completed_hour.isoformat(), "up": sum(x["change24"] > 0 for x in items), "down": sum(x["change24"] < 0 for x in items), "overbought": sum(x["rsi"] >= 70 for x in items), "oversold": sum(x["rsi"] <= 30 for x in items), "value": sum(x["value24"] for x in items)})
 write_json_atomic(history_path, history[-720:])
 print(json.dumps({"status": "UPDATED", "signalHour": completed_hour.isoformat(), "coins": len(items), "errors": len(errors)}, ensure_ascii=False))
+
 
 
