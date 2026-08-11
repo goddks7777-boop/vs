@@ -190,10 +190,13 @@ status.update({
 if args.market in ("coin", "all"):
     status["signalTime"] = load("monitor_data/latest.json").get("time")
     status["coin"] = coin_paper()
+    status["coinUpdatedAt"] = NOW.isoformat(timespec="seconds")
 if args.market in ("stock", "all"):
     status["stock"] = stock_paper()
+    status["stockUpdatedAt"] = NOW.isoformat(timespec="seconds")
 save("automation/status_10m.json", status)
 print(json.dumps(status, ensure_ascii=False))
+
 
 
 
