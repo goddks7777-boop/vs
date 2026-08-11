@@ -28,6 +28,9 @@ for market in ("KOSPI", "KOSDAQ"):
                 "marketCap": int(item.get("marketValueRaw") or 0),
                 "marketCapText": item.get("marketValueHangeul") or "—",
                 "price": int(item.get("closePriceRaw") or 0),
+                "change": float(item.get("fluctuationsRatio") or 0),
+                "volume": int(item.get("accumulatedTradingVolumeRaw") or 0),
+                "tradedValue": int(item.get("accumulatedTradingValueRaw") or 0),
                 "time": item.get("localTradedAt"),
             })
         if page * 100 >= int(payload.get("totalCount") or 0) or not batch:
