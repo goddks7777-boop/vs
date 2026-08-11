@@ -28,6 +28,9 @@ jobs:
       - name: 국내주식 현재가 모듈 설치
         run: pip install --disable-pip-version-check yfinance
 
+      - name: KOSPI·KOSDAQ 시가총액 갱신
+        run: python automation/refresh_stock_market_caps.py
+
       - name: 완성된 최신 1시간봉 지표 갱신
         run: python automation/refresh_coin_hourly.py
 
@@ -35,13 +38,15 @@ jobs:
         run: python automation/paper_10m.py
 
       - name: 웹 화면 실시간 JSON 연결 확인
-        run: python automation/inject_live_ui.py
+        run: |
+          python automation/inject_live_ui.py
+          python automation/inject_stock_market_cap.py
 
       - name: 상태와 가상투자 기록 저장
         run: |
           git config user.name "paper-trading-bot"
           git config user.email "paper-trading-bot@users.noreply.github.com"
-          git add monitor_data/*.json stock_data/paper_week_krx.json automation/status_10m.json 코인_1주일_가상투자.html
+          git add monitor_data/*.json stock_data/*.json automation/status_10m.json 코인_1주일_가상투자.html 주식_종합분석.html
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
