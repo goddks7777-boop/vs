@@ -2,6 +2,7 @@ import json
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -84,8 +85,7 @@ for start in range(0, len(markets), 100):
     for row in get("/ticker", {"markets": ",".join(x["market"] for x in markets[start:start + 100])}):
         tickers[row["market"]] = row
 
-items, errors = [], []
-for market in markets:
+def analyze_market(market):
     try:
         candles = get("/candles/minutes/60", {"market": market["market"], "count": 200})[::-1]
         candles = [x for x in candles if datetime.fromisoformat(x["candle_date_time_kst"] + "+09:00") <= completed_hour]
@@ -104,10 +104,20 @@ for market in markets:
         ma20, ma60 = sum(close[-20:]) / 20, sum(close[-60:]) / 60
         score = sum((close[-1] > vwap, 50 <= rv <= 68, av >= 25, pdi > mdi, ov > 0, ratio >= 1.2, close[-1] > ma20 > ma60))
         ticker = tickers[market["market"]]
-        items.append({"symbol": market["market"][4:], "name": market["korean_name"], "price": ticker["trade_price"], "change24": round(ticker["signed_change_rate"] * 100, 3), "value24": ticker["acc_trade_price_24h"], "rsi": round(rv, 2), "obv": round(ov, 3), "adx": round(av, 2), "plusDI": round(pdi, 2), "minusDI": round(mdi, 2), "atrPct": round(atr_value / close[-1] * 100, 3), "vwap24": round(vwap, 8), "volumeRatio": round(ratio, 2), "ma20": ma20, "ma60": ma60, "comboScore": score})
+        return {"symbol": market["market"][4:], "name": market["korean_name"], "price": ticker["trade_price"], "change24": round(ticker["signed_change_rate"] * 100, 3), "value24": ticker["acc_trade_price_24h"], "rsi": round(rv, 2), "obv": round(ov, 3), "adx": round(av, 2), "plusDI": round(pdi, 2), "minusDI": round(mdi, 2), "atrPct": round(atr_value / close[-1] * 100, 3), "vwap24": round(vwap, 8), "volumeRatio": round(ratio, 2), "ma20": ma20, "ma60": ma60, "comboScore": score}, None
     except Exception as exc:
-        errors.append({"market": market["market"], "error": str(exc)[:160]})
-    time.sleep(0.12)
+        return None, {"market": market["market"], "error": str(exc)[:160]}
+    finally:
+        time.sleep(0.12)
+
+
+items, errors = [], []
+with ThreadPoolExecutor(max_workers=3) as executor:
+    for item, error in executor.map(analyze_market, markets):
+        if item:
+            items.append(item)
+        if error:
+            errors.append(error)
 
 snapshot = {"time": completed_hour.isoformat(), "collectedAt": now.isoformat(timespec="seconds"), "count": len(items), "errors": errors, "items": items}
 if latest_path.exists():
