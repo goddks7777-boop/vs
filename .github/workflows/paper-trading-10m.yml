@@ -31,6 +31,9 @@ jobs:
       - name: KOSPI·KOSDAQ 시가총액 갱신
         run: python automation/refresh_stock_market_caps.py
 
+      - name: KOSPI·KOSDAQ 전체 기술지표 계산·실패 재시도
+        run: python automation/refresh_stock_full_metrics.py
+
       - name: 완성된 최신 1시간봉 지표 갱신
         run: python automation/refresh_coin_hourly.py
 
