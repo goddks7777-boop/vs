@@ -72,7 +72,7 @@ def coin_paper():
         fee = gross * FEE
         pnl = gross - fee - p["cost"]
         state["cash"] += gross - fee
-        state["trades"].append({"time": NOW.isoformat(timespec="seconds"), "side": "SELL", "symbol": symbol, "name": x["name"], "price": fill, "amount": gross, "fee": fee, "pnl": pnl, "returnPct": pnl / p["cost"] * 100, "reason": reason})
+        state["trades"].append({"time": NOW.isoformat(timespec="seconds"), "side": "SELL", "symbol": symbol, "name": x["name"], "entryPrice": p["entry"], "price": fill, "amount": gross, "fee": fee, "pnl": pnl, "returnPct": pnl / p["cost"] * 100, "reason": reason})
         actions.append({"type": "SELL", "symbol": symbol, "name": x["name"], "comment": reason})
         sold_this_run.add(symbol)
         del state["positions"][symbol]
@@ -151,7 +151,7 @@ def stock_paper():
             if reason:
                 fill = prices[symbol] * (1 - SLIP); gross = p["qty"] * fill; fee = gross * 0.00015; pnl = gross - fee - p["cost"]
                 state["cash"] += gross - fee
-                state.setdefault("trades", []).append({"time": NOW.isoformat(timespec="seconds"), "side": "SELL", "symbol": symbol, "name": x["name"], "market": x["market"], "price": fill, "fee": fee, "pnl": pnl, "returnPct": pnl / p["cost"] * 100, "reason": reason})
+                state.setdefault("trades", []).append({"time": NOW.isoformat(timespec="seconds"), "side": "SELL", "symbol": symbol, "name": x["name"], "market": x["market"], "entryPrice": p["entry"], "price": fill, "fee": fee, "pnl": pnl, "returnPct": pnl / p["cost"] * 100, "reason": reason})
                 actions.append(f"{x['market']} {x['name']} 가상매도: {reason}")
                 del state["positions"][symbol]
 
@@ -196,6 +196,7 @@ if args.market in ("stock", "all"):
     status["stockUpdatedAt"] = NOW.isoformat(timespec="seconds")
 save("automation/status_10m.json", status)
 print(json.dumps(status, ensure_ascii=False))
+
 
 
 
