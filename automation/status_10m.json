@@ -1,31 +1,36 @@
 {
-  "time": "2026-08-12T14:21:48+09:00",
-  "signalTime": "2026-08-12T13:00:00+09:00",
+  "time": "2026-08-12T18:45:02+09:00",
+  "signalTime": "2026-08-12T17:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9941767,
-    "returnPct": -0.582,
+    "value": 9919057,
+    "returnPct": -0.809,
     "positions": [
       "PRL",
       "LINK",
       "TRX",
-      "DOGE",
-      "ESP"
+      "DRV"
     ],
-    "trades": 19,
+    "trades": 22,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "SLX",
-        "name": "솔스티스",
+        "symbol": "DOGE",
+        "name": "도지코인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ESP",
+        "name": "에스프레소",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ESP",
-        "name": "에스프레소",
-        "comment": "완성 1시간봉 6/7점·RSI 55.4·거래량 1.78배"
+        "symbol": "DRV",
+        "name": "디라이브",
+        "comment": "완성 1시간봉 7/7점·RSI 57.7·거래량 2.40배"
       }
     ]
   },
@@ -39,5 +44,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-12T14:21:48+09:00",
-  "coinUpdatedAt": "2026-08-12T14:20:32+09:00"
+  "coinUpdatedAt": "2026-08-12T18:45:02+09:00"
 }
