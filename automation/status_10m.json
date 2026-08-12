@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-13T03:40:40+09:00",
-  "signalTime": "2026-08-12T23:00:00+09:00",
+  "time": "2026-08-13T03:43:53+09:00",
+  "signalTime": "2026-08-13T02:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9846354,
-    "returnPct": -1.536,
+    "value": 9872461,
+    "returnPct": -1.275,
     "positions": [
       "TRX",
       "VIRTUAL"
@@ -13,34 +13,10 @@
     "trades": 28,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "PRL",
-        "name": "펄",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "LINK",
-        "name": "체인링크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "DRV",
-        "name": "디라이브",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "ETC",
-        "name": "이더리움클래식",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "VIRTUAL",
-        "name": "버추얼프로토콜",
-        "comment": "완성 1시간봉 6/7점·RSI 66.4·거래량 3.84배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -54,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-13T03:40:40+09:00",
-  "coinUpdatedAt": "2026-08-13T00:47:17+09:00"
+  "coinUpdatedAt": "2026-08-13T03:43:53+09:00"
 }
