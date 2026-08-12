@@ -1,23 +1,22 @@
 {
-  "time": "2026-08-13T08:25:28+09:00",
-  "signalTime": "2026-08-13T05:00:00+09:00",
+  "time": "2026-08-13T08:27:19+09:00",
+  "signalTime": "2026-08-13T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9820478,
-    "returnPct": -1.795,
+    "value": 9843330,
+    "returnPct": -1.567,
     "positions": [
       "TRX",
-      "VIRTUAL",
-      "LINK"
+      "VIRTUAL"
     ],
-    "trades": 29,
+    "trades": 30,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "LINK",
         "name": "체인링크",
-        "comment": "완성 1시간봉 6/7점·RSI 56.0·거래량 1.94배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -31,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-13T08:25:28+09:00",
-  "coinUpdatedAt": "2026-08-13T06:28:14+09:00"
+  "coinUpdatedAt": "2026-08-13T08:27:19+09:00"
 }
