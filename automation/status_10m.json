@@ -1,25 +1,46 @@
 {
-  "time": "2026-08-13T00:33:40+09:00",
-  "signalTime": "2026-08-12T20:00:00+09:00",
+  "time": "2026-08-13T00:47:17+09:00",
+  "signalTime": "2026-08-12T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9927617,
-    "returnPct": -0.724,
+    "value": 9846354,
+    "returnPct": -1.536,
     "positions": [
-      "PRL",
-      "LINK",
       "TRX",
-      "DRV",
-      "ETC"
+      "VIRTUAL"
     ],
-    "trades": 23,
+    "trades": 28,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
+        "symbol": "PRL",
+        "name": "펄",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "LINK",
+        "name": "체인링크",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "DRV",
+        "name": "디라이브",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
         "symbol": "ETC",
         "name": "이더리움클래식",
-        "comment": "완성 1시간봉 6/7점·RSI 65.2·거래량 1.33배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "VIRTUAL",
+        "name": "버추얼프로토콜",
+        "comment": "완성 1시간봉 6/7점·RSI 66.4·거래량 3.84배"
       }
     ]
   },
@@ -33,5 +54,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-13T00:33:40+09:00",
-  "coinUpdatedAt": "2026-08-12T21:36:11+09:00"
+  "coinUpdatedAt": "2026-08-13T00:47:17+09:00"
 }
