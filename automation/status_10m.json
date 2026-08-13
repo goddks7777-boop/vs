@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-14T00:35:25+09:00",
-  "signalTime": "2026-08-13T20:00:00+09:00",
+  "time": "2026-08-14T00:46:30+09:00",
+  "signalTime": "2026-08-13T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9845601,
-    "returnPct": -1.544,
+    "value": 9758200,
+    "returnPct": -2.418,
     "positions": [
       "ID",
       "GRVT",
@@ -16,16 +16,10 @@
     "trades": 39,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "TRUST",
-        "name": "인튜이션",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "RE",
-        "name": "리",
-        "comment": "완성 1시간봉 6/7점·RSI 58.2·거래량 1.38배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-14T00:35:25+09:00",
-  "coinUpdatedAt": "2026-08-13T21:36:46+09:00"
+  "coinUpdatedAt": "2026-08-14T00:46:30+09:00"
 }
