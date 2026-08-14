@@ -1,23 +1,31 @@
 {
-  "time": "2026-08-15T07:54:41+09:00",
-  "signalTime": "2026-08-15T05:00:00+09:00",
+  "time": "2026-08-15T07:56:52+09:00",
+  "signalTime": "2026-08-15T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9591052,
-    "returnPct": -4.089,
+    "value": 9596332,
+    "returnPct": -4.037,
     "positions": [
       "MOVE",
       "CAP",
-      "EUL"
+      "EUL",
+      "XPL",
+      "LA"
     ],
-    "trades": 63,
+    "trades": 65,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "BUY",
+        "symbol": "XPL",
+        "name": "플라즈마",
+        "comment": "완성 1시간봉 7/7점·RSI 51.4·거래량 1.95배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "LA",
+        "name": "라그랑주",
+        "comment": "완성 1시간봉 6/7점·RSI 63.3·거래량 1.25배"
       }
     ]
   },
@@ -31,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-15T07:54:41+09:00",
-  "coinUpdatedAt": "2026-08-15T06:54:13+09:00"
+  "coinUpdatedAt": "2026-08-15T07:56:52+09:00"
 }
