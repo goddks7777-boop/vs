@@ -1,43 +1,31 @@
 {
-  "time": "2026-08-14T21:00:15+09:00",
-  "signalTime": "2026-08-14T19:00:00+09:00",
+  "time": "2026-08-14T23:43:18+09:00",
+  "signalTime": "2026-08-14T22:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9844708,
-    "returnPct": -1.553,
+    "value": 9669365,
+    "returnPct": -3.306,
     "positions": [
       "SLX",
       "IRYS",
-      "HOME",
       "2Z",
-      "ZBT"
+      "ZBT",
+      "MOVE"
     ],
-    "trades": 55,
+    "trades": 57,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "PUMP",
-        "name": "펌프펀",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "MMT",
-        "name": "모멘텀",
+        "symbol": "HOME",
+        "name": "디파이앱",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "2Z",
-        "name": "더블제로",
-        "comment": "완성 1시간봉 7/7점·RSI 67.9·거래량 3.21배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZBT",
-        "name": "제로베이스",
-        "comment": "완성 1시간봉 6/7점·RSI 53.2·거래량 1.72배"
+        "symbol": "MOVE",
+        "name": "무브먼트",
+        "comment": "완성 1시간봉 6/7점·RSI 61.4·거래량 2.22배"
       }
     ]
   },
@@ -51,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-14T21:00:15+09:00",
-  "coinUpdatedAt": "2026-08-14T20:29:55+09:00"
+  "coinUpdatedAt": "2026-08-14T23:43:18+09:00"
 }
