@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-15T05:05:17+09:00",
-  "signalTime": "2026-08-15T03:00:00+09:00",
+  "time": "2026-08-15T06:03:07+09:00",
+  "signalTime": "2026-08-15T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9413341,
-    "returnPct": -5.867,
+    "value": 9550630,
+    "returnPct": -4.494,
     "positions": [
       "MOVE",
       "CAP",
@@ -14,16 +14,10 @@
     "trades": 63,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SLX",
-        "name": "솔스티스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "IRYS",
-        "name": "아이리스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -37,5 +31,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-15T05:05:17+09:00",
-  "coinUpdatedAt": "2026-08-15T05:00:37+09:00"
+  "coinUpdatedAt": "2026-08-15T06:03:07+09:00"
 }
