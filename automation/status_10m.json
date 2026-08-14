@@ -1,25 +1,55 @@
 {
-  "time": "2026-08-14T08:28:29+09:00",
-  "signalTime": "2026-08-14T06:00:00+09:00",
+  "time": "2026-08-14T13:32:15+09:00",
+  "signalTime": "2026-08-14T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9742397,
-    "returnPct": -2.576,
+    "value": 10067336,
+    "returnPct": 0.673,
     "positions": [
-      "ID",
-      "HOME",
       "RE",
       "PUMP",
-      "LINK"
+      "SLX",
+      "MMT",
+      "IRYS"
     ],
-    "trades": 43,
+    "trades": 49,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
+        "symbol": "ID",
+        "name": "스페이스아이디",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "SELL",
+        "symbol": "HOME",
+        "name": "디파이앱",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "SELL",
         "symbol": "LINK",
         "name": "체인링크",
-        "comment": "완성 1시간봉 6/7점·RSI 62.5·거래량 3.59배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SLX",
+        "name": "솔스티스",
+        "comment": "완성 1시간봉 7/7점·RSI 57.9·거래량 1.40배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "MMT",
+        "name": "모멘텀",
+        "comment": "완성 1시간봉 6/7점·RSI 53.1·거래량 1.32배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "IRYS",
+        "name": "아이리스",
+        "comment": "완성 1시간봉 6/7점·RSI 64.0·거래량 3.53배"
       }
     ]
   },
@@ -33,5 +63,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-14T08:28:29+09:00",
-  "coinUpdatedAt": "2026-08-14T07:12:05+09:00"
+  "coinUpdatedAt": "2026-08-14T13:32:15+09:00"
 }
