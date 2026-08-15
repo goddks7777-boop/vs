@@ -1,25 +1,24 @@
 {
-  "time": "2026-08-16T05:59:31+09:00",
-  "signalTime": "2026-08-16T04:00:00+09:00",
+  "time": "2026-08-16T06:42:03+09:00",
+  "signalTime": "2026-08-16T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10066456,
-    "returnPct": 0.665,
+    "value": 10034183,
+    "returnPct": 0.342,
     "positions": [
-      "PIEVERSE",
       "ONT",
       "ORDER",
       "WLD",
       "CHIP"
     ],
-    "trades": 83,
+    "trades": 84,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "PIEVERSE",
+        "name": "파이버스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -33,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-16T05:59:31+09:00",
-  "coinUpdatedAt": "2026-08-16T05:49:08+09:00"
+  "coinUpdatedAt": "2026-08-16T06:42:03+09:00"
 }
