@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-15T19:49:50+09:00",
-  "signalTime": "2026-08-15T17:00:00+09:00",
+  "time": "2026-08-15T19:53:50+09:00",
+  "signalTime": "2026-08-15T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9696176,
-    "returnPct": -3.038,
+    "value": 9778607,
+    "returnPct": -2.214,
     "positions": [
       "EUL",
       "XPL",
       "PIEVERSE",
       "ENSO",
-      "PRL"
+      "ONT"
     ],
-    "trades": 71,
+    "trades": 73,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "LA",
-        "name": "라그랑주",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
+        "symbol": "PRL",
+        "name": "펄",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "PRL",
-        "name": "펄",
-        "comment": "완성 1시간봉 7/7점·RSI 67.8·거래량 1.88배"
+        "symbol": "ONT",
+        "name": "온톨로지",
+        "comment": "완성 1시간봉 7/7점·RSI 62.4·거래량 2.90배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-15T19:49:50+09:00",
-  "coinUpdatedAt": "2026-08-15T18:55:13+09:00"
+  "coinUpdatedAt": "2026-08-15T19:53:50+09:00"
 }
