@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-16T00:43:05+09:00",
-  "signalTime": "2026-08-15T23:00:00+09:00",
+  "time": "2026-08-16T01:02:50+09:00",
+  "signalTime": "2026-08-16T00:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10003011,
-    "returnPct": 0.03,
+    "value": 9993075,
+    "returnPct": -0.069,
     "positions": [
       "PIEVERSE",
       "ONT",
-      "SAHARA",
       "DOGE",
-      "ORDER"
+      "ORDER",
+      "WLD"
     ],
-    "trades": 79,
+    "trades": 81,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "XPL",
-        "name": "플라즈마",
+        "symbol": "SAHARA",
+        "name": "사하라에이아이",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ORDER",
-        "name": "오덜리",
-        "comment": "완성 1시간봉 7/7점·RSI 66.5·거래량 1.61배"
+        "symbol": "WLD",
+        "name": "월드코인",
+        "comment": "완성 1시간봉 6/7점·RSI 55.6·거래량 1.47배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-16T00:41:28+09:00",
-  "coinUpdatedAt": "2026-08-16T00:43:05+09:00"
+  "coinUpdatedAt": "2026-08-16T01:02:50+09:00"
 }
