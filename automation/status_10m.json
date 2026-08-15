@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-15T13:07:51+09:00",
-  "signalTime": "2026-08-15T11:00:00+09:00",
+  "time": "2026-08-15T13:53:12+09:00",
+  "signalTime": "2026-08-15T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9745705,
-    "returnPct": -2.543,
+    "value": 9754530,
+    "returnPct": -2.455,
     "positions": [
       "EUL",
       "XPL",
@@ -16,28 +16,10 @@
     "trades": 69,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "MOVE",
-        "name": "무브먼트",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "CAP",
-        "name": "캡",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PIEVERSE",
-        "name": "파이버스",
-        "comment": "완성 1시간봉 7/7점·RSI 66.5·거래량 5.63배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ENSO",
-        "name": "엔소",
-        "comment": "완성 1시간봉 6/7점·RSI 51.0·거래량 31.74배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -51,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-15T13:07:51+09:00",
-  "coinUpdatedAt": "2026-08-15T12:06:21+09:00"
+  "coinUpdatedAt": "2026-08-15T13:53:12+09:00"
 }
