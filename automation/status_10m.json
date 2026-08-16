@@ -1,31 +1,43 @@
 {
-  "time": "2026-08-16T12:28:57+09:00",
-  "signalTime": "2026-08-16T08:00:00+09:00",
+  "time": "2026-08-16T12:30:54+09:00",
+  "signalTime": "2026-08-16T11:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9978347,
-    "returnPct": -0.217,
+    "value": 9954752,
+    "returnPct": -0.452,
     "positions": [
       "ONT",
       "ORDER",
       "WLD",
-      "RED",
-      "ZIL"
+      "CHIP",
+      "RE"
     ],
-    "trades": 89,
+    "trades": 93,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "SAHARA",
-        "name": "사하라에이아이",
+        "symbol": "RED",
+        "name": "레드스톤",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ZIL",
+        "name": "질리카",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ZIL",
-        "name": "질리카",
-        "comment": "완성 1시간봉 7/7점·RSI 61.8·거래량 2.24배"
+        "symbol": "CHIP",
+        "name": "유에스디에이아이",
+        "comment": "완성 1시간봉 7/7점·RSI 63.1·거래량 2.30배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "RE",
+        "name": "리",
+        "comment": "완성 1시간봉 7/7점·RSI 61.1·거래량 1.24배"
       }
     ]
   },
@@ -39,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-16T12:28:57+09:00",
-  "coinUpdatedAt": "2026-08-16T09:03:24+09:00"
+  "coinUpdatedAt": "2026-08-16T12:30:54+09:00"
 }
