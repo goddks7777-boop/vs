@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-16T09:01:51+09:00",
-  "signalTime": "2026-08-16T07:00:00+09:00",
+  "time": "2026-08-16T09:03:24+09:00",
+  "signalTime": "2026-08-16T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10027515,
-    "returnPct": 0.275,
+    "value": 9978347,
+    "returnPct": -0.217,
     "positions": [
       "ONT",
       "ORDER",
       "WLD",
       "RED",
-      "SAHARA"
+      "ZIL"
     ],
-    "trades": 87,
+    "trades": 89,
     "actions": [
       {
-        "type": "BUY",
-        "symbol": "RED",
-        "name": "레드스톤",
-        "comment": "완성 1시간봉 6/7점·RSI 56.0·거래량 7.27배"
+        "type": "SELL",
+        "symbol": "SAHARA",
+        "name": "사하라에이아이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "SAHARA",
-        "name": "사하라에이아이",
-        "comment": "완성 1시간봉 6/7점·RSI 59.8·거래량 1.36배"
+        "symbol": "ZIL",
+        "name": "질리카",
+        "comment": "완성 1시간봉 7/7점·RSI 61.8·거래량 2.24배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-16T09:01:51+09:00",
-  "coinUpdatedAt": "2026-08-16T08:44:16+09:00"
+  "coinUpdatedAt": "2026-08-16T09:03:24+09:00"
 }
