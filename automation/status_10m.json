@@ -1,25 +1,31 @@
 {
-  "time": "2026-08-16T14:59:44+09:00",
-  "signalTime": "2026-08-16T13:00:00+09:00",
+  "time": "2026-08-16T15:02:47+09:00",
+  "signalTime": "2026-08-16T14:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9940060,
-    "returnPct": -0.599,
+    "value": 9925611,
+    "returnPct": -0.744,
     "positions": [
       "ONT",
-      "ORDER",
       "WLD",
       "CHIP",
-      "RE"
+      "RE",
+      "OPG"
     ],
-    "trades": 93,
+    "trades": 95,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "ORDER",
+        "name": "오덜리",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "OPG",
+        "name": "오픈그라디언트",
+        "comment": "완성 1시간봉 7/7점·RSI 57.0·거래량 1.21배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-16T14:59:44+09:00",
-  "coinUpdatedAt": "2026-08-16T14:04:37+09:00"
+  "coinUpdatedAt": "2026-08-16T15:02:47+09:00"
 }
