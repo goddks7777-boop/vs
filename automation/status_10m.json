@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-17T01:53:14+09:00",
-  "signalTime": "2026-08-17T00:00:00+09:00",
+  "time": "2026-08-17T02:41:03+09:00",
+  "signalTime": "2026-08-17T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10229056,
-    "returnPct": 2.291,
+    "value": 10176314,
+    "returnPct": 1.763,
     "positions": [
       "ONG",
       "GAS",
@@ -16,16 +16,10 @@
     "trades": 109,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "GEOD",
-        "name": "지오드넷",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "WLD",
-        "name": "월드코인",
-        "comment": "완성 1시간봉 6/7점·RSI 67.9·거래량 2.99배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-17T01:50:06+09:00",
-  "coinUpdatedAt": "2026-08-17T01:53:14+09:00"
+  "coinUpdatedAt": "2026-08-17T02:41:03+09:00"
 }
