@@ -1,31 +1,43 @@
 {
-  "time": "2026-08-17T19:06:51+09:00",
-  "signalTime": "2026-08-17T16:00:00+09:00",
+  "time": "2026-08-17T19:08:47+09:00",
+  "signalTime": "2026-08-17T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10329560,
-    "returnPct": 3.296,
+    "value": 10302058,
+    "returnPct": 3.021,
     "positions": [
       "BSB",
       "ONDO",
-      "WLD",
-      "O",
-      "ETH"
+      "ETH",
+      "ONG",
+      "CHIP"
     ],
-    "trades": 119,
+    "trades": 123,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "PRL",
-        "name": "펄",
+        "symbol": "WLD",
+        "name": "월드코인",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
+        "type": "SELL",
+        "symbol": "O",
+        "name": "오원익스체인지",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
         "type": "BUY",
-        "symbol": "ETH",
-        "name": "이더리움",
-        "comment": "완성 1시간봉 7/7점·RSI 60.0·거래량 1.20배"
+        "symbol": "ONG",
+        "name": "온톨로지가스",
+        "comment": "완성 1시간봉 7/7점·RSI 60.8·거래량 1.28배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "CHIP",
+        "name": "유에스디에이아이",
+        "comment": "완성 1시간봉 7/7점·RSI 57.4·거래량 1.22배"
       }
     ]
   },
@@ -39,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-17T19:06:51+09:00",
-  "coinUpdatedAt": "2026-08-17T17:05:42+09:00"
+  "coinUpdatedAt": "2026-08-17T19:08:47+09:00"
 }
