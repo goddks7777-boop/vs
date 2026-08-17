@@ -1,28 +1,30 @@
 {
-  "time": "2026-08-18T04:38:49+09:00",
-  "signalTime": "2026-08-18T03:00:00+09:00",
+  "time": "2026-08-18T05:57:59+09:00",
+  "signalTime": "2026-08-18T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9985275,
-    "returnPct": -0.147,
+    "value": 9972301,
+    "returnPct": -0.277,
     "positions": [
       "ETH",
-      "CAP"
+      "CAP",
+      "POL",
+      "XPL"
     ],
-    "trades": 134,
+    "trades": 136,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ONDO",
-        "name": "온도파이낸스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "POL",
+        "name": "폴리곤에코시스템토큰",
+        "comment": "완성 1시간봉 7/7점·RSI 62.7·거래량 1.58배"
       },
       {
         "type": "BUY",
-        "symbol": "CAP",
-        "name": "캡",
-        "comment": "완성 1시간봉 6/7점·RSI 59.7·거래량 2.28배"
+        "symbol": "XPL",
+        "name": "플라즈마",
+        "comment": "완성 1시간봉 6/7점·RSI 52.5·거래량 1.63배"
       }
     ]
   },
@@ -36,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-18T04:37:15+09:00",
-  "coinUpdatedAt": "2026-08-18T04:38:49+09:00"
+  "coinUpdatedAt": "2026-08-18T05:57:59+09:00"
 }
