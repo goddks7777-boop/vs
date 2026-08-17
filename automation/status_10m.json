@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-17T23:58:02+09:00",
-  "signalTime": "2026-08-17T21:00:00+09:00",
+  "time": "2026-08-18T00:00:04+09:00",
+  "signalTime": "2026-08-17T22:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10317210,
-    "returnPct": 3.172,
+    "value": 10169534,
+    "returnPct": 1.695,
     "positions": [
       "ONDO",
       "ETH",
@@ -16,16 +16,10 @@
     "trades": 125,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "BSB",
-        "name": "블록스트리트",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "SNT",
-        "name": "스테이터스네트워크토큰",
-        "comment": "완성 1시간봉 6/7점·RSI 56.9·거래량 1.79배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-17T23:58:02+09:00",
-  "coinUpdatedAt": "2026-08-17T22:58:34+09:00"
+  "coinUpdatedAt": "2026-08-18T00:00:04+09:00"
 }
