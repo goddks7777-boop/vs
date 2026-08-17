@@ -1,48 +1,28 @@
 {
-  "time": "2026-08-18T02:03:05+09:00",
-  "signalTime": "2026-08-18T01:00:00+09:00",
+  "time": "2026-08-18T03:03:05+09:00",
+  "signalTime": "2026-08-18T02:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10043307,
-    "returnPct": 0.433,
+    "value": 10001488,
+    "returnPct": 0.015,
     "positions": [
       "ONDO",
-      "ETH",
-      "PUMP",
-      "BCH"
+      "ETH"
     ],
-    "trades": 130,
+    "trades": 132,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "CHIP",
-        "name": "유에스디에이아이",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "SNT",
-        "name": "스테이터스네트워크토큰",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
         "symbol": "PUMP",
         "name": "펌프펀",
-        "comment": "완성 1시간봉 7/7점·RSI 58.3·거래량 3.89배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "BCH",
         "name": "비트코인캐시",
-        "comment": "완성 1시간봉 6/7점·RSI 54.6·거래량 1.38배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -56,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-18T02:00:49+09:00",
-  "coinUpdatedAt": "2026-08-18T02:03:05+09:00"
+  "coinUpdatedAt": "2026-08-18T03:03:05+09:00"
 }
