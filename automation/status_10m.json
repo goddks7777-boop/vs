@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-18T06:53:57+09:00",
-  "signalTime": "2026-08-18T04:00:00+09:00",
+  "time": "2026-08-18T06:56:23+09:00",
+  "signalTime": "2026-08-18T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9972301,
-    "returnPct": -0.277,
+    "value": 9929356,
+    "returnPct": -0.706,
     "positions": [
       "ETH",
       "CAP",
@@ -15,16 +15,10 @@
     "trades": 136,
     "actions": [
       {
-        "type": "BUY",
-        "symbol": "POL",
-        "name": "폴리곤에코시스템토큰",
-        "comment": "완성 1시간봉 7/7점·RSI 62.7·거래량 1.58배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "XPL",
-        "name": "플라즈마",
-        "comment": "완성 1시간봉 6/7점·RSI 52.5·거래량 1.63배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -38,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-18T06:53:57+09:00",
-  "coinUpdatedAt": "2026-08-18T05:57:59+09:00"
+  "coinUpdatedAt": "2026-08-18T06:56:23+09:00"
 }
