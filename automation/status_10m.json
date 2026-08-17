@@ -1,23 +1,29 @@
 {
-  "time": "2026-08-18T08:46:41+09:00",
-  "signalTime": "2026-08-18T06:00:00+09:00",
+  "time": "2026-08-18T08:51:30+09:00",
+  "signalTime": "2026-08-18T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9978821,
-    "returnPct": -0.212,
+    "value": 9957342,
+    "returnPct": -0.427,
     "positions": [
-      "ETH",
       "CAP",
-      "POL"
+      "POL",
+      "PIEVERSE"
     ],
-    "trades": 137,
+    "trades": 139,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "XPL",
-        "name": "플라즈마",
+        "symbol": "ETH",
+        "name": "이더리움",
         "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "PIEVERSE",
+        "name": "파이버스",
+        "comment": "완성 1시간봉 7/7점·RSI 67.0·거래량 1.53배"
       }
     ]
   },
@@ -31,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-18T08:46:41+09:00",
-  "coinUpdatedAt": "2026-08-18T07:56:58+09:00"
+  "coinUpdatedAt": "2026-08-18T08:51:30+09:00"
 }
