@@ -1,31 +1,29 @@
 {
-  "time": "2026-08-19T02:03:03+09:00",
-  "signalTime": "2026-08-18T23:00:00+09:00",
+  "time": "2026-08-19T02:04:47+09:00",
+  "signalTime": "2026-08-19T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9667115,
-    "returnPct": -3.329,
+    "value": 9650778,
+    "returnPct": -3.492,
     "positions": [
       "POL",
-      "GEOD",
       "ARX",
-      "HOLO",
       "BTC"
     ],
-    "trades": 151,
+    "trades": 153,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
+        "symbol": "GEOD",
+        "name": "지오드넷",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "BUY",
-        "symbol": "BTC",
-        "name": "비트코인",
-        "comment": "완성 1시간봉 7/7점·RSI 64.2·거래량 3.33배"
+        "type": "SELL",
+        "symbol": "HOLO",
+        "name": "홀로월드에이아이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -39,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-19T02:03:03+09:00",
-  "coinUpdatedAt": "2026-08-19T00:53:42+09:00"
+  "coinUpdatedAt": "2026-08-19T02:04:47+09:00"
 }
