@@ -1,31 +1,43 @@
 {
-  "time": "2026-08-18T12:11:02+09:00",
-  "signalTime": "2026-08-18T11:00:00+09:00",
+  "time": "2026-08-18T14:03:54+09:00",
+  "signalTime": "2026-08-18T13:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10016288,
-    "returnPct": 0.163,
+    "value": 9656067,
+    "returnPct": -3.439,
     "positions": [
-      "CAP",
       "POL",
-      "PIEVERSE",
       "GEOD",
-      "ONG"
+      "ONG",
+      "G",
+      "LA"
     ],
-    "trades": 141,
+    "trades": 145,
     "actions": [
       {
-        "type": "BUY",
-        "symbol": "GEOD",
-        "name": "지오드넷",
-        "comment": "완성 1시간봉 7/7점·RSI 65.7·거래량 2.81배"
+        "type": "SELL",
+        "symbol": "CAP",
+        "name": "캡",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "PIEVERSE",
+        "name": "파이버스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "완성 1시간봉 6/7점·RSI 59.4·거래량 1.62배"
+        "symbol": "G",
+        "name": "그래비티",
+        "comment": "완성 1시간봉 7/7점·RSI 60.8·거래량 1.96배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "LA",
+        "name": "라그랑주",
+        "comment": "완성 1시간봉 6/7점·RSI 57.5·거래량 2.29배"
       }
     ]
   },
@@ -39,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-18T12:08:40+09:00",
-  "coinUpdatedAt": "2026-08-18T12:11:02+09:00"
+  "coinUpdatedAt": "2026-08-18T14:03:54+09:00"
 }
