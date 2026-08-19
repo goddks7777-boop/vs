@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-20T02:02:19+09:00",
+  "time": "2026-08-20T02:54:52+09:00",
   "signalTime": "2026-08-20T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9331358,
-    "returnPct": -6.686,
+    "value": 9256799,
+    "returnPct": -7.432,
     "positions": [
       "DOS",
-      "ONG",
       "EUL",
       "DOGE",
-      "GRVT"
+      "GRVT",
+      "LINK"
     ],
-    "trades": 177,
+    "trades": 179,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "CAP",
-        "name": "캡",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "symbol": "ONG",
+        "name": "온톨로지가스",
+        "comment": "ATR 가상손절 -5.19%"
       },
       {
         "type": "BUY",
-        "symbol": "GRVT",
-        "name": "그래비티토큰",
-        "comment": "완성 1시간봉 7/7점·RSI 63.7·거래량 2.86배"
+        "symbol": "LINK",
+        "name": "체인링크",
+        "comment": "완성 1시간봉 7/7점·RSI 62.2·거래량 2.33배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-20T02:00:20+09:00",
-  "coinUpdatedAt": "2026-08-20T02:02:19+09:00"
+  "coinUpdatedAt": "2026-08-20T02:54:52+09:00"
 }
