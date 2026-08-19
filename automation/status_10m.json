@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-19T19:59:06+09:00",
-  "signalTime": "2026-08-19T17:00:00+09:00",
+  "time": "2026-08-19T20:01:04+09:00",
+  "signalTime": "2026-08-19T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9623875,
-    "returnPct": -3.761,
+    "value": 9602051,
+    "returnPct": -3.979,
     "positions": [
       "QUID",
       "ELF",
@@ -16,16 +16,10 @@
     "trades": 167,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "POL",
-        "name": "폴리곤에코시스템토큰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "완성 1시간봉 7/7점·RSI 65.8·거래량 1.21배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-19T19:59:06+09:00",
-  "coinUpdatedAt": "2026-08-19T18:56:09+09:00"
+  "coinUpdatedAt": "2026-08-19T20:01:04+09:00"
 }
