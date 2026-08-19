@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-19T17:00:58+09:00",
-  "signalTime": "2026-08-19T14:00:00+09:00",
+  "time": "2026-08-19T17:06:03+09:00",
+  "signalTime": "2026-08-19T16:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9659015,
-    "returnPct": -3.41,
+    "value": 9657860,
+    "returnPct": -3.421,
     "positions": [
       "POL",
-      "O",
       "QUID",
       "ELF",
-      "HBAR"
+      "HBAR",
+      "DOS"
     ],
-    "trades": 163,
+    "trades": 165,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "PROM",
-        "name": "프롬",
+        "symbol": "O",
+        "name": "오원익스체인지",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "HBAR",
-        "name": "헤데라",
-        "comment": "완성 1시간봉 7/7점·RSI 63.6·거래량 1.91배"
+        "symbol": "DOS",
+        "name": "댑오에스",
+        "comment": "완성 1시간봉 7/7점·RSI 65.3·거래량 2.43배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-19T17:00:58+09:00",
-  "coinUpdatedAt": "2026-08-19T15:05:12+09:00"
+  "coinUpdatedAt": "2026-08-19T17:06:03+09:00"
 }
