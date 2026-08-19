@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-20T04:12:46+09:00",
-  "signalTime": "2026-08-20T01:00:00+09:00",
+  "time": "2026-08-20T04:14:47+09:00",
+  "signalTime": "2026-08-20T03:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9256799,
-    "returnPct": -7.432,
+    "value": 9272284,
+    "returnPct": -7.277,
     "positions": [
       "DOS",
       "EUL",
@@ -16,16 +16,10 @@
     "trades": 179,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "ATR 가상손절 -5.19%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "LINK",
-        "name": "체인링크",
-        "comment": "완성 1시간봉 7/7점·RSI 62.2·거래량 2.33배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-20T04:12:46+09:00",
-  "coinUpdatedAt": "2026-08-20T02:54:52+09:00"
+  "coinUpdatedAt": "2026-08-20T04:14:47+09:00"
 }
