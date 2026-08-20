@@ -1,10 +1,10 @@
 {
-  "time": "2026-08-20T15:03:16+09:00",
-  "signalTime": "2026-08-20T13:00:00+09:00",
+  "time": "2026-08-20T15:04:46+09:00",
+  "signalTime": "2026-08-20T14:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9308600,
+    "value": 9308596,
     "returnPct": -6.914,
     "positions": [
       "DOGE",
@@ -16,16 +16,10 @@
     "trades": 187,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "GRVT",
-        "name": "그래비티토큰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PUMP",
-        "name": "펌프펀",
-        "comment": "완성 1시간봉 7/7점·RSI 59.5·거래량 2.43배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-20T15:03:16+09:00",
-  "coinUpdatedAt": "2026-08-20T14:08:33+09:00"
+  "coinUpdatedAt": "2026-08-20T15:04:46+09:00"
 }
