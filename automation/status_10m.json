@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-21T06:00:59+09:00",
-  "signalTime": "2026-08-21T04:00:00+09:00",
+  "time": "2026-08-21T06:58:45+09:00",
+  "signalTime": "2026-08-21T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9835669,
-    "returnPct": -1.643,
+    "value": 9909715,
+    "returnPct": -0.903,
     "positions": [
       "BCH",
       "SOL",
@@ -16,16 +16,10 @@
     "trades": 199,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ONDO",
-        "name": "온도파이낸스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "TAO",
-        "name": "비트텐서",
-        "comment": "완성 1시간봉 7/7점·RSI 55.4·거래량 1.21배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-21T06:00:59+09:00",
-  "coinUpdatedAt": "2026-08-21T05:53:33+09:00"
+  "coinUpdatedAt": "2026-08-21T06:58:45+09:00"
 }
