@@ -1,25 +1,31 @@
 {
-  "time": "2026-08-21T21:00:18+09:00",
-  "signalTime": "2026-08-21T19:00:00+09:00",
+  "time": "2026-08-21T21:02:22+09:00",
+  "signalTime": "2026-08-21T20:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10849301,
-    "returnPct": 8.493,
+    "value": 10751821,
+    "returnPct": 7.518,
     "positions": [
       "SOL",
       "UNI",
       "XEC",
-      "AVNT",
-      "WLD"
+      "WLD",
+      "XRP"
     ],
-    "trades": 207,
+    "trades": 209,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "AVNT",
+        "name": "아반티스",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "XRP",
+        "name": "엑스알피(리플)",
+        "comment": "완성 1시간봉 7/7점·RSI 63.5·거래량 1.30배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-21T21:00:18+09:00",
-  "coinUpdatedAt": "2026-08-21T20:04:23+09:00"
+  "coinUpdatedAt": "2026-08-21T21:02:22+09:00"
 }
