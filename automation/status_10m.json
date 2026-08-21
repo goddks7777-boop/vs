@@ -1,25 +1,31 @@
 {
-  "time": "2026-08-22T06:53:47+09:00",
-  "signalTime": "2026-08-22T04:00:00+09:00",
+  "time": "2026-08-22T06:57:19+09:00",
+  "signalTime": "2026-08-22T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10952985,
-    "returnPct": 9.53,
+    "value": 11105559,
+    "returnPct": 11.056,
     "positions": [
-      "SOL",
       "XEC",
       "WLD",
       "XRP",
-      "IN"
+      "IN",
+      "DOGE"
     ],
-    "trades": 211,
+    "trades": 213,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "SOL",
+        "name": "솔라나",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "DOGE",
+        "name": "도지코인",
+        "comment": "완성 1시간봉 7/7점·RSI 65.6·거래량 1.23배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-22T06:53:47+09:00",
-  "coinUpdatedAt": "2026-08-22T05:55:19+09:00"
+  "coinUpdatedAt": "2026-08-22T06:57:19+09:00"
 }
