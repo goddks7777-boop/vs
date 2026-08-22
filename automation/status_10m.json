@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-22T18:04:19+09:00",
+  "time": "2026-08-22T18:54:49+09:00",
   "signalTime": "2026-08-22T17:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10616479,
-    "returnPct": 6.165,
+    "value": 10605347,
+    "returnPct": 6.053,
     "positions": [
       "XRP",
       "MOVE",
@@ -16,52 +16,10 @@
     "trades": 245,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "MEGA",
-        "name": "메가이더",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "SELL",
-        "symbol": "SNT",
-        "name": "스테이터스네트워크토큰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "XLM",
-        "name": "스텔라루멘",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "SELL",
-        "symbol": "SUI",
-        "name": "수이",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
-        "symbol": "MOVE",
-        "name": "무브먼트",
-        "comment": "완성 1시간봉 7/7점·RSI 61.8·거래량 3.53배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "SIGN",
-        "name": "사인",
-        "comment": "완성 1시간봉 7/7점·RSI 57.3·거래량 1.61배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PUMP",
-        "name": "펌프펀",
-        "comment": "완성 1시간봉 6/7점·RSI 61.0·거래량 3.15배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "TT",
-        "name": "썬더코어",
-        "comment": "완성 1시간봉 6/7점·RSI 60.2·거래량 2.32배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -75,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-22T18:02:44+09:00",
-  "coinUpdatedAt": "2026-08-22T18:04:19+09:00"
+  "coinUpdatedAt": "2026-08-22T18:54:49+09:00"
 }
