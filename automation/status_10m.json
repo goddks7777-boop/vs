@@ -1,43 +1,43 @@
 {
-  "time": "2026-08-22T13:58:01+09:00",
-  "signalTime": "2026-08-22T11:00:00+09:00",
+  "time": "2026-08-22T13:59:31+09:00",
+  "signalTime": "2026-08-22T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 11533436,
-    "returnPct": 15.334,
+    "value": 11716042,
+    "returnPct": 17.16,
     "positions": [
-      "IN",
-      "DOGE",
       "MEGA",
       "KAITO",
-      "MMT"
+      "MMT",
+      "HOME",
+      "SLX"
     ],
-    "trades": 219,
+    "trades": 223,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "XEC",
-        "name": "이캐시",
+        "symbol": "IN",
+        "name": "인피닛",
         "comment": "가상 목표수익 +6%"
       },
       {
         "type": "SELL",
-        "symbol": "WLD",
-        "name": "월드코인",
+        "symbol": "DOGE",
+        "name": "도지코인",
         "comment": "가상 목표수익 +6%"
       },
       {
         "type": "BUY",
-        "symbol": "KAITO",
-        "name": "카이토",
-        "comment": "완성 1시간봉 7/7점·RSI 62.3·거래량 2.15배"
+        "symbol": "HOME",
+        "name": "디파이앱",
+        "comment": "완성 1시간봉 7/7점·RSI 65.3·거래량 1.27배"
       },
       {
         "type": "BUY",
-        "symbol": "MMT",
-        "name": "모멘텀",
-        "comment": "완성 1시간봉 7/7점·RSI 64.6·거래량 1.50배"
+        "symbol": "SLX",
+        "name": "솔스티스",
+        "comment": "완성 1시간봉 7/7점·RSI 67.3·거래량 1.48배"
       }
     ]
   },
@@ -51,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-22T13:58:01+09:00",
-  "coinUpdatedAt": "2026-08-22T12:10:59+09:00"
+  "coinUpdatedAt": "2026-08-22T13:59:31+09:00"
 }
