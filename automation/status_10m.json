@@ -1,23 +1,22 @@
 {
-  "time": "2026-08-23T05:51:32+09:00",
-  "signalTime": "2026-08-23T03:00:00+09:00",
+  "time": "2026-08-23T05:53:14+09:00",
+  "signalTime": "2026-08-23T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10220899,
-    "returnPct": 2.209,
+    "value": 10307605,
+    "returnPct": 3.076,
     "positions": [
       "STEEM",
-      "PUMP",
       "VVV"
     ],
-    "trades": 265,
+    "trades": 266,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "PUMP",
+        "name": "펌프펀",
+        "comment": "가상 목표수익 +6%"
       }
     ]
   },
@@ -31,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-23T05:51:32+09:00",
-  "coinUpdatedAt": "2026-08-23T04:49:00+09:00"
+  "coinUpdatedAt": "2026-08-23T05:53:14+09:00"
 }
