@@ -1,67 +1,55 @@
 {
-  "time": "2026-08-22T14:59:58+09:00",
-  "signalTime": "2026-08-22T13:00:00+09:00",
+  "time": "2026-08-22T16:48:06+09:00",
+  "signalTime": "2026-08-22T15:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10975837,
-    "returnPct": 9.758,
+    "value": 10964416,
+    "returnPct": 9.644,
     "positions": [
       "MEGA",
-      "DOS",
-      "ME",
-      "BSV",
-      "SNT"
+      "SNT",
+      "XRP",
+      "XLM",
+      "SUI"
     ],
-    "trades": 231,
+    "trades": 237,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "KAITO",
-        "name": "카이토",
-        "comment": "ATR 가상손절 -5.88%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "MMT",
-        "name": "모멘텀",
-        "comment": "ATR 가상손절 -4.19%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "HOME",
-        "name": "디파이앱",
-        "comment": "ATR 가상손절 -4.71%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "SLX",
-        "name": "솔스티스",
-        "comment": "ATR 가상손절 -3.90%"
-      },
-      {
-        "type": "BUY",
         "symbol": "DOS",
         "name": "댑오에스",
-        "comment": "완성 1시간봉 7/7점·RSI 60.5·거래량 2.41배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "ME",
         "name": "매직에덴",
-        "comment": "완성 1시간봉 7/7점·RSI 66.9·거래량 1.22배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "BSV",
         "name": "비트코인에스브이",
-        "comment": "완성 1시간봉 7/7점·RSI 67.8·거래량 1.35배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "SNT",
-        "name": "스테이터스네트워크토큰",
-        "comment": "완성 1시간봉 7/7점·RSI 67.8·거래량 1.32배"
+        "symbol": "XRP",
+        "name": "엑스알피(리플)",
+        "comment": "완성 1시간봉 7/7점·RSI 66.1·거래량 1.61배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "XLM",
+        "name": "스텔라루멘",
+        "comment": "완성 1시간봉 7/7점·RSI 64.6·거래량 1.25배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SUI",
+        "name": "수이",
+        "comment": "완성 1시간봉 7/7점·RSI 58.1·거래량 1.57배"
       }
     ]
   },
@@ -75,5 +63,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-22T14:58:25+09:00",
-  "coinUpdatedAt": "2026-08-22T14:59:58+09:00"
+  "coinUpdatedAt": "2026-08-22T16:48:06+09:00"
 }
