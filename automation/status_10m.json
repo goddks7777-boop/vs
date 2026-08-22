@@ -1,25 +1,67 @@
 {
-  "time": "2026-08-22T22:21:57+09:00",
-  "signalTime": "2026-08-22T19:00:00+09:00",
+  "time": "2026-08-22T22:41:54+09:00",
+  "signalTime": "2026-08-22T21:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10470600,
-    "returnPct": 4.706,
+    "value": 10430613,
+    "returnPct": 4.306,
     "positions": [
       "XRP",
-      "MOVE",
-      "PUMP",
-      "TT",
-      "PROVE"
+      "POWR",
+      "STEEM",
+      "IOST",
+      "CBK"
     ],
-    "trades": 247,
+    "trades": 255,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "MOVE",
+        "name": "무브먼트",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "PUMP",
+        "name": "펌프펀",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "SELL",
+        "symbol": "TT",
+        "name": "썬더코어",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "PROVE",
+        "name": "서싱트",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "POWR",
+        "name": "파워렛저",
+        "comment": "완성 1시간봉 7/7점·RSI 61.4·거래량 16.35배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "STEEM",
+        "name": "스팀",
+        "comment": "완성 1시간봉 7/7점·RSI 61.3·거래량 1.29배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "IOST",
+        "name": "아이오에스티",
+        "comment": "완성 1시간봉 7/7점·RSI 59.0·거래량 8.73배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "CBK",
+        "name": "코박토큰",
+        "comment": "완성 1시간봉 7/7점·RSI 60.9·거래량 2.69배"
       }
     ]
   },
@@ -33,5 +75,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-22T22:21:57+09:00",
-  "coinUpdatedAt": "2026-08-22T20:49:57+09:00"
+  "coinUpdatedAt": "2026-08-22T22:41:54+09:00"
 }
