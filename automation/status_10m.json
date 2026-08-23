@@ -1,46 +1,30 @@
 {
-  "time": "2026-08-23T16:50:31+09:00",
-  "signalTime": "2026-08-23T14:00:00+09:00",
+  "time": "2026-08-23T16:52:02+09:00",
+  "signalTime": "2026-08-23T15:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10090003,
-    "returnPct": 0.9,
+    "value": 10073733,
+    "returnPct": 0.737,
     "positions": [
       "WAVES",
-      "HOME"
+      "HOME",
+      "PUMP",
+      "PROM"
     ],
-    "trades": 278,
+    "trades": 280,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "FF",
-        "name": "팔콘파이낸스",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "EUL",
-        "name": "오일러",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "STRAX",
-        "name": "저트라",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "PUMP",
+        "name": "펌프펀",
+        "comment": "완성 1시간봉 6/7점·RSI 65.5·거래량 1.46배"
       },
       {
         "type": "BUY",
-        "symbol": "HOME",
-        "name": "디파이앱",
-        "comment": "완성 1시간봉 6/7점·RSI 61.3·거래량 8.93배"
+        "symbol": "PROM",
+        "name": "프롬",
+        "comment": "완성 1시간봉 6/7점·RSI 65.2·거래량 1.77배"
       }
     ]
   },
@@ -54,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-23T16:50:31+09:00",
-  "coinUpdatedAt": "2026-08-23T15:03:52+09:00"
+  "coinUpdatedAt": "2026-08-23T16:52:02+09:00"
 }
