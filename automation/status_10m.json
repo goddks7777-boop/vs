@@ -1,22 +1,37 @@
 {
-  "time": "2026-08-23T09:05:07+09:00",
-  "signalTime": "2026-08-23T08:00:00+09:00",
+  "time": "2026-08-23T12:32:48+09:00",
+  "signalTime": "2026-08-23T11:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10230922,
-    "returnPct": 2.309,
+    "value": 10286789,
+    "returnPct": 2.868,
     "positions": [
       "VVV",
-      "FF"
+      "FF",
+      "STX",
+      "EUL",
+      "STRAX"
     ],
-    "trades": 268,
+    "trades": 271,
     "actions": [
       {
         "type": "BUY",
-        "symbol": "FF",
-        "name": "팔콘파이낸스",
-        "comment": "완성 1시간봉 7/7점·RSI 65.5·거래량 2.03배"
+        "symbol": "STX",
+        "name": "스택스",
+        "comment": "완성 1시간봉 7/7점·RSI 57.2·거래량 1.41배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "EUL",
+        "name": "오일러",
+        "comment": "완성 1시간봉 7/7점·RSI 64.8·거래량 3.29배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "STRAX",
+        "name": "저트라",
+        "comment": "완성 1시간봉 7/7점·RSI 58.6·거래량 1.48배"
       }
     ]
   },
@@ -30,5 +45,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-23T09:05:07+09:00",
-  "coinUpdatedAt": "2026-08-23T09:03:17+09:00"
+  "coinUpdatedAt": "2026-08-23T12:32:48+09:00"
 }
