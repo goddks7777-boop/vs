@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-24T00:51:41+09:00",
-  "signalTime": "2026-08-23T23:00:00+09:00",
+  "time": "2026-08-24T01:56:26+09:00",
+  "signalTime": "2026-08-24T00:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10382076,
-    "returnPct": 3.821,
+    "value": 10406202,
+    "returnPct": 4.062,
     "positions": [
       "PUMP",
       "ENA",
@@ -16,16 +16,10 @@
     "trades": 287,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "WAVES",
-        "name": "웨이브",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 7/7점·RSI 61.6·거래량 1.34배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-24T00:51:41+09:00",
-  "coinUpdatedAt": "2026-08-24T00:49:21+09:00"
+  "coinUpdatedAt": "2026-08-24T01:56:26+09:00"
 }
