@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-24T07:54:11+09:00",
+  "time": "2026-08-24T07:54:25+09:00",
   "signalTime": "2026-08-24T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10107281,
-    "returnPct": 1.073,
+    "value": 10096933,
+    "returnPct": 0.969,
     "positions": [
       "ENA",
       "TRUMP",
@@ -16,22 +16,10 @@
     "trades": 291,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ZRO",
-        "name": "레이어제로",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ARB",
-        "name": "아비트럼",
-        "comment": "완성 1시간봉 6/7점·RSI 62.5·거래량 1.34배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "DEEP",
-        "name": "딥북",
-        "comment": "완성 1시간봉 6/7점·RSI 58.0·거래량 1.68배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -45,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-24T07:54:11+09:00",
-  "coinUpdatedAt": "2026-08-24T07:02:36+09:00"
+  "coinUpdatedAt": "2026-08-24T07:54:25+09:00"
 }
