@@ -1,25 +1,31 @@
 {
-  "time": "2026-08-24T08:41:50+09:00",
-  "signalTime": "2026-08-24T06:00:00+09:00",
+  "time": "2026-08-24T08:49:50+09:00",
+  "signalTime": "2026-08-24T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10096933,
-    "returnPct": 0.969,
+    "value": 10012844,
+    "returnPct": 0.128,
     "positions": [
-      "ENA",
       "TRUMP",
       "STX",
       "ARB",
-      "DEEP"
+      "DEEP",
+      "ZAMA"
     ],
-    "trades": 291,
+    "trades": 293,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "ENA",
+        "name": "에테나",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ZAMA",
+        "name": "자마",
+        "comment": "완성 1시간봉 7/7점·RSI 60.4·거래량 2.12배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-24T08:41:50+09:00",
-  "coinUpdatedAt": "2026-08-24T07:54:25+09:00"
+  "coinUpdatedAt": "2026-08-24T08:49:50+09:00"
 }
