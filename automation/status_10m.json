@@ -1,48 +1,30 @@
 {
-  "time": "2026-08-24T17:11:25+09:00",
-  "signalTime": "2026-08-24T16:00:00+09:00",
+  "time": "2026-08-24T19:24:01+09:00",
+  "signalTime": "2026-08-24T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9581588,
-    "returnPct": -4.184,
+    "value": 9549564,
+    "returnPct": -4.504,
     "positions": [
-      "NEAR",
       "INJ",
       "ETHFI",
-      "RE"
+      "RE",
+      "STX"
     ],
-    "trades": 308,
+    "trades": 310,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "TRAC",
-        "name": "오리진트레일",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "PROS",
-        "name": "파로스",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "COW",
-        "name": "카우프로토콜",
+        "symbol": "NEAR",
+        "name": "니어프로토콜",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ETHFI",
-        "name": "이더파이",
-        "comment": "완성 1시간봉 7/7점·RSI 60.7·거래량 1.54배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "RE",
-        "name": "리",
-        "comment": "완성 1시간봉 6/7점·RSI 66.9·거래량 3.91배"
+        "symbol": "STX",
+        "name": "스택스",
+        "comment": "완성 1시간봉 7/7점·RSI 63.0·거래량 1.59배"
       }
     ]
   },
@@ -56,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-24T17:09:45+09:00",
-  "coinUpdatedAt": "2026-08-24T17:11:25+09:00"
+  "coinUpdatedAt": "2026-08-24T19:24:01+09:00"
 }
