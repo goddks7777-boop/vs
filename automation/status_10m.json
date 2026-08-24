@@ -1,30 +1,25 @@
 {
-  "time": "2026-08-24T20:49:11+09:00",
-  "signalTime": "2026-08-24T18:00:00+09:00",
+  "time": "2026-08-24T20:51:07+09:00",
+  "signalTime": "2026-08-24T19:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9549564,
-    "returnPct": -4.504,
+    "value": 9578110,
+    "returnPct": -4.219,
     "positions": [
       "INJ",
       "ETHFI",
       "RE",
-      "STX"
+      "STX",
+      "PROS"
     ],
-    "trades": 310,
+    "trades": 311,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "NEAR",
-        "name": "니어프로토콜",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
         "type": "BUY",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 7/7점·RSI 63.0·거래량 1.59배"
+        "symbol": "PROS",
+        "name": "파로스",
+        "comment": "완성 1시간봉 7/7점·RSI 66.9·거래량 1.38배"
       }
     ]
   },
@@ -38,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-24T20:49:11+09:00",
-  "coinUpdatedAt": "2026-08-24T19:24:01+09:00"
+  "coinUpdatedAt": "2026-08-24T20:51:07+09:00"
 }
