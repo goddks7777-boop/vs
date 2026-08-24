@@ -1,55 +1,31 @@
 {
-  "time": "2026-08-25T01:09:08+09:00",
-  "signalTime": "2026-08-24T22:00:00+09:00",
+  "time": "2026-08-25T01:11:19+09:00",
+  "signalTime": "2026-08-25T00:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9495529,
-    "returnPct": -5.045,
+    "value": 9750720,
+    "returnPct": -2.493,
     "positions": [
       "STX",
       "PROS",
       "PROM",
-      "VIRTUAL",
-      "ZAMA"
+      "ZAMA",
+      "ETH"
     ],
-    "trades": 317,
+    "trades": 319,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "INJ",
-        "name": "인젝티브",
+        "symbol": "VIRTUAL",
+        "name": "버추얼프로토콜",
         "comment": "가상 목표수익 +6%"
       },
       {
-        "type": "SELL",
-        "symbol": "ETHFI",
-        "name": "이더파이",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "RE",
-        "name": "리",
-        "comment": "ATR 가상손절 -4.57%"
-      },
-      {
         "type": "BUY",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "완성 1시간봉 7/7점·RSI 62.6·거래량 1.25배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "VIRTUAL",
-        "name": "버추얼프로토콜",
-        "comment": "완성 1시간봉 7/7점·RSI 65.0·거래량 1.89배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZAMA",
-        "name": "자마",
-        "comment": "완성 1시간봉 7/7점·RSI 61.5·거래량 1.47배"
+        "symbol": "ETH",
+        "name": "이더리움",
+        "comment": "완성 1시간봉 7/7점·RSI 56.9·거래량 1.54배"
       }
     ]
   },
@@ -63,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-25T01:09:08+09:00",
-  "coinUpdatedAt": "2026-08-24T23:24:57+09:00"
+  "coinUpdatedAt": "2026-08-25T01:11:19+09:00"
 }
