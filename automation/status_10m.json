@@ -1,29 +1,24 @@
 {
-  "time": "2026-08-26T05:52:07+09:00",
-  "signalTime": "2026-08-26T03:00:00+09:00",
+  "time": "2026-08-26T05:53:56+09:00",
+  "signalTime": "2026-08-26T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9939781,
-    "returnPct": -0.602,
+    "value": 9876399,
+    "returnPct": -1.236,
     "positions": [
       "POL",
       "STX",
-      "GAS"
+      "GAS",
+      "SPX"
     ],
-    "trades": 341,
+    "trades": 342,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "SELL",
-        "symbol": "HOME",
-        "name": "디파이앱",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "SPX",
+        "name": "에스피엑스6900",
+        "comment": "완성 1시간봉 7/7점·RSI 64.2·거래량 1.33배"
       }
     ]
   },
@@ -37,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-26T05:52:07+09:00",
-  "coinUpdatedAt": "2026-08-26T04:21:51+09:00"
+  "coinUpdatedAt": "2026-08-26T05:53:56+09:00"
 }
