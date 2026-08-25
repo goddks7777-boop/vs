@@ -46,17 +46,28 @@ for regime in ("상승","하락","전환","전체"):
         m=stats(sample,signal);m.update({"indicator":signal,"edgePct":m["avgForward30Pct"]-base["avgForward30Pct"],"hitEdgePp":m["hitRate"]-base["hitRate"]})
         m["meaningful"]=m["count"]>=20 and abs(m["edgePct"])>=3 and abs(m["hitEdgePp"])>=5;items.append(m)
     items.sort(key=lambda x:(x["meaningful"],x["edgePct"]),reverse=True);analysis[regime]={"baseline":base,"indicators":items}
-# 2.5년 고정 창: 각 시기의 지표 효율 변화 확인
-windows=[];step=913
-for start in range(0,len(rows),step):
-    sample=rows[start:start+step]
-    if len(sample)<180:continue
-    best=[]
-    base=stats(sample)
+# 약 2.5년 고정 창 안에서 사후적으로 가장 큰 상승·하락 다리를 따로 찾는다.
+# 전환점은 보고서 표시용이며 미래를 미리 알아야 하므로 AI 입력에는 넣지 않는다.
+def strongest_leg(points, direction):
+    anchor=points[0];best=None
+    for point in points[1:]:
+        change=(point["price"]/anchor["price"]-1)*100
+        if best is None or (direction=="up" and change>best["changePct"]) or (direction=="down" and change<best["changePct"]):
+            best={"fromDate":anchor["date"],"fromPrice":anchor["price"],"toDate":point["date"],"toPrice":point["price"],"changePct":change}
+        if (direction=="up" and point["price"]<anchor["price"]) or (direction=="down" and point["price"]>anchor["price"]):anchor=point
+    return best
+windows=[];step=913;all_points=[{"date":dates[i],"price":close[i]} for i in range(len(close))]
+for start in range(0,len(all_points),step):
+    points=all_points[start:start+step]
+    if len(points)<180:continue
+    sample=[r for r in rows if points[0]["date"]<=r["date"]<=points[-1]["date"]]
+    if not sample:continue
+    best=[];base=stats(sample)
     for signal in signals:
         m=stats(sample,signal);m.update({"indicator":signal,"edgePct":m["avgForward30Pct"]-base["avgForward30Pct"]});best.append(m)
     best.sort(key=lambda x:x["edgePct"],reverse=True)
-    windows.append({"start":sample[0]["date"],"end":sample[-1]["date"],"returnPct":(sample[-1]["price"]/sample[0]["price"]-1)*100,"baseline":base,"bestIndicators":best[:3]})
+    low=min(points,key=lambda x:x["price"]);high=max(points,key=lambda x:x["price"])
+    windows.append({"start":points[0]["date"],"end":points[-1]["date"],"startPrice":points[0]["price"],"endPrice":points[-1]["price"],"returnPct":(points[-1]["price"]/points[0]["price"]-1)*100,"lowPoint":low,"highPoint":high,"bullLeg":strongest_leg(points,"up"),"bearLeg":strongest_leg(points,"down"),"baseline":base,"bestIndicators":best[:3],"turningPointMethod":"윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"})
 ci=len(close)-1;cma=mean(close[ci-199:ci+1]);cprev=mean(close[ci-219:ci-19]);chigh=max(close[max(0,ci-729):ci+1]);clow=min(close[max(0,ci-729):ci+1])
 current={"date":dates[ci],"price":close[ci],"regime":"상승" if close[ci]>cma and cma>cprev else "하락" if close[ci]<cma and cma<cprev else "전환","rsi":rsi(close,ci),"ma200GapPct":(close[ci]/cma-1)*100,"ma200SlopePct":(cma/cprev-1)*100,"drawdownPct":(close[ci]/chigh-1)*100,"cyclePosition":(close[ci]-clow)/(chigh-clow)*100 if chigh>clow else 50}
 payload={"updatedAt":datetime.now(KST).isoformat(timespec="seconds"),"source":"Upbit KRW-BTC completed daily candles","firstDate":dates[0],"lastDate":dates[-1],"days":len(bars),"forwardDays":30,"regimeRule":"당시 종가와 200일선 위치 + 200일선 20일 기울기","current":{"date":current["date"],"price":current["price"],"regime":current["regime"],"rsi":current["rsi"],"ma200GapPct":current["ma200GapPct"],"ma200SlopePct":current["ma200SlopePct"],"drawdownPct":current["drawdownPct"],"cyclePosition":current["cyclePosition"]},"regimeAnalysis":analysis,"multiYearWindows":windows,"series":[{"date":r["date"],"price":r["price"],"regime":r["regime"]} for r in rows[::7]],"actualOrders":0}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T00:47:32+09:00",
+  "updatedAt": "2026-08-26T01:26:01+09:00",
   "source": "Upbit KRW-BTC completed daily candles",
   "firstDate": "2017-09-25",
   "lastDate": "2026-08-24",
@@ -380,152 +380,252 @@
   },
   "multiYearWindows": [
     {
-      "start": "2018-04-13",
-      "end": "2020-10-11",
-      "returnPct": 54.43582089552239,
+      "start": "2017-09-25",
+      "end": "2020-03-25",
+      "startPrice": 4322000.0,
+      "endPrice": 8271000.0,
+      "returnPct": 91.36973623322535,
+      "lowPoint": {
+        "date": "2018-12-15",
+        "price": 3619000.0
+      },
+      "highPoint": {
+        "date": "2018-01-05",
+        "price": 27444000.0
+      },
+      "bullLeg": {
+        "fromDate": "2017-09-26",
+        "fromPrice": 4321000.0,
+        "toDate": "2018-01-05",
+        "toPrice": 27444000.0,
+        "changePct": 535.1307567692663
+      },
+      "bearLeg": {
+        "fromDate": "2018-01-05",
+        "fromPrice": 27444000.0,
+        "toDate": "2018-12-15",
+        "toPrice": 3619000.0,
+        "changePct": -86.81314677160763
+      },
       "baseline": {
-        "count": 913,
-        "avgForward30Pct": 3.553843416519454,
-        "hitRate": 51.478641840087626,
-        "medianForward30Pct": 0.6316571711667107
+        "count": 713,
+        "avgForward30Pct": 1.708622845602058,
+        "hitRate": 47.40532959326788,
+        "medianForward30Pct": -0.7887212856157011
       },
       "bestIndicators": [
         {
-          "count": 71,
-          "avgForward30Pct": 11.403086574043318,
-          "hitRate": 69.01408450704226,
-          "medianForward30Pct": 8.911097230897358,
+          "count": 59,
+          "avgForward30Pct": 13.680606089190771,
+          "hitRate": 71.1864406779661,
+          "medianForward30Pct": 14.250533574125757,
           "indicator": "60일 신고가",
-          "edgePct": 7.849243157523864
+          "edgePct": 11.971983243588713
         },
         {
-          "count": 238,
-          "avgForward30Pct": 7.511352391830724,
-          "hitRate": 51.26050420168067,
-          "medianForward30Pct": 0.5304338717153301,
-          "indicator": "RSI 50~65",
-          "edgePct": 3.9575089753112698
-        },
-        {
-          "count": 369,
-          "avgForward30Pct": 6.159864399622483,
-          "hitRate": 54.74254742547425,
-          "medianForward30Pct": 2.840128263857067,
+          "count": 218,
+          "avgForward30Pct": 5.655132176692556,
+          "hitRate": 52.293577981651374,
+          "medianForward30Pct": 1.6496457901219896,
           "indicator": "50일선 > 200일선",
-          "edgePct": 2.606020983103029
-        }
-      ]
-    },
-    {
-      "start": "2020-10-12",
-      "end": "2023-04-12",
-      "returnPct": 201.38931065897356,
-      "baseline": {
-        "count": 913,
-        "avgForward30Pct": 5.790014682886314,
-        "hitRate": 54.43592552026287,
-        "medianForward30Pct": 1.9737624350996796
-      },
-      "bestIndicators": [
-        {
-          "count": 116,
-          "avgForward30Pct": 13.131470083684954,
-          "hitRate": 77.58620689655173,
-          "medianForward30Pct": 12.626956315959292,
-          "indicator": "60일 신고가",
-          "edgePct": 7.34145540079864
+          "edgePct": 3.946509331090498
         },
         {
-          "count": 429,
-          "avgForward30Pct": 11.374208946822886,
-          "hitRate": 62.23776223776224,
-          "medianForward30Pct": 8.360621472862807,
+          "count": 222,
+          "avgForward30Pct": 4.682326265356786,
+          "hitRate": 44.5945945945946,
+          "medianForward30Pct": -2.121352182683295,
           "indicator": "가격 200일선 위",
-          "edgePct": 5.584194263936572
-        },
-        {
-          "count": 425,
-          "avgForward30Pct": 10.341009113521245,
-          "hitRate": 56.705882352941174,
-          "medianForward30Pct": 4.7854349434520715,
-          "indicator": "50일선 > 200일선",
-          "edgePct": 4.5509944306349315
+          "edgePct": 2.9737034197547283
         }
-      ]
+      ],
+      "turningPointMethod": "윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"
     },
     {
-      "start": "2023-04-13",
-      "end": "2025-10-11",
-      "returnPct": 326.9249079201223,
+      "start": "2020-03-26",
+      "end": "2022-09-24",
+      "startPrice": 8272000.0,
+      "endPrice": 27270000.0,
+      "returnPct": 229.66634429400386,
+      "lowPoint": {
+        "date": "2020-03-29",
+        "price": 7218000.0
+      },
+      "highPoint": {
+        "date": "2021-11-08",
+        "price": 81403000.0
+      },
+      "bullLeg": {
+        "fromDate": "2020-03-29",
+        "fromPrice": 7218000.0,
+        "toDate": "2021-11-08",
+        "toPrice": 81403000.0,
+        "changePct": 1027.7777777777778
+      },
+      "bearLeg": {
+        "fromDate": "2021-11-08",
+        "fromPrice": 81403000.0,
+        "toDate": "2022-06-18",
+        "toPrice": 25093000.0,
+        "changePct": -69.17435475351031
+      },
       "baseline": {
         "count": 913,
-        "avgForward30Pct": 5.7988538454648335,
-        "hitRate": 61.5553121577218,
-        "medianForward30Pct": 3.1071916834738866
+        "avgForward30Pct": 6.6627065368534995,
+        "hitRate": 55.202628696604606,
+        "medianForward30Pct": 2.597729232538093
       },
       "bestIndicators": [
         {
-          "count": 107,
-          "avgForward30Pct": 12.197559680787926,
-          "hitRate": 69.1588785046729,
-          "medianForward30Pct": 7.550073836810256,
+          "count": 100,
+          "avgForward30Pct": 12.382587487529502,
+          "hitRate": 71.0,
+          "medianForward30Pct": 11.006629171025484,
           "indicator": "60일 신고가",
-          "edgePct": 6.398705835323092
+          "edgePct": 5.719880950676003
         },
         {
-          "count": 450,
-          "avgForward30Pct": 8.77300331980568,
-          "hitRate": 66.22222222222223,
-          "medianForward30Pct": 5.077380161437461,
-          "indicator": "OBV 20일 상승",
-          "edgePct": 2.9741494743408463
+          "count": 233,
+          "avgForward30Pct": 10.322330981658576,
+          "hitRate": 56.65236051502146,
+          "medianForward30Pct": 3.3654222430930636,
+          "indicator": "RSI 50~65",
+          "edgePct": 3.6596244448050763
         },
         {
-          "count": 134,
-          "avgForward30Pct": 6.815835273511992,
-          "hitRate": 61.940298507462686,
-          "medianForward30Pct": 2.4445077553352124,
-          "indicator": "거래량 1.5배",
-          "edgePct": 1.016981428047158
+          "count": 514,
+          "avgForward30Pct": 9.84548274301055,
+          "hitRate": 57.39299610894941,
+          "medianForward30Pct": 3.981205069633753,
+          "indicator": "가격 200일선 위",
+          "edgePct": 3.18277620615705
         }
-      ]
+      ],
+      "turningPointMethod": "윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"
     },
     {
-      "start": "2025-10-12",
-      "end": "2026-07-25",
-      "returnPct": -45.79625272531682,
+      "start": "2022-09-25",
+      "end": "2025-03-25",
+      "startPrice": 27051000.0,
+      "endPrice": 128823000.0,
+      "returnPct": 376.22269047355,
+      "lowPoint": {
+        "date": "2022-12-28",
+        "price": 21061000.0
+      },
+      "highPoint": {
+        "date": "2025-01-29",
+        "price": 158859000.0
+      },
+      "bullLeg": {
+        "fromDate": "2022-12-28",
+        "fromPrice": 21061000.0,
+        "toDate": "2025-01-29",
+        "toPrice": 158859000.0,
+        "changePct": 654.2804235316462
+      },
+      "bearLeg": {
+        "fromDate": "2024-03-13",
+        "fromPrice": 104122000.0,
+        "toDate": "2024-09-07",
+        "toPrice": 73640000.0,
+        "changePct": -29.2752732371641
+      },
       "baseline": {
-        "count": 287,
-        "avgForward30Pct": -4.954065654510339,
-        "hitRate": 38.32752613240418,
-        "medianForward30Pct": -2.9344023323615187
+        "count": 913,
+        "avgForward30Pct": 6.155032374229433,
+        "hitRate": 59.69331872946331,
+        "medianForward30Pct": 3.287452011883185
       },
       "bestIndicators": [
         {
-          "count": 177,
-          "avgForward30Pct": -1.0418824288424018,
-          "hitRate": 50.847457627118644,
-          "medianForward30Pct": 0.349043970759344,
-          "indicator": "730일 고점 대비 -30%",
-          "edgePct": 3.9121832256679374
+          "count": 109,
+          "avgForward30Pct": 15.157134830719922,
+          "hitRate": 81.65137614678899,
+          "medianForward30Pct": 12.115456238361277,
+          "indicator": "60일 신고가",
+          "edgePct": 9.00210245649049
         },
         {
-          "count": 76,
-          "avgForward30Pct": -2.822856458863049,
-          "hitRate": 39.473684210526315,
-          "medianForward30Pct": -2.582435623251944,
-          "indicator": "RSI 50~65",
-          "edgePct": 2.13120919564729
+          "count": 413,
+          "avgForward30Pct": 9.409511351860072,
+          "hitRate": 68.03874092009686,
+          "medianForward30Pct": 7.550073836810256,
+          "indicator": "OBV 20일 상승",
+          "edgePct": 3.2544789776306393
         },
         {
-          "count": 90,
-          "avgForward30Pct": -6.241290828867641,
-          "hitRate": 30.0,
-          "medianForward30Pct": -6.097212883841391,
-          "indicator": "RSI 35 이하",
-          "edgePct": -1.2872251743573022
+          "count": 131,
+          "avgForward30Pct": 7.322022884446909,
+          "hitRate": 60.30534351145038,
+          "medianForward30Pct": 3.092783505154628,
+          "indicator": "거래량 1.5배",
+          "edgePct": 1.1669905102174765
         }
-      ]
+      ],
+      "turningPointMethod": "윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"
+    },
+    {
+      "start": "2025-03-26",
+      "end": "2026-08-24",
+      "startPrice": 128556000.0,
+      "endPrice": 108653000.0,
+      "returnPct": -15.481968947384795,
+      "lowPoint": {
+        "date": "2026-08-14",
+        "price": 89120000.0
+      },
+      "highPoint": {
+        "date": "2025-10-08",
+        "price": 178011000.0
+      },
+      "bullLeg": {
+        "fromDate": "2025-04-08",
+        "fromPrice": 114489000.0,
+        "toDate": "2025-10-08",
+        "toPrice": 178011000.0,
+        "changePct": 55.483059507900315
+      },
+      "bearLeg": {
+        "fromDate": "2025-10-08",
+        "fromPrice": 178011000.0,
+        "toDate": "2026-08-14",
+        "toPrice": 89120000.0,
+        "changePct": -49.93567813225025
+      },
+      "baseline": {
+        "count": 487,
+        "avgForward30Pct": -1.062350209261994,
+        "hitRate": 51.74537987679672,
+        "medianForward30Pct": 0.349043970759344
+      },
+      "bestIndicators": [
+        {
+          "count": 202,
+          "avgForward30Pct": 0.4114277293423099,
+          "hitRate": 58.91089108910891,
+          "medianForward30Pct": 1.2399619217020597,
+          "indicator": "가격 200일선 위",
+          "edgePct": 1.473777938604304
+        },
+        {
+          "count": 198,
+          "avgForward30Pct": 0.030793793519739685,
+          "hitRate": 55.55555555555556,
+          "medianForward30Pct": 0.9946363396344693,
+          "indicator": "50일선 > 200일선",
+          "edgePct": 1.0931440027817338
+        },
+        {
+          "count": 131,
+          "avgForward30Pct": -0.09633409273781435,
+          "hitRate": 47.32824427480916,
+          "medianForward30Pct": -0.5787469882472696,
+          "indicator": "RSI 50~65",
+          "edgePct": 0.9660161165241797
+        }
+      ],
+      "turningPointMethod": "윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"
     }
   ],
   "series": [
