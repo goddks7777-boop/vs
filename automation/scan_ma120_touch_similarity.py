@@ -18,7 +18,8 @@ def rsi(a,n=14):
 def features(b,i):
  c=[float(x["trade_price"]) for x in b]; h=[float(x["high_price"]) for x in b]; l=[float(x["low_price"]) for x in b]; v=[float(x["candle_acc_trade_volume"]) for x in b]
  ma120=mean(c[i-119:i+1]); ma20=mean(c[i-19:i+1]); sd=statistics.pstdev(c[i-19:i+1]); gap=(c[i]/ma120-1)*100; vr=v[i]/max(mean(v[i-20:i]),1e-12)
- return {"price":c[i],"ma120":ma120,"gapPct":gap,"touched":l[i]<=ma120<=h[i] or abs(gap)<=.8,"volumeRatio":vr,"bbWidthPct":4*sd/max(ma20,1e-12)*100,"rsi":rsi(c[:i+1])}
+ tr=[max(h[j]-l[j],abs(h[j]-c[j-1]),abs(l[j]-c[j-1])) for j in range(i-13,i+1)]; atr=mean(tr); prior=h[max(0,i-60):i]; resistance=min((x for x in prior if x>c[i]+.5*atr),default=c[i]+3*atr)
+ return {"price":c[i],"ma120":ma120,"gapPct":gap,"touched":l[i]<=ma120<=h[i] or abs(gap)<=.8,"volumeRatio":vr,"bbWidthPct":4*sd/max(ma20,1e-12)*100,"rsi":rsi(c[:i+1]),"atr":atr,"resistance":resistance}
 def shape(b,i):
  c=[float(x["trade_price"]) for x in b[i-23:i+1]]; base=c[0]; return [x/base-1 for x in c]
 def similarity(a,b):
@@ -36,7 +37,8 @@ for row in markets:
   b=zbars if m=="KRW-ZRO" else completed(m)
   if len(b)<150:raise ValueError("120시간선 분석 봉 부족")
   last=len(b)-1; f=features(b,last); sim,corr,rmse=similarity(shape(b,last),template); cap=capmap.get(symbol,{}).get("marketCapKrw"); ratio=cap/zcap if cap and zcap else None
-  base={"symbol":symbol,"name":names[m],"time":b[last]["candle_date_time_kst"],"price":f["price"],"ma120":round(f["ma120"],8),"ma120GapPct":round(f["gapPct"],2),"volumeRatio":round(f["volumeRatio"],2),"bbWidthPct":round(f["bbWidthPct"],2),"rsi":round(f["rsi"],1),"chartSimilarity":round(sim,1),"shapeCorrelation":round(corr,3),"marketCapKrw":cap,"marketCapRatioToZro":round(ratio,2) if ratio else None,"marketCapSimilar":bool(ratio and .5<=ratio<=2)}
+  atr=f["atr"]; target_low=max(f["price"]+1.5*atr,min(f["resistance"],f["price"]+3*atr)); target_high=max(target_low,f["price"]+3*atr)
+  base={"symbol":symbol,"name":names[m],"time":b[last]["candle_date_time_kst"],"price":f["price"],"ma120":round(f["ma120"],8),"ma120GapPct":round(f["gapPct"],2),"volumeRatio":round(f["volumeRatio"],2),"bbWidthPct":round(f["bbWidthPct"],2),"rsi":round(f["rsi"],1),"chartSimilarity":round(sim,1),"shapeCorrelation":round(corr,3),"marketCapKrw":cap,"marketCapRatioToZro":round(ratio,2) if ratio else None,"marketCapSimilar":bool(ratio and .5<=ratio<=2),"entryZoneLow":round(f["ma120"]-.25*atr,8),"entryZoneHigh":round(f["ma120"]+.5*atr,8),"invalidationPrice":round(f["ma120"]-1.25*atr,8),"targetLow":round(target_low,8),"targetHigh":round(target_high,8),"targetLowPct":round((target_low/f["price"]-1)*100,2),"targetHighPct":round((target_high/f["price"]-1)*100,2)}
   if f["touched"] or sim>=72 or base["marketCapSimilar"]:
    base["reasons"]=(['현재 120시간선 접촉'] if f["touched"] else [])+(["ZRO 급등 전 24시간 곡선 유사"] if sim>=72 else [])+(["ZRO 시총의 0.5~2배"] if base["marketCapSimilar"] else [])+(["거래량 평균 이하"] if f["volumeRatio"]<.8 else [])
    current.append(base)
@@ -46,11 +48,19 @@ for row in markets:
    if ef["touched"] and (not events or i-events[-1]>=6):events.append(i)
   for i in events[-2:]:
    entry=float(b[i]["trade_price"]); future=b[i+1:i+7]; maxret=(max(float(x["high_price"]) for x in future)/entry-1)*100; close6=(float(future[-1]["trade_price"])/entry-1)*100; ef=features(b,i); es,ec,er=similarity(shape(b,i),template)
-   item={"symbol":symbol,"name":names[m],"touchTime":b[i]["candle_date_time_kst"],"touchPrice":entry,"ma120":round(ef["ma120"],8),"gapPct":round(ef["gapPct"],2),"volumeRatio":round(ef["volumeRatio"],2),"rsi":round(ef["rsi"],1),"maxReturn6hPct":round(maxret,2),"closeReturn6hPct":round(close6,2),"chartSimilarity":round(es,1),"marketCapRatioToZro":round(ratio,2) if ratio else None}
+   item={"symbol":symbol,"name":names[m],"touchTime":b[i]["candle_date_time_kst"],"touchPrice":entry,"ma120":round(ef["ma120"],8),"gapPct":round(ef["gapPct"],2),"volumeRatio":round(ef["volumeRatio"],2),"rsi":round(ef["rsi"],1),"maxReturn6hPct":round(maxret,2),"closeReturn6hPct":round(close6,2),"chartSimilarity":round(es,1),"marketCapRatioToZro":round(ratio,2) if ratio else None,"won":bool(maxret>=3 and close6>0)}
    (success if maxret>=3 and close6>0 else failed).append(item)
  except Exception as e:errors.append({"market":m,"error":str(e)[:140]})
  time.sleep(.115)
-current.sort(key=lambda x:(abs(x["ma120GapPct"])<=.8,x["chartSimilarity"],x["marketCapSimilar"]),reverse=True); success.sort(key=lambda x:x["touchTime"],reverse=True); failed.sort(key=lambda x:x["touchTime"],reverse=True)
+history=success+failed
+base_win=mean([1 if e["won"] else 0 for e in history])
+for x in current:
+ matched=[e for e in history if abs(e["rsi"]-x["rsi"])<=12 and abs(e["gapPct"]-x["ma120GapPct"])<=1.5 and abs(e["chartSimilarity"]-x["chartSimilarity"])<=20 and abs(math.log(max(e["volumeRatio"],.05)/max(x["volumeRatio"],.05)))<=1.25]
+ if len(matched)<8:matched=[e for e in history if abs(e["rsi"]-x["rsi"])<=15 and abs(e["gapPct"]-x["ma120GapPct"])<=2]
+ wins=sum(e["won"] for e in matched); raw=wins/len(matched) if matched else base_win; adjusted=(wins+20*base_win)/(len(matched)+20); x["analogSamples"]=len(matched); x["rawWinRatePct"]=round(raw*100,1); x["historicalWinRatePct"]=round(adjusted*100,1); x["historicalAvgClose6hPct"]=round(mean([e["closeReturn6hPct"] for e in matched]),2) if matched else 0; x["confidence"]="높음" if len(matched)>=30 else "보통" if len(matched)>=15 else "낮음"
+ x["priorityScore"]=round(x["historicalWinRatePct"]*.55+x["chartSimilarity"]*.2+max(0,15-abs(x["ma120GapPct"])*8)+(7 if x["volumeRatio"]<.8 else 0)+(3 if x["marketCapSimilar"] else 0),1)
+ x["reading"]="120선 구간 분할 관찰" if abs(x["ma120GapPct"])<=.8 and x["volumeRatio"]<.8 else "거래량·직전 고점 돌파 대기"
+current.sort(key=lambda x:(x["priorityScore"],x["historicalWinRatePct"],x["chartSimilarity"]),reverse=True); success.sort(key=lambda x:x["touchTime"],reverse=True); failed.sort(key=lambda x:x["touchTime"],reverse=True)
 payload={"updatedAt":datetime.now(KST).isoformat(timespec="seconds"),"source":"Upbit completed 1h candles + CoinGecko market-cap snapshot","definition":{"touch":"봉의 저가≤MA120≤고가 또는 종가 이격도 ±0.8%","success":"터치 후 6시간 내 고가 +3% 이상이며 6시간 종가 수익 양수","chartSimilarity":"ZRO 2026-08-25 21시까지 24시간 정규화 종가곡선의 상관·RMSE 결합","marketCapSimilar":"ZRO 시총의 0.5~2배"},"zroTemplate":{"time":"2026-08-25T21:00:00","marketCapKrw":zcap},"listed":len(markets),"analyzed":len(markets)-len(errors),"currentCandidates":current[:60],"successfulTouches":success[:60],"failedTouches":failed[:60],"errors":errors,"actualOrders":0}
 OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8",newline="\n"); print(json.dumps({"status":"UPDATED","analyzed":payload["analyzed"],"current":len(current),"success":len(success),"failed":len(failed),"errors":len(errors)},ensure_ascii=False))
 
