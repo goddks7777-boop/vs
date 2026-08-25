@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-25T18:21:44+09:00",
-  "signalTime": "2026-08-25T15:00:00+09:00",
+  "time": "2026-08-25T18:23:33+09:00",
+  "signalTime": "2026-08-25T17:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9925182,
-    "returnPct": -0.748,
+    "value": 9869851,
+    "returnPct": -1.301,
     "positions": [
       "ETH",
-      "GEOD",
       "AKT",
       "ONT",
-      "PROM"
+      "PROM",
+      "POL"
     ],
-    "trades": 331,
+    "trades": 333,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "MON",
-        "name": "모나드",
+        "symbol": "GEOD",
+        "name": "지오드넷",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "완성 1시간봉 7/7점·RSI 62.3·거래량 1.24배"
+        "symbol": "POL",
+        "name": "폴리곤에코시스템토큰",
+        "comment": "완성 1시간봉 7/7점·RSI 68.0·거래량 1.76배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-25T18:21:44+09:00",
-  "coinUpdatedAt": "2026-08-25T16:34:35+09:00"
+  "coinUpdatedAt": "2026-08-25T18:23:33+09:00"
 }
