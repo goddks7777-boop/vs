@@ -53,6 +53,7 @@ jobs:
           python automation/inject_stock_market_cap.py
           python automation/inject_paper_summary.py
           python automation/inject_stock_paper_ui.py
+          python automation/normalize_global_nav.py
           python automation/validate_paper_system.py --market stock
 
       - name: 상태와 가상투자 기록 저장

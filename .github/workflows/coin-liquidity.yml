@@ -26,6 +26,7 @@ jobs:
           python automation/refresh_coin_liquidity.py
           python automation/validate_coin_liquidity.py
           python automation/inject_swing_nav.py
+          python automation/normalize_global_nav.py
       - name: 결과 저장
         run: |
           git config user.name "coin-liquidity-bot"

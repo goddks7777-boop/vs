@@ -44,6 +44,7 @@ jobs:
           python automation/validate_btc_cycle.py
           python automation/validate_multi_timeframe.py
           python automation/inject_swing_nav.py
+          python automation/normalize_global_nav.py
       - name: 연구 결과 저장
         run: |
           git config user.name "swing-research-bot"
