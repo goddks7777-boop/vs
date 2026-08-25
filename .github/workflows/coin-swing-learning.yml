@@ -25,12 +25,14 @@ jobs:
       - name: 일봉 학습·시간순 검증
         run: python automation/swing_learning.py --max-markets 80 --days 420
       - name: 결과 안전성 검증
-        run: python automation/validate_swing_learning.py
+        run: |
+          python automation/validate_swing_learning.py
+          python automation/inject_swing_nav.py
       - name: 연구 결과 저장
         run: |
           git config user.name "swing-research-bot"
           git config user.email "swing-research-bot@users.noreply.github.com"
-          git add monitor_data/swing_learning.json
+          git add monitor_data/swing_learning.json 업비트_1시간_모니터링.html 업비트_원화마켓_시각화_보고서_2026-08-11.html 업비트_지표_백과.html 코인_1주일_가상투자.html
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
