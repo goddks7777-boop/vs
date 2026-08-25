@@ -9,11 +9,13 @@ TARGETS = [
     "코인_AI스윙_학습검증.html",
     "코인_싸이클_분석.html",
     "코인_유동.html",
+    "코인_매집포착.html",
 ]
 anchors = [
     ("코인_AI스윙_학습검증.html", '<a href="코인_AI스윙_학습검증.html" data-page="코인_AI스윙_학습검증.html" class=""><span class="gn-icon">◆</span><span>AI 스윙</span><small>현재 위치</small></a>'),
     ("코인_싸이클_분석.html", '<a href="코인_싸이클_분석.html" data-page="코인_싸이클_분석.html" class=""><span class="gn-icon">◉</span><span>BTC 싸이클</span><small>현재 위치</small></a>'),
     ("코인_유동.html", '<a href="코인_유동.html" data-page="코인_유동.html" class=""><span class="gn-icon">≋</span><span>코인 유동</span><small>현재 위치</small></a>'),
+    ("코인_매집포착.html", '<a href="코인_매집포착.html" data-page="코인_매집포착.html" class=""><span class="gn-icon">⌁</span><span>매집포착</span><small>현재 위치</small></a>'),
 ]
 needle = '<a href="업비트_지표_백과.html"'
 updated = 0
@@ -46,3 +48,4 @@ if home.exists():
         home.write_text(text, encoding="utf-8", newline="\n")
         updated += 1
 print(f"updated={updated}")
+

@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "swing-research-bot"
           git config user.email "swing-research-bot@users.noreply.github.com"
-          git add monitor_data/swing_learning.json monitor_data/btc_cycle_analysis.json monitor_data/coin_market_caps.json monitor_data/multi_timeframe_swing.json 업비트_1시간_모니터링.html 업비트_원화마켓_시각화_보고서_2026-08-11.html 업비트_지표_백과.html 코인_1주일_가상투자.html 코인_AI스윙_학습검증.html 코인_싸이클_분석.html 코인_유동.html 업비트_분석_홈.html
+          git add monitor_data/swing_learning.json monitor_data/btc_cycle_analysis.json monitor_data/coin_market_caps.json monitor_data/multi_timeframe_swing.json monitor_data/accumulation_cases.json 업비트_1시간_모니터링.html 업비트_원화마켓_시각화_보고서_2026-08-11.html 업비트_지표_백과.html 코인_1주일_가상투자.html 코인_AI스윙_학습검증.html 코인_싸이클_분석.html 코인_유동.html 코인_매집포착.html 업비트_분석_홈.html
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
@@ -65,3 +65,4 @@ jobs:
         with:
           path: .cache/upbit-4h
           key: upbit-4h-${{ github.run_id }}
+

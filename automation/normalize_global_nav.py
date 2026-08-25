@@ -10,6 +10,7 @@ COIN={
  "코인_AI스윙_학습검증.html":("◆","AI 스윙"),
  "코인_싸이클_분석.html":("◉","BTC 싸이클"),
  "코인_유동.html":("≋","코인 유동"),
+ "코인_매집포착.html":("⌁","매집포착"),
  "업비트_지표_백과.html":("▦","코인 지표"),
 }
 STOCK={
@@ -55,3 +56,4 @@ for path in ROOT.glob("*.html"):
  text=re.sub(r'<nav class="global-nav[^>]*>[\s\S]*?</nav>',nav,text,count=1)
  if text!=before:path.write_text(text,encoding="utf-8",newline="\n");updated+=1
 print(f"updated={updated}")
+
