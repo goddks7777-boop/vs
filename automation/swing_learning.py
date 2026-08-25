@@ -16,7 +16,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "monitor_data" / "swing_learning.json"
 FEE_AND_SLIPPAGE_PCT = 0.20
-TARGET_PCT = 10.0
 STOP_PCT = 6.0
 HORIZON = 14
 KST = timezone(timedelta(hours=9))
@@ -75,6 +74,39 @@ def rsi(closes, period=14):
     return 100.0 if loss == 0 else 100 - 100 / (1 + mean(gains) / loss)
 
 
+def chart_target(closes, highs, lows, volumes, i):
+    """현재 시점까지만 사용해 저항·밴드·변동성·박스폭의 목표 군집을 계산한다."""
+    close = closes[i]
+    window20 = closes[i - 19:i + 1]
+    ma20 = mean(window20)
+    deviation = (mean([(x - ma20) ** 2 for x in window20])) ** .5
+    bb_upper = ma20 + 2 * deviation
+    true_ranges = [max(highs[j] - lows[j], abs(highs[j] - closes[j - 1]), abs(lows[j] - closes[j - 1])) for j in range(i - 13, i + 1)]
+    atr = mean(true_ranges)
+    prior_highs = highs[max(0, i - 60):i]
+    resistances = sorted(x for x in prior_highs if x >= close + .5 * atr)
+    resistance = resistances[0] if resistances else max(prior_highs, default=close)
+    box_high = max(highs[i - 19:i + 1]); box_low = min(lows[i - 19:i + 1])
+    volume_ratio = volumes[i] / max(mean(volumes[i - 19:i + 1]), 1e-12)
+    momentum20 = (close / closes[i - 20] - 1) * 100
+    atr_multiple = 2.0 + (.5 if momentum20 > 0 else 0) + (.5 if volume_ratio >= 1.2 else 0)
+    candidates = [
+        (bb_upper, "볼린저 상단"),
+        (resistance, "최근 60일 매물 저항"),
+        (close + atr * atr_multiple, f"ATR {atr_multiple:.1f}배 변동폭"),
+        (close + (box_high - box_low) * .618, "20일 박스폭 0.618 확장"),
+    ]
+    usable = sorted((price, label) for price, label in candidates if price > close + .25 * atr)
+    if not usable:
+        usable = [(close + 2 * atr, "ATR 2배 변동폭")]
+    target = statistics.median([price for price, _ in usable])
+    target = max(close + atr, min(target, close + 6 * atr))
+    pct = (target / close - 1) * 100
+    nearest = sorted(usable, key=lambda x: abs(x[0] - target))[:2]
+    reason = " · ".join(label for _, label in nearest)
+    return target, pct, reason, {"bbUpper": bb_upper, "resistance60": resistance, "atr": atr, "boxHigh20": box_high, "boxLow20": box_low}
+
+
 def feature_rows(symbol, candles, btc_context):
     closes = [float(x["trade_price"]) for x in candles]
     highs = [float(x["high_price"]) for x in candles]
@@ -88,6 +120,7 @@ def feature_rows(symbol, candles, btc_context):
     for i in range(60, len(candles) - HORIZON):
         close, ma20, ma60 = closes[i], mean(closes[i - 19:i + 1]), mean(closes[i - 59:i + 1])
         true_ranges = [max(highs[j] - lows[j], abs(highs[j] - closes[j - 1]), abs(lows[j] - closes[j - 1])) for j in range(i - 13, i + 1)]
+        target_price, target_pct, _, _ = chart_target(closes, highs, lows, volumes, i)
         future = candles[i + 1:i + HORIZON + 1]
         outcome, exit_day = None, HORIZON
         for day, bar in enumerate(future, 1):
@@ -95,8 +128,8 @@ def feature_rows(symbol, candles, btc_context):
             if float(bar["low_price"]) <= close * (1 - STOP_PCT / 100):
                 outcome, exit_day = -STOP_PCT - FEE_AND_SLIPPAGE_PCT, day
                 break
-            if float(bar["high_price"]) >= close * (1 + TARGET_PCT / 100):
-                outcome, exit_day = TARGET_PCT - FEE_AND_SLIPPAGE_PCT, day
+            if float(bar["high_price"]) >= target_price:
+                outcome, exit_day = target_pct - FEE_AND_SLIPPAGE_PCT, day
                 break
         if outcome is None:
             outcome = (float(future[-1]["trade_price"]) / close - 1) * 100 - FEE_AND_SLIPPAGE_PCT
@@ -131,7 +164,9 @@ def latest_features(symbol, candles, btc_context):
         obv.append(obv[-1] + direction * volumes[j])
     tr = [max(highs[j] - lows[j], abs(highs[j] - closes[j - 1]), abs(lows[j] - closes[j - 1])) for j in range(i - 13, i + 1)]
     date = candles[i]["candle_date_time_kst"][:10]
-    return {"symbol": symbol, "date": date, "price": closes[i], "ma20": ma20, "ma60": ma60, "features": {
+    target_price, target_pct, target_reason, target_basis = chart_target(closes, highs, lows, volumes, i)
+    return {"symbol": symbol, "date": date, "price": closes[i], "ma20": ma20, "ma60": ma60,
+            "chartTargetPrice": target_price, "chartTargetPct": target_pct, "targetReason": target_reason, "targetBasis": target_basis, "features": {
         "rsi": rsi(closes), "priceMa20": (closes[i] / ma20 - 1) * 100, "ma20Ma60": (ma20 / ma60 - 1) * 100,
         "volumeRatio": volumes[i] / max(mean(volumes[i - 19:i + 1]), 1e-12), "atrPct": mean(tr) / closes[i] * 100,
         "obvSlope": (obv[i] - obv[i - 10]) / max(sum(volumes[i - 9:i + 1]), 1e-12),
@@ -257,7 +292,11 @@ def main():
                        "manualSignal": manual_ok, "signalDate": row["date"], "referencePrice": row["price"],
                        "currentPrice": current_price, "priceDeviationPct": round(deviation, 2),
                        "invalidationPrice": round(invalidation_price, 8),
-                       "target1Price": round(row["price"] * (1 + TARGET_PCT / 100), 8),
+                       "target1Price": round(row["chartTargetPrice"], 8),
+                       "targetExpectedPct": round(row["chartTargetPct"], 2),
+                       "targetMethod": "차트 구조 추정",
+                       "targetReason": row["targetReason"],
+                       "targetBasis": {key: round(value, 8) for key, value in row["targetBasis"].items()},
                        "reasons": [label for ok, label in checks if ok],
                        "warnings": [label for ok, label in checks if not ok]
                                    + (["신호 기준가보다 5% 이상 상승해 추격 주의"] if deviation > 5 else [])
@@ -266,7 +305,7 @@ def main():
     ranked.sort(key=lambda x: (x["manualSignal"], x["manualScore"], x["probability"]), reverse=True)
     result = {"updatedAt": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"), "mode": "RESEARCH_ONLY",
               "actualOrders": 0, "approved": approved, "decision": "검증 통과 · 그림자 매매 후보" if approved else "검증 미통과 · 매수 추천 중단",
-              "design": {"timeframe": "일봉 학습·4시간봉 진입 보조", "holdingDays": HORIZON, "targetPct": TARGET_PCT,
+              "design": {"timeframe": "일봉 학습·4시간봉 진입 보조", "holdingDays": HORIZON, "targetMode": "차트별 동적 목표",
                          "stopPct": STOP_PCT, "costPct": FEE_AND_SLIPPAGE_PCT, "features": list(FEATURES), "markets": len(candles)},
               "splits": {"train": len(train), "validation": len(valid), "test": len(test), "trainEnd": train_end,
                          "validationStart": first_split, "validationEnd": valid_end, "testStart": second_split},
@@ -279,3 +318,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

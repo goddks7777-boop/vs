@@ -18,5 +18,8 @@ require(data.get("splits", {}).get("test", 0) > 0, "test set is empty")
 require(0 <= data.get("validation", {}).get("winRate", -1) <= 100, "invalid validation win rate")
 require(0 <= data.get("test", {}).get("winRate", -1) <= 100, "invalid test win rate")
 require(len(data.get("ranking", [])) <= 30, "ranking is unexpectedly large")
+require(data.get("design", {}).get("targetMode") == "차트별 동적 목표", "dynamic target mode is missing")
+require(all(x.get("targetExpectedPct", 0) > 0 and x.get("target1Price", 0) > x.get("referencePrice", 0) for x in data.get("ranking", [])), "invalid chart target")
 datetime.fromisoformat(data["updatedAt"])
 print(json.dumps({"status": "VALID", "approved": data.get("approved"), "updatedAt": data["updatedAt"]}, ensure_ascii=False))
+
