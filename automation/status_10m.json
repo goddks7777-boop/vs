@@ -1,35 +1,31 @@
 {
-  "time": "2026-08-26T08:00:46+09:00",
-  "signalTime": "2026-08-26T05:00:00+09:00",
+  "time": "2026-08-26T08:02:22+09:00",
+  "signalTime": "2026-08-26T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9920354,
-    "returnPct": -0.796,
+    "value": 9927850,
+    "returnPct": -0.721,
     "positions": [
       "POL",
       "SPX",
-      "ENSO"
+      "ENSO",
+      "DOS",
+      "CAP"
     ],
-    "trades": 345,
+    "trades": 347,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "GAS",
-        "name": "가스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "DOS",
+        "name": "댑오에스",
+        "comment": "완성 1시간봉 7/7점·RSI 65.9·거래량 1.31배"
       },
       {
         "type": "BUY",
-        "symbol": "ENSO",
-        "name": "엔소",
-        "comment": "완성 1시간봉 6/7점·RSI 55.4·거래량 1.43배"
+        "symbol": "CAP",
+        "name": "캡",
+        "comment": "완성 1시간봉 6/7점·RSI 61.8·거래량 1.66배"
       }
     ]
   },
@@ -43,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-26T08:00:46+09:00",
-  "coinUpdatedAt": "2026-08-26T06:58:12+09:00"
+  "coinUpdatedAt": "2026-08-26T08:02:22+09:00"
 }
