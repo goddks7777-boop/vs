@@ -25,13 +25,15 @@ jobs:
         run: |
           python automation/refresh_coin_liquidity.py
           python automation/validate_coin_liquidity.py
+          python automation/scan_coin_accumulation.py
+          python automation/validate_coin_accumulation.py
           python automation/inject_swing_nav.py
           python automation/normalize_global_nav.py
       - name: 결과 저장
         run: |
           git config user.name "coin-liquidity-bot"
           git config user.email "coin-liquidity-bot@users.noreply.github.com"
-          git add monitor_data/coin_liquidity.json 업비트_분석_홈.html 업비트_1시간_모니터링.html 업비트_원화마켓_시각화_보고서_2026-08-11.html 업비트_지표_백과.html 코인_1주일_가상투자.html 코인_AI스윙_학습검증.html
+          git add monitor_data/coin_liquidity.json monitor_data/coin_accumulation.json 업비트_분석_홈.html 업비트_1시간_모니터링.html 업비트_원화마켓_시각화_보고서_2026-08-11.html 업비트_지표_백과.html 코인_1주일_가상투자.html 코인_AI스윙_학습검증.html
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
@@ -39,3 +41,4 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+

@@ -61,3 +61,5 @@
   document.head.appendChild(style);
 })();
 {const script=document.createElement('script');script.src=`automation/coin-screener-enhance.js?v=${Date.now()}`;document.body.appendChild(script)}
+{const script=document.createElement('script');script.src=`automation/accumulation-live.js?v=${Date.now()}`;document.body.appendChild(script)}
+
