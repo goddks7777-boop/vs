@@ -1,5 +1,5 @@
 """업비트 KRW 전 종목 4h·1h·30m 스윙 연구. 실제 주문은 수행하지 않는다."""
-import argparse,json,math,time,urllib.parse,urllib.request
+import argparse,gzip,json,math,time,urllib.parse,urllib.request
 from datetime import datetime,timedelta,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/"monitor_data"/"multi_timeframe_swing.json";KST=timezone(timedelta(hours=9));TARGET,STOP,HORIZON,COST=6.,4.,42,.2
@@ -19,6 +19,31 @@ def fetch(market,unit,count):
   start=datetime.fromisoformat(x["candle_date_time_kst"]+"+09:00")
   if start+timedelta(minutes=unit)<=now:done.append(x)
  return sorted({x["candle_date_time_kst"]:x for x in done}.values(),key=lambda x:x["candle_date_time_kst"])
+def history_path(cache_dir,market):return Path(cache_dir)/f"{market}_{240}m.json.gz"
+def fetch_all_cached(market,cache_dir):
+ """첫 실행은 상장 첫 4시간봉까지, 이후 실행은 최근 봉만 병합한다."""
+ path=history_path(cache_dir,market);path.parent.mkdir(parents=True,exist_ok=True);cached=[]
+ if path.exists():
+  try:
+   with gzip.open(path,"rt",encoding="utf-8") as f:cached=json.load(f)
+  except Exception:cached=[]
+ if cached:
+  recent=fetch(market,240,200);merged={x["candle_date_time_kst"]:x for x in cached}
+  for x in recent:merged[x["candle_date_time_kst"]]=x
+  rows=sorted(merged.values(),key=lambda x:x["candle_date_time_kst"])
+ else:
+  rows=[];to=None
+  while True:
+   p={"market":market,"count":200}
+   if to:p["to"]=to
+   b=api("/candles/minutes/240",p)
+   if not b:break
+   rows+=b;old=datetime.fromisoformat(b[-1]["candle_date_time_utc"]+"+00:00");to=(old-timedelta(seconds=1)).isoformat().replace("+00:00","Z")
+   if len(b)<200:break
+   time.sleep(.11)
+  now=datetime.now(KST);rows=[x for x in rows if datetime.fromisoformat(x["candle_date_time_kst"]+"+09:00")+timedelta(hours=4)<=now];rows=sorted({x["candle_date_time_kst"]:x for x in rows}.values(),key=lambda x:x["candle_date_time_kst"])
+ with gzip.open(path,"wt",encoding="utf-8",compresslevel=6) as f:json.dump(rows,f,ensure_ascii=False,separators=(",",":"))
+ return rows
 def mean(x):return sum(x)/len(x) if x else 0
 def rsi(c,p=14):
  d=[c[i]-c[i-1] for i in range(len(c)-p,len(c))];g=mean([max(v,0) for v in d]);l=mean([max(-v,0) for v in d]);return 100 if l==0 else 100-100/(1+g/l)
@@ -34,7 +59,9 @@ RULES={"RSI 45~65":lambda f:45<=f["rsi"]<=65,"OBV 10봉 상승":lambda f:f["obvS
 def make_rows(symbol,b):
  out=[]
  for i in range(60,len(b)-HORIZON):
-  f=features(b,i);entry=f["price"];ret=None
+  # 지표는 해당 시점까지의 최근 61봉만 사용한다. 전체 배열을 매번 재생성하지 않아
+  # 상장 이후 수만 개 봉도 선형 시간에 처리하며 미래 데이터 누출도 막는다.
+  f=features(b[i-60:i+1]);entry=f["price"];ret=None
   for x in b[i+1:i+HORIZON+1]:
    if float(x["low_price"])<=entry*(1-STOP/100):ret=-STOP-COST;break
    if float(x["high_price"])>=entry*(1+TARGET/100):ret=TARGET-COST;break
@@ -48,11 +75,12 @@ def metric(rs,rule=None,rules=None):
  v=[r["ret"] for r in x];w=[z for z in v if z>0];loss=[z for z in v if z<=0]
  return {"trades":len(v),"winRate":len(w)/len(v)*100 if v else 0,"expectancyPct":mean(v),"profitFactor":sum(w)/abs(sum(loss)) if loss and sum(loss) else (99 if w else 0),"avgWinPct":mean(w),"avgLossPct":mean(loss)}
 def main():
- p=argparse.ArgumentParser();p.add_argument("--training-markets",type=int,default=50);p.add_argument("--bars",type=int,default=800);a=p.parse_args();markets=api("/market/all",{"isDetails":"false"});krw=[x for x in markets if x["market"].startswith("KRW-")];names={x["market"]:x["korean_name"] for x in krw};tick=[]
+ p=argparse.ArgumentParser();p.add_argument("--training-markets",type=int,default=50);p.add_argument("--bars",type=int,default=800);p.add_argument("--all-history",action="store_true");p.add_argument("--cache-dir",default=str(ROOT/".cache"/"upbit-4h"));a=p.parse_args();markets=api("/market/all",{"isDetails":"false"});krw=[x for x in markets if x["market"].startswith("KRW-")];names={x["market"]:x["korean_name"] for x in krw};tick=[]
  for i in range(0,len(krw),100):tick+=api("/ticker",{"markets":",".join(x["market"] for x in krw[i:i+100])});time.sleep(.11)
- liquid=sorted(tick,key=lambda x:float(x.get("acc_trade_price_24h",0)),reverse=True);training=[x["market"] for x in liquid[:a.training_markets]];history=[];errors=[];latest4={}
+ liquid=sorted(tick,key=lambda x:float(x.get("acc_trade_price_24h",0)),reverse=True);training=[x["market"] for x in (liquid if a.all_history else liquid[:a.training_markets])];history=[];errors=[];latest4={};coverage=[]
  for m in training:
-  try:b=fetch(m,240,a.bars);history+=make_rows(m,b);latest4[m]=features(b)
+  try:
+   b=fetch_all_cached(m,a.cache_dir) if a.all_history else fetch(m,240,a.bars);history+=make_rows(m,b);latest4[m]=features(b);coverage.append({"market":m,"firstCandle":b[0]["candle_date_time_kst"] if b else None,"lastCandle":b[-1]["candle_date_time_kst"] if b else None,"bars":len(b),"usable":len(b)>=60+HORIZON+1})
   except Exception as e:errors.append({"market":m,"timeframe":"4h","error":str(e)[:150]})
  dates=sorted({r["date"] for r in history});cut=dates[int(len(dates)*.7)];train=[r for r in history if r["date"]<cut];test=[r for r in history if r["date"]>=cut];base_train=metric(train);base_test=metric(test);studies=[];selected=[]
  for n in RULES:
@@ -67,6 +95,6 @@ def main():
     passed=[RULES[n](f) for f in (f4,f1,f30)];score+=sum(passed);used.append({"indicator":n,"fourHour":passed[0],"oneHour":passed[1],"thirtyMinute":passed[2],"passedFrames":sum(passed)})
    required=max(1,math.ceil(len(selected)*3*.55));signal=approved and score>=required and f4["maGap"]>0;ranking.append({"market":m,"symbol":m.split("-",1)[1],"name":names.get(m,m),"price":float(t["trade_price"]),"value24":float(t.get("acc_trade_price_24h",0)),"score":score,"maxScore":len(selected)*3,"signal":signal,"usedIndicators":used,"frames":{k:{x:round(y,4) if isinstance(y,float) else y for x,y in f.items()} for k,f in frames.items()},"reason":f"개선 지표 {len(selected)}개 · 시간대 합산 {score}/{len(selected)*3} 통과"})
   except Exception as e:errors.append({"market":m,"timeframe":"live","error":str(e)[:150]})
- ranking.sort(key=lambda x:(x["signal"],x["score"],x["value24"]),reverse=True);data={"updatedAt":datetime.now(KST).isoformat(timespec="seconds"),"mode":"RESEARCH_ONLY","actualOrders":0,"approved":approved,"universe":{"market":"UPBIT_KRW_ALL","listed":len(krw),"analyzed":len(ranking),"trainingMarkets":len(training)},"design":{"timeframes":["4시간봉","1시간봉","30분봉"],"roles":{"4시간봉":"스윙 방향","1시간봉":"진입 확인","30분봉":"세부 타이밍"},"targetPct":TARGET,"stopPct":STOP,"holding4hBars":HORIZON,"costPct":COST},"baseline":{"training":base_train,"test":base_test},"indicatorStudies":sorted(studies,key=lambda x:x["expectancyLiftPct"],reverse=True),"selectedIndicators":selected,"selectedBasketTest":basket,"recommendations":ranking[:50],"errors":errors}
+ ranking.sort(key=lambda x:(x["signal"],x["score"],x["value24"]),reverse=True);data={"updatedAt":datetime.now(KST).isoformat(timespec="seconds"),"mode":"RESEARCH_ONLY","actualOrders":0,"approved":approved,"universe":{"market":"UPBIT_KRW_ALL","listed":len(krw),"analyzed":len(ranking),"trainingMarkets":len(training),"historyMode":"LISTING_FIRST_CANDLE" if a.all_history else "RECENT_WINDOW","coverage":coverage},"design":{"timeframes":["4시간봉","1시간봉","30분봉"],"roles":{"4시간봉":"스윙 방향·상장 후 전체 이력 학습","1시간봉":"진입 확인","30분봉":"세부 타이밍"},"targetPct":TARGET,"stopPct":STOP,"holding4hBars":HORIZON,"costPct":COST},"baseline":{"training":base_train,"test":base_test},"indicatorStudies":sorted(studies,key=lambda x:x["expectancyLiftPct"],reverse=True),"selectedIndicators":selected,"selectedBasketTest":basket,"recommendations":ranking[:50],"errors":errors}
  OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8",newline="\n");print(json.dumps({"status":"UPDATED","listed":len(krw),"analyzed":len(ranking),"selected":selected,"approved":approved,"test":basket,"errors":len(errors)},ensure_ascii=False))
 if __name__=="__main__":main()

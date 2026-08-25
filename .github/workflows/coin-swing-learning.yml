@@ -1,6 +1,11 @@
 name: 코인 일봉 스윙 학습·검증
 
 on:
+  push:
+    paths:
+      - "automation/multi_timeframe_swing.py"
+      - "automation/validate_multi_timeframe.py"
+      - ".github/workflows/coin-swing-learning.yml"
   schedule:
     # 업비트 일봉(09:00 KST)이 완성된 뒤 실행
     - cron: "25 0 * * *"
@@ -16,17 +21,23 @@ concurrency:
 jobs:
   learn-and-validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: 상장 이후 4시간봉 캐시 복원
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/upbit-4h
+          key: upbit-4h-${{ github.run_id }}
+          restore-keys: upbit-4h-
       - name: 일봉 학습·시간순 검증
         run: |
           python automation/btc_cycle_analysis.py
           python automation/swing_learning.py --max-markets 80 --days 420
-          python automation/multi_timeframe_swing.py --training-markets 50 --bars 800
+          python automation/multi_timeframe_swing.py --all-history --cache-dir .cache/upbit-4h
       - name: 결과 안전성 검증
         run: |
           python automation/validate_swing_learning.py
@@ -45,3 +56,9 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+      - name: 누적 4시간봉 캐시 저장
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/upbit-4h
+          key: upbit-4h-${{ github.run_id }}
