@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-25T21:02:52+09:00",
-  "signalTime": "2026-08-25T19:00:00+09:00",
+  "time": "2026-08-25T21:04:45+09:00",
+  "signalTime": "2026-08-25T20:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9842105,
-    "returnPct": -1.579,
+    "value": 9799742,
+    "returnPct": -2.003,
     "positions": [
       "ETH",
       "ONT",
@@ -16,16 +16,10 @@
     "trades": 335,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "AKT",
-        "name": "아카시네트워크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 7/7점·RSI 64.8·거래량 1.24배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-25T21:02:52+09:00",
-  "coinUpdatedAt": "2026-08-25T20:03:57+09:00"
+  "coinUpdatedAt": "2026-08-25T21:04:45+09:00"
 }
