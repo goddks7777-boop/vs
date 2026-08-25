@@ -18,5 +18,5 @@
       <section class="panel"><h2>AI 스윙 후보 순위</h2><p class="muted">확률은 과거 유사 조건의 추정치이며 최신 시험 실패 시 AI 후보는 전부 차단됩니다.</p><div class="table"><table><thead><tr><th>코인</th><th>완성 일봉 종가</th><th>성공확률</th><th>판정</th><th>일봉 RSI</th><th>거래량</th><th>BTC 60일 추세</th></tr></thead><tbody>${aiRows||'<tr><td colspan="7">후보가 없습니다.</td></tr>'}</tbody></table></div></section>
       <section class="panel"><h2>수동 신호 7개 기준</h2><ul><li>종가가 20일선 위, 20일선이 60일선 위</li><li>RSI 50~65, 거래량이 20일 평균의 1.2배 이상</li><li>OBV 상승, 20일 모멘텀 0~20%, BTC가 60일선 위</li><li>완성 일봉만 사용하며 기준가 대비 5% 이상 급등하면 신호 양호에서 제외</li></ul><p class="muted">무효화·목표 가격은 신호 기준가로 계산한 참고선입니다. 실제 체결가격이 다르면 본인의 가격 기준으로 다시 계산해야 합니다.</p></section>`;
   }
-  render().catch(error=>{document.querySelector('main').innerHTML=`<section class="hero"><h1>AI 스윙 학습·검증</h1><div class="decision fail"><b>데이터 준비 중</b><span>${esc(error.message)}</span></div></section>`});
+  render().then(()=>{const script=document.createElement('script');script.src=`automation/multi-timeframe-live.js?v=${Date.now()}`;document.body.appendChild(script)}).catch(error=>{document.querySelector('main').innerHTML=`<section class="hero"><h1>AI 스윙 학습·검증</h1><div class="decision fail"><b>데이터 준비 중</b><span>${esc(error.message)}</span></div></section>`});
 })();
