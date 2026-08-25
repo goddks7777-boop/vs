@@ -7,9 +7,12 @@ TARGETS = [
     "코인_1주일_가상투자.html",
     "업비트_지표_백과.html",
     "코인_AI스윙_학습검증.html",
+    "코인_싸이클_분석.html",
+    "코인_유동.html",
 ]
 anchors = [
     ("코인_AI스윙_학습검증.html", '<a href="코인_AI스윙_학습검증.html" data-page="코인_AI스윙_학습검증.html" class=""><span class="gn-icon">◆</span><span>AI 스윙</span><small>현재 위치</small></a>'),
+    ("코인_싸이클_분석.html", '<a href="코인_싸이클_분석.html" data-page="코인_싸이클_분석.html" class=""><span class="gn-icon">◉</span><span>BTC 싸이클</span><small>현재 위치</small></a>'),
     ("코인_유동.html", '<a href="코인_유동.html" data-page="코인_유동.html" class=""><span class="gn-icon">≋</span><span>코인 유동</span><small>현재 위치</small></a>'),
 ]
 needle = '<a href="업비트_지표_백과.html"'
@@ -32,8 +35,14 @@ home = ROOT / "업비트_분석_홈.html"
 if home.exists():
     text = home.read_text(encoding="utf-8")
     home_anchor = '<a href="코인_유동.html">코인 유동·펀딩비</a>'
+    cycle_anchor = '<a href="코인_싸이클_분석.html">BTC 장기 싸이클</a>'
     home_needle = '<a href="업비트_지표_백과.html">코인 지표 백과</a>'
+    before = text
     if "코인_유동.html" not in text and home_needle in text:
-        home.write_text(text.replace(home_needle, home_anchor + home_needle, 1), encoding="utf-8", newline="\n")
+        text = text.replace(home_needle, home_anchor + home_needle, 1)
+    if "코인_싸이클_분석.html" not in text and home_needle in text:
+        text = text.replace(home_needle, cycle_anchor + home_needle, 1)
+    if text != before:
+        home.write_text(text, encoding="utf-8", newline="\n")
         updated += 1
 print(f"updated={updated}")

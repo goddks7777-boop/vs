@@ -20,7 +20,7 @@ TARGET_PCT = 10.0
 STOP_PCT = 6.0
 HORIZON = 14
 KST = timezone(timedelta(hours=9))
-FEATURES = ("rsi", "priceMa20", "ma20Ma60", "volumeRatio", "atrPct", "obvSlope", "momentum20", "btcRegime")
+FEATURES = ("rsi", "priceMa20", "ma20Ma60", "volumeRatio", "atrPct", "obvSlope", "momentum20", "btcRegime", "btcMa200Gap", "btcMa200Slope", "btcDrawdown", "btcCyclePosition")
 
 
 def api(path, params=None):
@@ -75,7 +75,7 @@ def rsi(closes, period=14):
     return 100.0 if loss == 0 else 100 - 100 / (1 + mean(gains) / loss)
 
 
-def feature_rows(symbol, candles, btc_regime):
+def feature_rows(symbol, candles, btc_context):
     closes = [float(x["trade_price"]) for x in candles]
     highs = [float(x["high_price"]) for x in candles]
     lows = [float(x["low_price"]) for x in candles]
@@ -109,13 +109,13 @@ def feature_rows(symbol, candles, btc_regime):
             "atrPct": mean(true_ranges) / close * 100,
             "obvSlope": (obv[i] - obv[i - 10]) / max(sum(volumes[i - 9:i + 1]), 1e-12),
             "momentum20": (close / closes[i - 20] - 1) * 100,
-            "btcRegime": btc_regime.get(date, 0.0),
+            **btc_context.get(date, {"btcRegime": 0.0, "btcMa200Gap": 0.0, "btcMa200Slope": 0.0, "btcDrawdown": 0.0, "btcCyclePosition": 50.0}),
         }
         result.append({"date": date, "symbol": symbol, "features": values, "returnPct": outcome, "won": outcome > 0, "holdingDays": exit_day})
     return result
 
 
-def latest_features(symbol, candles, btc_regime):
+def latest_features(symbol, candles, btc_context):
     # 마지막 봉을 학습용 행과 동일한 방식으로 계산하기 위해 미래 14개 자리만 임시로 붙인다.
     if len(candles) < 61:
         return None
@@ -135,7 +135,7 @@ def latest_features(symbol, candles, btc_regime):
         "rsi": rsi(closes), "priceMa20": (closes[i] / ma20 - 1) * 100, "ma20Ma60": (ma20 / ma60 - 1) * 100,
         "volumeRatio": volumes[i] / max(mean(volumes[i - 19:i + 1]), 1e-12), "atrPct": mean(tr) / closes[i] * 100,
         "obvSlope": (obv[i] - obv[i - 10]) / max(sum(volumes[i - 9:i + 1]), 1e-12),
-        "momentum20": (closes[i] / closes[i - 20] - 1) * 100, "btcRegime": btc_regime.get(date, 0.0)}}
+        "momentum20": (closes[i] / closes[i - 20] - 1) * 100, **btc_context.get(date, {"btcRegime": 0.0, "btcMa200Gap": 0.0, "btcMa200Slope": 0.0, "btcDrawdown": 0.0, "btcCyclePosition": 50.0})}}
 
 
 def sigmoid(value):
@@ -201,14 +201,16 @@ def main():
         time.sleep(0.12)
     if "BTC" not in candles or len(candles["BTC"]) < 100:
         raise SystemExit("BTC 일봉을 충분히 수집하지 못했습니다")
-    btc_closes = [float(x["trade_price"]) for x in candles["BTC"]]
-    btc_regime = {}
-    for i in range(59, len(btc_closes)):
-        btc_regime[candles["BTC"][i]["candle_date_time_kst"][:10]] = (btc_closes[i] / mean(btc_closes[i - 59:i + 1]) - 1) * 100
+    btc_long = fetch_daily("KRW-BTC", 3500)
+    btc_closes = [float(x["trade_price"]) for x in btc_long]
+    btc_context = {}
+    for i in range(219, len(btc_closes)):
+        ma60=mean(btc_closes[i-59:i+1]);ma200=mean(btc_closes[i-199:i+1]);prev200=mean(btc_closes[i-219:i-19]);high730=max(btc_closes[max(0,i-729):i+1]);low730=min(btc_closes[max(0,i-729):i+1]);date=btc_long[i]["candle_date_time_kst"][:10]
+        btc_context[date]={"btcRegime":(btc_closes[i]/ma60-1)*100,"btcMa200Gap":(btc_closes[i]/ma200-1)*100,"btcMa200Slope":(ma200/prev200-1)*100,"btcDrawdown":(btc_closes[i]/high730-1)*100,"btcCyclePosition":(btc_closes[i]-low730)/(high730-low730)*100 if high730>low730 else 50.0}
     rows, current = [], []
     for symbol, bars in candles.items():
-        rows.extend(feature_rows(symbol, bars, btc_regime))
-        item = latest_features(symbol, bars, btc_regime)
+        rows.extend(feature_rows(symbol, bars, btc_context))
+        item = latest_features(symbol, bars, btc_context)
         if item:
             item["name"] = names.get(symbol, symbol); current.append(item)
     dates = sorted({r["date"] for r in rows})
