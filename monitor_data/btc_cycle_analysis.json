@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-26T01:26:01+09:00",
+  "updatedAt": "2026-08-26T12:40:37+09:00",
   "source": "Upbit KRW-BTC completed daily candles",
   "firstDate": "2017-09-25",
-  "lastDate": "2026-08-24",
-  "days": 3256,
+  "lastDate": "2026-08-25",
+  "days": 3257,
   "forwardDays": 30,
   "regimeRule": "당시 종가와 200일선 위치 + 200일선 20일 기울기",
   "current": {
-    "date": "2026-08-24",
-    "price": 108653000.0,
+    "date": "2026-08-25",
+    "price": 109165000.0,
     "regime": "전환",
-    "rsi": 86.96511393426094,
-    "ma200GapPct": 6.518612008164015,
-    "ma200SlopePct": -2.9238216660406935,
-    "drawdownPct": -38.96276072826959,
-    "cyclePosition": 33.5466748426287
+    "rsi": 89.64831059129304,
+    "ma200GapPct": 6.998657040169065,
+    "ma200SlopePct": -2.677970083852721,
+    "drawdownPct": -38.675138053266366,
+    "cyclePosition": 34.037232564601275
   },
   "regimeAnalysis": {
     "상승": {
@@ -109,10 +109,10 @@
     },
     "하락": {
       "baseline": {
-        "count": 985,
-        "avgForward30Pct": 1.0047618299242804,
-        "hitRate": 50.25380710659898,
-        "medianForward30Pct": 0.1018372703412096
+        "count": 986,
+        "avgForward30Pct": 1.0187816793903397,
+        "hitRate": 50.30425963488844,
+        "medianForward30Pct": 0.13796346325707365
       },
       "indicators": [
         {
@@ -121,8 +121,8 @@
           "hitRate": 87.09677419354838,
           "medianForward30Pct": 22.805217646196695,
           "indicator": "50일선 > 200일선",
-          "edgePct": 20.27858273466118,
-          "hitEdgePp": 36.84296708694941,
+          "edgePct": 20.264562885195122,
+          "hitEdgePp": 36.792514558659946,
           "meaningful": true
         },
         {
@@ -131,8 +131,18 @@
           "hitRate": 51.42857142857142,
           "medianForward30Pct": 1.5126611762017461,
           "indicator": "60일 신고가",
-          "edgePct": 3.348018289392983,
-          "hitEdgePp": 1.1747643219724466,
+          "edgePct": 3.333998439926924,
+          "hitEdgePp": 1.1243117936829847,
+          "meaningful": false
+        },
+        {
+          "count": 901,
+          "avgForward30Pct": 1.4016207308228859,
+          "hitRate": 50.83240843507214,
+          "medianForward30Pct": 0.349043970759344,
+          "indicator": "730일 고점 대비 -30%",
+          "edgePct": 0.38283905143254615,
+          "hitEdgePp": 0.5281488001837005,
           "meaningful": false
         },
         {
@@ -141,28 +151,18 @@
           "hitRate": 48.56512141280353,
           "medianForward30Pct": -0.5051176392396606,
           "indicator": "OBV 20일 상승",
-          "edgePct": 0.3917185540460677,
-          "hitEdgePp": -1.688685693795449,
+          "edgePct": 0.3776987045800084,
+          "hitEdgePp": -1.739138222084911,
           "meaningful": false
         },
         {
-          "count": 900,
-          "avgForward30Pct": 1.386702161186624,
-          "hitRate": 50.77777777777778,
-          "medianForward30Pct": 0.33958039066154244,
-          "indicator": "730일 고점 대비 -30%",
-          "edgePct": 0.3819403312623435,
-          "hitEdgePp": 0.5239706711788017,
-          "meaningful": false
-        },
-        {
-          "count": 266,
-          "avgForward30Pct": 0.6851533496444809,
-          "hitRate": 44.3609022556391,
-          "medianForward30Pct": -1.6510681779664305,
+          "count": 267,
+          "avgForward30Pct": 0.7381240614565187,
+          "hitRate": 44.569288389513105,
+          "medianForward30Pct": -1.6367051247652253,
           "indicator": "RSI 50~65",
-          "edgePct": -0.3196084802797995,
-          "hitEdgePp": -5.89290485095988,
+          "edgePct": -0.28065761793382105,
+          "hitEdgePp": -5.734971245375334,
           "meaningful": false
         },
         {
@@ -171,8 +171,8 @@
           "hitRate": 0,
           "medianForward30Pct": 0,
           "indicator": "가격 200일선 위",
-          "edgePct": -1.0047618299242804,
-          "hitEdgePp": -50.25380710659898,
+          "edgePct": -1.0187816793903397,
+          "hitEdgePp": -50.30425963488844,
           "meaningful": false
         },
         {
@@ -181,8 +181,8 @@
           "hitRate": 49.61538461538461,
           "medianForward30Pct": -0.041116266106833166,
           "indicator": "RSI 35 이하",
-          "edgePct": -1.8072762672441764,
-          "hitEdgePp": -0.6384224912143637,
+          "edgePct": -1.8212961167102357,
+          "hitEdgePp": -0.6888750195038256,
           "meaningful": false
         },
         {
@@ -191,8 +191,8 @@
           "hitRate": 42.53731343283582,
           "medianForward30Pct": -2.189326396398222,
           "indicator": "거래량 1.5배",
-          "edgePct": -2.026861934492139,
-          "hitEdgePp": -7.7164936737631535,
+          "edgePct": -2.0408817839581985,
+          "hitEdgePp": -7.766946202052615,
           "meaningful": false
         }
       ]
@@ -289,10 +289,10 @@
     },
     "전체": {
       "baseline": {
-        "count": 3026,
-        "avgForward30Pct": 4.098968659227493,
-        "hitRate": 54.16391275611369,
-        "medianForward30Pct": 1.3433553073011084
+        "count": 3027,
+        "avgForward30Pct": 4.102513213156873,
+        "hitRate": 54.17905517013545,
+        "medianForward30Pct": 1.3445388559962357
       },
       "indicators": [
         {
@@ -301,8 +301,8 @@
           "hitRate": 71.05263157894737,
           "medianForward30Pct": 9.042282265513467,
           "indicator": "60일 신고가",
-          "edgePct": 7.585106211341651,
-          "hitEdgePp": 16.88871882283368,
+          "edgePct": 7.581561657412272,
+          "hitEdgePp": 16.87357640881192,
           "meaningful": true
         },
         {
@@ -311,8 +311,8 @@
           "hitRate": 46.90966719492869,
           "medianForward30Pct": -0.7183312612239257,
           "indicator": "RSI 35 이하",
-          "edgePct": -4.765495433804177,
-          "hitEdgePp": -7.254245561185002,
+          "edgePct": -4.7690399877335565,
+          "hitEdgePp": -7.269387975206762,
           "meaningful": true
         },
         {
@@ -321,8 +321,8 @@
           "hitRate": 57.345360824742265,
           "medianForward30Pct": 3.1208990032690176,
           "indicator": "OBV 20일 상승",
-          "edgePct": 2.3987543683248598,
-          "hitEdgePp": 3.181448068628576,
+          "edgePct": 2.3952098143954803,
+          "hitEdgePp": 3.1663056546068162,
           "meaningful": false
         },
         {
@@ -331,18 +331,18 @@
           "hitRate": 55.8125,
           "medianForward30Pct": 2.0293187027159654,
           "indicator": "가격 200일선 위",
-          "edgePct": 2.280057542226908,
-          "hitEdgePp": 1.6485872438863112,
+          "edgePct": 2.2765129882975286,
+          "hitEdgePp": 1.6334448298645512,
           "meaningful": false
         },
         {
-          "count": 752,
-          "avgForward30Pct": 5.60661221029563,
-          "hitRate": 52.92553191489362,
-          "medianForward30Pct": 1.0004309661036048,
+          "count": 753,
+          "avgForward30Pct": 5.618858851986418,
+          "hitRate": 52.98804780876494,
+          "medianForward30Pct": 1.0068967209895918,
           "indicator": "RSI 50~65",
-          "edgePct": 1.5076435510681367,
-          "hitEdgePp": -1.2383808412200707,
+          "edgePct": 1.516345638829545,
+          "hitEdgePp": -1.1910073613705094,
           "meaningful": false
         },
         {
@@ -351,8 +351,8 @@
           "hitRate": 54.49936628643853,
           "medianForward30Pct": 1.5214114252072641,
           "indicator": "50일선 > 200일선",
-          "edgePct": 1.423385275776723,
-          "hitEdgePp": 0.33545353032484115,
+          "edgePct": 1.4198407218473434,
+          "hitEdgePp": 0.3203111163030812,
           "meaningful": false
         },
         {
@@ -361,18 +361,18 @@
           "hitRate": 53.640776699029125,
           "medianForward30Pct": 1.0477596005464052,
           "indicator": "거래량 1.5배",
-          "edgePct": -0.613453541281074,
-          "hitEdgePp": -0.5231360570845638,
+          "edgePct": -0.6169980952104535,
+          "hitEdgePp": -0.5382784711063238,
           "meaningful": false
         },
         {
-          "count": 1753,
-          "avgForward30Pct": 3.4603653407072796,
-          "hitRate": 53.73645179691957,
-          "medianForward30Pct": 1.3577093695389175,
+          "count": 1754,
+          "avgForward30Pct": 3.4668465083599314,
+          "hitRate": 53.76282782212086,
+          "medianForward30Pct": 1.3800940846389942,
           "indicator": "730일 고점 대비 -30%",
-          "edgePct": -0.6386033185202136,
-          "hitEdgePp": -0.4274609591941214,
+          "edgePct": -0.6356667047969413,
+          "hitEdgePp": -0.41622734801458705,
           "meaningful": false
         }
       ]
@@ -567,10 +567,10 @@
     },
     {
       "start": "2025-03-26",
-      "end": "2026-08-24",
+      "end": "2026-08-25",
       "startPrice": 128556000.0,
-      "endPrice": 108653000.0,
-      "returnPct": -15.481968947384795,
+      "endPrice": 109165000.0,
+      "returnPct": -15.083698932760825,
       "lowPoint": {
         "date": "2026-08-14",
         "price": 89120000.0
@@ -594,10 +594,10 @@
         "changePct": -49.93567813225025
       },
       "baseline": {
-        "count": 487,
-        "avgForward30Pct": -1.062350209261994,
-        "hitRate": 51.74537987679672,
-        "medianForward30Pct": 0.349043970759344
+        "count": 488,
+        "avgForward30Pct": -1.0297873330064191,
+        "hitRate": 51.84426229508197,
+        "medianForward30Pct": 0.3553357381282263
       },
       "bestIndicators": [
         {
@@ -606,7 +606,7 @@
           "hitRate": 58.91089108910891,
           "medianForward30Pct": 1.2399619217020597,
           "indicator": "가격 200일선 위",
-          "edgePct": 1.473777938604304
+          "edgePct": 1.441215062348729
         },
         {
           "count": 198,
@@ -614,15 +614,15 @@
           "hitRate": 55.55555555555556,
           "medianForward30Pct": 0.9946363396344693,
           "indicator": "50일선 > 200일선",
-          "edgePct": 1.0931440027817338
+          "edgePct": 1.0605811265261589
         },
         {
-          "count": 131,
-          "avgForward30Pct": -0.09633409273781435,
-          "hitRate": 47.32824427480916,
-          "medianForward30Pct": -0.5787469882472696,
+          "count": 132,
+          "avgForward30Pct": 0.016731570112158273,
+          "hitRate": 47.72727272727273,
+          "medianForward30Pct": -0.3558727816312668,
           "indicator": "RSI 50~65",
-          "edgePct": 0.9660161165241797
+          "edgePct": 1.0465189031185773
         }
       ],
       "turningPointMethod": "윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"
