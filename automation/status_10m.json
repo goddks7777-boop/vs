@@ -1,31 +1,55 @@
 {
-  "time": "2026-08-26T20:48:56+09:00",
-  "signalTime": "2026-08-26T18:00:00+09:00",
+  "time": "2026-08-26T20:51:13+09:00",
+  "signalTime": "2026-08-26T19:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9807166,
-    "returnPct": -1.928,
+    "value": 9724409,
+    "returnPct": -2.756,
     "positions": [
       "SPX",
-      "ENSO",
-      "CAP",
       "PYTH",
-      "FF"
+      "PLUME",
+      "KITE",
+      "SONIC"
     ],
-    "trades": 353,
+    "trades": 359,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "COW",
-        "name": "카우프로토콜",
+        "symbol": "ENSO",
+        "name": "엔소",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "CAP",
+        "name": "캡",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "FF",
+        "name": "팔콘파이낸스",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "FF",
-        "name": "팔콘파이낸스",
-        "comment": "완성 1시간봉 6/7점·RSI 55.6·거래량 3.97배"
+        "symbol": "PLUME",
+        "name": "플룸",
+        "comment": "완성 1시간봉 7/7점·RSI 64.8·거래량 1.80배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "KITE",
+        "name": "카이트",
+        "comment": "완성 1시간봉 6/7점·RSI 63.6·거래량 7.54배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SONIC",
+        "name": "소닉SVM",
+        "comment": "완성 1시간봉 6/7점·RSI 65.9·거래량 5.53배"
       }
     ]
   },
@@ -39,5 +63,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-26T20:48:56+09:00",
-  "coinUpdatedAt": "2026-08-26T19:09:41+09:00"
+  "coinUpdatedAt": "2026-08-26T20:51:13+09:00"
 }
