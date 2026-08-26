@@ -7,6 +7,7 @@ COIN={
  "업비트_원화마켓_시각화_보고서_2026-08-11.html":("₿","코인 시장"),
  "업비트_1시간_모니터링.html":("◷","코인 모니터링"),
  "코인_1주일_가상투자.html":("↗","코인 모의투자"),
+ "코인_전략별_모의투자.html":("◫","전략별 모의투자"),
  "코인_AI스윙_학습검증.html":("◆","AI 스윙"),
  "코인_싸이클_분석.html":("◉","BTC 싸이클"),
  "코인_유동.html":("≋","코인 유동"),
@@ -58,4 +59,3 @@ for path in ROOT.glob("*.html"):
   text=text.replace('</body>','<script src="automation/accumulation-trade-plan-live.js"></script></body>',1)
  if text!=before:path.write_text(text,encoding="utf-8",newline="\n");updated+=1
 print(f"updated={updated}")
-

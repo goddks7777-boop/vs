@@ -12,6 +12,9 @@ on:
       - "automation/refresh_coin_hourly.py"
       - "automation/paper-live.js"
       - "automation/validate_paper_system.py"
+      - "automation/paper_style_portfolios.py"
+      - "automation/paper-style-live.js"
+      - "automation/validate_paper_styles.py"
 
 permissions:
   contents: write
@@ -42,18 +45,22 @@ jobs:
       - name: 코인 10분 모의 매수·매도 판단
         run: python automation/paper_10m.py --market coin
 
+      - name: 세 전략 선별 및 단타·스윙·장타 독립 모의투자
+        run: python automation/paper_style_portfolios.py
+
       - name: 코인 화면 JSON 연결 확인
         run: |
           python automation/inject_live_ui.py
           python automation/inject_paper_summary.py
           python automation/normalize_global_nav.py
           python automation/validate_paper_system.py --market coin
+          python automation/validate_paper_styles.py
 
       - name: 코인 상태와 모의투자 기록 저장
         run: |
           git config user.name "paper-trading-bot"
           git config user.email "paper-trading-bot@users.noreply.github.com"
-          git add monitor_data/*.json automation/status_10m.json 코인_1주일_가상투자.html 업비트_1시간_모니터링.html
+          git add monitor_data/*.json automation/status_10m.json "*.html"
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
