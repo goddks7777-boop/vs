@@ -1,43 +1,31 @@
 {
-  "time": "2026-08-26T23:28:12+09:00",
-  "signalTime": "2026-08-26T22:00:00+09:00",
+  "time": "2026-08-27T01:51:31+09:00",
+  "signalTime": "2026-08-27T00:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9475426,
-    "returnPct": -5.246,
+    "value": 9488328,
+    "returnPct": -5.117,
     "positions": [
       "SPX",
-      "PLUME",
       "SONIC",
       "STX",
-      "CAP"
+      "CAP",
+      "ONT"
     ],
-    "trades": 363,
+    "trades": 365,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "PYTH",
-        "name": "피스네트워크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "KITE",
-        "name": "카이트",
+        "symbol": "PLUME",
+        "name": "플룸",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 7/7점·RSI 55.9·거래량 1.29배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "CAP",
-        "name": "캡",
-        "comment": "완성 1시간봉 7/7점·RSI 56.4·거래량 1.42배"
+        "symbol": "ONT",
+        "name": "온톨로지",
+        "comment": "완성 1시간봉 6/7점·RSI 62.8·거래량 1.87배"
       }
     ]
   },
@@ -51,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-26T23:26:17+09:00",
-  "coinUpdatedAt": "2026-08-26T23:28:12+09:00"
+  "coinUpdatedAt": "2026-08-27T01:51:31+09:00"
 }
