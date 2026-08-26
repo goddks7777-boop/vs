@@ -1,5 +1,7 @@
 import json
 import time
+import threading
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -13,6 +15,9 @@ DATA = ROOT / "monitor_data"
 DATA.mkdir(parents=True, exist_ok=True)
 BASE = "https://api.upbit.com/v1"
 KST = ZoneInfo("Asia/Seoul")
+RATE_LOCK = threading.Lock()
+LAST_REQUEST = 0.0
+MIN_INTERVAL = 0.14
 
 
 def write_json_atomic(path, value):
@@ -22,10 +27,22 @@ def write_json_atomic(path, value):
 
 
 def get(path, params=None):
+    global LAST_REQUEST
     url = BASE + path + ("?" + urllib.parse.urlencode(params) if params else "")
     req = urllib.request.Request(url, headers={"User-Agent": "paper-trading-monitor/2.0"})
-    with urllib.request.urlopen(req, timeout=25) as response:
-        return json.load(response)
+    for attempt in range(6):
+        with RATE_LOCK:
+            wait = MIN_INTERVAL - (time.monotonic() - LAST_REQUEST)
+            if wait > 0:
+                time.sleep(wait)
+            LAST_REQUEST = time.monotonic()
+        try:
+            with urllib.request.urlopen(req, timeout=25) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or attempt == 5:
+                raise
+            time.sleep(min(8, 0.8 * (2 ** attempt)))
 
 
 def rsi(close, n=14):
@@ -79,7 +96,8 @@ if latest_path.exists():
             json.loads(previous_path.read_text(encoding="utf-8"))
         except (FileNotFoundError, json.JSONDecodeError, KeyError, ValueError):
             write_json_atomic(previous_path, current_snapshot)
-        if previous_time.replace(minute=0, second=0, microsecond=0) >= completed_hour:
+        snapshot_complete = current_snapshot.get("count", 0) >= 270 and len(current_snapshot.get("errors", [])) <= 5
+        if previous_time.replace(minute=0, second=0, microsecond=0) >= completed_hour and snapshot_complete:
             print(json.dumps({"status": "SKIPPED", "reason": "completed hour already collected", "signalHour": completed_hour.isoformat()}, ensure_ascii=False))
             raise SystemExit(0)
     except (json.JSONDecodeError, KeyError, ValueError):
@@ -114,7 +132,7 @@ def analyze_market(market):
     except Exception as exc:
         return None, {"market": market["market"], "error": str(exc)[:160]}
     finally:
-        time.sleep(0.12)
+        pass
 
 
 items, errors = [], []
@@ -126,6 +144,22 @@ with ThreadPoolExecutor(max_workers=3) as executor:
             errors.append(error)
 
 snapshot = {"time": completed_hour.isoformat(), "collectedAt": now.isoformat(timespec="seconds"), "count": len(items), "errors": errors, "items": items}
+minimum_complete = max(1, int(len(markets) * 0.95))
+if len(items) < minimum_complete:
+    recovery = []
+    failed = {x["market"] for x in errors}
+    for market in markets:
+        if market["market"] in failed:
+            item, error = analyze_market(market)
+            if item:
+                items.append(item)
+            elif error:
+                recovery.append(error)
+    errors = recovery
+    snapshot.update({"count": len(items), "errors": errors, "items": items})
+if len(items) < minimum_complete:
+    print(json.dumps({"status":"REJECTED","reason":"incomplete snapshot protection","coins":len(items),"required":minimum_complete,"errors":len(errors)},ensure_ascii=False))
+    raise SystemExit(2)
 if latest_path.exists():
     write_json_atomic(DATA / "previous.json", json.loads(latest_path.read_text(encoding="utf-8")))
 write_json_atomic(latest_path, snapshot)
