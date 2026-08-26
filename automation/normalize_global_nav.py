@@ -59,5 +59,7 @@ for path in ROOT.glob("*.html"):
   text=text.replace('</body>','<script src="automation/accumulation-trade-plan-live.js"></script></body>',1)
  if path.name=="코인_싸이클_분석.html" and "btc-market-now.js" not in text:
   text=text.replace('</body>','<script src="automation/btc-market-now.js"></script></body>',1)
+ if path.name in ("코인_전략별_모의투자.html","코인_매집포착.html") and "strategy-learning-live.js" not in text:
+  text=text.replace('</body>','<script src="automation/strategy-learning-live.js"></script></body>',1)
  if text!=before:path.write_text(text,encoding="utf-8",newline="\n");updated+=1
 print(f"updated={updated}")
