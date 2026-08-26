@@ -1,11 +1,17 @@
 """업비트 KRW 전체 1시간봉의 MA120 터치 성과와 ZRO 급등 전 패턴 유사도를 기록한다."""
-import json, math, statistics, time, urllib.parse, urllib.request
+import json, math, statistics, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/"monitor_data"/"ma120_touch_similarity.json"; KST=timezone(timedelta(hours=9))
 def api(path,params=None):
  q="?"+urllib.parse.urlencode(params or {}) if params else ""; req=urllib.request.Request("https://api.upbit.com/v1"+path+q,headers={"User-Agent":"ma120-touch-research/1.0"})
- with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
+ for attempt in range(6):
+  try:
+   with urllib.request.urlopen(req,timeout=25) as r:value=json.load(r)
+   time.sleep(.15);return value
+  except urllib.error.HTTPError as e:
+   if e.code!=429 or attempt==5:raise
+   time.sleep(min(8,.8*(2**attempt)))
 def mean(a):return sum(a)/len(a) if a else 0
 def completed(market):
  rows=api("/candles/minutes/60",{"market":market,"count":200}); now=datetime.now(KST); out=[]
@@ -27,7 +33,9 @@ def similarity(a,b):
  try:corr=statistics.correlation(a,b)
  except Exception:corr=0
  return max(0,min(100,50+50*corr-350*rmse)),corr,rmse
-markets=[x for x in api("/market/all",{"isDetails":"false"}) if x["market"].startswith("KRW-")]; names={x["market"]:x["korean_name"] for x in markets}
+markets=[x for x in api("/market/all",{"isDetails":"false"}) if x["market"].startswith("KRW-")]; names={x["market"]:x["korean_name"] for x in markets};tickers={}
+for start in range(0,len(markets),100):
+ for x in api('/ticker',{'markets':','.join(z['market'] for z in markets[start:start+100])}):tickers[x['market']]=float(x['trade_price'])
 caps=json.loads((ROOT/"monitor_data"/"coin_market_caps.json").read_text(encoding="utf-8")); capmap={x["symbol"]:x for x in caps.get("items",[])}; zcap=capmap.get("ZRO",{}).get("marketCapKrw")
 zbars=completed("KRW-ZRO"); zidx=next((i for i,x in enumerate(zbars) if x["candle_date_time_kst"]=="2026-08-25T21:00:00"),len(zbars)-2); template=shape(zbars,zidx)
 success=[]; failed=[]; current=[]; errors=[]
@@ -38,8 +46,13 @@ for row in markets:
   if len(b)<150:raise ValueError("120시간선 분석 봉 부족")
   last=len(b)-1; f=features(b,last); sim,corr,rmse=similarity(shape(b,last),template); cap=capmap.get(symbol,{}).get("marketCapKrw"); ratio=cap/zcap if cap and zcap else None
   atr=f["atr"]; target_low=max(f["price"]+1.5*atr,min(f["resistance"],f["price"]+3*atr)); target_high=max(target_low,f["price"]+3*atr)
-  base={"symbol":symbol,"name":names[m],"time":b[last]["candle_date_time_kst"],"price":f["price"],"ma120":round(f["ma120"],8),"ma120GapPct":round(f["gapPct"],2),"volumeRatio":round(f["volumeRatio"],2),"bbWidthPct":round(f["bbWidthPct"],2),"rsi":round(f["rsi"],1),"chartSimilarity":round(sim,1),"shapeCorrelation":round(corr,3),"marketCapKrw":cap,"marketCapRatioToZro":round(ratio,2) if ratio else None,"marketCapSimilar":bool(ratio and .5<=ratio<=2),"entryZoneLow":round(f["ma120"]-.25*atr,8),"entryZoneHigh":round(f["ma120"]+.5*atr,8),"invalidationPrice":round(f["ma120"]-1.25*atr,8),"targetLow":round(target_low,8),"targetHigh":round(target_high,8),"targetLowPct":round((target_low/f["price"]-1)*100,2),"targetHighPct":round((target_high/f["price"]-1)*100,2)}
+  current_price=tickers.get(m,f["price"]);base={"symbol":symbol,"name":names[m],"time":b[last]["candle_date_time_kst"],"signalPrice":f["price"],"price":current_price,"ma120":round(f["ma120"],8),"ma120GapPct":round(f["gapPct"],2),"volumeRatio":round(f["volumeRatio"],2),"bbWidthPct":round(f["bbWidthPct"],2),"rsi":round(f["rsi"],1),"chartSimilarity":round(sim,1),"shapeCorrelation":round(corr,3),"marketCapKrw":cap,"marketCapRatioToZro":round(ratio,2) if ratio else None,"marketCapSimilar":bool(ratio and .5<=ratio<=2),"entryZoneLow":round(f["ma120"]-.25*atr,8),"entryZoneHigh":round(f["ma120"]+.5*atr,8),"invalidationPrice":round(f["ma120"]-1.25*atr,8),"targetLow":round(target_low,8),"targetHigh":round(target_high,8),"targetLowPct":round((target_low/f["price"]-1)*100,2),"targetHighPct":round((target_high/f["price"]-1)*100,2)}
   base["recommendedBuyPrice"]=round(base["entryZoneHigh"],8); base["sellPrice1"]=round(max(base["targetLow"],base["recommendedBuyPrice"]+atr),8); base["sellPrice2"]=round(max(base["targetHigh"],base["recommendedBuyPrice"]+2*atr),8); base["netProfitPct1"]=round((base["sellPrice1"]/base["recommendedBuyPrice"]-1)*100-.2,2); base["netProfitPct2"]=round((base["sellPrice2"]/base["recommendedBuyPrice"]-1)*100-.2,2); base["lossToInvalidationPct"]=round((base["invalidationPrice"]/base["recommendedBuyPrice"]-1)*100-.2,2)
+  if current_price>=base["targetLow"]:base["entryState"]="목표구간 도달·추격금지"
+  elif current_price>base["entryZoneHigh"]:base["entryState"]="매수가 통과·눌림 대기"
+  elif current_price>=base["entryZoneLow"]:base["entryState"]="현재 매수 관찰구간"
+  else:base["entryState"]="진입 전·반등 확인 대기"
+  base["currentVsEntryHighPct"]=round((current_price/base["entryZoneHigh"]-1)*100,2);base["priceCheckedAt"]=datetime.now(KST).isoformat(timespec='seconds')
   if f["touched"] or sim>=72 or base["marketCapSimilar"]:
    base["reasons"]=(['현재 120시간선 접촉'] if f["touched"] else [])+(["ZRO 급등 전 24시간 곡선 유사"] if sim>=72 else [])+(["ZRO 시총의 0.5~2배"] if base["marketCapSimilar"] else [])+(["거래량 평균 이하"] if f["volumeRatio"]<.8 else [])
    current.append(base)
@@ -64,4 +77,3 @@ for x in current:
 current.sort(key=lambda x:(x["priorityScore"],x["historicalWinRatePct"],x["chartSimilarity"]),reverse=True); success.sort(key=lambda x:x["touchTime"],reverse=True); failed.sort(key=lambda x:x["touchTime"],reverse=True)
 payload={"updatedAt":datetime.now(KST).isoformat(timespec="seconds"),"source":"Upbit completed 1h candles + CoinGecko market-cap snapshot","definition":{"touch":"봉의 저가≤MA120≤고가 또는 종가 이격도 ±0.8%","success":"터치 후 6시간 내 고가 +3% 이상이며 6시간 종가 수익 양수","chartSimilarity":"ZRO 2026-08-25 21시까지 24시간 정규화 종가곡선의 상관·RMSE 결합","marketCapSimilar":"ZRO 시총의 0.5~2배"},"zroTemplate":{"time":"2026-08-25T21:00:00","marketCapKrw":zcap},"listed":len(markets),"analyzed":len(markets)-len(errors),"currentCandidates":current[:60],"successfulTouches":success[:60],"failedTouches":failed[:60],"errors":errors,"actualOrders":0}
 OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8",newline="\n"); print(json.dumps({"status":"UPDATED","analyzed":payload["analyzed"],"current":len(current),"success":len(success),"failed":len(failed),"errors":len(errors)},ensure_ascii=False))
-
