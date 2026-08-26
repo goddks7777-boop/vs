@@ -1,31 +1,31 @@
 {
-  "time": "2026-08-26T19:07:42+09:00",
-  "signalTime": "2026-08-26T16:00:00+09:00",
+  "time": "2026-08-26T19:09:41+09:00",
+  "signalTime": "2026-08-26T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9942034,
-    "returnPct": -0.58,
+    "value": 9807166,
+    "returnPct": -1.928,
     "positions": [
       "SPX",
       "ENSO",
       "CAP",
-      "COW",
-      "PYTH"
+      "PYTH",
+      "FF"
     ],
-    "trades": 351,
+    "trades": 353,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "POL",
-        "name": "폴리곤에코시스템토큰",
+        "symbol": "COW",
+        "name": "카우프로토콜",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "PYTH",
-        "name": "피스네트워크",
-        "comment": "완성 1시간봉 7/7점·RSI 63.1·거래량 6.50배"
+        "symbol": "FF",
+        "name": "팔콘파이낸스",
+        "comment": "완성 1시간봉 6/7점·RSI 55.6·거래량 3.97배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-26T19:07:42+09:00",
-  "coinUpdatedAt": "2026-08-26T17:03:11+09:00"
+  "coinUpdatedAt": "2026-08-26T19:09:41+09:00"
 }
