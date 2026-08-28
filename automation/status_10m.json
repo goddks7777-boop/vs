@@ -1,36 +1,61 @@
 {
-  "time": "2026-08-28T09:53:56+09:00",
-  "signalTime": "2026-08-27T02:00:00+09:00",
+  "time": "2026-08-28T09:58:57+09:00",
+  "signalTime": "2026-08-28T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9680610,
-    "returnPct": -3.194,
+    "value": 9588849,
+    "returnPct": -4.112,
     "positions": [
       "SONIC",
-      "STX",
-      "CAP",
-      "JUP"
+      "SAHARA",
+      "SOPH",
+      "DATA",
+      "XRP"
     ],
-    "trades": 368,
+    "trades": 375,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "SPX",
-        "name": "에스피엑스6900",
-        "comment": "가상 목표수익 +6%"
+        "symbol": "STX",
+        "name": "스택스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "ONT",
-        "name": "온톨로지",
+        "symbol": "CAP",
+        "name": "캡",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "JUP",
+        "name": "주피터",
         "comment": "가상 목표수익 +6%"
       },
       {
         "type": "BUY",
-        "symbol": "JUP",
-        "name": "주피터",
-        "comment": "완성 1시간봉 6/7점·RSI 53.1·거래량 1.91배"
+        "symbol": "SAHARA",
+        "name": "사하라에이아이",
+        "comment": "완성 1시간봉 7/7점·RSI 58.1·거래량 1.41배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SOPH",
+        "name": "소폰",
+        "comment": "완성 1시간봉 7/7점·RSI 62.0·거래량 1.62배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "DATA",
+        "name": "데이터네트워크",
+        "comment": "완성 1시간봉 7/7점·RSI 58.5·거래량 1.55배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "XRP",
+        "name": "엑스알피(리플)",
+        "comment": "완성 1시간봉 6/7점·RSI 59.3·거래량 1.23배"
       }
     ]
   },
@@ -44,5 +69,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-28T09:53:56+09:00",
-  "coinUpdatedAt": "2026-08-27T03:20:29+09:00"
+  "coinUpdatedAt": "2026-08-28T09:58:57+09:00"
 }
