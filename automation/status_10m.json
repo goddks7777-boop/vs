@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-29T13:41:14+09:00",
+  "time": "2026-08-29T13:47:43+09:00",
   "signalTime": "2026-08-29T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9193955,
-    "returnPct": -8.06,
+    "value": 9184124,
+    "returnPct": -8.159,
     "positions": [
       "TRX",
       "WAXP",
@@ -16,16 +16,10 @@
     "trades": 389,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "MANTRA",
-        "name": "만트라",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
-        "symbol": "GRVT",
-        "name": "그래비티토큰",
-        "comment": "완성 1시간봉 6/7점·RSI 65.0·거래량 2.66배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-29T13:41:14+09:00",
-  "coinUpdatedAt": "2026-08-29T13:38:07+09:00"
+  "coinUpdatedAt": "2026-08-29T13:47:43+09:00"
 }
