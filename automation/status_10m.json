@@ -1,22 +1,23 @@
 {
-  "time": "2026-08-30T08:30:42+09:00",
+  "time": "2026-08-30T08:37:51+09:00",
   "signalTime": "2026-08-30T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9208299,
-    "returnPct": -7.917,
+    "value": 9187937,
+    "returnPct": -8.121,
     "positions": [
       "KNC",
-      "UNI"
+      "UNI",
+      "ZKP"
     ],
-    "trades": 414,
+    "trades": 415,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "BUY",
+        "symbol": "ZKP",
+        "name": "지케이패스",
+        "comment": "완성 1시간봉 7/7점·RSI 65.4·거래량 1.31배"
       }
     ]
   },
@@ -30,5 +31,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-30T08:30:42+09:00",
-  "coinUpdatedAt": "2026-08-30T08:27:41+09:00"
+  "coinUpdatedAt": "2026-08-30T08:37:51+09:00"
 }
