@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-30T08:11:39+09:00",
+  "time": "2026-08-30T08:17:55+09:00",
   "signalTime": "2026-08-30T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9251229,
-    "returnPct": -7.488,
+    "value": 9223123,
+    "returnPct": -7.769,
     "positions": [
       "KNC",
       "UNI"
@@ -13,10 +13,10 @@
     "trades": 414,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ENSO",
-        "name": "엔소",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -30,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-30T08:11:39+09:00",
-  "coinUpdatedAt": "2026-08-30T08:09:06+09:00"
+  "coinUpdatedAt": "2026-08-30T08:17:55+09:00"
 }
