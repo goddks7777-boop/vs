@@ -1,25 +1,41 @@
 {
-  "time": "2026-08-29T18:00:53+09:00",
-  "signalTime": "2026-08-29T16:00:00+09:00",
+  "time": "2026-08-29T18:09:38+09:00",
+  "signalTime": "2026-08-29T17:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9067713,
-    "returnPct": -9.323,
+    "value": 9068106,
+    "returnPct": -9.319,
     "positions": [
-      "WAXP",
-      "SAHARA",
       "GRVT",
-      "MOVE",
-      "SKR"
+      "SKR",
+      "LSK"
     ],
-    "trades": 393,
+    "trades": 397,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "WAXP",
+        "name": "왁스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "SAHARA",
+        "name": "사하라에이아이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "MOVE",
+        "name": "무브먼트",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "LSK",
+        "name": "리스크",
+        "comment": "완성 1시간봉 6/7점·RSI 61.0·거래량 1.42배"
       }
     ]
   },
@@ -33,5 +49,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-29T18:00:53+09:00",
-  "coinUpdatedAt": "2026-08-29T17:57:30+09:00"
+  "coinUpdatedAt": "2026-08-29T18:09:38+09:00"
 }
