@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-29T19:12:45+09:00",
+  "time": "2026-08-29T19:17:55+09:00",
   "signalTime": "2026-08-29T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9037808,
-    "returnPct": -9.622,
+    "value": 9088988,
+    "returnPct": -9.11,
     "positions": [
       "GRVT",
       "LSK",
@@ -15,22 +15,10 @@
     "trades": 400,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SKR",
-        "name": "시커",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "완성 1시간봉 6/7점·RSI 67.2·거래량 2.67배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "KNC",
-        "name": "카이버네트워크",
-        "comment": "완성 1시간봉 6/7점·RSI 58.6·거래량 8.79배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -44,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-29T19:12:45+09:00",
-  "coinUpdatedAt": "2026-08-29T19:09:31+09:00"
+  "coinUpdatedAt": "2026-08-29T19:17:55+09:00"
 }
