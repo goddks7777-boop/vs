@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-30T02:12:30+09:00",
+  "time": "2026-08-30T02:17:50+09:00",
   "signalTime": "2026-08-30T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9112560,
-    "returnPct": -8.874,
+    "value": 9075328,
+    "returnPct": -9.247,
     "positions": [
       "GRVT",
       "KNC",
@@ -16,16 +16,10 @@
     "trades": 407,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZKP",
-        "name": "지케이패스",
-        "comment": "완성 1시간봉 6/7점·RSI 57.3·거래량 4.24배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-30T02:12:30+09:00",
-  "coinUpdatedAt": "2026-08-30T02:09:08+09:00"
+  "coinUpdatedAt": "2026-08-30T02:17:50+09:00"
 }
