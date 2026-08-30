@@ -1,25 +1,31 @@
 {
-  "time": "2026-08-30T14:00:52+09:00",
-  "signalTime": "2026-08-30T12:00:00+09:00",
+  "time": "2026-08-30T14:09:30+09:00",
+  "signalTime": "2026-08-30T13:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9717365,
-    "returnPct": -2.826,
+    "value": 9744129,
+    "returnPct": -2.559,
     "positions": [
       "UNI",
-      "OPG",
       "TRX",
       "DKA",
-      "ZKP"
+      "ZKP",
+      "PROM"
     ],
-    "trades": 427,
+    "trades": 429,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "OPG",
+        "name": "오픈그라디언트",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "PROM",
+        "name": "프롬",
+        "comment": "완성 1시간봉 7/7점·RSI 67.9·거래량 1.40배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-30T14:00:52+09:00",
-  "coinUpdatedAt": "2026-08-30T13:57:35+09:00"
+  "coinUpdatedAt": "2026-08-30T14:09:30+09:00"
 }
