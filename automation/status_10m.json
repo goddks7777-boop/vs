@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-30T10:12:28+09:00",
+  "time": "2026-08-30T10:18:26+09:00",
   "signalTime": "2026-08-30T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9451467,
-    "returnPct": -5.485,
+    "value": 9403684,
+    "returnPct": -5.963,
     "positions": [
       "UNI",
       "WLD",
@@ -16,28 +16,10 @@
     "trades": 421,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "KNC",
-        "name": "카이버네트워크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "DOS",
-        "name": "댑오에스",
-        "comment": "완성 1시간봉 7/7점·RSI 62.9·거래량 7.95배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "OPG",
-        "name": "오픈그라디언트",
-        "comment": "완성 1시간봉 7/7점·RSI 57.2·거래량 1.40배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "TRX",
-        "name": "트론",
-        "comment": "완성 1시간봉 6/7점·RSI 60.9·거래량 2.19배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -51,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-30T10:12:28+09:00",
-  "coinUpdatedAt": "2026-08-30T10:09:51+09:00"
+  "coinUpdatedAt": "2026-08-30T10:18:26+09:00"
 }
