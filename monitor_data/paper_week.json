@@ -34,7 +34,7 @@
       "fee": 1000.0,
       "time": "2026-08-30T18:47:54+09:00",
       "atrPct": 1.578,
-      "peak": 7005.0,
+      "peak": 7085.0,
       "score": 7
     },
     "DOS": {
@@ -7419,65 +7419,15 @@
     {
       "time": "2026-08-30T20:47:42+09:00",
       "value": 10063770.39688889
+    },
+    {
+      "time": "2026-08-30T20:57:36+09:00",
+      "value": 10087603.268512782
     }
   ],
   "status": "RUNNING",
   "rules": "score>=6, RSI<=68, 거래량>=1.2배 / score<=3·VWAP+DMI 하락·ATR손절·6%익절",
   "journal": [
-    {
-      "time": "2026-08-22T18:04:19+09:00",
-      "market": "10분 점검 · 보유 5종목",
-      "notes": [
-        {
-          "type": "SELL",
-          "symbol": "MEGA",
-          "name": "메가이더",
-          "comment": "현재가 VWAP 하향 + -DI 우세"
-        },
-        {
-          "type": "SELL",
-          "symbol": "SNT",
-          "name": "스테이터스네트워크토큰",
-          "comment": "완성 1시간봉 조합점수 3점 이하"
-        },
-        {
-          "type": "SELL",
-          "symbol": "XLM",
-          "name": "스텔라루멘",
-          "comment": "현재가 VWAP 하향 + -DI 우세"
-        },
-        {
-          "type": "SELL",
-          "symbol": "SUI",
-          "name": "수이",
-          "comment": "현재가 VWAP 하향 + -DI 우세"
-        },
-        {
-          "type": "BUY",
-          "symbol": "MOVE",
-          "name": "무브먼트",
-          "comment": "완성 1시간봉 7/7점·RSI 61.8·거래량 3.53배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "SIGN",
-          "name": "사인",
-          "comment": "완성 1시간봉 7/7점·RSI 57.3·거래량 1.61배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "PUMP",
-          "name": "펌프펀",
-          "comment": "완성 1시간봉 6/7점·RSI 61.0·거래량 3.15배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "TT",
-          "name": "썬더코어",
-          "comment": "완성 1시간봉 6/7점·RSI 60.2·거래량 2.32배"
-        }
-      ]
-    },
     {
       "time": "2026-08-22T18:54:49+09:00",
       "market": "10분 점검 · 보유 5종목",
@@ -11764,6 +11714,18 @@
     },
     {
       "time": "2026-08-30T20:47:42+09:00",
+      "market": "10분 점검 · 보유 5종목",
+      "notes": [
+        {
+          "type": "WATCH",
+          "symbol": "MARKET",
+          "name": "전체시장",
+          "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        }
+      ]
+    },
+    {
+      "time": "2026-08-30T20:57:36+09:00",
       "market": "10분 점검 · 보유 5종목",
       "notes": [
         {
