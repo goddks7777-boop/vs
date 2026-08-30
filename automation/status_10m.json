@@ -1,25 +1,43 @@
 {
-  "time": "2026-08-30T20:01:16+09:00",
-  "signalTime": "2026-08-30T18:00:00+09:00",
+  "time": "2026-08-30T20:09:12+09:00",
+  "signalTime": "2026-08-30T19:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 10089958,
-    "returnPct": 0.9,
+    "value": 10132793,
+    "returnPct": 1.328,
     "positions": [
-      "TRX",
       "DKA",
-      "PROM",
       "VET",
-      "UNI"
+      "UNI",
+      "DOS",
+      "XPL"
     ],
-    "trades": 435,
+    "trades": 439,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "TRX",
+        "name": "트론",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "PROM",
+        "name": "프롬",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
+        "type": "BUY",
+        "symbol": "DOS",
+        "name": "댑오에스",
+        "comment": "완성 1시간봉 7/7점·RSI 65.8·거래량 2.17배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "XPL",
+        "name": "플라즈마",
+        "comment": "완성 1시간봉 7/7점·RSI 67.6·거래량 4.21배"
       }
     ]
   },
@@ -33,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-30T20:01:16+09:00",
-  "coinUpdatedAt": "2026-08-30T19:57:50+09:00"
+  "coinUpdatedAt": "2026-08-30T20:09:12+09:00"
 }
