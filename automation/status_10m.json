@@ -1,25 +1,43 @@
 {
-  "time": "2026-08-31T08:00:57+09:00",
-  "signalTime": "2026-08-31T06:00:00+09:00",
+  "time": "2026-08-31T08:09:11+09:00",
+  "signalTime": "2026-08-31T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9954019,
-    "returnPct": -0.46,
+    "value": 9978787,
+    "returnPct": -0.212,
     "positions": [
       "DOS",
       "LA",
-      "AAVE",
       "DATA",
-      "BTC"
+      "ENS",
+      "BARD"
     ],
-    "trades": 447,
+    "trades": 451,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "AAVE",
+        "name": "에이브",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "BTC",
+        "name": "비트코인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ENS",
+        "name": "이더리움네임서비스",
+        "comment": "완성 1시간봉 7/7점·RSI 56.8·거래량 1.31배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BARD",
+        "name": "롬바드",
+        "comment": "완성 1시간봉 7/7점·RSI 53.0·거래량 1.38배"
       }
     ]
   },
@@ -33,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-31T08:00:57+09:00",
-  "coinUpdatedAt": "2026-08-31T07:57:47+09:00"
+  "coinUpdatedAt": "2026-08-31T08:09:11+09:00"
 }
