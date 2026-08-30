@@ -7637,53 +7637,15 @@
     {
       "time": "2026-08-31T03:47:54+09:00",
       "value": 10134109.643505711
+    },
+    {
+      "time": "2026-08-31T03:57:53+09:00",
+      "value": 10134986.450029872
     }
   ],
   "status": "RUNNING",
   "rules": "score>=6, RSI<=68, 거래량>=1.2배 / score<=3·VWAP+DMI 하락·ATR손절·6%익절",
   "journal": [
-    {
-      "time": "2026-08-24T23:24:57+09:00",
-      "market": "10분 점검 · 보유 5종목",
-      "notes": [
-        {
-          "type": "SELL",
-          "symbol": "INJ",
-          "name": "인젝티브",
-          "comment": "가상 목표수익 +6%"
-        },
-        {
-          "type": "SELL",
-          "symbol": "ETHFI",
-          "name": "이더파이",
-          "comment": "완성 1시간봉 조합점수 3점 이하"
-        },
-        {
-          "type": "SELL",
-          "symbol": "RE",
-          "name": "리",
-          "comment": "ATR 가상손절 -4.57%"
-        },
-        {
-          "type": "BUY",
-          "symbol": "PROM",
-          "name": "프롬",
-          "comment": "완성 1시간봉 7/7점·RSI 62.6·거래량 1.25배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "VIRTUAL",
-          "name": "버추얼프로토콜",
-          "comment": "완성 1시간봉 7/7점·RSI 65.0·거래량 1.89배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "ZAMA",
-          "name": "자마",
-          "comment": "완성 1시간봉 7/7점·RSI 61.5·거래량 1.47배"
-        }
-      ]
-    },
     {
       "time": "2026-08-25T01:11:19+09:00",
       "market": "10분 점검 · 보유 5종목",
@@ -11694,6 +11656,18 @@
     },
     {
       "time": "2026-08-31T03:47:54+09:00",
+      "market": "10분 점검 · 보유 5종목",
+      "notes": [
+        {
+          "type": "WATCH",
+          "symbol": "MARKET",
+          "name": "전체시장",
+          "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        }
+      ]
+    },
+    {
+      "time": "2026-08-31T03:57:53+09:00",
       "market": "10분 점검 · 보유 5종목",
       "notes": [
         {
