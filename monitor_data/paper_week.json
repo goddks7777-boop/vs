@@ -7411,65 +7411,15 @@
     {
       "time": "2026-08-30T20:27:46+09:00",
       "value": 10097442.150428973
+    },
+    {
+      "time": "2026-08-30T20:37:47+09:00",
+      "value": 10028650.218460709
     }
   ],
   "status": "RUNNING",
   "rules": "score>=6, RSI<=68, 거래량>=1.2배 / score<=3·VWAP+DMI 하락·ATR손절·6%익절",
   "journal": [
-    {
-      "time": "2026-08-22T14:59:58+09:00",
-      "market": "10분 점검 · 보유 5종목",
-      "notes": [
-        {
-          "type": "SELL",
-          "symbol": "KAITO",
-          "name": "카이토",
-          "comment": "ATR 가상손절 -5.88%"
-        },
-        {
-          "type": "SELL",
-          "symbol": "MMT",
-          "name": "모멘텀",
-          "comment": "ATR 가상손절 -4.19%"
-        },
-        {
-          "type": "SELL",
-          "symbol": "HOME",
-          "name": "디파이앱",
-          "comment": "ATR 가상손절 -4.71%"
-        },
-        {
-          "type": "SELL",
-          "symbol": "SLX",
-          "name": "솔스티스",
-          "comment": "ATR 가상손절 -3.90%"
-        },
-        {
-          "type": "BUY",
-          "symbol": "DOS",
-          "name": "댑오에스",
-          "comment": "완성 1시간봉 7/7점·RSI 60.5·거래량 2.41배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "ME",
-          "name": "매직에덴",
-          "comment": "완성 1시간봉 7/7점·RSI 66.9·거래량 1.22배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "BSV",
-          "name": "비트코인에스브이",
-          "comment": "완성 1시간봉 7/7점·RSI 67.8·거래량 1.35배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "SNT",
-          "name": "스테이터스네트워크토큰",
-          "comment": "완성 1시간봉 7/7점·RSI 67.8·거래량 1.32배"
-        }
-      ]
-    },
     {
       "time": "2026-08-22T16:48:06+09:00",
       "market": "10분 점검 · 보유 5종목",
@@ -11828,6 +11778,18 @@
     },
     {
       "time": "2026-08-30T20:27:46+09:00",
+      "market": "10분 점검 · 보유 5종목",
+      "notes": [
+        {
+          "type": "WATCH",
+          "symbol": "MARKET",
+          "name": "전체시장",
+          "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        }
+      ]
+    },
+    {
+      "time": "2026-08-30T20:37:47+09:00",
       "market": "10분 점검 · 보유 5종목",
       "notes": [
         {
