@@ -7460,65 +7460,15 @@
     {
       "time": "2026-08-30T21:28:15+09:00",
       "value": 10147266.033156287
+    },
+    {
+      "time": "2026-08-30T21:38:02+09:00",
+      "value": 10089576.048687844
     }
   ],
   "status": "RUNNING",
   "rules": "score>=6, RSI<=68, 거래량>=1.2배 / score<=3·VWAP+DMI 하락·ATR손절·6%익절",
   "journal": [
-    {
-      "time": "2026-08-22T22:41:54+09:00",
-      "market": "10분 점검 · 보유 5종목",
-      "notes": [
-        {
-          "type": "SELL",
-          "symbol": "MOVE",
-          "name": "무브먼트",
-          "comment": "완성 1시간봉 조합점수 3점 이하"
-        },
-        {
-          "type": "SELL",
-          "symbol": "PUMP",
-          "name": "펌프펀",
-          "comment": "가상 목표수익 +6%"
-        },
-        {
-          "type": "SELL",
-          "symbol": "TT",
-          "name": "썬더코어",
-          "comment": "완성 1시간봉 조합점수 3점 이하"
-        },
-        {
-          "type": "SELL",
-          "symbol": "PROVE",
-          "name": "서싱트",
-          "comment": "완성 1시간봉 조합점수 3점 이하"
-        },
-        {
-          "type": "BUY",
-          "symbol": "POWR",
-          "name": "파워렛저",
-          "comment": "완성 1시간봉 7/7점·RSI 61.4·거래량 16.35배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "STEEM",
-          "name": "스팀",
-          "comment": "완성 1시간봉 7/7점·RSI 61.3·거래량 1.29배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "IOST",
-          "name": "아이오에스티",
-          "comment": "완성 1시간봉 7/7점·RSI 59.0·거래량 8.73배"
-        },
-        {
-          "type": "BUY",
-          "symbol": "CBK",
-          "name": "코박토큰",
-          "comment": "완성 1시간봉 7/7점·RSI 60.9·거래량 2.69배"
-        }
-      ]
-    },
     {
       "time": "2026-08-22T23:44:20+09:00",
       "market": "10분 점검 · 보유 5종목",
@@ -11763,6 +11713,18 @@
     },
     {
       "time": "2026-08-30T21:28:15+09:00",
+      "market": "10분 점검 · 보유 5종목",
+      "notes": [
+        {
+          "type": "WATCH",
+          "symbol": "MARKET",
+          "name": "전체시장",
+          "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        }
+      ]
+    },
+    {
+      "time": "2026-08-30T21:38:02+09:00",
       "market": "10분 점검 · 보유 5종목",
       "notes": [
         {
