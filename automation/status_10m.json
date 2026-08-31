@@ -1,11 +1,11 @@
 {
-  "time": "2026-08-31T22:12:05+09:00",
+  "time": "2026-08-31T22:18:00+09:00",
   "signalTime": "2026-08-31T21:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9377553,
-    "returnPct": -6.224,
+    "value": 9389445,
+    "returnPct": -6.106,
     "positions": [
       "MNT",
       "LA",
@@ -16,16 +16,10 @@
     "trades": 483,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "AXL",
-        "name": "엑셀라",
-        "comment": "ATR 가상손절 -11.51%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "STORJ",
-        "name": "스토리지",
-        "comment": "완성 1시간봉 7/7점·RSI 61.7·거래량 2.81배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-08-31T22:12:05+09:00",
-  "coinUpdatedAt": "2026-08-31T22:09:28+09:00"
+  "coinUpdatedAt": "2026-08-31T22:18:00+09:00"
 }
