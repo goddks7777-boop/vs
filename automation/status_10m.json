@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-01T05:12:28+09:00",
+  "time": "2026-09-01T05:17:56+09:00",
   "signalTime": "2026-09-01T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9348425,
-    "returnPct": -6.516,
+    "value": 9323618,
+    "returnPct": -6.764,
     "positions": [
       "LA",
       "BERA"
@@ -13,16 +13,10 @@
     "trades": 494,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "BONK",
-        "name": "봉크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "HOLO",
-        "name": "홀로월드에이아이",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -36,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-01T05:12:28+09:00",
-  "coinUpdatedAt": "2026-09-01T05:09:30+09:00"
+  "coinUpdatedAt": "2026-09-01T05:17:56+09:00"
 }
