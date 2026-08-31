@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-01T04:41:12+09:00",
+  "time": "2026-09-01T04:47:49+09:00",
   "signalTime": "2026-09-01T03:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9369447,
-    "returnPct": -6.306,
+    "value": 9338774,
+    "returnPct": -6.612,
     "positions": [
       "LA",
       "BONK",
@@ -15,10 +15,10 @@
     "trades": 492,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ZORA",
-        "name": "조라",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -32,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-01T04:41:12+09:00",
-  "coinUpdatedAt": "2026-09-01T04:37:52+09:00"
+  "coinUpdatedAt": "2026-09-01T04:47:49+09:00"
 }
