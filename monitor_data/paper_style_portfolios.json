@@ -2122,15 +2122,13 @@
         {
           "time": "2026-09-02T05:57:55+09:00",
           "value": 10000000
+        },
+        {
+          "time": "2026-09-02T06:16:13+09:00",
+          "value": 10000000
         }
       ],
       "journal": [
-        {
-          "time": "2026-08-29T10:17:55+09:00",
-          "actions": [
-            "검증 통과 Champion 없음 · 신규 매수 보류"
-          ]
-        },
         {
           "time": "2026-08-29T10:27:47+09:00",
           "actions": [
@@ -5121,6 +5119,12 @@
         },
         {
           "time": "2026-09-02T05:57:55+09:00",
+          "actions": [
+            "검증 통과 Champion 없음 · 신규 매수 보류"
+          ]
+        },
+        {
+          "time": "2026-09-02T06:16:13+09:00",
           "actions": [
             "검증 통과 Champion 없음 · 신규 매수 보류"
           ]
@@ -7797,15 +7801,13 @@
         {
           "time": "2026-09-02T05:57:55+09:00",
           "value": 9505829.284664521
+        },
+        {
+          "time": "2026-09-02T06:16:13+09:00",
+          "value": 9505829.284664521
         }
       ],
       "journal": [
-        {
-          "time": "2026-08-29T10:17:55+09:00",
-          "actions": [
-            "새 가상체결 없음"
-          ]
-        },
         {
           "time": "2026-08-29T10:27:47+09:00",
           "actions": [
@@ -10811,6 +10813,12 @@
           "actions": [
             "검증 통과 Champion 없음 · 신규 매수 보류"
           ]
+        },
+        {
+          "time": "2026-09-02T06:16:13+09:00",
+          "actions": [
+            "검증 통과 Champion 없음 · 신규 매수 보류"
+          ]
         }
       ],
       "stats": {
@@ -12951,15 +12959,13 @@
         {
           "time": "2026-09-02T05:57:55+09:00",
           "value": 10000000
+        },
+        {
+          "time": "2026-09-02T06:16:13+09:00",
+          "value": 10000000
         }
       ],
       "journal": [
-        {
-          "time": "2026-08-29T10:17:55+09:00",
-          "actions": [
-            "검증 통과 Champion 없음 · 신규 매수 보류"
-          ]
-        },
         {
           "time": "2026-08-29T10:27:47+09:00",
           "actions": [
@@ -15953,6 +15959,12 @@
           "actions": [
             "검증 통과 Champion 없음 · 신규 매수 보류"
           ]
+        },
+        {
+          "time": "2026-09-02T06:16:13+09:00",
+          "actions": [
+            "검증 통과 Champion 없음 · 신규 매수 보류"
+          ]
         }
       ],
       "stats": {
@@ -15973,7 +15985,7 @@
       }
     }
   },
-  "updatedAt": "2026-09-02T05:57:55+09:00",
+  "updatedAt": "2026-09-02T06:16:13+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "universe": {
@@ -15993,8 +16005,8 @@
       "strategy": "매집 개선형",
       "state": "확인",
       "score": 4,
-      "price": 1088.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1073.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16005,9 +16017,9 @@
       "cmf": 0.3901,
       "cmfChange": 0.4748,
       "obvSlope": 0.9192,
-      "volumeRatio1h": 2.53,
-      "ma120GapPct": 14.08,
-      "atrPct": 2.41
+      "volumeRatio1h": 1.54,
+      "ma120GapPct": 12.43,
+      "atrPct": 2.62
     },
     {
       "symbol": "ETH",
@@ -16015,8 +16027,8 @@
       "strategy": "매집 압축형",
       "state": "준비",
       "score": 3,
-      "price": 3350000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3353000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "거래량 수축",
@@ -16028,9 +16040,9 @@
       "cmf": -0.0067,
       "cmfChange": 0.0097,
       "obvSlope": 0.1235,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.7,
-      "atrPct": 0.7
+      "volumeRatio1h": 0.48,
+      "ma120GapPct": -1.59,
+      "atrPct": 0.69
     },
     {
       "symbol": "SKR",
@@ -16038,8 +16050,8 @@
       "strategy": "매집 압축형",
       "state": "준비",
       "score": 3,
-      "price": 31.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 32.2,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "CMF 0.03 이상",
@@ -16051,9 +16063,9 @@
       "cmf": 0.152,
       "cmfChange": -0.0784,
       "obvSlope": 0.2573,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": 27.83,
-      "atrPct": 6.85
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 29.04,
+      "atrPct": 6.61
     },
     {
       "symbol": "DOGE",
@@ -16062,7 +16074,7 @@
       "state": "준비",
       "score": 3,
       "price": 114.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "거래량 수축",
@@ -16074,8 +16086,8 @@
       "cmf": 0.171,
       "cmfChange": -0.0528,
       "obvSlope": -0.0694,
-      "volumeRatio1h": 0.12,
-      "ma120GapPct": -2.87,
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -2.81,
       "atrPct": 1.38
     },
     {
@@ -16084,8 +16096,8 @@
       "strategy": "매집 기본형",
       "state": "준비",
       "score": 3,
-      "price": 244.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 245.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 개선",
@@ -16097,8 +16109,8 @@
       "cmf": 0.0388,
       "cmfChange": 0.0218,
       "obvSlope": 0.0066,
-      "volumeRatio1h": 0.48,
-      "ma120GapPct": -1.73,
+      "volumeRatio1h": 0.28,
+      "ma120GapPct": -1.28,
       "atrPct": 1.2
     },
     {
@@ -16107,8 +16119,8 @@
       "strategy": "매집 개선형",
       "state": "준비",
       "score": 3,
-      "price": 244.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 245.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16120,8 +16132,8 @@
       "cmf": 0.0388,
       "cmfChange": 0.0218,
       "obvSlope": 0.0066,
-      "volumeRatio1h": 0.48,
-      "ma120GapPct": -1.73,
+      "volumeRatio1h": 0.28,
+      "ma120GapPct": -1.28,
       "atrPct": 1.2
     },
     {
@@ -16130,8 +16142,8 @@
       "strategy": "매집 압축형",
       "state": "준비",
       "score": 3,
-      "price": 244.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 245.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "CMF 0.03 이상",
@@ -16143,8 +16155,8 @@
       "cmf": 0.0388,
       "cmfChange": 0.0218,
       "obvSlope": 0.0066,
-      "volumeRatio1h": 0.48,
-      "ma120GapPct": -1.73,
+      "volumeRatio1h": 0.28,
+      "ma120GapPct": -1.28,
       "atrPct": 1.2
     },
     {
@@ -16153,8 +16165,8 @@
       "strategy": "매집 개선형",
       "state": "준비",
       "score": 3,
-      "price": 1003.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1004.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16166,9 +16178,9 @@
       "cmf": -0.0187,
       "cmfChange": 0.1032,
       "obvSlope": 0.1739,
-      "volumeRatio1h": 0.15,
-      "ma120GapPct": -2.16,
-      "atrPct": 1.16
+      "volumeRatio1h": 0.78,
+      "ma120GapPct": -2.01,
+      "atrPct": 1.13
     },
     {
       "symbol": "ADA",
@@ -16177,7 +16189,7 @@
       "state": "준비",
       "score": 3,
       "price": 272.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16189,9 +16201,9 @@
       "cmf": -0.0383,
       "cmfChange": 0.0747,
       "obvSlope": 0.0157,
-      "volumeRatio1h": 0.54,
-      "ma120GapPct": -2.58,
-      "atrPct": 1.29
+      "volumeRatio1h": 0.9,
+      "ma120GapPct": -2.51,
+      "atrPct": 1.23
     },
     {
       "symbol": "WLD",
@@ -16199,8 +16211,8 @@
       "strategy": "매집 개선형",
       "state": "준비",
       "score": 3,
-      "price": 502.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 501.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16212,9 +16224,78 @@
       "cmf": -0.0808,
       "cmfChange": 0.1341,
       "obvSlope": 0.0856,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -3.92,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -4.01,
+      "atrPct": 1.78
+    },
+    {
+      "symbol": "CHIP",
+      "name": "유에스디에이아이",
+      "strategy": "추세 돌파형",
+      "state": "준비",
+      "score": 3,
+      "price": 62.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 상승추세"
+      ],
+      "cmf": 0.1137,
+      "cmfChange": 0.4729,
+      "obvSlope": 0.4828,
+      "volumeRatio1h": 1.53,
+      "ma120GapPct": 12.08,
+      "atrPct": 3.25
+    },
+    {
+      "symbol": "CHIP",
+      "name": "유에스디에이아이",
+      "strategy": "매집 기본형",
+      "state": "준비",
+      "score": 3,
+      "price": 62.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "CMF 개선",
+        "OBV 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내"
+      ],
+      "cmf": 0.1137,
+      "cmfChange": 0.4729,
+      "obvSlope": 0.4828,
+      "volumeRatio1h": 1.53,
+      "ma120GapPct": 12.08,
+      "atrPct": 3.25
+    },
+    {
+      "symbol": "CHIP",
+      "name": "유에스디에이아이",
+      "strategy": "매집 개선형",
+      "state": "준비",
+      "score": 3,
+      "price": 62.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "CMF 5봉 개선",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내"
+      ],
+      "cmf": 0.1137,
+      "cmfChange": 0.4729,
+      "obvSlope": 0.4828,
+      "volumeRatio1h": 1.53,
+      "ma120GapPct": 12.08,
+      "atrPct": 3.25
     },
     {
       "symbol": "CHIP",
@@ -16222,8 +16303,8 @@
       "strategy": "매집 압축형",
       "state": "준비",
       "score": 3,
-      "price": 61.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 62.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "CMF 0.03 이상",
@@ -16235,9 +16316,9 @@
       "cmf": 0.1137,
       "cmfChange": 0.4729,
       "obvSlope": 0.4828,
-      "volumeRatio1h": 0.61,
-      "ma120GapPct": 10.07,
-      "atrPct": 3.33
+      "volumeRatio1h": 1.53,
+      "ma120GapPct": 12.08,
+      "atrPct": 3.25
     },
     {
       "symbol": "DATA",
@@ -16245,8 +16326,8 @@
       "strategy": "매집 기본형",
       "state": "준비",
       "score": 3,
-      "price": 258.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 257.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 개선",
@@ -16258,9 +16339,9 @@
       "cmf": 0.0369,
       "cmfChange": 0.34,
       "obvSlope": 0.1163,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.76,
-      "atrPct": 1.44
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 0.37,
+      "atrPct": 1.31
     },
     {
       "symbol": "DATA",
@@ -16268,8 +16349,8 @@
       "strategy": "매집 개선형",
       "state": "준비",
       "score": 3,
-      "price": 258.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 257.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16281,9 +16362,9 @@
       "cmf": 0.0369,
       "cmfChange": 0.34,
       "obvSlope": 0.1163,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.76,
-      "atrPct": 1.44
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 0.37,
+      "atrPct": 1.31
     },
     {
       "symbol": "STX",
@@ -16291,8 +16372,8 @@
       "strategy": "매집 압축형",
       "state": "준비",
       "score": 3,
-      "price": 355.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "CMF 0.03 이상",
@@ -16304,9 +16385,9 @@
       "cmf": 0.077,
       "cmfChange": 0.1383,
       "obvSlope": 0.3217,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 2.1,
-      "atrPct": 1.87
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": 2.38,
+      "atrPct": 1.77
     },
     {
       "symbol": "SHIB",
@@ -16315,7 +16396,7 @@
       "state": "준비",
       "score": 3,
       "price": 0.00714,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 개선",
@@ -16327,8 +16408,8 @@
       "cmf": 0.116,
       "cmfChange": 0.1542,
       "obvSlope": 0.4207,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": 0.0,
+      "volumeRatio1h": 0.36,
+      "ma120GapPct": 0.04,
       "atrPct": 1.11
     },
     {
@@ -16338,7 +16419,7 @@
       "state": "준비",
       "score": 3,
       "price": 0.00714,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16350,8 +16431,8 @@
       "cmf": 0.116,
       "cmfChange": 0.1542,
       "obvSlope": 0.4207,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": 0.0,
+      "volumeRatio1h": 0.36,
+      "ma120GapPct": 0.04,
       "atrPct": 1.11
     },
     {
@@ -16361,7 +16442,7 @@
       "state": "준비",
       "score": 3,
       "price": 0.00714,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "CMF 0.03 이상",
@@ -16373,8 +16454,8 @@
       "cmf": 0.116,
       "cmfChange": 0.1542,
       "obvSlope": 0.4207,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": 0.0,
+      "volumeRatio1h": 0.36,
+      "ma120GapPct": 0.04,
       "atrPct": 1.11
     },
     {
@@ -16383,8 +16464,8 @@
       "strategy": "매집 기본형",
       "state": "준비",
       "score": 3,
-      "price": 1088.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1073.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 개선",
@@ -16396,9 +16477,9 @@
       "cmf": 0.3901,
       "cmfChange": 0.4748,
       "obvSlope": 0.9192,
-      "volumeRatio1h": 2.53,
-      "ma120GapPct": 14.08,
-      "atrPct": 2.41
+      "volumeRatio1h": 1.54,
+      "ma120GapPct": 12.43,
+      "atrPct": 2.62
     },
     {
       "symbol": "IOST",
@@ -16406,8 +16487,8 @@
       "strategy": "매집 개선형",
       "state": "준비",
       "score": 3,
-      "price": 0.828,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.827,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선",
@@ -16419,8 +16500,8 @@
       "cmf": -0.2302,
       "cmfChange": 0.121,
       "obvSlope": 0.3537,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 1.11,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 1.0,
       "atrPct": 2.61
     },
     {
@@ -16430,7 +16511,7 @@
       "state": "관찰",
       "score": 2,
       "price": 1877.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선"
@@ -16442,8 +16523,8 @@
       "cmf": -0.0616,
       "cmfChange": 0.0974,
       "obvSlope": -0.0817,
-      "volumeRatio1h": 0.59,
-      "ma120GapPct": -2.57,
+      "volumeRatio1h": 0.57,
+      "ma120GapPct": -2.51,
       "atrPct": 0.94
     },
     {
@@ -16453,7 +16534,7 @@
       "state": "관찰",
       "score": 2,
       "price": 1877.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "거래량 수축"
@@ -16465,9 +16546,32 @@
       "cmf": -0.0616,
       "cmfChange": 0.0974,
       "obvSlope": -0.0817,
-      "volumeRatio1h": 0.59,
-      "ma120GapPct": -2.57,
+      "volumeRatio1h": 0.57,
+      "ma120GapPct": -2.51,
       "atrPct": 0.94
+    },
+    {
+      "symbol": "BONK",
+      "name": "봉크",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 2,
+      "price": 0.00574,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 상승추세",
+        "OBV 상승"
+      ],
+      "missing": [
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배"
+      ],
+      "cmf": -0.195,
+      "cmfChange": 0.2166,
+      "obvSlope": 0.5718,
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 24.26,
+      "atrPct": 8.6
     },
     {
       "symbol": "BTC",
@@ -16475,8 +16579,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 107030000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 107215000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "거래량 수축"
@@ -16488,9 +16592,9 @@
       "cmf": -0.0258,
       "cmfChange": -0.018,
       "obvSlope": -0.0584,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.46,
-      "atrPct": 0.51
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -1.26,
+      "atrPct": 0.48
     },
     {
       "symbol": "SC",
@@ -16498,8 +16602,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 1.21,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.24,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -16512,8 +16616,8 @@
       "cmfChange": 0.4181,
       "obvSlope": 0.8393,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 33.08,
-      "atrPct": 9.68
+      "ma120GapPct": 35.96,
+      "atrPct": 9.22
     },
     {
       "symbol": "ETH",
@@ -16521,8 +16625,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 3350000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3353000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 개선"
@@ -16534,9 +16638,9 @@
       "cmf": -0.0067,
       "cmfChange": 0.0097,
       "obvSlope": 0.1235,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.7,
-      "atrPct": 0.7
+      "volumeRatio1h": 0.48,
+      "ma120GapPct": -1.59,
+      "atrPct": 0.69
     },
     {
       "symbol": "ETH",
@@ -16544,8 +16648,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 3350000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3353000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 기울기 개선"
@@ -16557,9 +16661,9 @@
       "cmf": -0.0067,
       "cmfChange": 0.0097,
       "obvSlope": 0.1235,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.7,
-      "atrPct": 0.7
+      "volumeRatio1h": 0.48,
+      "ma120GapPct": -1.59,
+      "atrPct": 0.69
     },
     {
       "symbol": "SOL",
@@ -16567,8 +16671,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 138600.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 138500.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "거래량 수축"
@@ -16580,9 +16684,9 @@
       "cmf": -0.1546,
       "cmfChange": -0.0088,
       "obvSlope": -0.25,
-      "volumeRatio1h": 0.78,
-      "ma120GapPct": -4.09,
-      "atrPct": 0.96
+      "volumeRatio1h": 0.69,
+      "ma120GapPct": -4.1,
+      "atrPct": 0.93
     },
     {
       "symbol": "IQ",
@@ -16590,8 +16694,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 1.05,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.04,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -16603,9 +16707,9 @@
       "cmf": -0.0621,
       "cmfChange": 0.2493,
       "obvSlope": 0.5854,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 10.92,
-      "atrPct": 7.37
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 9.79,
+      "atrPct": 7.61
     },
     {
       "symbol": "ZKC",
@@ -16613,8 +16717,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 67.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 66.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "CMF 0.03 이상"
@@ -16626,9 +16730,9 @@
       "cmf": 0.1189,
       "cmfChange": -0.0684,
       "obvSlope": -0.3156,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": -0.34,
-      "atrPct": 2.19
+      "volumeRatio1h": 0.03,
+      "ma120GapPct": -0.62,
+      "atrPct": 1.94
     },
     {
       "symbol": "UNI",
@@ -16636,8 +16740,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 7825.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7920.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 개선",
         "OBV 개선"
@@ -16649,9 +16753,9 @@
       "cmf": 0.0672,
       "cmfChange": 0.129,
       "obvSlope": 0.431,
-      "volumeRatio1h": 0.1,
-      "ma120GapPct": 14.28,
-      "atrPct": 2.7
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": 15.45,
+      "atrPct": 2.32
     },
     {
       "symbol": "UNI",
@@ -16659,8 +16763,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 7825.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7920.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -16672,9 +16776,9 @@
       "cmf": 0.0672,
       "cmfChange": 0.129,
       "obvSlope": 0.431,
-      "volumeRatio1h": 0.1,
-      "ma120GapPct": 14.28,
-      "atrPct": 2.7
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": 15.45,
+      "atrPct": 2.32
     },
     {
       "symbol": "UNI",
@@ -16682,8 +16786,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 7825.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7920.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -16695,9 +16799,32 @@
       "cmf": 0.0672,
       "cmfChange": 0.129,
       "obvSlope": 0.431,
-      "volumeRatio1h": 0.1,
-      "ma120GapPct": 14.28,
-      "atrPct": 2.7
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": 15.45,
+      "atrPct": 2.32
+    },
+    {
+      "symbol": "ENA",
+      "name": "에테나",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 2,
+      "price": 221.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "1시간 MA120 지지",
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.0163,
+      "cmfChange": 0.275,
+      "obvSlope": 0.0978,
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 0.9,
+      "atrPct": 3.1
     },
     {
       "symbol": "ENA",
@@ -16705,8 +16832,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 218.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 221.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -16718,32 +16845,9 @@
       "cmf": -0.0163,
       "cmfChange": 0.275,
       "obvSlope": 0.0978,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -0.51,
-      "atrPct": 3.15
-    },
-    {
-      "symbol": "ZORA",
-      "name": "조라",
-      "strategy": "매집 압축형",
-      "state": "관찰",
-      "score": 2,
-      "price": 11.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "거래량 수축",
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 박스권 8% 이내",
-        "CMF 0.03 이상"
-      ],
-      "cmf": -0.2304,
-      "cmfChange": -0.0297,
-      "obvSlope": 0.1268,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 8.03,
-      "atrPct": 4.42
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 0.9,
+      "atrPct": 3.1
     },
     {
       "symbol": "FLOCK",
@@ -16751,8 +16855,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 2,
-      "price": 48.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "1시간 MA120 지지",
         "4시간 추세 훼손 없음"
@@ -16765,8 +16869,31 @@
       "cmfChange": -0.0776,
       "obvSlope": -0.0267,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 0.73,
-      "atrPct": 2.32
+      "ma120GapPct": 1.72,
+      "atrPct": 2.26
+    },
+    {
+      "symbol": "ZORA",
+      "name": "조라",
+      "strategy": "매집 압축형",
+      "state": "관찰",
+      "score": 2,
+      "price": 10.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "거래량 수축",
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 박스권 8% 이내",
+        "CMF 0.03 이상"
+      ],
+      "cmf": -0.2304,
+      "cmfChange": -0.0297,
+      "obvSlope": 0.1268,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 5.87,
+      "atrPct": 4.3
     },
     {
       "symbol": "ONDO",
@@ -16775,7 +16902,7 @@
       "state": "관찰",
       "score": 2,
       "price": 474.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선"
@@ -16787,9 +16914,9 @@
       "cmf": -0.0334,
       "cmfChange": 0.1445,
       "obvSlope": -0.0539,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": -3.4,
-      "atrPct": 1.21
+      "volumeRatio1h": 0.27,
+      "ma120GapPct": -3.32,
+      "atrPct": 1.16
     },
     {
       "symbol": "ARB",
@@ -16797,8 +16924,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 2,
-      "price": 150.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 148.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세",
         "OBV 상승"
@@ -16810,9 +16937,9 @@
       "cmf": 0.1702,
       "cmfChange": -0.1176,
       "obvSlope": 0.7134,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 16.94,
-      "atrPct": 3.67
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 15.21,
+      "atrPct": 3.72
     },
     {
       "symbol": "ARB",
@@ -16820,8 +16947,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 150.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 148.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -16833,9 +16960,32 @@
       "cmf": 0.1702,
       "cmfChange": -0.1176,
       "obvSlope": 0.7134,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 16.94,
-      "atrPct": 3.67
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 15.21,
+      "atrPct": 3.72
+    },
+    {
+      "symbol": "NEAR",
+      "name": "니어프로토콜",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 2,
+      "price": 2640.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "1시간 MA120 지지",
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.001,
+      "cmfChange": 0.1452,
+      "obvSlope": 0.5417,
+      "volumeRatio1h": 0.34,
+      "ma120GapPct": 1.66,
+      "atrPct": 1.98
     },
     {
       "symbol": "NEAR",
@@ -16843,8 +16993,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 2635.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 2640.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -16856,32 +17006,9 @@
       "cmf": -0.001,
       "cmfChange": 0.1452,
       "obvSlope": 0.5417,
-      "volumeRatio1h": 0.41,
-      "ma120GapPct": 1.45,
-      "atrPct": 2.02
-    },
-    {
-      "symbol": "LA",
-      "name": "라그랑주",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 2,
-      "price": 80.2,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "1시간 MA120 지지",
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": 0.0507,
-      "cmfChange": -0.0565,
-      "obvSlope": -0.2409,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": 0.29,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.34,
+      "ma120GapPct": 1.66,
+      "atrPct": 1.98
     },
     {
       "symbol": "ZIL",
@@ -16889,8 +17016,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 2,
-      "price": 3.5,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3.53,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세",
         "OBV 상승"
@@ -16902,9 +17029,9 @@
       "cmf": -0.5835,
       "cmfChange": 0.0209,
       "obvSlope": 0.0979,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 5.72,
-      "atrPct": 4.1
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 6.55,
+      "atrPct": 4.03
     },
     {
       "symbol": "ZIL",
@@ -16912,8 +17039,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 3.5,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3.53,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -16925,9 +17052,9 @@
       "cmf": -0.5835,
       "cmfChange": 0.0209,
       "obvSlope": 0.0979,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 5.72,
-      "atrPct": 4.1
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 6.55,
+      "atrPct": 4.03
     },
     {
       "symbol": "SAND",
@@ -16935,8 +17062,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 49.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "CMF 5봉 개선"
@@ -16948,32 +17075,9 @@
       "cmf": -0.3698,
       "cmfChange": 0.0924,
       "obvSlope": -0.0908,
-      "volumeRatio1h": 0.22,
-      "ma120GapPct": 0.5,
-      "atrPct": 2.18
-    },
-    {
-      "symbol": "AHT",
-      "name": "아하토큰",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 2,
-      "price": 1.35,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 상승추세",
-        "OBV 상승"
-      ],
-      "missing": [
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": -0.3068,
-      "cmfChange": -0.2594,
-      "obvSlope": 0.6999,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.15,
-      "atrPct": 5.93
+      "volumeRatio1h": 0.07,
+      "ma120GapPct": 0.69,
+      "atrPct": 2.14
     },
     {
       "symbol": "FF",
@@ -16981,8 +17085,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 136.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 132.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 개선",
         "OBV 개선"
@@ -16994,9 +17098,9 @@
       "cmf": 0.3628,
       "cmfChange": 0.589,
       "obvSlope": 0.7004,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": 7.42,
-      "atrPct": 4.2
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": 4.2,
+      "atrPct": 4.49
     },
     {
       "symbol": "FF",
@@ -17004,8 +17108,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 136.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 132.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -17017,9 +17121,9 @@
       "cmf": 0.3628,
       "cmfChange": 0.589,
       "obvSlope": 0.7004,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": 7.42,
-      "atrPct": 4.2
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": 4.2,
+      "atrPct": 4.49
     },
     {
       "symbol": "FF",
@@ -17027,8 +17131,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 136.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 132.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -17040,9 +17144,9 @@
       "cmf": 0.3628,
       "cmfChange": 0.589,
       "obvSlope": 0.7004,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": 7.42,
-      "atrPct": 4.2
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": 4.2,
+      "atrPct": 4.49
     },
     {
       "symbol": "SUI",
@@ -17050,8 +17154,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 1003.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1004.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 개선"
@@ -17063,9 +17167,9 @@
       "cmf": -0.0187,
       "cmfChange": 0.1032,
       "obvSlope": 0.1739,
-      "volumeRatio1h": 0.15,
-      "ma120GapPct": -2.16,
-      "atrPct": 1.16
+      "volumeRatio1h": 0.78,
+      "ma120GapPct": -2.01,
+      "atrPct": 1.13
     },
     {
       "symbol": "SUI",
@@ -17073,8 +17177,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 1003.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1004.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "OBV 상승"
@@ -17086,9 +17190,9 @@
       "cmf": -0.0187,
       "cmfChange": 0.1032,
       "obvSlope": 0.1739,
-      "volumeRatio1h": 0.15,
-      "ma120GapPct": -2.16,
-      "atrPct": 1.16
+      "volumeRatio1h": 0.78,
+      "ma120GapPct": -2.01,
+      "atrPct": 1.13
     },
     {
       "symbol": "ADA",
@@ -17097,7 +17201,7 @@
       "state": "관찰",
       "score": 2,
       "price": 272.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 개선"
@@ -17109,9 +17213,9 @@
       "cmf": -0.0383,
       "cmfChange": 0.0747,
       "obvSlope": 0.0157,
-      "volumeRatio1h": 0.54,
-      "ma120GapPct": -2.58,
-      "atrPct": 1.29
+      "volumeRatio1h": 0.9,
+      "ma120GapPct": -2.51,
+      "atrPct": 1.23
     },
     {
       "symbol": "ADA",
@@ -17120,7 +17224,7 @@
       "state": "관찰",
       "score": 2,
       "price": 272.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내",
         "OBV 상승"
@@ -17132,32 +17236,9 @@
       "cmf": -0.0383,
       "cmfChange": 0.0747,
       "obvSlope": 0.0157,
-      "volumeRatio1h": 0.54,
-      "ma120GapPct": -2.58,
-      "atrPct": 1.29
-    },
-    {
-      "symbol": "ENS",
-      "name": "이더리움네임서비스",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 2,
-      "price": 8095.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "1시간 MA120 지지",
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": 0.0464,
-      "cmfChange": 0.1419,
-      "obvSlope": 0.369,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": 1.55,
-      "atrPct": 1.81
+      "volumeRatio1h": 0.9,
+      "ma120GapPct": -2.51,
+      "atrPct": 1.23
     },
     {
       "symbol": "ENS",
@@ -17165,8 +17246,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 8095.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7900.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 개선",
         "OBV 개선"
@@ -17178,9 +17259,9 @@
       "cmf": 0.0464,
       "cmfChange": 0.1419,
       "obvSlope": 0.369,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": 1.55,
-      "atrPct": 1.81
+      "volumeRatio1h": 0.95,
+      "ma120GapPct": -0.86,
+      "atrPct": 1.77
     },
     {
       "symbol": "ENS",
@@ -17188,8 +17269,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 8095.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7900.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -17201,9 +17282,9 @@
       "cmf": 0.0464,
       "cmfChange": 0.1419,
       "obvSlope": 0.369,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": 1.55,
-      "atrPct": 1.81
+      "volumeRatio1h": 0.95,
+      "ma120GapPct": -0.86,
+      "atrPct": 1.77
     },
     {
       "symbol": "ENS",
@@ -17211,8 +17292,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 8095.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7900.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -17224,9 +17305,9 @@
       "cmf": 0.0464,
       "cmfChange": 0.1419,
       "obvSlope": 0.369,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": 1.55,
-      "atrPct": 1.81
+      "volumeRatio1h": 0.95,
+      "ma120GapPct": -0.86,
+      "atrPct": 1.77
     },
     {
       "symbol": "WLD",
@@ -17234,8 +17315,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 502.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 501.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 개선"
@@ -17247,9 +17328,9 @@
       "cmf": -0.0808,
       "cmfChange": 0.1341,
       "obvSlope": 0.0856,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -3.92,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -4.01,
+      "atrPct": 1.78
     },
     {
       "symbol": "WLD",
@@ -17257,8 +17338,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 502.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 501.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "OBV 상승"
@@ -17270,9 +17351,9 @@
       "cmf": -0.0808,
       "cmfChange": 0.1341,
       "obvSlope": 0.0856,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -3.92,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -4.01,
+      "atrPct": 1.78
     },
     {
       "symbol": "MANTRA",
@@ -17280,8 +17361,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 6.14,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6.21,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축",
         "OBV 상승"
@@ -17293,78 +17374,32 @@
       "cmf": -0.4592,
       "cmfChange": -0.3966,
       "obvSlope": 0.6961,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": -7.0,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -6.0,
+      "atrPct": 2.04
     },
     {
       "symbol": "CHIP",
       "name": "유에스디에이아이",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 2,
-      "price": 61.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "CMF 개선",
-        "OBV 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": 0.1137,
-      "cmfChange": 0.4729,
-      "obvSlope": 0.4828,
-      "volumeRatio1h": 0.61,
-      "ma120GapPct": 10.07,
-      "atrPct": 3.33
-    },
-    {
-      "symbol": "CHIP",
-      "name": "유에스디에이아이",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 2,
-      "price": 61.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "CMF 5봉 개선",
-        "OBV 기울기 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "1시간 거래량 회복"
-      ],
-      "cmf": 0.1137,
-      "cmfChange": 0.4729,
-      "obvSlope": 0.4828,
-      "volumeRatio1h": 0.61,
-      "ma120GapPct": 10.07,
-      "atrPct": 3.33
-    },
-    {
-      "symbol": "BLAST",
-      "name": "블라스트",
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 2,
-      "price": 0.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 62.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
-        "1시간 MA120 지지",
+        "최근 10봉 고점 돌파",
         "4시간 추세 훼손 없음"
       ],
       "missing": [
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복"
       ],
-      "cmf": -0.2312,
-      "cmfChange": -0.208,
-      "obvSlope": -0.1168,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 1.07,
-      "atrPct": 2.12
+      "cmf": 0.1137,
+      "cmfChange": 0.4729,
+      "obvSlope": 0.4828,
+      "volumeRatio1h": 1.53,
+      "ma120GapPct": 12.08,
+      "atrPct": 3.25
     },
     {
       "symbol": "DATA",
@@ -17372,8 +17407,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 2,
-      "price": 258.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 257.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "1시간 MA120 지지",
         "4시간 추세 훼손 없음"
@@ -17385,9 +17420,9 @@
       "cmf": 0.0369,
       "cmfChange": 0.34,
       "obvSlope": 0.1163,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.76,
-      "atrPct": 1.44
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 0.37,
+      "atrPct": 1.31
     },
     {
       "symbol": "DATA",
@@ -17395,8 +17430,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 258.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 257.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -17408,9 +17443,9 @@
       "cmf": 0.0369,
       "cmfChange": 0.34,
       "obvSlope": 0.1163,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.76,
-      "atrPct": 1.44
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 0.37,
+      "atrPct": 1.31
     },
     {
       "symbol": "SONIC",
@@ -17418,8 +17453,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 2,
-      "price": 30.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 30.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세",
         "OBV 상승"
@@ -17431,9 +17466,9 @@
       "cmf": 0.096,
       "cmfChange": -0.1304,
       "obvSlope": 0.1743,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.95,
-      "atrPct": 2.05
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 3.22,
+      "atrPct": 1.86
     },
     {
       "symbol": "SONIC",
@@ -17441,8 +17476,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 30.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 30.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -17454,9 +17489,9 @@
       "cmf": 0.096,
       "cmfChange": -0.1304,
       "obvSlope": 0.1743,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.95,
-      "atrPct": 2.05
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 3.22,
+      "atrPct": 1.86
     },
     {
       "symbol": "MBL",
@@ -17464,8 +17499,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 0.928,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.93,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -17477,9 +17512,9 @@
       "cmf": -0.6182,
       "cmfChange": 0.037,
       "obvSlope": 0.7836,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 2.14,
-      "atrPct": 3.53
+      "volumeRatio1h": 0.02,
+      "ma120GapPct": 2.35,
+      "atrPct": 3.44
     },
     {
       "symbol": "STX",
@@ -17487,8 +17522,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 355.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 개선",
         "OBV 개선"
@@ -17500,9 +17535,9 @@
       "cmf": 0.077,
       "cmfChange": 0.1383,
       "obvSlope": 0.3217,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 2.1,
-      "atrPct": 1.87
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": 2.38,
+      "atrPct": 1.77
     },
     {
       "symbol": "STX",
@@ -17510,8 +17545,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 355.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -17523,9 +17558,9 @@
       "cmf": 0.077,
       "cmfChange": 0.1383,
       "obvSlope": 0.3217,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 2.1,
-      "atrPct": 1.87
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": 2.38,
+      "atrPct": 1.77
     },
     {
       "symbol": "FIL",
@@ -17533,8 +17568,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 2,
-      "price": 1088.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1073.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "1시간 거래량 1.5배",
         "OBV 상승"
@@ -17546,9 +17581,9 @@
       "cmf": 0.3901,
       "cmfChange": 0.4748,
       "obvSlope": 0.9192,
-      "volumeRatio1h": 2.53,
-      "ma120GapPct": 14.08,
-      "atrPct": 2.41
+      "volumeRatio1h": 1.54,
+      "ma120GapPct": 12.43,
+      "atrPct": 2.62
     },
     {
       "symbol": "FIL",
@@ -17556,8 +17591,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 2,
-      "price": 1088.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1073.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상",
         "OBV 상승"
@@ -17569,9 +17604,9 @@
       "cmf": 0.3901,
       "cmfChange": 0.4748,
       "obvSlope": 0.9192,
-      "volumeRatio1h": 2.53,
-      "ma120GapPct": 14.08,
-      "atrPct": 2.41
+      "volumeRatio1h": 1.54,
+      "ma120GapPct": 12.43,
+      "atrPct": 2.62
     },
     {
       "symbol": "AXS",
@@ -17579,8 +17614,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 1265.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1266.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 개선"
@@ -17592,9 +17627,9 @@
       "cmf": -0.1022,
       "cmfChange": -0.1188,
       "obvSlope": 0.646,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 0.53,
-      "atrPct": 1.63
+      "volumeRatio1h": 0.15,
+      "ma120GapPct": 0.64,
+      "atrPct": 1.55
     },
     {
       "symbol": "AXS",
@@ -17602,8 +17637,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 1265.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1266.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 기울기 개선"
@@ -17615,9 +17650,9 @@
       "cmf": -0.1022,
       "cmfChange": -0.1188,
       "obvSlope": 0.646,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 0.53,
-      "atrPct": 1.63
+      "volumeRatio1h": 0.15,
+      "ma120GapPct": 0.64,
+      "atrPct": 1.55
     },
     {
       "symbol": "IOST",
@@ -17625,8 +17660,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 2,
-      "price": 0.828,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.827,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "1시간 MA120 지지",
         "4시간 추세 훼손 없음"
@@ -17638,8 +17673,8 @@
       "cmf": -0.2302,
       "cmfChange": 0.121,
       "obvSlope": 0.3537,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 1.11,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 1.0,
       "atrPct": 2.61
     },
     {
@@ -17648,8 +17683,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 2,
-      "price": 0.828,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.827,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내",
         "OBV 개선"
@@ -17661,55 +17696,9 @@
       "cmf": -0.2302,
       "cmfChange": 0.121,
       "obvSlope": 0.3537,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 1.11,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 1.0,
       "atrPct": 2.61
-    },
-    {
-      "symbol": "STRAX",
-      "name": "저트라",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 2,
-      "price": 13.2,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "1시간 MA120 지지",
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.1196,
-      "cmfChange": -0.1294,
-      "obvSlope": 0.5179,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.63,
-      "atrPct": 4.17
-    },
-    {
-      "symbol": "ZK",
-      "name": "지케이싱크",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 2,
-      "price": 12.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "1시간 MA120 지지",
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.1902,
-      "cmfChange": -0.0062,
-      "obvSlope": -0.6954,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 2.95,
-      "atrPct": 2.34
     },
     {
       "symbol": "MOVE",
@@ -17717,8 +17706,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 2,
-      "price": 12.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 11.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선",
         "OBV 기울기 개선"
@@ -17730,9 +17719,55 @@
       "cmf": -0.1626,
       "cmfChange": 0.0973,
       "obvSlope": 0.4389,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": -0.83,
-      "atrPct": 2.14
+      "volumeRatio1h": 0.31,
+      "ma120GapPct": -2.41,
+      "atrPct": 2.18
+    },
+    {
+      "symbol": "ZK",
+      "name": "지케이싱크",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 2,
+      "price": 12.4,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 상승추세",
+        "OBV 상승"
+      ],
+      "missing": [
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배"
+      ],
+      "cmf": -0.1902,
+      "cmfChange": -0.0062,
+      "obvSlope": -0.6954,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": 2.1,
+      "atrPct": 2.3
+    },
+    {
+      "symbol": "ZK",
+      "name": "지케이싱크",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 2,
+      "price": 12.4,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "1시간 MA120 지지",
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.1902,
+      "cmfChange": -0.0062,
+      "obvSlope": -0.6954,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": 2.1,
+      "atrPct": 2.3
     },
     {
       "symbol": "XRP",
@@ -17741,7 +17776,7 @@
       "state": "관찰",
       "score": 1,
       "price": 1877.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -17753,32 +17788,9 @@
       "cmf": -0.0616,
       "cmfChange": 0.0974,
       "obvSlope": -0.0817,
-      "volumeRatio1h": 0.59,
-      "ma120GapPct": -2.57,
+      "volumeRatio1h": 0.57,
+      "ma120GapPct": -2.51,
       "atrPct": 0.94
-    },
-    {
-      "symbol": "BONK",
-      "name": "봉크",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 0.0055,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 상승추세"
-      ],
-      "missing": [
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.195,
-      "cmfChange": 0.2166,
-      "obvSlope": 0.5718,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 19.35,
-      "atrPct": 9.25
     },
     {
       "symbol": "BONK",
@@ -17786,8 +17798,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 0.0055,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.00574,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -17799,9 +17811,9 @@
       "cmf": -0.195,
       "cmfChange": 0.2166,
       "obvSlope": 0.5718,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 19.35,
-      "atrPct": 9.25
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 24.26,
+      "atrPct": 8.6
     },
     {
       "symbol": "BONK",
@@ -17809,8 +17821,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 0.0055,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.00574,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선"
       ],
@@ -17822,9 +17834,9 @@
       "cmf": -0.195,
       "cmfChange": 0.2166,
       "obvSlope": 0.5718,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 19.35,
-      "atrPct": 9.25
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 24.26,
+      "atrPct": 8.6
     },
     {
       "symbol": "BONK",
@@ -17832,8 +17844,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 0.0055,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.00574,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -17845,9 +17857,9 @@
       "cmf": -0.195,
       "cmfChange": 0.2166,
       "obvSlope": 0.5718,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 19.35,
-      "atrPct": 9.25
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 24.26,
+      "atrPct": 8.6
     },
     {
       "symbol": "BTC",
@@ -17855,8 +17867,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 107030000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 107215000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -17868,9 +17880,9 @@
       "cmf": -0.0258,
       "cmfChange": -0.018,
       "obvSlope": -0.0584,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.46,
-      "atrPct": 0.51
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -1.26,
+      "atrPct": 0.48
     },
     {
       "symbol": "BTC",
@@ -17878,8 +17890,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 107030000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 107215000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -17891,9 +17903,9 @@
       "cmf": -0.0258,
       "cmfChange": -0.018,
       "obvSlope": -0.0584,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.46,
-      "atrPct": 0.51
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -1.26,
+      "atrPct": 0.48
     },
     {
       "symbol": "SC",
@@ -17901,8 +17913,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 1.21,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.24,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -17915,8 +17927,8 @@
       "cmfChange": 0.4181,
       "obvSlope": 0.8393,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 33.08,
-      "atrPct": 9.68
+      "ma120GapPct": 35.96,
+      "atrPct": 9.22
     },
     {
       "symbol": "SC",
@@ -17924,8 +17936,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 1.21,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.24,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -17938,8 +17950,8 @@
       "cmfChange": 0.4181,
       "obvSlope": 0.8393,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 33.08,
-      "atrPct": 9.68
+      "ma120GapPct": 35.96,
+      "atrPct": 9.22
     },
     {
       "symbol": "SC",
@@ -17947,8 +17959,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 1.21,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.24,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -17961,8 +17973,8 @@
       "cmfChange": 0.4181,
       "obvSlope": 0.8393,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 33.08,
-      "atrPct": 9.68
+      "ma120GapPct": 35.96,
+      "atrPct": 9.22
     },
     {
       "symbol": "SC",
@@ -17970,8 +17982,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 1.21,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.24,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -17984,8 +17996,8 @@
       "cmfChange": 0.4181,
       "obvSlope": 0.8393,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 33.08,
-      "atrPct": 9.68
+      "ma120GapPct": 35.96,
+      "atrPct": 9.22
     },
     {
       "symbol": "SKR",
@@ -17993,8 +18005,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 31.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 32.2,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -18006,9 +18018,9 @@
       "cmf": 0.152,
       "cmfChange": -0.0784,
       "obvSlope": 0.2573,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": 27.83,
-      "atrPct": 6.85
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 29.04,
+      "atrPct": 6.61
     },
     {
       "symbol": "SKR",
@@ -18016,8 +18028,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 31.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 32.2,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18029,9 +18041,9 @@
       "cmf": 0.152,
       "cmfChange": -0.0784,
       "obvSlope": 0.2573,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": 27.83,
-      "atrPct": 6.85
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 29.04,
+      "atrPct": 6.61
     },
     {
       "symbol": "0G",
@@ -18039,8 +18051,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 270.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 271.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -18052,9 +18064,9 @@
       "cmf": -0.0603,
       "cmfChange": -0.0841,
       "obvSlope": 0.2904,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 7.68,
-      "atrPct": 5.24
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 7.9,
+      "atrPct": 5.03
     },
     {
       "symbol": "0G",
@@ -18062,8 +18074,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 270.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 271.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18075,9 +18087,9 @@
       "cmf": -0.0603,
       "cmfChange": -0.0841,
       "obvSlope": 0.2904,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 7.68,
-      "atrPct": 5.24
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 7.9,
+      "atrPct": 5.03
     },
     {
       "symbol": "0G",
@@ -18085,8 +18097,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 270.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 271.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -18098,32 +18110,9 @@
       "cmf": -0.0603,
       "cmfChange": -0.0841,
       "obvSlope": 0.2904,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 7.68,
-      "atrPct": 5.24
-    },
-    {
-      "symbol": "ONG",
-      "name": "온톨로지가스",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 149.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": -0.2129,
-      "cmfChange": 0.0053,
-      "obvSlope": 0.3407,
       "volumeRatio1h": 0.06,
-      "ma120GapPct": -2.97,
-      "atrPct": 6.86
+      "ma120GapPct": 7.9,
+      "atrPct": 5.03
     },
     {
       "symbol": "ONG",
@@ -18132,7 +18121,7 @@
       "state": "관찰",
       "score": 1,
       "price": 149.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18144,9 +18133,9 @@
       "cmf": -0.2129,
       "cmfChange": 0.0053,
       "obvSlope": 0.3407,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -2.97,
-      "atrPct": 6.86
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -2.84,
+      "atrPct": 6.09
     },
     {
       "symbol": "ONG",
@@ -18155,7 +18144,7 @@
       "state": "관찰",
       "score": 1,
       "price": 149.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -18167,9 +18156,9 @@
       "cmf": -0.2129,
       "cmfChange": 0.0053,
       "obvSlope": 0.3407,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -2.97,
-      "atrPct": 6.86
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -2.84,
+      "atrPct": 6.09
     },
     {
       "symbol": "ONG",
@@ -18178,7 +18167,7 @@
       "state": "관찰",
       "score": 1,
       "price": 149.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 기울기 개선"
       ],
@@ -18190,9 +18179,9 @@
       "cmf": -0.2129,
       "cmfChange": 0.0053,
       "obvSlope": 0.3407,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -2.97,
-      "atrPct": 6.86
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -2.84,
+      "atrPct": 6.09
     },
     {
       "symbol": "ONG",
@@ -18201,7 +18190,7 @@
       "state": "관찰",
       "score": 1,
       "price": 149.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -18213,9 +18202,9 @@
       "cmf": -0.2129,
       "cmfChange": 0.0053,
       "obvSlope": 0.3407,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -2.97,
-      "atrPct": 6.86
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -2.84,
+      "atrPct": 6.09
     },
     {
       "symbol": "STORJ",
@@ -18223,8 +18212,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 71.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 74.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -18236,9 +18225,9 @@
       "cmf": -0.0872,
       "cmfChange": -0.0411,
       "obvSlope": 0.699,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 11.29,
-      "atrPct": 7.05
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 14.77,
+      "atrPct": 6.76
     },
     {
       "symbol": "STORJ",
@@ -18246,8 +18235,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 71.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 74.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18259,9 +18248,9 @@
       "cmf": -0.0872,
       "cmfChange": -0.0411,
       "obvSlope": 0.699,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 11.29,
-      "atrPct": 7.05
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 14.77,
+      "atrPct": 6.76
     },
     {
       "symbol": "STORJ",
@@ -18269,8 +18258,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 71.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 74.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -18282,9 +18271,9 @@
       "cmf": -0.0872,
       "cmfChange": -0.0411,
       "obvSlope": 0.699,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 11.29,
-      "atrPct": 7.05
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 14.77,
+      "atrPct": 6.76
     },
     {
       "symbol": "ICX",
@@ -18292,8 +18281,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 21.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 21.5,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18305,9 +18294,9 @@
       "cmf": -0.4058,
       "cmfChange": 0.1802,
       "obvSlope": 0.7891,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 11.64,
-      "atrPct": 9.61
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 12.09,
+      "atrPct": 9.34
     },
     {
       "symbol": "ICX",
@@ -18315,8 +18304,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 21.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 21.5,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선"
       ],
@@ -18328,9 +18317,9 @@
       "cmf": -0.4058,
       "cmfChange": 0.1802,
       "obvSlope": 0.7891,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 11.64,
-      "atrPct": 9.61
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 12.09,
+      "atrPct": 9.34
     },
     {
       "symbol": "ICX",
@@ -18338,8 +18327,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 21.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 21.5,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -18351,9 +18340,9 @@
       "cmf": -0.4058,
       "cmfChange": 0.1802,
       "obvSlope": 0.7891,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 11.64,
-      "atrPct": 9.61
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 12.09,
+      "atrPct": 9.34
     },
     {
       "symbol": "SOL",
@@ -18361,8 +18350,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 138600.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 138500.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -18374,9 +18363,9 @@
       "cmf": -0.1546,
       "cmfChange": -0.0088,
       "obvSlope": -0.25,
-      "volumeRatio1h": 0.78,
-      "ma120GapPct": -4.09,
-      "atrPct": 0.96
+      "volumeRatio1h": 0.69,
+      "ma120GapPct": -4.1,
+      "atrPct": 0.93
     },
     {
       "symbol": "SOL",
@@ -18384,8 +18373,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 138600.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 138500.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -18397,32 +18386,9 @@
       "cmf": -0.1546,
       "cmfChange": -0.0088,
       "obvSlope": -0.25,
-      "volumeRatio1h": 0.78,
-      "ma120GapPct": -4.09,
-      "atrPct": 0.96
-    },
-    {
-      "symbol": "TRUMP",
-      "name": "오피셜트럼프",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 3160.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": -0.2692,
-      "cmfChange": -0.0392,
-      "obvSlope": -0.103,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.9,
-      "atrPct": 1.7
+      "volumeRatio1h": 0.69,
+      "ma120GapPct": -4.1,
+      "atrPct": 0.93
     },
     {
       "symbol": "TRUMP",
@@ -18430,8 +18396,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 3160.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3155.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -18443,32 +18409,9 @@
       "cmf": -0.2692,
       "cmfChange": -0.0392,
       "obvSlope": -0.103,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.9,
-      "atrPct": 1.7
-    },
-    {
-      "symbol": "IQ",
-      "name": "아이큐",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 1.05,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": -0.0621,
-      "cmfChange": 0.2493,
-      "obvSlope": 0.5854,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 10.92,
-      "atrPct": 7.37
+      "volumeRatio1h": 0.74,
+      "ma120GapPct": -10.96,
+      "atrPct": 1.57
     },
     {
       "symbol": "IQ",
@@ -18476,8 +18419,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 1.05,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.04,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18489,9 +18432,9 @@
       "cmf": -0.0621,
       "cmfChange": 0.2493,
       "obvSlope": 0.5854,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 10.92,
-      "atrPct": 7.37
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 9.79,
+      "atrPct": 7.61
     },
     {
       "symbol": "IQ",
@@ -18499,8 +18442,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 1.05,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.04,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -18512,9 +18455,9 @@
       "cmf": -0.0621,
       "cmfChange": 0.2493,
       "obvSlope": 0.5854,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 10.92,
-      "atrPct": 7.37
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 9.79,
+      "atrPct": 7.61
     },
     {
       "symbol": "IQ",
@@ -18522,8 +18465,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 1.05,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.04,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -18535,9 +18478,9 @@
       "cmf": -0.0621,
       "cmfChange": 0.2493,
       "obvSlope": 0.5854,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 10.92,
-      "atrPct": 7.37
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 9.79,
+      "atrPct": 7.61
     },
     {
       "symbol": "PROM",
@@ -18545,8 +18488,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 6970.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6955.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18558,9 +18501,9 @@
       "cmf": -0.0172,
       "cmfChange": -0.0364,
       "obvSlope": -0.4899,
-      "volumeRatio1h": 0.33,
-      "ma120GapPct": -12.57,
-      "atrPct": 4.15
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": -12.77,
+      "atrPct": 4.05
     },
     {
       "symbol": "PROM",
@@ -18568,8 +18511,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 6970.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6955.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -18581,9 +18524,9 @@
       "cmf": -0.0172,
       "cmfChange": -0.0364,
       "obvSlope": -0.4899,
-      "volumeRatio1h": 0.33,
-      "ma120GapPct": -12.57,
-      "atrPct": 4.15
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": -12.77,
+      "atrPct": 4.05
     },
     {
       "symbol": "ZKC",
@@ -18591,8 +18534,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 67.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 66.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18604,9 +18547,9 @@
       "cmf": 0.1189,
       "cmfChange": -0.0684,
       "obvSlope": -0.3156,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": -0.34,
-      "atrPct": 2.19
+      "volumeRatio1h": 0.03,
+      "ma120GapPct": -0.62,
+      "atrPct": 1.94
     },
     {
       "symbol": "UNI",
@@ -18614,8 +18557,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 7825.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7920.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -18627,9 +18570,9 @@
       "cmf": 0.0672,
       "cmfChange": 0.129,
       "obvSlope": 0.431,
-      "volumeRatio1h": 0.1,
-      "ma120GapPct": 14.28,
-      "atrPct": 2.7
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": 15.45,
+      "atrPct": 2.32
     },
     {
       "symbol": "UNI",
@@ -18637,8 +18580,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 7825.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7920.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18650,32 +18593,9 @@
       "cmf": 0.0672,
       "cmfChange": 0.129,
       "obvSlope": 0.431,
-      "volumeRatio1h": 0.1,
-      "ma120GapPct": 14.28,
-      "atrPct": 2.7
-    },
-    {
-      "symbol": "ENA",
-      "name": "에테나",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 218.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.0163,
-      "cmfChange": 0.275,
-      "obvSlope": 0.0978,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -0.51,
-      "atrPct": 3.15
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": 15.45,
+      "atrPct": 2.32
     },
     {
       "symbol": "ENA",
@@ -18683,8 +18603,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 218.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 221.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -18696,9 +18616,9 @@
       "cmf": -0.0163,
       "cmfChange": 0.275,
       "obvSlope": 0.0978,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -0.51,
-      "atrPct": 3.15
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 0.9,
+      "atrPct": 3.1
     },
     {
       "symbol": "ENA",
@@ -18706,8 +18626,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 218.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 221.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -18719,55 +18639,9 @@
       "cmf": -0.0163,
       "cmfChange": 0.275,
       "obvSlope": 0.0978,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -0.51,
-      "atrPct": 3.15
-    },
-    {
-      "symbol": "ZORA",
-      "name": "조라",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 11.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 상승추세"
-      ],
-      "missing": [
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.2304,
-      "cmfChange": -0.0297,
-      "obvSlope": 0.1268,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 8.03,
-      "atrPct": 4.42
-    },
-    {
-      "symbol": "ZORA",
-      "name": "조라",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 11.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.2304,
-      "cmfChange": -0.0297,
-      "obvSlope": 0.1268,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 8.03,
-      "atrPct": 4.42
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 0.9,
+      "atrPct": 3.1
     },
     {
       "symbol": "FLOCK",
@@ -18775,8 +18649,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 48.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -18789,8 +18663,54 @@
       "cmfChange": -0.0776,
       "obvSlope": -0.0267,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 0.73,
-      "atrPct": 2.32
+      "ma120GapPct": 1.72,
+      "atrPct": 2.26
+    },
+    {
+      "symbol": "ZORA",
+      "name": "조라",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 10.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 상승추세"
+      ],
+      "missing": [
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.2304,
+      "cmfChange": -0.0297,
+      "obvSlope": 0.1268,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 5.87,
+      "atrPct": 4.3
+    },
+    {
+      "symbol": "ZORA",
+      "name": "조라",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 10.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.2304,
+      "cmfChange": -0.0297,
+      "obvSlope": 0.1268,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 5.87,
+      "atrPct": 4.3
     },
     {
       "symbol": "ONDO",
@@ -18799,7 +18719,7 @@
       "state": "관찰",
       "score": 1,
       "price": 474.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -18811,9 +18731,9 @@
       "cmf": -0.0334,
       "cmfChange": 0.1445,
       "obvSlope": -0.0539,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": -3.4,
-      "atrPct": 1.21
+      "volumeRatio1h": 0.27,
+      "ma120GapPct": -3.32,
+      "atrPct": 1.16
     },
     {
       "symbol": "ONDO",
@@ -18822,7 +18742,7 @@
       "state": "관찰",
       "score": 1,
       "price": 474.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 8% 이내"
       ],
@@ -18834,9 +18754,9 @@
       "cmf": -0.0334,
       "cmfChange": 0.1445,
       "obvSlope": -0.0539,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": -3.4,
-      "atrPct": 1.21
+      "volumeRatio1h": 0.27,
+      "ma120GapPct": -3.32,
+      "atrPct": 1.16
     },
     {
       "symbol": "ARB",
@@ -18844,8 +18764,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 150.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 148.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18857,9 +18777,9 @@
       "cmf": 0.1702,
       "cmfChange": -0.1176,
       "obvSlope": 0.7134,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 16.94,
-      "atrPct": 3.67
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 15.21,
+      "atrPct": 3.72
     },
     {
       "symbol": "ARB",
@@ -18867,8 +18787,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 150.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 148.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -18880,9 +18800,9 @@
       "cmf": 0.1702,
       "cmfChange": -0.1176,
       "obvSlope": 0.7134,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 16.94,
-      "atrPct": 3.67
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 15.21,
+      "atrPct": 3.72
     },
     {
       "symbol": "ARB",
@@ -18890,8 +18810,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 150.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 148.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 기울기 개선"
       ],
@@ -18903,9 +18823,9 @@
       "cmf": 0.1702,
       "cmfChange": -0.1176,
       "obvSlope": 0.7134,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 16.94,
-      "atrPct": 3.67
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 15.21,
+      "atrPct": 3.72
     },
     {
       "symbol": "DOS",
@@ -18913,8 +18833,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 360.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -18926,9 +18846,9 @@
       "cmf": -0.032,
       "cmfChange": -0.1064,
       "obvSlope": -0.3414,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -6.62,
-      "atrPct": 2.56
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -7.71,
+      "atrPct": 2.53
     },
     {
       "symbol": "DOS",
@@ -18936,8 +18856,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 360.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -18949,32 +18869,9 @@
       "cmf": -0.032,
       "cmfChange": -0.1064,
       "obvSlope": -0.3414,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -6.62,
-      "atrPct": 2.56
-    },
-    {
-      "symbol": "DOGE",
-      "name": "도지코인",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 114.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": 0.171,
-      "cmfChange": -0.0528,
-      "obvSlope": -0.0694,
-      "volumeRatio1h": 0.12,
-      "ma120GapPct": -2.87,
-      "atrPct": 1.38
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -7.71,
+      "atrPct": 2.53
     },
     {
       "symbol": "DOGE",
@@ -18983,7 +18880,7 @@
       "state": "관찰",
       "score": 1,
       "price": 114.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -18995,8 +18892,8 @@
       "cmf": 0.171,
       "cmfChange": -0.0528,
       "obvSlope": -0.0694,
-      "volumeRatio1h": 0.12,
-      "ma120GapPct": -2.87,
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -2.81,
       "atrPct": 1.38
     },
     {
@@ -19006,7 +18903,7 @@
       "state": "관찰",
       "score": 1,
       "price": 114.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -19018,8 +18915,8 @@
       "cmf": 0.171,
       "cmfChange": -0.0528,
       "obvSlope": -0.0694,
-      "volumeRatio1h": 0.12,
-      "ma120GapPct": -2.87,
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -2.81,
       "atrPct": 1.38
     },
     {
@@ -19028,8 +18925,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 58.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 59.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -19041,9 +18938,9 @@
       "cmf": -0.2802,
       "cmfChange": -0.1574,
       "obvSlope": 0.4723,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": -2.03,
-      "atrPct": 2.1
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": -1.69,
+      "atrPct": 1.89
     },
     {
       "symbol": "MIRA",
@@ -19051,8 +18948,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 58.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 59.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 기울기 개선"
       ],
@@ -19064,9 +18961,9 @@
       "cmf": -0.2802,
       "cmfChange": -0.1574,
       "obvSlope": 0.4723,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": -2.03,
-      "atrPct": 2.1
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": -1.69,
+      "atrPct": 1.89
     },
     {
       "symbol": "MIRA",
@@ -19074,8 +18971,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 58.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 59.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19087,9 +18984,9 @@
       "cmf": -0.2802,
       "cmfChange": -0.1574,
       "obvSlope": 0.4723,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": -2.03,
-      "atrPct": 2.1
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": -1.69,
+      "atrPct": 1.89
     },
     {
       "symbol": "NEAR",
@@ -19097,8 +18994,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 2635.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 2640.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19110,32 +19007,9 @@
       "cmf": -0.001,
       "cmfChange": 0.1452,
       "obvSlope": 0.5417,
-      "volumeRatio1h": 0.41,
-      "ma120GapPct": 1.45,
-      "atrPct": 2.02
-    },
-    {
-      "symbol": "NEAR",
-      "name": "니어프로토콜",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 2635.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.001,
-      "cmfChange": 0.1452,
-      "obvSlope": 0.5417,
-      "volumeRatio1h": 0.41,
-      "ma120GapPct": 1.45,
-      "atrPct": 2.02
+      "volumeRatio1h": 0.34,
+      "ma120GapPct": 1.66,
+      "atrPct": 1.98
     },
     {
       "symbol": "NEAR",
@@ -19143,8 +19017,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 2635.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 2640.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -19156,9 +19030,9 @@
       "cmf": -0.001,
       "cmfChange": 0.1452,
       "obvSlope": 0.5417,
-      "volumeRatio1h": 0.41,
-      "ma120GapPct": 1.45,
-      "atrPct": 2.02
+      "volumeRatio1h": 0.34,
+      "ma120GapPct": 1.66,
+      "atrPct": 1.98
     },
     {
       "symbol": "NEAR",
@@ -19166,8 +19040,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 2635.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 2640.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19179,8 +19053,100 @@
       "cmf": -0.001,
       "cmfChange": 0.1452,
       "obvSlope": 0.5417,
-      "volumeRatio1h": 0.41,
-      "ma120GapPct": 1.45,
+      "volumeRatio1h": 0.34,
+      "ma120GapPct": 1.66,
+      "atrPct": 1.98
+    },
+    {
+      "symbol": "ZIL",
+      "name": "질리카",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 3.53,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.5835,
+      "cmfChange": 0.0209,
+      "obvSlope": 0.0979,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 6.55,
+      "atrPct": 4.03
+    },
+    {
+      "symbol": "ZIL",
+      "name": "질리카",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 1,
+      "price": 3.53,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 개선"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.5835,
+      "cmfChange": 0.0209,
+      "obvSlope": 0.0979,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 6.55,
+      "atrPct": 4.03
+    },
+    {
+      "symbol": "ZIL",
+      "name": "질리카",
+      "strategy": "매집 압축형",
+      "state": "관찰",
+      "score": 1,
+      "price": 3.53,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 박스권 8% 이내",
+        "거래량 수축",
+        "CMF 0.03 이상"
+      ],
+      "cmf": -0.5835,
+      "cmfChange": 0.0209,
+      "obvSlope": 0.0979,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 6.55,
+      "atrPct": 4.03
+    },
+    {
+      "symbol": "LA",
+      "name": "라그랑주",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 79.1,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": 0.0507,
+      "cmfChange": -0.0565,
+      "obvSlope": -0.2409,
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -1.09,
       "atrPct": 2.02
     },
     {
@@ -19189,8 +19155,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 80.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 79.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상"
       ],
@@ -19202,78 +19168,9 @@
       "cmf": 0.0507,
       "cmfChange": -0.0565,
       "obvSlope": -0.2409,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": 0.29,
-      "atrPct": 2.06
-    },
-    {
-      "symbol": "ZIL",
-      "name": "질리카",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 3.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.5835,
-      "cmfChange": 0.0209,
-      "obvSlope": 0.0979,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 5.72,
-      "atrPct": 4.1
-    },
-    {
-      "symbol": "ZIL",
-      "name": "질리카",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 1,
-      "price": 3.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.5835,
-      "cmfChange": 0.0209,
-      "obvSlope": 0.0979,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 5.72,
-      "atrPct": 4.1
-    },
-    {
-      "symbol": "ZIL",
-      "name": "질리카",
-      "strategy": "매집 압축형",
-      "state": "관찰",
-      "score": 1,
-      "price": 3.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 박스권 8% 이내",
-        "거래량 수축",
-        "CMF 0.03 이상"
-      ],
-      "cmf": -0.5835,
-      "cmfChange": 0.0209,
-      "obvSlope": 0.0979,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 5.72,
-      "atrPct": 4.1
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -1.09,
+      "atrPct": 2.02
     },
     {
       "symbol": "SAND",
@@ -19281,8 +19178,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 49.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19294,9 +19191,9 @@
       "cmf": -0.3698,
       "cmfChange": 0.0924,
       "obvSlope": -0.0908,
-      "volumeRatio1h": 0.22,
-      "ma120GapPct": 0.5,
-      "atrPct": 2.18
+      "volumeRatio1h": 0.07,
+      "ma120GapPct": 0.69,
+      "atrPct": 2.14
     },
     {
       "symbol": "SAND",
@@ -19304,8 +19201,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 49.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "1시간 MA120 지지"
       ],
@@ -19317,9 +19214,9 @@
       "cmf": -0.3698,
       "cmfChange": 0.0924,
       "obvSlope": -0.0908,
-      "volumeRatio1h": 0.22,
-      "ma120GapPct": 0.5,
-      "atrPct": 2.18
+      "volumeRatio1h": 0.07,
+      "ma120GapPct": 0.69,
+      "atrPct": 2.14
     },
     {
       "symbol": "SAND",
@@ -19327,8 +19224,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 49.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 박스권 12% 이내"
       ],
@@ -19340,9 +19237,9 @@
       "cmf": -0.3698,
       "cmfChange": 0.0924,
       "obvSlope": -0.0908,
-      "volumeRatio1h": 0.22,
-      "ma120GapPct": 0.5,
-      "atrPct": 2.18
+      "volumeRatio1h": 0.07,
+      "ma120GapPct": 0.69,
+      "atrPct": 2.14
     },
     {
       "symbol": "ONT",
@@ -19350,8 +19247,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 75.1,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 75.3,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -19363,9 +19260,78 @@
       "cmf": -0.4007,
       "cmfChange": -0.0544,
       "obvSlope": -0.0119,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": -2.22,
-      "atrPct": 3.3
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.89,
+      "atrPct": 3.1
+    },
+    {
+      "symbol": "FF",
+      "name": "팔콘파이낸스",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 132.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배"
+      ],
+      "cmf": 0.3628,
+      "cmfChange": 0.589,
+      "obvSlope": 0.7004,
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": 4.2,
+      "atrPct": 4.49
+    },
+    {
+      "symbol": "FF",
+      "name": "팔콘파이낸스",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 132.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": 0.3628,
+      "cmfChange": 0.589,
+      "obvSlope": 0.7004,
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": 4.2,
+      "atrPct": 4.49
+    },
+    {
+      "symbol": "AHT",
+      "name": "아하토큰",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 1.37,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 상승추세"
+      ],
+      "missing": [
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.3068,
+      "cmfChange": -0.2594,
+      "obvSlope": 0.6999,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 4.63,
+      "atrPct": 6.0
     },
     {
       "symbol": "AHT",
@@ -19373,8 +19339,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 1.35,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.37,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -19386,9 +19352,9 @@
       "cmf": -0.3068,
       "cmfChange": -0.2594,
       "obvSlope": 0.6999,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.15,
-      "atrPct": 5.93
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 4.63,
+      "atrPct": 6.0
     },
     {
       "symbol": "AHT",
@@ -19396,8 +19362,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 1.35,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.37,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -19409,9 +19375,9 @@
       "cmf": -0.3068,
       "cmfChange": -0.2594,
       "obvSlope": 0.6999,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.15,
-      "atrPct": 5.93
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 4.63,
+      "atrPct": 6.0
     },
     {
       "symbol": "AHT",
@@ -19419,8 +19385,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 1.35,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.37,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 기울기 개선"
       ],
@@ -19432,9 +19398,9 @@
       "cmf": -0.3068,
       "cmfChange": -0.2594,
       "obvSlope": 0.6999,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.15,
-      "atrPct": 5.93
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 4.63,
+      "atrPct": 6.0
     },
     {
       "symbol": "AHT",
@@ -19442,8 +19408,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 1.35,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1.37,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19455,55 +19421,9 @@
       "cmf": -0.3068,
       "cmfChange": -0.2594,
       "obvSlope": 0.6999,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.15,
-      "atrPct": 5.93
-    },
-    {
-      "symbol": "FF",
-      "name": "팔콘파이낸스",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 136.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": 0.3628,
-      "cmfChange": 0.589,
-      "obvSlope": 0.7004,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": 7.42,
-      "atrPct": 4.2
-    },
-    {
-      "symbol": "FF",
-      "name": "팔콘파이낸스",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 136.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": 0.3628,
-      "cmfChange": 0.589,
-      "obvSlope": 0.7004,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": 7.42,
-      "atrPct": 4.2
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 4.63,
+      "atrPct": 6.0
     },
     {
       "symbol": "SUI",
@@ -19511,8 +19431,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 1003.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1004.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19524,9 +19444,32 @@
       "cmf": -0.0187,
       "cmfChange": 0.1032,
       "obvSlope": 0.1739,
-      "volumeRatio1h": 0.15,
-      "ma120GapPct": -2.16,
-      "atrPct": 1.16
+      "volumeRatio1h": 0.78,
+      "ma120GapPct": -2.01,
+      "atrPct": 1.13
+    },
+    {
+      "symbol": "ENS",
+      "name": "이더리움네임서비스",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 7900.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": 0.0464,
+      "cmfChange": 0.1419,
+      "obvSlope": 0.369,
+      "volumeRatio1h": 0.95,
+      "ma120GapPct": -0.86,
+      "atrPct": 1.77
     },
     {
       "symbol": "WLD",
@@ -19534,8 +19477,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 502.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 501.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19547,9 +19490,101 @@
       "cmf": -0.0808,
       "cmfChange": 0.1341,
       "obvSlope": 0.0856,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -3.92,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -4.01,
+      "atrPct": 1.78
+    },
+    {
+      "symbol": "MANTRA",
+      "name": "만트라",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 6.21,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배"
+      ],
+      "cmf": -0.4592,
+      "cmfChange": -0.3966,
+      "obvSlope": 0.6961,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -6.0,
+      "atrPct": 2.04
+    },
+    {
+      "symbol": "MANTRA",
+      "name": "만트라",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 1,
+      "price": 6.21,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 개선"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.4592,
+      "cmfChange": -0.3966,
+      "obvSlope": 0.6961,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -6.0,
+      "atrPct": 2.04
+    },
+    {
+      "symbol": "MANTRA",
+      "name": "만트라",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 1,
+      "price": 6.21,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 기울기 개선"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 5봉 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.4592,
+      "cmfChange": -0.3966,
+      "obvSlope": 0.6961,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -6.0,
+      "atrPct": 2.04
+    },
+    {
+      "symbol": "AXL",
+      "name": "엑셀라",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 57.3,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배"
+      ],
+      "cmf": -0.1595,
+      "cmfChange": -0.0363,
+      "obvSlope": -0.2321,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.37,
+      "atrPct": 1.45
     },
     {
       "symbol": "AXL",
@@ -19557,8 +19592,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 57.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 57.3,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -19570,78 +19605,9 @@
       "cmf": -0.1595,
       "cmfChange": -0.0363,
       "obvSlope": -0.2321,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -0.85,
-      "atrPct": 1.48
-    },
-    {
-      "symbol": "MANTRA",
-      "name": "만트라",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 6.14,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": -0.4592,
-      "cmfChange": -0.3966,
-      "obvSlope": 0.6961,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": -7.0,
-      "atrPct": 2.06
-    },
-    {
-      "symbol": "MANTRA",
-      "name": "만트라",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 1,
-      "price": 6.14,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.4592,
-      "cmfChange": -0.3966,
-      "obvSlope": 0.6961,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": -7.0,
-      "atrPct": 2.06
-    },
-    {
-      "symbol": "MANTRA",
-      "name": "만트라",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 1,
-      "price": 6.14,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 기울기 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 5봉 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.4592,
-      "cmfChange": -0.3966,
-      "obvSlope": 0.6961,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": -7.0,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.37,
+      "atrPct": 1.45
     },
     {
       "symbol": "ZKP",
@@ -19649,8 +19615,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 60.8,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 61.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19662,9 +19628,9 @@
       "cmf": -0.1803,
       "cmfChange": -0.0019,
       "obvSlope": -0.9906,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": -7.8,
-      "atrPct": 1.55
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -7.38,
+      "atrPct": 1.48
     },
     {
       "symbol": "ZKP",
@@ -19672,8 +19638,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 60.8,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 61.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -19685,55 +19651,9 @@
       "cmf": -0.1803,
       "cmfChange": -0.0019,
       "obvSlope": -0.9906,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": -7.8,
-      "atrPct": 1.55
-    },
-    {
-      "symbol": "CHIP",
-      "name": "유에스디에이아이",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 61.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
-      ],
-      "cmf": 0.1137,
-      "cmfChange": 0.4729,
-      "obvSlope": 0.4828,
-      "volumeRatio1h": 0.61,
-      "ma120GapPct": 10.07,
-      "atrPct": 3.33
-    },
-    {
-      "symbol": "CHIP",
-      "name": "유에스디에이아이",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 61.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": 0.1137,
-      "cmfChange": 0.4729,
-      "obvSlope": 0.4828,
-      "volumeRatio1h": 0.61,
-      "ma120GapPct": 10.07,
-      "atrPct": 3.33
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -7.38,
+      "atrPct": 1.48
     },
     {
       "symbol": "BLAST",
@@ -19741,8 +19661,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 0.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.393,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -19754,9 +19674,32 @@
       "cmf": -0.2312,
       "cmfChange": -0.208,
       "obvSlope": -0.1168,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 1.07,
-      "atrPct": 2.12
+      "volumeRatio1h": 0.19,
+      "ma120GapPct": -0.67,
+      "atrPct": 1.85
+    },
+    {
+      "symbol": "BLAST",
+      "name": "블라스트",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 0.393,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.2312,
+      "cmfChange": -0.208,
+      "obvSlope": -0.1168,
+      "volumeRatio1h": 0.19,
+      "ma120GapPct": -0.67,
+      "atrPct": 1.85
     },
     {
       "symbol": "SONIC",
@@ -19764,8 +19707,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 30.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 30.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -19777,9 +19720,9 @@
       "cmf": 0.096,
       "cmfChange": -0.1304,
       "obvSlope": 0.1743,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.95,
-      "atrPct": 2.05
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 3.22,
+      "atrPct": 1.86
     },
     {
       "symbol": "SONIC",
@@ -19787,8 +19730,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 30.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 30.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -19800,9 +19743,9 @@
       "cmf": 0.096,
       "cmfChange": -0.1304,
       "obvSlope": 0.1743,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.95,
-      "atrPct": 2.05
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 3.22,
+      "atrPct": 1.86
     },
     {
       "symbol": "SONIC",
@@ -19810,8 +19753,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 30.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 30.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 기울기 개선"
       ],
@@ -19823,9 +19766,101 @@
       "cmf": 0.096,
       "cmfChange": -0.1304,
       "obvSlope": 0.1743,
-      "volumeRatio1h": 0.04,
-      "ma120GapPct": 3.95,
-      "atrPct": 2.05
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 3.22,
+      "atrPct": 1.86
+    },
+    {
+      "symbol": "MBL",
+      "name": "무비블록",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 0.93,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 상승추세"
+      ],
+      "missing": [
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.6182,
+      "cmfChange": 0.037,
+      "obvSlope": 0.7836,
+      "volumeRatio1h": 0.02,
+      "ma120GapPct": 2.35,
+      "atrPct": 3.44
+    },
+    {
+      "symbol": "MBL",
+      "name": "무비블록",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 0.93,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.6182,
+      "cmfChange": 0.037,
+      "obvSlope": 0.7836,
+      "volumeRatio1h": 0.02,
+      "ma120GapPct": 2.35,
+      "atrPct": 3.44
+    },
+    {
+      "symbol": "MBL",
+      "name": "무비블록",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 1,
+      "price": 0.93,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 개선"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.6182,
+      "cmfChange": 0.037,
+      "obvSlope": 0.7836,
+      "volumeRatio1h": 0.02,
+      "ma120GapPct": 2.35,
+      "atrPct": 3.44
+    },
+    {
+      "symbol": "MBL",
+      "name": "무비블록",
+      "strategy": "매집 압축형",
+      "state": "관찰",
+      "score": 1,
+      "price": 0.93,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 박스권 8% 이내",
+        "거래량 수축",
+        "CMF 0.03 이상"
+      ],
+      "cmf": -0.6182,
+      "cmfChange": 0.037,
+      "obvSlope": 0.7836,
+      "volumeRatio1h": 0.02,
+      "ma120GapPct": 2.35,
+      "atrPct": 3.44
     },
     {
       "symbol": "XPL",
@@ -19833,8 +19868,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 117.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 118.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -19846,9 +19881,9 @@
       "cmf": 0.1884,
       "cmfChange": 0.075,
       "obvSlope": -0.2009,
-      "volumeRatio1h": 0.56,
-      "ma120GapPct": -1.91,
-      "atrPct": 2.63
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": -1.03,
+      "atrPct": 2.54
     },
     {
       "symbol": "XPL",
@@ -19856,8 +19891,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 117.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 118.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 개선"
       ],
@@ -19869,9 +19904,9 @@
       "cmf": 0.1884,
       "cmfChange": 0.075,
       "obvSlope": -0.2009,
-      "volumeRatio1h": 0.56,
-      "ma120GapPct": -1.91,
-      "atrPct": 2.63
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": -1.03,
+      "atrPct": 2.54
     },
     {
       "symbol": "XPL",
@@ -19879,8 +19914,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 117.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 118.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 5봉 개선"
       ],
@@ -19892,9 +19927,9 @@
       "cmf": 0.1884,
       "cmfChange": 0.075,
       "obvSlope": -0.2009,
-      "volumeRatio1h": 0.56,
-      "ma120GapPct": -1.91,
-      "atrPct": 2.63
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": -1.03,
+      "atrPct": 2.54
     },
     {
       "symbol": "XPL",
@@ -19902,8 +19937,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 117.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 118.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "CMF 0.03 이상"
       ],
@@ -19915,101 +19950,9 @@
       "cmf": 0.1884,
       "cmfChange": 0.075,
       "obvSlope": -0.2009,
-      "volumeRatio1h": 0.56,
-      "ma120GapPct": -1.91,
-      "atrPct": 2.63
-    },
-    {
-      "symbol": "MBL",
-      "name": "무비블록",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 0.928,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 상승추세"
-      ],
-      "missing": [
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.6182,
-      "cmfChange": 0.037,
-      "obvSlope": 0.7836,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 2.14,
-      "atrPct": 3.53
-    },
-    {
-      "symbol": "MBL",
-      "name": "무비블록",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 1,
-      "price": 0.928,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 추세 훼손 없음"
-      ],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파"
-      ],
-      "cmf": -0.6182,
-      "cmfChange": 0.037,
-      "obvSlope": 0.7836,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 2.14,
-      "atrPct": 3.53
-    },
-    {
-      "symbol": "MBL",
-      "name": "무비블록",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 1,
-      "price": 0.928,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.6182,
-      "cmfChange": 0.037,
-      "obvSlope": 0.7836,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 2.14,
-      "atrPct": 3.53
-    },
-    {
-      "symbol": "MBL",
-      "name": "무비블록",
-      "strategy": "매집 압축형",
-      "state": "관찰",
-      "score": 1,
-      "price": 0.928,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "OBV 상승"
-      ],
-      "missing": [
-        "4시간 박스권 8% 이내",
-        "거래량 수축",
-        "CMF 0.03 이상"
-      ],
-      "cmf": -0.6182,
-      "cmfChange": 0.037,
-      "obvSlope": 0.7836,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": 2.14,
-      "atrPct": 3.53
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": -1.03,
+      "atrPct": 2.54
     },
     {
       "symbol": "STX",
@@ -20017,8 +19960,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 355.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -20030,9 +19973,9 @@
       "cmf": 0.077,
       "cmfChange": 0.1383,
       "obvSlope": 0.3217,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 2.1,
-      "atrPct": 1.87
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": 2.38,
+      "atrPct": 1.77
     },
     {
       "symbol": "STX",
@@ -20040,8 +19983,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 355.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -20053,9 +19996,9 @@
       "cmf": 0.077,
       "cmfChange": 0.1383,
       "obvSlope": 0.3217,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 2.1,
-      "atrPct": 1.87
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": 2.38,
+      "atrPct": 1.77
     },
     {
       "symbol": "SHIB",
@@ -20064,7 +20007,7 @@
       "state": "관찰",
       "score": 1,
       "price": 0.00714,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -20076,55 +20019,32 @@
       "cmf": 0.116,
       "cmfChange": 0.1542,
       "obvSlope": 0.4207,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": 0.0,
+      "volumeRatio1h": 0.36,
+      "ma120GapPct": 0.04,
       "atrPct": 1.11
     },
     {
-      "symbol": "INJ",
-      "name": "인젝티브",
-      "strategy": "추세 돌파형",
+      "symbol": "SHIB",
+      "name": "시바이누",
+      "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 6225.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.00714,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
-        "OBV 상승"
+        "1시간 MA120 지지"
       ],
       "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배"
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파",
+        "4시간 추세 훼손 없음"
       ],
-      "cmf": -0.1277,
-      "cmfChange": 0.0708,
-      "obvSlope": -0.4236,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -11.5,
-      "atrPct": 4.65
-    },
-    {
-      "symbol": "INJ",
-      "name": "인젝티브",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 1,
-      "price": 6225.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "CMF 5봉 개선"
-      ],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "OBV 기울기 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.1277,
-      "cmfChange": 0.0708,
-      "obvSlope": -0.4236,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -11.5,
-      "atrPct": 4.65
+      "cmf": 0.116,
+      "cmfChange": 0.1542,
+      "obvSlope": 0.4207,
+      "volumeRatio1h": 0.36,
+      "ma120GapPct": 0.04,
+      "atrPct": 1.11
     },
     {
       "symbol": "FIL",
@@ -20132,8 +20052,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 1088.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1073.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -20145,9 +20065,55 @@
       "cmf": 0.3901,
       "cmfChange": 0.4748,
       "obvSlope": 0.9192,
-      "volumeRatio1h": 2.53,
-      "ma120GapPct": 14.08,
-      "atrPct": 2.41
+      "volumeRatio1h": 1.54,
+      "ma120GapPct": 12.43,
+      "atrPct": 2.62
+    },
+    {
+      "symbol": "INJ",
+      "name": "인젝티브",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 1,
+      "price": 6270.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "OBV 상승"
+      ],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배"
+      ],
+      "cmf": -0.1277,
+      "cmfChange": 0.0708,
+      "obvSlope": -0.4236,
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": -10.72,
+      "atrPct": 4.93
+    },
+    {
+      "symbol": "INJ",
+      "name": "인젝티브",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 1,
+      "price": 6270.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "CMF 5봉 개선"
+      ],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.1277,
+      "cmfChange": 0.0708,
+      "obvSlope": -0.4236,
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": -10.72,
+      "atrPct": 4.93
     },
     {
       "symbol": "GRVT",
@@ -20155,8 +20121,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 208.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 207.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -20168,9 +20134,9 @@
       "cmf": -0.1813,
       "cmfChange": -0.2261,
       "obvSlope": -0.5809,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.95,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.23,
+      "ma120GapPct": -11.27,
+      "atrPct": 1.69
     },
     {
       "symbol": "SLX",
@@ -20178,8 +20144,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 92.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 91.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "거래량 수축"
       ],
@@ -20191,9 +20157,9 @@
       "cmf": -0.0609,
       "cmfChange": -0.1272,
       "obvSlope": -0.1144,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.53,
-      "atrPct": 1.09
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -4.63,
+      "atrPct": 1.08
     },
     {
       "symbol": "AXS",
@@ -20201,8 +20167,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 1265.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1266.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "1시간 MA120 지지"
       ],
@@ -20214,9 +20180,9 @@
       "cmf": -0.1022,
       "cmfChange": -0.1188,
       "obvSlope": 0.646,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 0.53,
-      "atrPct": 1.63
+      "volumeRatio1h": 0.15,
+      "ma120GapPct": 0.64,
+      "atrPct": 1.55
     },
     {
       "symbol": "AXS",
@@ -20224,8 +20190,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 1265.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1266.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -20237,9 +20203,9 @@
       "cmf": -0.1022,
       "cmfChange": -0.1188,
       "obvSlope": 0.646,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 0.53,
-      "atrPct": 1.63
+      "volumeRatio1h": 0.15,
+      "ma120GapPct": 0.64,
+      "atrPct": 1.55
     },
     {
       "symbol": "IOST",
@@ -20247,8 +20213,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 1,
-      "price": 0.828,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.827,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 상승추세"
       ],
@@ -20260,8 +20226,8 @@
       "cmf": -0.2302,
       "cmfChange": 0.121,
       "obvSlope": 0.3537,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 1.11,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 1.0,
       "atrPct": 2.61
     },
     {
@@ -20270,8 +20236,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 0.828,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.827,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -20283,9 +20249,32 @@
       "cmf": -0.2302,
       "cmfChange": 0.121,
       "obvSlope": 0.3537,
-      "volumeRatio1h": 0.16,
-      "ma120GapPct": 1.11,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 1.0,
       "atrPct": 2.61
+    },
+    {
+      "symbol": "STRAX",
+      "name": "저트라",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 1,
+      "price": 13.1,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "4시간 추세 훼손 없음"
+      ],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파"
+      ],
+      "cmf": -0.1196,
+      "cmfChange": -0.1294,
+      "obvSlope": 0.5179,
+      "volumeRatio1h": 0.2,
+      "ma120GapPct": -0.11,
+      "atrPct": 4.31
     },
     {
       "symbol": "STRAX",
@@ -20293,8 +20282,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 13.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 13.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -20306,9 +20295,9 @@
       "cmf": -0.1196,
       "cmfChange": -0.1294,
       "obvSlope": 0.5179,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.63,
-      "atrPct": 4.17
+      "volumeRatio1h": 0.2,
+      "ma120GapPct": -0.11,
+      "atrPct": 4.31
     },
     {
       "symbol": "STRAX",
@@ -20316,8 +20305,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 1,
-      "price": 13.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 13.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 기울기 개선"
       ],
@@ -20329,9 +20318,9 @@
       "cmf": -0.1196,
       "cmfChange": -0.1294,
       "obvSlope": 0.5179,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.63,
-      "atrPct": 4.17
+      "volumeRatio1h": 0.2,
+      "ma120GapPct": -0.11,
+      "atrPct": 4.31
     },
     {
       "symbol": "STRAX",
@@ -20339,8 +20328,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 13.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 13.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -20352,55 +20341,9 @@
       "cmf": -0.1196,
       "cmfChange": -0.1294,
       "obvSlope": 0.5179,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.63,
-      "atrPct": 4.17
-    },
-    {
-      "symbol": "ZK",
-      "name": "지케이싱크",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 1,
-      "price": 12.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "4시간 상승추세"
-      ],
-      "missing": [
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.1902,
-      "cmfChange": -0.0062,
-      "obvSlope": -0.6954,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 2.95,
-      "atrPct": 2.34
-    },
-    {
-      "symbol": "ZK",
-      "name": "지케이싱크",
-      "strategy": "매집 압축형",
-      "state": "관찰",
-      "score": 1,
-      "price": 12.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [
-        "거래량 수축"
-      ],
-      "missing": [
-        "4시간 박스권 8% 이내",
-        "CMF 0.03 이상",
-        "OBV 상승"
-      ],
-      "cmf": -0.1902,
-      "cmfChange": -0.0062,
-      "obvSlope": -0.6954,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 2.95,
-      "atrPct": 2.34
+      "volumeRatio1h": 0.2,
+      "ma120GapPct": -0.11,
+      "atrPct": 4.31
     },
     {
       "symbol": "MOVE",
@@ -20408,8 +20351,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 1,
-      "price": 12.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 11.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "4시간 추세 훼손 없음"
       ],
@@ -20421,9 +20364,9 @@
       "cmf": -0.1626,
       "cmfChange": 0.0973,
       "obvSlope": 0.4389,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": -0.83,
-      "atrPct": 2.14
+      "volumeRatio1h": 0.31,
+      "ma120GapPct": -2.41,
+      "atrPct": 2.18
     },
     {
       "symbol": "MOVE",
@@ -20431,8 +20374,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 1,
-      "price": 12.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 11.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 개선"
       ],
@@ -20444,9 +20387,9 @@
       "cmf": -0.1626,
       "cmfChange": 0.0973,
       "obvSlope": 0.4389,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": -0.83,
-      "atrPct": 2.14
+      "volumeRatio1h": 0.31,
+      "ma120GapPct": -2.41,
+      "atrPct": 2.18
     },
     {
       "symbol": "MOVE",
@@ -20454,8 +20397,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 1,
-      "price": 12.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 11.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [
         "OBV 상승"
       ],
@@ -20467,9 +20410,32 @@
       "cmf": -0.1626,
       "cmfChange": 0.0973,
       "obvSlope": 0.4389,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": -0.83,
-      "atrPct": 2.14
+      "volumeRatio1h": 0.31,
+      "ma120GapPct": -2.41,
+      "atrPct": 2.18
+    },
+    {
+      "symbol": "ZK",
+      "name": "지케이싱크",
+      "strategy": "매집 압축형",
+      "state": "관찰",
+      "score": 1,
+      "price": 12.4,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [
+        "거래량 수축"
+      ],
+      "missing": [
+        "4시간 박스권 8% 이내",
+        "CMF 0.03 이상",
+        "OBV 상승"
+      ],
+      "cmf": -0.1902,
+      "cmfChange": -0.0062,
+      "obvSlope": -0.6954,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": 2.1,
+      "atrPct": 2.3
     },
     {
       "symbol": "XRP",
@@ -20478,7 +20444,7 @@
       "state": "관찰",
       "score": 0,
       "price": 1877.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -20489,8 +20455,8 @@
       "cmf": -0.0616,
       "cmfChange": 0.0974,
       "obvSlope": -0.0817,
-      "volumeRatio1h": 0.59,
-      "ma120GapPct": -2.57,
+      "volumeRatio1h": 0.57,
+      "ma120GapPct": -2.51,
       "atrPct": 0.94
     },
     {
@@ -20500,7 +20466,7 @@
       "state": "관찰",
       "score": 0,
       "price": 1877.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -20511,8 +20477,8 @@
       "cmf": -0.0616,
       "cmfChange": 0.0974,
       "obvSlope": -0.0817,
-      "volumeRatio1h": 0.59,
-      "ma120GapPct": -2.57,
+      "volumeRatio1h": 0.57,
+      "ma120GapPct": -2.51,
       "atrPct": 0.94
     },
     {
@@ -20521,8 +20487,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 0.0055,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.00574,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20533,9 +20499,9 @@
       "cmf": -0.195,
       "cmfChange": 0.2166,
       "obvSlope": 0.5718,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 19.35,
-      "atrPct": 9.25
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 24.26,
+      "atrPct": 8.6
     },
     {
       "symbol": "BTC",
@@ -20543,8 +20509,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 107030000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 107215000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -20555,9 +20521,9 @@
       "cmf": -0.0258,
       "cmfChange": -0.018,
       "obvSlope": -0.0584,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.46,
-      "atrPct": 0.51
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -1.26,
+      "atrPct": 0.48
     },
     {
       "symbol": "BTC",
@@ -20565,8 +20531,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 107030000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 107215000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -20577,9 +20543,9 @@
       "cmf": -0.0258,
       "cmfChange": -0.018,
       "obvSlope": -0.0584,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.46,
-      "atrPct": 0.51
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -1.26,
+      "atrPct": 0.48
     },
     {
       "symbol": "ETH",
@@ -20587,8 +20553,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 3350000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3353000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -20599,9 +20565,9 @@
       "cmf": -0.0067,
       "cmfChange": 0.0097,
       "obvSlope": 0.1235,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.7,
-      "atrPct": 0.7
+      "volumeRatio1h": 0.48,
+      "ma120GapPct": -1.59,
+      "atrPct": 0.69
     },
     {
       "symbol": "ETH",
@@ -20609,8 +20575,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 3350000.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 3353000.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -20621,9 +20587,9 @@
       "cmf": -0.0067,
       "cmfChange": 0.0097,
       "obvSlope": 0.1235,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -1.7,
-      "atrPct": 0.7
+      "volumeRatio1h": 0.48,
+      "ma120GapPct": -1.59,
+      "atrPct": 0.69
     },
     {
       "symbol": "SKR",
@@ -20631,8 +20597,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 31.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 32.2,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20643,9 +20609,9 @@
       "cmf": 0.152,
       "cmfChange": -0.0784,
       "obvSlope": 0.2573,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": 27.83,
-      "atrPct": 6.85
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 29.04,
+      "atrPct": 6.61
     },
     {
       "symbol": "SKR",
@@ -20653,8 +20619,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 31.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 32.2,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20665,9 +20631,9 @@
       "cmf": 0.152,
       "cmfChange": -0.0784,
       "obvSlope": 0.2573,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": 27.83,
-      "atrPct": 6.85
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 29.04,
+      "atrPct": 6.61
     },
     {
       "symbol": "0G",
@@ -20675,8 +20641,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 270.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 271.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20687,9 +20653,9 @@
       "cmf": -0.0603,
       "cmfChange": -0.0841,
       "obvSlope": 0.2904,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 7.68,
-      "atrPct": 5.24
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 7.9,
+      "atrPct": 5.03
     },
     {
       "symbol": "0G",
@@ -20697,8 +20663,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 270.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 271.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20709,9 +20675,31 @@
       "cmf": -0.0603,
       "cmfChange": -0.0841,
       "obvSlope": 0.2904,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 7.68,
-      "atrPct": 5.24
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 7.9,
+      "atrPct": 5.03
+    },
+    {
+      "symbol": "ONG",
+      "name": "온톨로지가스",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 149.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.2129,
+      "cmfChange": 0.0053,
+      "obvSlope": 0.3407,
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -2.84,
+      "atrPct": 6.09
     },
     {
       "symbol": "STORJ",
@@ -20719,8 +20707,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 71.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 74.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20731,9 +20719,9 @@
       "cmf": -0.0872,
       "cmfChange": -0.0411,
       "obvSlope": 0.699,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 11.29,
-      "atrPct": 7.05
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 14.77,
+      "atrPct": 6.76
     },
     {
       "symbol": "STORJ",
@@ -20741,8 +20729,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 71.6,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 74.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20753,9 +20741,9 @@
       "cmf": -0.0872,
       "cmfChange": -0.0411,
       "obvSlope": 0.699,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 11.29,
-      "atrPct": 7.05
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 14.77,
+      "atrPct": 6.76
     },
     {
       "symbol": "ICX",
@@ -20763,8 +20751,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 21.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 21.5,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -20775,9 +20763,9 @@
       "cmf": -0.4058,
       "cmfChange": 0.1802,
       "obvSlope": 0.7891,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 11.64,
-      "atrPct": 9.61
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 12.09,
+      "atrPct": 9.34
     },
     {
       "symbol": "ICX",
@@ -20785,8 +20773,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 21.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 21.5,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -20797,207 +20785,251 @@
       "cmf": -0.4058,
       "cmfChange": 0.1802,
       "obvSlope": 0.7891,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": 12.09,
+      "atrPct": 9.34
+    },
+    {
+      "symbol": "SOL",
+      "name": "솔라나",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 138500.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.1546,
+      "cmfChange": -0.0088,
+      "obvSlope": -0.25,
+      "volumeRatio1h": 0.69,
+      "ma120GapPct": -4.1,
+      "atrPct": 0.93
+    },
+    {
+      "symbol": "SOL",
+      "name": "솔라나",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 0,
+      "price": 138500.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파",
+        "4시간 추세 훼손 없음"
+      ],
+      "cmf": -0.1546,
+      "cmfChange": -0.0088,
+      "obvSlope": -0.25,
+      "volumeRatio1h": 0.69,
+      "ma120GapPct": -4.1,
+      "atrPct": 0.93
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "오피셜트럼프",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 3155.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.2692,
+      "cmfChange": -0.0392,
+      "obvSlope": -0.103,
+      "volumeRatio1h": 0.74,
+      "ma120GapPct": -10.96,
+      "atrPct": 1.57
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "오피셜트럼프",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 0,
+      "price": 3155.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파",
+        "4시간 추세 훼손 없음"
+      ],
+      "cmf": -0.2692,
+      "cmfChange": -0.0392,
+      "obvSlope": -0.103,
+      "volumeRatio1h": 0.74,
+      "ma120GapPct": -10.96,
+      "atrPct": 1.57
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "오피셜트럼프",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 0,
+      "price": 3155.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "OBV 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.2692,
+      "cmfChange": -0.0392,
+      "obvSlope": -0.103,
+      "volumeRatio1h": 0.74,
+      "ma120GapPct": -10.96,
+      "atrPct": 1.57
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "오피셜트럼프",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 0,
+      "price": 3155.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 5봉 개선",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.2692,
+      "cmfChange": -0.0392,
+      "obvSlope": -0.103,
+      "volumeRatio1h": 0.74,
+      "ma120GapPct": -10.96,
+      "atrPct": 1.57
+    },
+    {
+      "symbol": "IQ",
+      "name": "아이큐",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 1.04,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.0621,
+      "cmfChange": 0.2493,
+      "obvSlope": 0.5854,
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": 9.79,
+      "atrPct": 7.61
+    },
+    {
+      "symbol": "PROM",
+      "name": "프롬",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 6955.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": -0.0172,
+      "cmfChange": -0.0364,
+      "obvSlope": -0.4899,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": -12.77,
+      "atrPct": 4.05
+    },
+    {
+      "symbol": "PROM",
+      "name": "프롬",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 0,
+      "price": 6955.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "OBV 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.0172,
+      "cmfChange": -0.0364,
+      "obvSlope": -0.4899,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": -12.77,
+      "atrPct": 4.05
+    },
+    {
+      "symbol": "PROM",
+      "name": "프롬",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 0,
+      "price": 6955.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 5봉 개선",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.0172,
+      "cmfChange": -0.0364,
+      "obvSlope": -0.4899,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": -12.77,
+      "atrPct": 4.05
+    },
+    {
+      "symbol": "ZKC",
+      "name": "바운드리스",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 66.9,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": 0.1189,
+      "cmfChange": -0.0684,
+      "obvSlope": -0.3156,
       "volumeRatio1h": 0.03,
-      "ma120GapPct": 11.64,
-      "atrPct": 9.61
-    },
-    {
-      "symbol": "SOL",
-      "name": "솔라나",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 0,
-      "price": 138600.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.1546,
-      "cmfChange": -0.0088,
-      "obvSlope": -0.25,
-      "volumeRatio1h": 0.78,
-      "ma120GapPct": -4.09,
-      "atrPct": 0.96
-    },
-    {
-      "symbol": "SOL",
-      "name": "솔라나",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 0,
-      "price": 138600.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파",
-        "4시간 추세 훼손 없음"
-      ],
-      "cmf": -0.1546,
-      "cmfChange": -0.0088,
-      "obvSlope": -0.25,
-      "volumeRatio1h": 0.78,
-      "ma120GapPct": -4.09,
-      "atrPct": 0.96
-    },
-    {
-      "symbol": "TRUMP",
-      "name": "오피셜트럼프",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 0,
-      "price": 3160.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파",
-        "4시간 추세 훼손 없음"
-      ],
-      "cmf": -0.2692,
-      "cmfChange": -0.0392,
-      "obvSlope": -0.103,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.9,
-      "atrPct": 1.7
-    },
-    {
-      "symbol": "TRUMP",
-      "name": "오피셜트럼프",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 0,
-      "price": 3160.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "OBV 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.2692,
-      "cmfChange": -0.0392,
-      "obvSlope": -0.103,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.9,
-      "atrPct": 1.7
-    },
-    {
-      "symbol": "TRUMP",
-      "name": "오피셜트럼프",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 0,
-      "price": 3160.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 5봉 개선",
-        "OBV 기울기 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.2692,
-      "cmfChange": -0.0392,
-      "obvSlope": -0.103,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.9,
-      "atrPct": 1.7
-    },
-    {
-      "symbol": "PROM",
-      "name": "프롬",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 0,
-      "price": 6970.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.0172,
-      "cmfChange": -0.0364,
-      "obvSlope": -0.4899,
-      "volumeRatio1h": 0.33,
-      "ma120GapPct": -12.57,
-      "atrPct": 4.15
-    },
-    {
-      "symbol": "PROM",
-      "name": "프롬",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 0,
-      "price": 6970.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "OBV 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.0172,
-      "cmfChange": -0.0364,
-      "obvSlope": -0.4899,
-      "volumeRatio1h": 0.33,
-      "ma120GapPct": -12.57,
-      "atrPct": 4.15
-    },
-    {
-      "symbol": "PROM",
-      "name": "프롬",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 0,
-      "price": 6970.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 5봉 개선",
-        "OBV 기울기 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.0172,
-      "cmfChange": -0.0364,
-      "obvSlope": -0.4899,
-      "volumeRatio1h": 0.33,
-      "ma120GapPct": -12.57,
-      "atrPct": 4.15
-    },
-    {
-      "symbol": "ZKC",
-      "name": "바운드리스",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 0,
-      "price": 67.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": 0.1189,
-      "cmfChange": -0.0684,
-      "obvSlope": -0.3156,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": -0.34,
-      "atrPct": 2.19
+      "ma120GapPct": -0.62,
+      "atrPct": 1.94
     },
     {
       "symbol": "ZKC",
@@ -21005,8 +21037,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 67.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 66.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21017,9 +21049,9 @@
       "cmf": 0.1189,
       "cmfChange": -0.0684,
       "obvSlope": -0.3156,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": -0.34,
-      "atrPct": 2.19
+      "volumeRatio1h": 0.03,
+      "ma120GapPct": -0.62,
+      "atrPct": 1.94
     },
     {
       "symbol": "ZKC",
@@ -21027,8 +21059,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 67.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 66.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21039,9 +21071,9 @@
       "cmf": 0.1189,
       "cmfChange": -0.0684,
       "obvSlope": -0.3156,
-      "volumeRatio1h": 0.07,
-      "ma120GapPct": -0.34,
-      "atrPct": 2.19
+      "volumeRatio1h": 0.03,
+      "ma120GapPct": -0.62,
+      "atrPct": 1.94
     },
     {
       "symbol": "ENA",
@@ -21049,8 +21081,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 218.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 221.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21061,53 +21093,9 @@
       "cmf": -0.0163,
       "cmfChange": 0.275,
       "obvSlope": 0.0978,
-      "volumeRatio1h": 0.62,
-      "ma120GapPct": -0.51,
-      "atrPct": 3.15
-    },
-    {
-      "symbol": "ZORA",
-      "name": "조라",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 0,
-      "price": 11.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "OBV 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.2304,
-      "cmfChange": -0.0297,
-      "obvSlope": 0.1268,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 8.03,
-      "atrPct": 4.42
-    },
-    {
-      "symbol": "ZORA",
-      "name": "조라",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 0,
-      "price": 11.0,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 5봉 개선",
-        "OBV 기울기 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.2304,
-      "cmfChange": -0.0297,
-      "obvSlope": 0.1268,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 8.03,
-      "atrPct": 4.42
+      "volumeRatio1h": 0.21,
+      "ma120GapPct": 0.9,
+      "atrPct": 3.1
     },
     {
       "symbol": "FLOCK",
@@ -21115,8 +21103,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 48.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21128,8 +21116,8 @@
       "cmfChange": -0.0776,
       "obvSlope": -0.0267,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 0.73,
-      "atrPct": 2.32
+      "ma120GapPct": 1.72,
+      "atrPct": 2.26
     },
     {
       "symbol": "FLOCK",
@@ -21137,8 +21125,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 48.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21150,8 +21138,8 @@
       "cmfChange": -0.0776,
       "obvSlope": -0.0267,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 0.73,
-      "atrPct": 2.32
+      "ma120GapPct": 1.72,
+      "atrPct": 2.26
     },
     {
       "symbol": "FLOCK",
@@ -21159,8 +21147,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 48.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.4,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21172,8 +21160,52 @@
       "cmfChange": -0.0776,
       "obvSlope": -0.0267,
       "volumeRatio1h": 0.08,
-      "ma120GapPct": 0.73,
-      "atrPct": 2.32
+      "ma120GapPct": 1.72,
+      "atrPct": 2.26
+    },
+    {
+      "symbol": "ZORA",
+      "name": "조라",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 0,
+      "price": 10.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "OBV 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.2304,
+      "cmfChange": -0.0297,
+      "obvSlope": 0.1268,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 5.87,
+      "atrPct": 4.3
+    },
+    {
+      "symbol": "ZORA",
+      "name": "조라",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 0,
+      "price": 10.8,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 5봉 개선",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.2304,
+      "cmfChange": -0.0297,
+      "obvSlope": 0.1268,
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 5.87,
+      "atrPct": 4.3
     },
     {
       "symbol": "ONDO",
@@ -21182,7 +21214,7 @@
       "state": "관찰",
       "score": 0,
       "price": 474.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21193,9 +21225,9 @@
       "cmf": -0.0334,
       "cmfChange": 0.1445,
       "obvSlope": -0.0539,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": -3.4,
-      "atrPct": 1.21
+      "volumeRatio1h": 0.27,
+      "ma120GapPct": -3.32,
+      "atrPct": 1.16
     },
     {
       "symbol": "ONDO",
@@ -21204,7 +21236,7 @@
       "state": "관찰",
       "score": 0,
       "price": 474.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21215,9 +21247,9 @@
       "cmf": -0.0334,
       "cmfChange": 0.1445,
       "obvSlope": -0.0539,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": -3.4,
-      "atrPct": 1.21
+      "volumeRatio1h": 0.27,
+      "ma120GapPct": -3.32,
+      "atrPct": 1.16
     },
     {
       "symbol": "DOS",
@@ -21225,8 +21257,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 360.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21237,9 +21269,9 @@
       "cmf": -0.032,
       "cmfChange": -0.1064,
       "obvSlope": -0.3414,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -6.62,
-      "atrPct": 2.56
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -7.71,
+      "atrPct": 2.53
     },
     {
       "symbol": "DOS",
@@ -21247,8 +21279,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 360.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21259,9 +21291,9 @@
       "cmf": -0.032,
       "cmfChange": -0.1064,
       "obvSlope": -0.3414,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -6.62,
-      "atrPct": 2.56
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -7.71,
+      "atrPct": 2.53
     },
     {
       "symbol": "DOS",
@@ -21269,8 +21301,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 360.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 356.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21281,9 +21313,31 @@
       "cmf": -0.032,
       "cmfChange": -0.1064,
       "obvSlope": -0.3414,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": -6.62,
-      "atrPct": 2.56
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -7.71,
+      "atrPct": 2.53
+    },
+    {
+      "symbol": "DOGE",
+      "name": "도지코인",
+      "strategy": "추세 돌파형",
+      "state": "관찰",
+      "score": 0,
+      "price": 114.0,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 상승추세",
+        "1시간 고점 돌파",
+        "1시간 거래량 1.5배",
+        "OBV 상승"
+      ],
+      "cmf": 0.171,
+      "cmfChange": -0.0528,
+      "obvSlope": -0.0694,
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -2.81,
+      "atrPct": 1.38
     },
     {
       "symbol": "DOGE",
@@ -21292,7 +21346,7 @@
       "state": "관찰",
       "score": 0,
       "price": 114.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21303,8 +21357,8 @@
       "cmf": 0.171,
       "cmfChange": -0.0528,
       "obvSlope": -0.0694,
-      "volumeRatio1h": 0.12,
-      "ma120GapPct": -2.87,
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -2.81,
       "atrPct": 1.38
     },
     {
@@ -21313,8 +21367,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 58.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 59.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21325,9 +21379,9 @@
       "cmf": -0.2802,
       "cmfChange": -0.1574,
       "obvSlope": 0.4723,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": -2.03,
-      "atrPct": 2.1
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": -1.69,
+      "atrPct": 1.89
     },
     {
       "symbol": "MIRA",
@@ -21335,8 +21389,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 58.9,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 59.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21347,9 +21401,9 @@
       "cmf": -0.2802,
       "cmfChange": -0.1574,
       "obvSlope": 0.4723,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": -2.03,
-      "atrPct": 2.1
+      "volumeRatio1h": 0.08,
+      "ma120GapPct": -1.69,
+      "atrPct": 1.89
     },
     {
       "symbol": "LA",
@@ -21357,8 +21411,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 80.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 79.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21369,9 +21423,9 @@
       "cmf": 0.0507,
       "cmfChange": -0.0565,
       "obvSlope": -0.2409,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": 0.29,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -1.09,
+      "atrPct": 2.02
     },
     {
       "symbol": "LA",
@@ -21379,8 +21433,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 80.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 79.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21391,9 +21445,9 @@
       "cmf": 0.0507,
       "cmfChange": -0.0565,
       "obvSlope": -0.2409,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": 0.29,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -1.09,
+      "atrPct": 2.02
     },
     {
       "symbol": "LA",
@@ -21401,8 +21455,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 80.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 79.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21413,9 +21467,9 @@
       "cmf": 0.0507,
       "cmfChange": -0.0565,
       "obvSlope": -0.2409,
-      "volumeRatio1h": 0.06,
-      "ma120GapPct": 0.29,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.17,
+      "ma120GapPct": -1.09,
+      "atrPct": 2.02
     },
     {
       "symbol": "SAND",
@@ -21423,8 +21477,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 0,
-      "price": 49.7,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 49.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 8% 이내",
@@ -21435,9 +21489,9 @@
       "cmf": -0.3698,
       "cmfChange": 0.0924,
       "obvSlope": -0.0908,
-      "volumeRatio1h": 0.22,
-      "ma120GapPct": 0.5,
-      "atrPct": 2.18
+      "volumeRatio1h": 0.07,
+      "ma120GapPct": 0.69,
+      "atrPct": 2.14
     },
     {
       "symbol": "ONT",
@@ -21445,8 +21499,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 75.1,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 75.3,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21457,9 +21511,9 @@
       "cmf": -0.4007,
       "cmfChange": -0.0544,
       "obvSlope": -0.0119,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": -2.22,
-      "atrPct": 3.3
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.89,
+      "atrPct": 3.1
     },
     {
       "symbol": "ONT",
@@ -21467,8 +21521,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 75.1,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 75.3,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21479,9 +21533,9 @@
       "cmf": -0.4007,
       "cmfChange": -0.0544,
       "obvSlope": -0.0119,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": -2.22,
-      "atrPct": 3.3
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.89,
+      "atrPct": 3.1
     },
     {
       "symbol": "ONT",
@@ -21489,8 +21543,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 75.1,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 75.3,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21501,9 +21555,9 @@
       "cmf": -0.4007,
       "cmfChange": -0.0544,
       "obvSlope": -0.0119,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": -2.22,
-      "atrPct": 3.3
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.89,
+      "atrPct": 3.1
     },
     {
       "symbol": "ONT",
@@ -21511,8 +21565,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 0,
-      "price": 75.1,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 75.3,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 8% 이내",
@@ -21523,9 +21577,9 @@
       "cmf": -0.4007,
       "cmfChange": -0.0544,
       "obvSlope": -0.0119,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": -2.22,
-      "atrPct": 3.3
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.89,
+      "atrPct": 3.1
     },
     {
       "symbol": "XLM",
@@ -21533,8 +21587,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 244.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 245.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21545,8 +21599,8 @@
       "cmf": 0.0388,
       "cmfChange": 0.0218,
       "obvSlope": 0.0066,
-      "volumeRatio1h": 0.48,
-      "ma120GapPct": -1.73,
+      "volumeRatio1h": 0.28,
+      "ma120GapPct": -1.28,
       "atrPct": 1.2
     },
     {
@@ -21555,8 +21609,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 244.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 245.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21567,8 +21621,8 @@
       "cmf": 0.0388,
       "cmfChange": 0.0218,
       "obvSlope": 0.0066,
-      "volumeRatio1h": 0.48,
-      "ma120GapPct": -1.73,
+      "volumeRatio1h": 0.28,
+      "ma120GapPct": -1.28,
       "atrPct": 1.2
     },
     {
@@ -21577,8 +21631,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 154.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 153.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21589,9 +21643,9 @@
       "cmf": -0.6546,
       "cmfChange": -0.1131,
       "obvSlope": -0.3201,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.43,
-      "atrPct": 3.57
+      "volumeRatio1h": 0.01,
+      "ma120GapPct": -5.06,
+      "atrPct": 3.08
     },
     {
       "symbol": "SOMI",
@@ -21599,8 +21653,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 154.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 153.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21611,9 +21665,9 @@
       "cmf": -0.6546,
       "cmfChange": -0.1131,
       "obvSlope": -0.3201,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.43,
-      "atrPct": 3.57
+      "volumeRatio1h": 0.01,
+      "ma120GapPct": -5.06,
+      "atrPct": 3.08
     },
     {
       "symbol": "SOMI",
@@ -21621,8 +21675,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 154.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 153.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21633,9 +21687,9 @@
       "cmf": -0.6546,
       "cmfChange": -0.1131,
       "obvSlope": -0.3201,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.43,
-      "atrPct": 3.57
+      "volumeRatio1h": 0.01,
+      "ma120GapPct": -5.06,
+      "atrPct": 3.08
     },
     {
       "symbol": "SOMI",
@@ -21643,8 +21697,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 154.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 153.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21655,9 +21709,9 @@
       "cmf": -0.6546,
       "cmfChange": -0.1131,
       "obvSlope": -0.3201,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.43,
-      "atrPct": 3.57
+      "volumeRatio1h": 0.01,
+      "ma120GapPct": -5.06,
+      "atrPct": 3.08
     },
     {
       "symbol": "SOMI",
@@ -21665,8 +21719,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 0,
-      "price": 154.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 153.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 8% 이내",
@@ -21677,9 +21731,9 @@
       "cmf": -0.6546,
       "cmfChange": -0.1131,
       "obvSlope": -0.3201,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.43,
-      "atrPct": 3.57
+      "volumeRatio1h": 0.01,
+      "ma120GapPct": -5.06,
+      "atrPct": 3.08
     },
     {
       "symbol": "SUI",
@@ -21687,8 +21741,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 1003.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1004.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21699,9 +21753,9 @@
       "cmf": -0.0187,
       "cmfChange": 0.1032,
       "obvSlope": 0.1739,
-      "volumeRatio1h": 0.15,
-      "ma120GapPct": -2.16,
-      "atrPct": 1.16
+      "volumeRatio1h": 0.78,
+      "ma120GapPct": -2.01,
+      "atrPct": 1.13
     },
     {
       "symbol": "ADA",
@@ -21710,7 +21764,7 @@
       "state": "관찰",
       "score": 0,
       "price": 272.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21721,9 +21775,9 @@
       "cmf": -0.0383,
       "cmfChange": 0.0747,
       "obvSlope": 0.0157,
-      "volumeRatio1h": 0.54,
-      "ma120GapPct": -2.58,
-      "atrPct": 1.29
+      "volumeRatio1h": 0.9,
+      "ma120GapPct": -2.51,
+      "atrPct": 1.23
     },
     {
       "symbol": "ADA",
@@ -21732,7 +21786,7 @@
       "state": "관찰",
       "score": 0,
       "price": 272.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21743,9 +21797,9 @@
       "cmf": -0.0383,
       "cmfChange": 0.0747,
       "obvSlope": 0.0157,
-      "volumeRatio1h": 0.54,
-      "ma120GapPct": -2.58,
-      "atrPct": 1.29
+      "volumeRatio1h": 0.9,
+      "ma120GapPct": -2.51,
+      "atrPct": 1.23
     },
     {
       "symbol": "ENS",
@@ -21753,8 +21807,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 8095.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 7900.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -21765,9 +21819,9 @@
       "cmf": 0.0464,
       "cmfChange": 0.1419,
       "obvSlope": 0.369,
-      "volumeRatio1h": 0.11,
-      "ma120GapPct": 1.55,
-      "atrPct": 1.81
+      "volumeRatio1h": 0.95,
+      "ma120GapPct": -0.86,
+      "atrPct": 1.77
     },
     {
       "symbol": "WLD",
@@ -21775,8 +21829,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 502.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 501.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21787,97 +21841,9 @@
       "cmf": -0.0808,
       "cmfChange": 0.1341,
       "obvSlope": 0.0856,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -3.92,
-      "atrPct": 1.82
-    },
-    {
-      "symbol": "AXL",
-      "name": "엑셀라",
-      "strategy": "추세 돌파형",
-      "state": "관찰",
-      "score": 0,
-      "price": 57.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 상승추세",
-        "1시간 고점 돌파",
-        "1시간 거래량 1.5배",
-        "OBV 상승"
-      ],
-      "cmf": -0.1595,
-      "cmfChange": -0.0363,
-      "obvSlope": -0.2321,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -0.85,
-      "atrPct": 1.48
-    },
-    {
-      "symbol": "AXL",
-      "name": "엑셀라",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 0,
-      "price": 57.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파",
-        "4시간 추세 훼손 없음"
-      ],
-      "cmf": -0.1595,
-      "cmfChange": -0.0363,
-      "obvSlope": -0.2321,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -0.85,
-      "atrPct": 1.48
-    },
-    {
-      "symbol": "AXL",
-      "name": "엑셀라",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 0,
-      "price": 57.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "OBV 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.1595,
-      "cmfChange": -0.0363,
-      "obvSlope": -0.2321,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -0.85,
-      "atrPct": 1.48
-    },
-    {
-      "symbol": "AXL",
-      "name": "엑셀라",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 0,
-      "price": 57.6,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 5봉 개선",
-        "OBV 기울기 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.1595,
-      "cmfChange": -0.0363,
-      "obvSlope": -0.2321,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -0.85,
-      "atrPct": 1.48
+      "volumeRatio1h": 0.35,
+      "ma120GapPct": -4.01,
+      "atrPct": 1.78
     },
     {
       "symbol": "MANTRA",
@@ -21885,8 +21851,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 6.14,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6.21,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21897,9 +21863,75 @@
       "cmf": -0.4592,
       "cmfChange": -0.3966,
       "obvSlope": 0.6961,
-      "volumeRatio1h": 0.09,
-      "ma120GapPct": -7.0,
-      "atrPct": 2.06
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -6.0,
+      "atrPct": 2.04
+    },
+    {
+      "symbol": "AXL",
+      "name": "엑셀라",
+      "strategy": "MA120 반등형",
+      "state": "관찰",
+      "score": 0,
+      "price": 57.3,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "1시간 MA120 지지",
+        "거래량 수축 후 회복",
+        "최근 10봉 고점 돌파",
+        "4시간 추세 훼손 없음"
+      ],
+      "cmf": -0.1595,
+      "cmfChange": -0.0363,
+      "obvSlope": -0.2321,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.37,
+      "atrPct": 1.45
+    },
+    {
+      "symbol": "AXL",
+      "name": "엑셀라",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 0,
+      "price": 57.3,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "OBV 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.1595,
+      "cmfChange": -0.0363,
+      "obvSlope": -0.2321,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.37,
+      "atrPct": 1.45
+    },
+    {
+      "symbol": "AXL",
+      "name": "엑셀라",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 0,
+      "price": 57.3,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 5봉 개선",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.1595,
+      "cmfChange": -0.0363,
+      "obvSlope": -0.2321,
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -1.37,
+      "atrPct": 1.45
     },
     {
       "symbol": "ZKP",
@@ -21907,8 +21939,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 60.8,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 61.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -21919,9 +21951,9 @@
       "cmf": -0.1803,
       "cmfChange": -0.0019,
       "obvSlope": -0.9906,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": -7.8,
-      "atrPct": 1.55
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -7.38,
+      "atrPct": 1.48
     },
     {
       "symbol": "ZKP",
@@ -21929,8 +21961,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 60.8,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 61.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21941,9 +21973,9 @@
       "cmf": -0.1803,
       "cmfChange": -0.0019,
       "obvSlope": -0.9906,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": -7.8,
-      "atrPct": 1.55
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -7.38,
+      "atrPct": 1.48
     },
     {
       "symbol": "ZKP",
@@ -21951,8 +21983,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 60.8,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 61.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21963,9 +21995,9 @@
       "cmf": -0.1803,
       "cmfChange": -0.0019,
       "obvSlope": -0.9906,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": -7.8,
-      "atrPct": 1.55
+      "volumeRatio1h": 0.04,
+      "ma120GapPct": -7.38,
+      "atrPct": 1.48
     },
     {
       "symbol": "BLAST",
@@ -21973,8 +22005,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 0.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.393,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -21985,9 +22017,9 @@
       "cmf": -0.2312,
       "cmfChange": -0.208,
       "obvSlope": -0.1168,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 1.07,
-      "atrPct": 2.12
+      "volumeRatio1h": 0.19,
+      "ma120GapPct": -0.67,
+      "atrPct": 1.85
     },
     {
       "symbol": "BLAST",
@@ -21995,8 +22027,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 0.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.393,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -22007,9 +22039,9 @@
       "cmf": -0.2312,
       "cmfChange": -0.208,
       "obvSlope": -0.1168,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 1.07,
-      "atrPct": 2.12
+      "volumeRatio1h": 0.19,
+      "ma120GapPct": -0.67,
+      "atrPct": 1.85
     },
     {
       "symbol": "BLAST",
@@ -22017,8 +22049,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 0,
-      "price": 0.4,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 0.393,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 8% 이내",
@@ -22029,9 +22061,9 @@
       "cmf": -0.2312,
       "cmfChange": -0.208,
       "obvSlope": -0.1168,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": 1.07,
-      "atrPct": 2.12
+      "volumeRatio1h": 0.19,
+      "ma120GapPct": -0.67,
+      "atrPct": 1.85
     },
     {
       "symbol": "DATA",
@@ -22039,8 +22071,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 258.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 257.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -22051,9 +22083,9 @@
       "cmf": 0.0369,
       "cmfChange": 0.34,
       "obvSlope": 0.1163,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.76,
-      "atrPct": 1.44
+      "volumeRatio1h": 0.06,
+      "ma120GapPct": 0.37,
+      "atrPct": 1.31
     },
     {
       "symbol": "XPL",
@@ -22061,8 +22093,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 117.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 118.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -22073,31 +22105,9 @@
       "cmf": 0.1884,
       "cmfChange": 0.075,
       "obvSlope": -0.2009,
-      "volumeRatio1h": 0.56,
-      "ma120GapPct": -1.91,
-      "atrPct": 2.63
-    },
-    {
-      "symbol": "SHIB",
-      "name": "시바이누",
-      "strategy": "MA120 반등형",
-      "state": "관찰",
-      "score": 0,
-      "price": 0.00714,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "1시간 MA120 지지",
-        "거래량 수축 후 회복",
-        "최근 10봉 고점 돌파",
-        "4시간 추세 훼손 없음"
-      ],
-      "cmf": 0.116,
-      "cmfChange": 0.1542,
-      "obvSlope": 0.4207,
-      "volumeRatio1h": 0.25,
-      "ma120GapPct": 0.0,
-      "atrPct": 1.11
+      "volumeRatio1h": 0.18,
+      "ma120GapPct": -1.03,
+      "atrPct": 2.54
     },
     {
       "symbol": "INJ",
@@ -22105,8 +22115,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 6225.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6270.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -22117,9 +22127,9 @@
       "cmf": -0.1277,
       "cmfChange": 0.0708,
       "obvSlope": -0.4236,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -11.5,
-      "atrPct": 4.65
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": -10.72,
+      "atrPct": 4.93
     },
     {
       "symbol": "INJ",
@@ -22127,8 +22137,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 6225.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6270.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -22139,9 +22149,9 @@
       "cmf": -0.1277,
       "cmfChange": 0.0708,
       "obvSlope": -0.4236,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -11.5,
-      "atrPct": 4.65
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": -10.72,
+      "atrPct": 4.93
     },
     {
       "symbol": "INJ",
@@ -22149,8 +22159,8 @@
       "strategy": "매집 압축형",
       "state": "관찰",
       "score": 0,
-      "price": 6225.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 6270.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 8% 이내",
@@ -22161,9 +22171,9 @@
       "cmf": -0.1277,
       "cmfChange": 0.0708,
       "obvSlope": -0.4236,
-      "volumeRatio1h": 0.01,
-      "ma120GapPct": -11.5,
-      "atrPct": 4.65
+      "volumeRatio1h": 0.12,
+      "ma120GapPct": -10.72,
+      "atrPct": 4.93
     },
     {
       "symbol": "GRVT",
@@ -22171,8 +22181,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 208.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 207.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -22183,9 +22193,9 @@
       "cmf": -0.1813,
       "cmfChange": -0.2261,
       "obvSlope": -0.5809,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.95,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.23,
+      "ma120GapPct": -11.27,
+      "atrPct": 1.69
     },
     {
       "symbol": "GRVT",
@@ -22193,8 +22203,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 208.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 207.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -22205,9 +22215,9 @@
       "cmf": -0.1813,
       "cmfChange": -0.2261,
       "obvSlope": -0.5809,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.95,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.23,
+      "ma120GapPct": -11.27,
+      "atrPct": 1.69
     },
     {
       "symbol": "GRVT",
@@ -22215,8 +22225,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 208.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 207.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -22227,9 +22237,9 @@
       "cmf": -0.1813,
       "cmfChange": -0.2261,
       "obvSlope": -0.5809,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.95,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.23,
+      "ma120GapPct": -11.27,
+      "atrPct": 1.69
     },
     {
       "symbol": "GRVT",
@@ -22237,8 +22247,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 208.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 207.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -22249,9 +22259,9 @@
       "cmf": -0.1813,
       "cmfChange": -0.2261,
       "obvSlope": -0.5809,
-      "volumeRatio1h": 0.28,
-      "ma120GapPct": -10.95,
-      "atrPct": 1.82
+      "volumeRatio1h": 0.23,
+      "ma120GapPct": -11.27,
+      "atrPct": 1.69
     },
     {
       "symbol": "SLX",
@@ -22259,8 +22269,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 92.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 91.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -22271,9 +22281,9 @@
       "cmf": -0.0609,
       "cmfChange": -0.1272,
       "obvSlope": -0.1144,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.53,
-      "atrPct": 1.09
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -4.63,
+      "atrPct": 1.08
     },
     {
       "symbol": "SLX",
@@ -22281,8 +22291,8 @@
       "strategy": "MA120 반등형",
       "state": "관찰",
       "score": 0,
-      "price": 92.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 91.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "1시간 MA120 지지",
@@ -22293,9 +22303,9 @@
       "cmf": -0.0609,
       "cmfChange": -0.1272,
       "obvSlope": -0.1144,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.53,
-      "atrPct": 1.09
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -4.63,
+      "atrPct": 1.08
     },
     {
       "symbol": "SLX",
@@ -22303,8 +22313,8 @@
       "strategy": "매집 기본형",
       "state": "관찰",
       "score": 0,
-      "price": 92.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 91.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -22315,9 +22325,9 @@
       "cmf": -0.0609,
       "cmfChange": -0.1272,
       "obvSlope": -0.1144,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.53,
-      "atrPct": 1.09
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -4.63,
+      "atrPct": 1.08
     },
     {
       "symbol": "SLX",
@@ -22325,8 +22335,8 @@
       "strategy": "매집 개선형",
       "state": "관찰",
       "score": 0,
-      "price": 92.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 91.9,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 박스권 12% 이내",
@@ -22337,9 +22347,9 @@
       "cmf": -0.0609,
       "cmfChange": -0.1272,
       "obvSlope": -0.1144,
-      "volumeRatio1h": 0.02,
-      "ma120GapPct": -4.53,
-      "atrPct": 1.09
+      "volumeRatio1h": 0.14,
+      "ma120GapPct": -4.63,
+      "atrPct": 1.08
     },
     {
       "symbol": "AXS",
@@ -22347,8 +22357,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 1265.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 1266.0,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -22359,9 +22369,9 @@
       "cmf": -0.1022,
       "cmfChange": -0.1188,
       "obvSlope": 0.646,
-      "volumeRatio1h": 0.03,
-      "ma120GapPct": 0.53,
-      "atrPct": 1.63
+      "volumeRatio1h": 0.15,
+      "ma120GapPct": 0.64,
+      "atrPct": 1.55
     },
     {
       "symbol": "STRAX",
@@ -22369,8 +22379,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 13.2,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 13.1,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -22381,53 +22391,9 @@
       "cmf": -0.1196,
       "cmfChange": -0.1294,
       "obvSlope": 0.5179,
-      "volumeRatio1h": 0.05,
-      "ma120GapPct": 0.63,
-      "atrPct": 4.17
-    },
-    {
-      "symbol": "ZK",
-      "name": "지케이싱크",
-      "strategy": "매집 기본형",
-      "state": "관찰",
-      "score": 0,
-      "price": 12.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 개선",
-        "OBV 개선",
-        "1시간 박스 돌파+거래량"
-      ],
-      "cmf": -0.1902,
-      "cmfChange": -0.0062,
-      "obvSlope": -0.6954,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 2.95,
-      "atrPct": 2.34
-    },
-    {
-      "symbol": "ZK",
-      "name": "지케이싱크",
-      "strategy": "매집 개선형",
-      "state": "관찰",
-      "score": 0,
-      "price": 12.5,
-      "signalTime": "2026-09-02T04:00:00",
-      "evidence": [],
-      "missing": [
-        "4시간 박스권 12% 이내",
-        "CMF 5봉 개선",
-        "OBV 기울기 개선",
-        "1시간 거래량 회복"
-      ],
-      "cmf": -0.1902,
-      "cmfChange": -0.0062,
-      "obvSlope": -0.6954,
-      "volumeRatio1h": 0.08,
-      "ma120GapPct": 2.95,
-      "atrPct": 2.34
+      "volumeRatio1h": 0.2,
+      "ma120GapPct": -0.11,
+      "atrPct": 4.31
     },
     {
       "symbol": "MOVE",
@@ -22435,8 +22401,8 @@
       "strategy": "추세 돌파형",
       "state": "관찰",
       "score": 0,
-      "price": 12.0,
-      "signalTime": "2026-09-02T04:00:00",
+      "price": 11.8,
+      "signalTime": "2026-09-02T05:00:00",
       "evidence": [],
       "missing": [
         "4시간 상승추세",
@@ -22447,9 +22413,53 @@
       "cmf": -0.1626,
       "cmfChange": 0.0973,
       "obvSlope": 0.4389,
-      "volumeRatio1h": 0.14,
-      "ma120GapPct": -0.83,
-      "atrPct": 2.14
+      "volumeRatio1h": 0.31,
+      "ma120GapPct": -2.41,
+      "atrPct": 2.18
+    },
+    {
+      "symbol": "ZK",
+      "name": "지케이싱크",
+      "strategy": "매집 기본형",
+      "state": "관찰",
+      "score": 0,
+      "price": 12.4,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 개선",
+        "OBV 개선",
+        "1시간 박스 돌파+거래량"
+      ],
+      "cmf": -0.1902,
+      "cmfChange": -0.0062,
+      "obvSlope": -0.6954,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": 2.1,
+      "atrPct": 2.3
+    },
+    {
+      "symbol": "ZK",
+      "name": "지케이싱크",
+      "strategy": "매집 개선형",
+      "state": "관찰",
+      "score": 0,
+      "price": 12.4,
+      "signalTime": "2026-09-02T05:00:00",
+      "evidence": [],
+      "missing": [
+        "4시간 박스권 12% 이내",
+        "CMF 5봉 개선",
+        "OBV 기울기 개선",
+        "1시간 거래량 회복"
+      ],
+      "cmf": -0.1902,
+      "cmfChange": -0.0062,
+      "obvSlope": -0.6954,
+      "volumeRatio1h": 0.16,
+      "ma120GapPct": 2.1,
+      "atrPct": 2.3
     }
   ],
   "errors": [
