@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-02T08:17:02+09:00",
+  "time": "2026-09-02T08:23:15+09:00",
   "signalTime": "2026-09-02T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9609576,
-    "returnPct": -3.904,
+    "value": 9594967,
+    "returnPct": -4.05,
     "positions": [
       "SC",
       "UNI",
@@ -15,16 +15,10 @@
     "trades": 530,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "APT",
-        "name": "앱토스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "AAVE",
-        "name": "에이브",
-        "comment": "완성 1시간봉 6/7점·RSI 56.5·거래량 1.22배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -38,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-02T08:17:02+09:00",
-  "coinUpdatedAt": "2026-09-02T08:14:01+09:00"
+  "coinUpdatedAt": "2026-09-02T08:23:15+09:00"
 }
