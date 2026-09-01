@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-01T18:40:55+09:00",
+  "time": "2026-09-01T18:51:28+09:00",
   "signalTime": "2026-09-01T17:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9191468,
-    "returnPct": -8.085,
+    "value": 9274485,
+    "returnPct": -7.255,
     "positions": [
       "APT",
       "BLAST",
@@ -16,16 +16,10 @@
     "trades": 517,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "O",
-        "name": "오원익스체인지",
-        "comment": "ATR 가상손절 -3.56%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ARB",
-        "name": "아비트럼",
-        "comment": "완성 1시간봉 6/7점·RSI 59.0·거래량 1.32배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-01T18:40:55+09:00",
-  "coinUpdatedAt": "2026-09-01T18:34:27+09:00"
+  "coinUpdatedAt": "2026-09-01T18:51:28+09:00"
 }
