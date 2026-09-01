@@ -1,25 +1,43 @@
 {
-  "time": "2026-09-01T16:07:12+09:00",
-  "signalTime": "2026-09-01T14:00:00+09:00",
+  "time": "2026-09-01T16:16:09+09:00",
+  "signalTime": "2026-09-01T15:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9486289,
-    "returnPct": -5.137,
+    "value": 9512416,
+    "returnPct": -4.876,
     "positions": [
-      "BERA",
       "APT",
       "JUP",
-      "ARX",
-      "O"
+      "O",
+      "BLAST",
+      "SHIB"
     ],
-    "trades": 507,
+    "trades": 511,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "BERA",
+        "name": "베라체인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ARX",
+        "name": "아르키움",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BLAST",
+        "name": "블라스트",
+        "comment": "완성 1시간봉 6/7점·RSI 58.2·거래량 2.52배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SHIB",
+        "name": "시바이누",
+        "comment": "완성 1시간봉 6/7점·RSI 66.7·거래량 1.73배"
       }
     ]
   },
@@ -33,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-01T16:07:12+09:00",
-  "coinUpdatedAt": "2026-09-01T15:53:53+09:00"
+  "coinUpdatedAt": "2026-09-01T16:16:09+09:00"
 }
