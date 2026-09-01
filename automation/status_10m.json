@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-02T06:30:00+09:00",
+  "time": "2026-09-02T06:31:09+09:00",
   "signalTime": "2026-09-02T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9628953,
-    "returnPct": -3.71,
+    "value": 9606145,
+    "returnPct": -3.939,
     "positions": [
       "APT",
       "SC",
@@ -15,10 +15,10 @@
     "trades": 528,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "OP",
-        "name": "옵티미즘",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -32,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-02T06:30:00+09:00",
-  "coinUpdatedAt": "2026-09-02T06:16:10+09:00"
+  "coinUpdatedAt": "2026-09-02T06:31:09+09:00"
 }
