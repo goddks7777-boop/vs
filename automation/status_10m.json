@@ -1,31 +1,31 @@
 {
-  "time": "2026-09-01T11:01:11+09:00",
-  "signalTime": "2026-09-01T09:00:00+09:00",
+  "time": "2026-09-01T11:15:33+09:00",
+  "signalTime": "2026-09-01T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9381858,
-    "returnPct": -6.181,
+    "value": 9478624,
+    "returnPct": -5.214,
     "positions": [
       "BERA",
       "APT",
       "JUP",
       "ARX",
-      "BONK"
+      "UNI"
     ],
-    "trades": 503,
+    "trades": 505,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "SKR",
-        "name": "시커",
+        "symbol": "BONK",
+        "name": "봉크",
         "comment": "가상 목표수익 +6%"
       },
       {
         "type": "BUY",
-        "symbol": "BONK",
-        "name": "봉크",
-        "comment": "완성 1시간봉 7/7점·RSI 64.9·거래량 3.08배"
+        "symbol": "UNI",
+        "name": "유니스왑",
+        "comment": "완성 1시간봉 7/7점·RSI 60.7·거래량 1.61배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-01T11:01:11+09:00",
-  "coinUpdatedAt": "2026-09-01T10:58:01+09:00"
+  "coinUpdatedAt": "2026-09-01T11:15:33+09:00"
 }
