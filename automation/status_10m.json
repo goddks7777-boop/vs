@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-01T17:08:14+09:00",
-  "signalTime": "2026-09-01T15:00:00+09:00",
+  "time": "2026-09-01T17:18:39+09:00",
+  "signalTime": "2026-09-01T16:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9464882,
-    "returnPct": -5.351,
+    "value": 9363152,
+    "returnPct": -6.368,
     "positions": [
       "APT",
-      "JUP",
       "O",
       "BLAST",
-      "SHIB"
+      "SHIB",
+      "ONG"
     ],
-    "trades": 511,
+    "trades": 513,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "JUP",
+        "name": "주피터",
+        "comment": "ATR 가상손절 -3.48%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ONG",
+        "name": "온톨로지가스",
+        "comment": "완성 1시간봉 6/7점·RSI 65.2·거래량 5.24배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-01T17:08:14+09:00",
-  "coinUpdatedAt": "2026-09-01T16:57:57+09:00"
+  "coinUpdatedAt": "2026-09-01T17:18:39+09:00"
 }
