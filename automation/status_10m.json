@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-03T00:25:04+09:00",
+  "time": "2026-09-03T00:28:52+09:00",
   "signalTime": "2026-09-02T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9097294,
-    "returnPct": -9.027,
+    "value": 8973130,
+    "returnPct": -10.269,
     "positions": [
       "PYTH",
       "PIEVERSE",
@@ -16,22 +16,10 @@
     "trades": 561,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SOPH",
-        "name": "소폰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ARB",
-        "name": "아비트럼",
-        "comment": "완성 1시간봉 7/7점·RSI 61.4·거래량 1.95배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZKC",
-        "name": "바운드리스",
-        "comment": "완성 1시간봉 6/7점·RSI 52.0·거래량 4.11배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -45,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-03T00:25:04+09:00",
-  "coinUpdatedAt": "2026-09-03T00:05:39+09:00"
+  "coinUpdatedAt": "2026-09-03T00:28:52+09:00"
 }
