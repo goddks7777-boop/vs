@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-02T13:46:59+09:00",
+  "time": "2026-09-02T13:47:16+09:00",
   "signalTime": "2026-09-02T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9467265,
-    "returnPct": -5.327,
+    "value": 9533647,
+    "returnPct": -4.664,
     "positions": [
       "SEI",
       "DATA",
@@ -16,16 +16,10 @@
     "trades": 543,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ARDR",
-        "name": "아더",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "AAVE",
-        "name": "에이브",
-        "comment": "완성 1시간봉 6/7점·RSI 60.7·거래량 1.80배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-02T13:46:59+09:00",
-  "coinUpdatedAt": "2026-09-02T13:32:56+09:00"
+  "coinUpdatedAt": "2026-09-02T13:47:16+09:00"
 }
