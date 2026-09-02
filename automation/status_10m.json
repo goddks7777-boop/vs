@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-02T11:32:38+09:00",
+  "time": "2026-09-02T11:38:47+09:00",
   "signalTime": "2026-09-02T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9257055,
-    "returnPct": -7.429,
+    "value": 9311685,
+    "returnPct": -6.883,
     "positions": [
       "UNI",
       "RED",
@@ -16,28 +16,10 @@
     "trades": 537,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "AAVE",
-        "name": "에이브",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "DATA",
-        "name": "데이터네트워크",
-        "comment": "완성 1시간봉 7/7점·RSI 63.2·거래량 1.83배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ARDR",
-        "name": "아더",
-        "comment": "완성 1시간봉 7/7점·RSI 65.6·거래량 2.50배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -51,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-02T11:32:38+09:00",
-  "coinUpdatedAt": "2026-09-02T11:12:11+09:00"
+  "coinUpdatedAt": "2026-09-02T11:38:47+09:00"
 }
