@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-02T10:04:26+09:00",
-  "signalTime": "2026-09-02T08:00:00+09:00",
+  "time": "2026-09-02T10:16:08+09:00",
+  "signalTime": "2026-09-02T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9577633,
-    "returnPct": -4.224,
+    "value": 9459697,
+    "returnPct": -5.403,
     "positions": [
-      "SC",
       "UNI",
       "RED",
       "AAVE",
-      "SEI"
+      "SEI",
+      "ONG"
     ],
-    "trades": 531,
+    "trades": 533,
     "actions": [
       {
+        "type": "SELL",
+        "symbol": "SC",
+        "name": "시아코인",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
         "type": "BUY",
-        "symbol": "SEI",
-        "name": "세이",
-        "comment": "완성 1시간봉 7/7점·RSI 63.0·거래량 3.68배"
+        "symbol": "ONG",
+        "name": "온톨로지가스",
+        "comment": "완성 1시간봉 7/7점·RSI 63.7·거래량 1.69배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-02T10:04:26+09:00",
-  "coinUpdatedAt": "2026-09-02T09:26:15+09:00"
+  "coinUpdatedAt": "2026-09-02T10:16:08+09:00"
 }
