@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-02T19:23:09+09:00",
+  "time": "2026-09-02T19:32:12+09:00",
   "signalTime": "2026-09-02T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9219618,
-    "returnPct": -7.804,
+    "value": 9158807,
+    "returnPct": -8.412,
     "positions": [
       "FIL",
       "CHIP",
@@ -16,16 +16,10 @@
     "trades": 551,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SEI",
-        "name": "세이",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
-        "symbol": "UNI",
-        "name": "유니스왑",
-        "comment": "완성 1시간봉 7/7점·RSI 58.9·거래량 1.74배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-02T19:23:09+09:00",
-  "coinUpdatedAt": "2026-09-02T19:18:25+09:00"
+  "coinUpdatedAt": "2026-09-02T19:32:12+09:00"
 }
