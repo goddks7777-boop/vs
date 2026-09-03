@@ -417,18 +417,6 @@
   "journal": [
     {
       "runKey": "2026-09-01T10:1",
-      "time": "2026-09-01T10:11:49+09:00",
-      "session": "KRX 정규장 10분 점검",
-      "tradeEnabled": true,
-      "notes": [
-        "KOSPI SK이노베이션 가상매도: 가상 목표수익 +6%",
-        "KOSDAQ 퀀텀레일 가상매도: ATR 가상손절",
-        "KOSPI NICE평가정보 가상매수: 점수 6/6·RSI 63.7·ADX 21.4·거래량 9.86배",
-        "KOSPI 신풍제약 가상매수: 점수 6/6·RSI 63.5·ADX 23.1·거래량 7.67배"
-      ]
-    },
-    {
-      "runKey": "2026-09-01T10:1",
       "time": "2026-09-01T10:17:39+09:00",
       "session": "KRX 정규장 10분 점검",
       "tradeEnabled": true,
@@ -3115,6 +3103,15 @@
     {
       "runKey": "2026-09-04T08:1",
       "time": "2026-09-04T08:18:13+09:00",
+      "session": "KRX 장외시간·휴장: 가상체결 차단",
+      "tradeEnabled": false,
+      "notes": [
+        "주식 주문은 만들지 않고 대기합니다."
+      ]
+    },
+    {
+      "runKey": "2026-09-04T08:2",
+      "time": "2026-09-04T08:25:46+09:00",
       "session": "KRX 장외시간·휴장: 가상체결 차단",
       "tradeEnabled": false,
       "notes": [
