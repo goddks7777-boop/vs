@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-03T21:01:19+09:00",
-  "signalTime": "2026-09-03T19:00:00+09:00",
+  "time": "2026-09-03T21:22:46+09:00",
+  "signalTime": "2026-09-03T20:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9151900,
-    "returnPct": -8.481,
+    "value": 9109742,
+    "returnPct": -8.903,
     "positions": [
       "RED",
       "LIT",
-      "ANKR",
       "SUI",
-      "SAHARA"
+      "SAHARA",
+      "FLOCK"
     ],
-    "trades": 581,
+    "trades": 583,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "ANKR",
+        "name": "앵커",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "FLOCK",
+        "name": "플록",
+        "comment": "완성 1시간봉 7/7점·RSI 57.6·거래량 1.34배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-03T21:01:19+09:00",
-  "coinUpdatedAt": "2026-09-03T20:57:49+09:00"
+  "coinUpdatedAt": "2026-09-03T21:22:46+09:00"
 }
