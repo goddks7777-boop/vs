@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-04T11:20:54+09:00",
+  "time": "2026-09-04T11:23:16+09:00",
   "signalTime": "2026-09-04T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9526353,
-    "returnPct": -4.736,
+    "value": 9508926,
+    "returnPct": -4.911,
     "positions": [
       "SUI",
       "UNI",
@@ -16,16 +16,10 @@
     "trades": 595,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SAHARA",
-        "name": "사하라에이아이",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "LA",
-        "name": "라그랑주",
-        "comment": "완성 1시간봉 7/7점·RSI 58.8·거래량 3.04배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-04T11:20:54+09:00",
-  "coinUpdatedAt": "2026-09-04T11:05:27+09:00"
+  "coinUpdatedAt": "2026-09-04T11:23:16+09:00"
 }
