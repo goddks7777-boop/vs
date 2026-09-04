@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-05T06:28:58+09:00",
+  "time": "2026-09-05T06:30:37+09:00",
   "signalTime": "2026-09-05T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9212802,
-    "returnPct": -7.872,
+    "value": 9219780,
+    "returnPct": -7.802,
     "positions": [
       "SAHARA",
       "AZTEC",
@@ -16,16 +16,10 @@
     "trades": 623,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "QUID",
-        "name": "스퀴드",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "NEAR",
-        "name": "니어프로토콜",
-        "comment": "완성 1시간봉 6/7점·RSI 64.0·거래량 3.27배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-05T06:28:58+09:00",
-  "coinUpdatedAt": "2026-09-05T06:15:33+09:00"
+  "coinUpdatedAt": "2026-09-05T06:30:37+09:00"
 }
