@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-06T08:02:23+09:00",
-  "signalTime": "2026-09-06T06:00:00+09:00",
+  "time": "2026-09-06T08:15:44+09:00",
+  "signalTime": "2026-09-06T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9133610,
-    "returnPct": -8.664,
+    "value": 9091347,
+    "returnPct": -9.087,
     "positions": [
       "TRX",
       "SUI",
-      "HBAR",
       "DOGE",
-      "ONDO"
+      "ONDO",
+      "LINK"
     ],
-    "trades": 651,
+    "trades": 653,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "HBAR",
+        "name": "헤데라",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "LINK",
+        "name": "체인링크",
+        "comment": "완성 1시간봉 7/7점·RSI 60.5·거래량 1.24배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-06T08:02:23+09:00",
-  "coinUpdatedAt": "2026-09-06T07:59:03+09:00"
+  "coinUpdatedAt": "2026-09-06T08:15:44+09:00"
 }
