@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-06T03:22:03+09:00",
+  "time": "2026-09-06T03:33:17+09:00",
   "signalTime": "2026-09-06T02:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8849485,
-    "returnPct": -11.505,
+    "value": 8978437,
+    "returnPct": -10.216,
     "positions": [
       "TRX",
       "DRV",
@@ -16,16 +16,10 @@
     "trades": 647,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "STORJ",
-        "name": "스토리지",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "HBAR",
-        "name": "헤데라",
-        "comment": "완성 1시간봉 6/7점·RSI 60.1·거래량 1.53배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-06T03:22:03+09:00",
-  "coinUpdatedAt": "2026-09-06T03:19:14+09:00"
+  "coinUpdatedAt": "2026-09-06T03:33:17+09:00"
 }
