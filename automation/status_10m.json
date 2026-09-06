@@ -1,25 +1,55 @@
 {
-  "time": "2026-09-07T00:02:24+09:00",
-  "signalTime": "2026-09-06T22:00:00+09:00",
+  "time": "2026-09-07T00:04:26+09:00",
+  "signalTime": "2026-09-06T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8944157,
-    "returnPct": -10.558,
+    "value": 8877239,
+    "returnPct": -11.228,
     "positions": [
-      "ONDO",
       "LINK",
-      "ETH",
       "SOL",
-      "ENS"
+      "NEAR",
+      "PROM",
+      "WLD"
     ],
-    "trades": 661,
+    "trades": 667,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "ONDO",
+        "name": "온도파이낸스",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ETH",
+        "name": "이더리움",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ENS",
+        "name": "이더리움네임서비스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "NEAR",
+        "name": "니어프로토콜",
+        "comment": "완성 1시간봉 7/7점·RSI 63.9·거래량 3.37배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "PROM",
+        "name": "프롬",
+        "comment": "완성 1시간봉 7/7점·RSI 67.7·거래량 1.83배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "WLD",
+        "name": "월드코인",
+        "comment": "완성 1시간봉 7/7점·RSI 56.2·거래량 2.87배"
       }
     ]
   },
@@ -33,5 +63,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-07T00:02:24+09:00",
-  "coinUpdatedAt": "2026-09-06T23:52:05+09:00"
+  "coinUpdatedAt": "2026-09-07T00:04:26+09:00"
 }
