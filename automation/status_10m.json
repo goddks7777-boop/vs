@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-06T12:19:20+09:00",
+  "time": "2026-09-06T12:32:11+09:00",
   "signalTime": "2026-09-06T11:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9197465,
-    "returnPct": -8.025,
+    "value": 9140857,
+    "returnPct": -8.591,
     "positions": [
       "SUI",
       "DOGE",
@@ -16,16 +16,10 @@
     "trades": 655,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "TRX",
-        "name": "트론",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "BONK",
-        "name": "봉크",
-        "comment": "완성 1시간봉 7/7점·RSI 60.1·거래량 1.26배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-06T12:19:20+09:00",
-  "coinUpdatedAt": "2026-09-06T12:16:28+09:00"
+  "coinUpdatedAt": "2026-09-06T12:32:11+09:00"
 }
