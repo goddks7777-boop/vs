@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-06T17:01:11+09:00",
-  "signalTime": "2026-09-06T15:00:00+09:00",
+  "time": "2026-09-06T17:04:52+09:00",
+  "signalTime": "2026-09-06T16:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9119890,
-    "returnPct": -8.801,
+    "value": 9108064,
+    "returnPct": -8.919,
     "positions": [
-      "SUI",
       "DOGE",
       "ONDO",
       "LINK",
-      "BONK"
+      "BONK",
+      "ETH"
     ],
-    "trades": 655,
+    "trades": 657,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "SUI",
+        "name": "수이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ETH",
+        "name": "이더리움",
+        "comment": "완성 1시간봉 7/7점·RSI 57.8·거래량 2.01배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-06T17:01:11+09:00",
-  "coinUpdatedAt": "2026-09-06T16:52:19+09:00"
+  "coinUpdatedAt": "2026-09-06T17:04:52+09:00"
 }
