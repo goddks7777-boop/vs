@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-08T04:17:36+09:00",
+  "time": "2026-09-08T04:22:08+09:00",
   "signalTime": "2026-09-08T03:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9127708,
-    "returnPct": -8.723,
+    "value": 9151996,
+    "returnPct": -8.48,
     "positions": [
       "SAND",
       "XLM",
@@ -15,16 +15,10 @@
     "trades": 690,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ONDO",
-        "name": "온도파이낸스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "KAVA",
-        "name": "카바",
-        "comment": "완성 1시간봉 7/7점·RSI 61.7·거래량 2.84배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -38,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-08T04:17:36+09:00",
-  "coinUpdatedAt": "2026-09-08T04:04:36+09:00"
+  "coinUpdatedAt": "2026-09-08T04:22:08+09:00"
 }
