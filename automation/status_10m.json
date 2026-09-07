@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-07T10:17:45+09:00",
-  "signalTime": "2026-09-07T08:00:00+09:00",
+  "time": "2026-09-07T10:19:09+09:00",
+  "signalTime": "2026-09-07T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9083834,
-    "returnPct": -9.162,
+    "value": 8874927,
+    "returnPct": -11.251,
     "positions": [
-      "SOL",
       "NEAR",
       "PROM",
       "WLD",
-      "TOSHI"
+      "TOSHI",
+      "RAY"
     ],
-    "trades": 669,
+    "trades": 671,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "SOL",
+        "name": "솔라나",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
+        "type": "BUY",
+        "symbol": "RAY",
+        "name": "레이디움",
+        "comment": "완성 1시간봉 7/7점·RSI 58.7·거래량 2.04배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-07T10:17:45+09:00",
-  "coinUpdatedAt": "2026-09-07T09:30:06+09:00"
+  "coinUpdatedAt": "2026-09-07T10:19:09+09:00"
 }
