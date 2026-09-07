@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-07T11:47:14+09:00",
+  "time": "2026-09-07T11:47:24+09:00",
   "signalTime": "2026-09-07T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8919216,
-    "returnPct": -10.808,
+    "value": 9056224,
+    "returnPct": -9.438,
     "positions": [
       "NEAR",
       "WLD",
@@ -16,16 +16,10 @@
     "trades": 673,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ONDO",
-        "name": "온도파이낸스",
-        "comment": "완성 1시간봉 7/7점·RSI 57.4·거래량 2.52배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-07T11:47:14+09:00",
-  "coinUpdatedAt": "2026-09-07T11:33:19+09:00"
+  "coinUpdatedAt": "2026-09-07T11:47:24+09:00"
 }
