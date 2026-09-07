@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-08T01:09:07+09:00",
+  "time": "2026-09-08T01:18:59+09:00",
   "signalTime": "2026-09-08T00:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8979277,
-    "returnPct": -10.207,
+    "value": 9025430,
+    "returnPct": -9.746,
     "positions": [
       "ONDO",
       "SAND",
@@ -16,28 +16,10 @@
     "trades": 687,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ORCA",
-        "name": "오르카",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "VIRTUAL",
-        "name": "버추얼프로토콜",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "WLD",
-        "name": "월드코인",
-        "comment": "완성 1시간봉 7/7점·RSI 62.0·거래량 1.73배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "IOST",
-        "name": "아이오에스티",
-        "comment": "완성 1시간봉 7/7점·RSI 64.8·거래량 3.25배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -51,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-08T01:09:07+09:00",
-  "coinUpdatedAt": "2026-09-08T01:02:15+09:00"
+  "coinUpdatedAt": "2026-09-08T01:18:59+09:00"
 }
