@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-07T15:27:07+09:00",
+  "time": "2026-09-07T15:27:41+09:00",
   "signalTime": "2026-09-07T14:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9112473,
-    "returnPct": -8.875,
+    "value": 9200958,
+    "returnPct": -7.99,
     "positions": [
       "NEAR",
-      "WLD",
       "ONDO",
       "ORCA",
-      "SAND"
+      "SAND",
+      "XLM"
     ],
-    "trades": 679,
+    "trades": 681,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "WLD",
+        "name": "월드코인",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "XLM",
+        "name": "스텔라루멘",
+        "comment": "완성 1시간봉 7/7점·RSI 61.1·거래량 1.87배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-07T15:27:07+09:00",
-  "coinUpdatedAt": "2026-09-07T15:03:09+09:00"
+  "coinUpdatedAt": "2026-09-07T15:27:41+09:00"
 }
