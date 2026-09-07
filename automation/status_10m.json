@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-07T13:08:54+09:00",
+  "time": "2026-09-07T13:20:33+09:00",
   "signalTime": "2026-09-07T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8934871,
-    "returnPct": -10.651,
+    "value": 8976080,
+    "returnPct": -10.239,
     "positions": [
       "NEAR",
       "WLD",
@@ -16,16 +16,10 @@
     "trades": 677,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SUI",
-        "name": "수이",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ORCA",
-        "name": "오르카",
-        "comment": "완성 1시간봉 7/7점·RSI 63.6·거래량 1.82배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-07T13:08:54+09:00",
-  "coinUpdatedAt": "2026-09-07T13:03:14+09:00"
+  "coinUpdatedAt": "2026-09-07T13:20:33+09:00"
 }
