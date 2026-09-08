@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-09T04:34:34+09:00",
+  "time": "2026-09-09T04:43:27+09:00",
   "signalTime": "2026-09-09T03:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9088378,
-    "returnPct": -9.116,
+    "value": 9074708,
+    "returnPct": -9.253,
     "positions": [
       "MED",
       "DOT",
@@ -15,10 +15,10 @@
     "trades": 720,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SENT",
-        "name": "센티언트",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -32,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-09T04:34:34+09:00",
-  "coinUpdatedAt": "2026-09-09T04:31:17+09:00"
+  "coinUpdatedAt": "2026-09-09T04:43:27+09:00"
 }
