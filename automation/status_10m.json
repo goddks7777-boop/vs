@@ -1,25 +1,43 @@
 {
-  "time": "2026-09-08T15:51:08+09:00",
-  "signalTime": "2026-09-08T14:00:00+09:00",
+  "time": "2026-09-08T16:02:46+09:00",
+  "signalTime": "2026-09-08T15:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9470490,
-    "returnPct": -5.295,
+    "value": 9495087,
+    "returnPct": -5.049,
     "positions": [
       "KAVA",
       "AVAX",
-      "ICX",
-      "WLD",
-      "MANTRA"
+      "MANTRA",
+      "SENT",
+      "QKC"
     ],
-    "trades": 699,
+    "trades": 703,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "ICX",
+        "name": "아이콘",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "WLD",
+        "name": "월드코인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SENT",
+        "name": "센티언트",
+        "comment": "완성 1시간봉 7/7점·RSI 65.5·거래량 1.92배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "QKC",
+        "name": "쿼크체인",
+        "comment": "완성 1시간봉 6/7점·RSI 59.7·거래량 1.65배"
       }
     ]
   },
@@ -33,5 +51,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-08T15:51:08+09:00",
-  "coinUpdatedAt": "2026-09-08T15:48:04+09:00"
+  "coinUpdatedAt": "2026-09-08T16:02:46+09:00"
 }
