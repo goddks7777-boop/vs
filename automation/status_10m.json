@@ -1,25 +1,31 @@
 {
-  "time": "2026-09-08T11:56:35+09:00",
-  "signalTime": "2026-09-08T10:00:00+09:00",
+  "time": "2026-09-08T12:04:07+09:00",
+  "signalTime": "2026-09-08T11:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9747158,
-    "returnPct": -2.528,
+    "value": 9723256,
+    "returnPct": -2.767,
     "positions": [
       "SAND",
-      "XLM",
       "KAVA",
       "AVAX",
-      "ICX"
+      "ICX",
+      "WLD"
     ],
-    "trades": 695,
+    "trades": 697,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "XLM",
+        "name": "스텔라루멘",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "WLD",
+        "name": "월드코인",
+        "comment": "완성 1시간봉 7/7점·RSI 62.2·거래량 1.29배"
       }
     ]
   },
@@ -33,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-08T11:56:35+09:00",
-  "coinUpdatedAt": "2026-09-08T11:51:45+09:00"
+  "coinUpdatedAt": "2026-09-08T12:04:07+09:00"
 }
