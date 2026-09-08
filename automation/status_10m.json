@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-09T01:21:49+09:00",
+  "time": "2026-09-09T01:35:29+09:00",
   "signalTime": "2026-09-09T00:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9089879,
-    "returnPct": -9.101,
+    "value": 9106551,
+    "returnPct": -8.934,
     "positions": [
       "SENT",
       "VANA",
@@ -16,16 +16,10 @@
     "trades": 717,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SOPH",
-        "name": "소폰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "완성 1시간봉 7/7점·RSI 61.5·거래량 1.65배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-09T01:21:49+09:00",
-  "coinUpdatedAt": "2026-09-09T01:18:41+09:00"
+  "coinUpdatedAt": "2026-09-09T01:35:29+09:00"
 }
