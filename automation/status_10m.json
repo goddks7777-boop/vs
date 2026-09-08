@@ -1,24 +1,33 @@
 {
-  "time": "2026-09-09T05:01:29+09:00",
-  "signalTime": "2026-09-09T03:00:00+09:00",
+  "time": "2026-09-09T05:16:45+09:00",
+  "signalTime": "2026-09-09T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9072005,
-    "returnPct": -9.28,
+    "value": 9132657,
+    "returnPct": -8.673,
     "positions": [
-      "MED",
-      "DOT",
-      "PROM",
-      "ADA"
+      "MED"
     ],
-    "trades": 720,
+    "trades": 723,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "DOT",
+        "name": "폴카닷",
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "SELL",
+        "symbol": "PROM",
+        "name": "프롬",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ADA",
+        "name": "에이다",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -32,5 +41,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-09T05:01:29+09:00",
-  "coinUpdatedAt": "2026-09-09T04:58:09+09:00"
+  "coinUpdatedAt": "2026-09-09T05:16:45+09:00"
 }
