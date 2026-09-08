@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-08T14:19:04+09:00",
+  "time": "2026-09-08T14:20:09+09:00",
   "signalTime": "2026-09-08T13:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 9704060,
-    "returnPct": -2.959,
+    "value": 9646373,
+    "returnPct": -3.536,
     "positions": [
       "KAVA",
       "AVAX",
@@ -16,16 +16,10 @@
     "trades": 699,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SAND",
-        "name": "샌드박스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "MANTRA",
-        "name": "만트라",
-        "comment": "완성 1시간봉 7/7점·RSI 66.0·거래량 1.37배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-08T14:19:04+09:00",
-  "coinUpdatedAt": "2026-09-08T14:04:22+09:00"
+  "coinUpdatedAt": "2026-09-08T14:20:09+09:00"
 }
