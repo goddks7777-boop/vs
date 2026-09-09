@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-09T19:21:25+09:00",
+  "time": "2026-09-09T19:34:19+09:00",
   "signalTime": "2026-09-09T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8810167,
-    "returnPct": -11.898,
+    "value": 8853607,
+    "returnPct": -11.464,
     "positions": [
       "XRP",
       "PROS",
@@ -16,40 +16,10 @@
     "trades": 753,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ORCA",
-        "name": "오르카",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "SAHARA",
-        "name": "사하라에이아이",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "JUP",
-        "name": "주피터",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "LIT",
-        "name": "라이터",
-        "comment": "완성 1시간봉 7/7점·RSI 61.6·거래량 1.44배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "BTC",
-        "name": "비트코인",
-        "comment": "완성 1시간봉 6/7점·RSI 50.3·거래량 1.80배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "NEAR",
-        "name": "니어프로토콜",
-        "comment": "완성 1시간봉 6/7점·RSI 61.4·거래량 1.98배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -63,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-09T19:21:25+09:00",
-  "coinUpdatedAt": "2026-09-09T19:18:34+09:00"
+  "coinUpdatedAt": "2026-09-09T19:34:19+09:00"
 }
