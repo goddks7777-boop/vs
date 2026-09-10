@@ -1,23 +1,31 @@
 {
-  "time": "2026-09-10T07:47:28+09:00",
-  "signalTime": "2026-09-10T06:00:00+09:00",
+  "time": "2026-09-10T09:29:38+09:00",
+  "signalTime": "2026-09-10T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8945903,
-    "returnPct": -10.541,
+    "value": 8908711,
+    "returnPct": -10.913,
     "positions": [
       "MINA",
       "ANIME",
-      "SAHARA"
+      "SAHARA",
+      "EGLD",
+      "STORJ"
     ],
-    "trades": 767,
+    "trades": 769,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "BUY",
+        "symbol": "EGLD",
+        "name": "멀티버스엑스",
+        "comment": "완성 1시간봉 7/7점·RSI 64.0·거래량 1.85배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "STORJ",
+        "name": "스토리지",
+        "comment": "완성 1시간봉 6/7점·RSI 59.6·거래량 1.98배"
       }
     ]
   },
@@ -31,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-10T07:47:28+09:00",
-  "coinUpdatedAt": "2026-09-10T07:28:58+09:00"
+  "coinUpdatedAt": "2026-09-10T09:29:38+09:00"
 }
