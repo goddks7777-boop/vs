@@ -1,24 +1,30 @@
 {
-  "time": "2026-09-11T04:55:11+09:00",
-  "signalTime": "2026-09-11T03:00:00+09:00",
+  "time": "2026-09-11T07:00:40+09:00",
+  "signalTime": "2026-09-11T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8446304,
-    "returnPct": -15.537,
+    "value": 8407601,
+    "returnPct": -15.924,
     "positions": [
-      "VET",
       "B3",
       "BLAST",
-      "GRVT"
+      "GRVT",
+      "ME"
     ],
-    "trades": 784,
+    "trades": 786,
     "actions": [
       {
+        "type": "SELL",
+        "symbol": "VET",
+        "name": "비체인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
         "type": "BUY",
-        "symbol": "GRVT",
-        "name": "그래비티토큰",
-        "comment": "완성 1시간봉 6/7점·RSI 64.6·거래량 1.40배"
+        "symbol": "ME",
+        "name": "매직에덴",
+        "comment": "완성 1시간봉 6/7점·RSI 52.5·거래량 1.45배"
       }
     ]
   },
@@ -32,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-11T04:55:11+09:00",
-  "coinUpdatedAt": "2026-09-11T04:51:59+09:00"
+  "coinUpdatedAt": "2026-09-11T07:00:40+09:00"
 }
