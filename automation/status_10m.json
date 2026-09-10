@@ -1,31 +1,67 @@
 {
-  "time": "2026-09-10T09:39:30+09:00",
-  "signalTime": "2026-09-10T08:00:00+09:00",
+  "time": "2026-09-10T14:07:36+09:00",
+  "signalTime": "2026-09-10T13:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8908711,
-    "returnPct": -10.913,
+    "value": 8755878,
+    "returnPct": -12.441,
     "positions": [
-      "MINA",
-      "ANIME",
       "SAHARA",
-      "EGLD",
-      "STORJ"
+      "VET",
+      "BTT",
+      "B3",
+      "BLAST"
     ],
-    "trades": 769,
+    "trades": 777,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
+        "symbol": "MINA",
+        "name": "미나",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ANIME",
+        "name": "애니메코인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
         "symbol": "EGLD",
         "name": "멀티버스엑스",
-        "comment": "완성 1시간봉 7/7점·RSI 64.0·거래량 1.85배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "STORJ",
+        "name": "스토리지",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "STORJ",
-        "name": "스토리지",
-        "comment": "완성 1시간봉 6/7점·RSI 59.6·거래량 1.98배"
+        "symbol": "VET",
+        "name": "비체인",
+        "comment": "완성 1시간봉 7/7점·RSI 56.1·거래량 4.14배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BTT",
+        "name": "비트토렌트",
+        "comment": "완성 1시간봉 7/7점·RSI 61.1·거래량 2.71배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "B3",
+        "name": "비쓰리",
+        "comment": "완성 1시간봉 6/7점·RSI 56.8·거래량 1.66배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BLAST",
+        "name": "블라스트",
+        "comment": "완성 1시간봉 6/7점·RSI 58.1·거래량 1.22배"
       }
     ]
   },
@@ -39,5 +75,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-10T09:39:30+09:00",
-  "coinUpdatedAt": "2026-09-10T09:29:38+09:00"
+  "coinUpdatedAt": "2026-09-10T14:07:36+09:00"
 }
