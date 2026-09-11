@@ -1,24 +1,66 @@
 {
-  "time": "2026-09-11T09:02:25+09:00",
-  "signalTime": "2026-09-11T07:00:00+09:00",
+  "time": "2026-09-11T13:14:24+09:00",
+  "signalTime": "2026-09-11T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 8393826,
-    "returnPct": -16.062,
+    "value": 8061884,
+    "returnPct": -19.381,
     "positions": [
-      "B3",
-      "BLAST",
-      "GRVT",
-      "ME"
+      "IQ",
+      "SC",
+      "LSK",
+      "BLUR"
     ],
-    "trades": 786,
+    "trades": 794,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "B3",
+        "name": "비쓰리",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "BLAST",
+        "name": "블라스트",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "GRVT",
+        "name": "그래비티토큰",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ME",
+        "name": "매직에덴",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "IQ",
+        "name": "아이큐",
+        "comment": "완성 1시간봉 7/7점·RSI 55.3·거래량 1.75배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SC",
+        "name": "시아코인",
+        "comment": "완성 1시간봉 6/7점·RSI 59.6·거래량 3.24배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "LSK",
+        "name": "리스크",
+        "comment": "완성 1시간봉 6/7점·RSI 67.8·거래량 2.10배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BLUR",
+        "name": "블러",
+        "comment": "완성 1시간봉 6/7점·RSI 67.7·거래량 6.24배"
       }
     ]
   },
@@ -32,5 +74,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-11T09:02:25+09:00",
-  "coinUpdatedAt": "2026-09-11T08:59:31+09:00"
+  "coinUpdatedAt": "2026-09-11T13:14:24+09:00"
 }
