@@ -1,28 +1,28 @@
 {
-  "time": "2026-09-12T04:45:08+09:00",
-  "signalTime": "2026-09-12T03:00:00+09:00",
+  "time": "2026-09-12T06:58:05+09:00",
+  "signalTime": "2026-09-12T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7866507,
-    "returnPct": -21.335,
+    "value": 7798056,
+    "returnPct": -22.019,
     "positions": [
       "ETH",
-      "NEAR"
+      "KAITO"
     ],
-    "trades": 810,
+    "trades": 812,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "0G",
-        "name": "제로지",
+        "symbol": "NEAR",
+        "name": "니어프로토콜",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "SELL",
-        "symbol": "PLUME",
-        "name": "플룸",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "KAITO",
+        "name": "카이토",
+        "comment": "완성 1시간봉 6/7점·RSI 52.1·거래량 2.32배"
       }
     ]
   },
@@ -36,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-12T04:45:08+09:00",
-  "coinUpdatedAt": "2026-09-12T04:42:09+09:00"
+  "coinUpdatedAt": "2026-09-12T06:58:05+09:00"
 }
