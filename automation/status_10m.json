@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-12T15:32:10+09:00",
-  "signalTime": "2026-09-12T12:00:00+09:00",
+  "time": "2026-09-12T17:47:52+09:00",
+  "signalTime": "2026-09-12T16:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7708200,
-    "returnPct": -22.918,
+    "value": 7651663,
+    "returnPct": -23.483,
     "positions": [
       "RE",
       "DOS",
@@ -15,28 +15,10 @@
     "trades": 820,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ETH",
-        "name": "이더리움",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "ORCA",
-        "name": "오르카",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "MINA",
-        "name": "미나",
-        "comment": "완성 1시간봉 7/7점·RSI 61.2·거래량 1.39배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "KNC",
-        "name": "카이버네트워크",
-        "comment": "완성 1시간봉 7/7점·RSI 65.8·거래량 4.17배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -50,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-12T15:32:10+09:00",
-  "coinUpdatedAt": "2026-09-12T13:25:42+09:00"
+  "coinUpdatedAt": "2026-09-12T17:47:52+09:00"
 }
