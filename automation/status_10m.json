@@ -1,28 +1,42 @@
 {
-  "time": "2026-09-12T08:52:29+09:00",
-  "signalTime": "2026-09-12T05:00:00+09:00",
+  "time": "2026-09-12T09:02:45+09:00",
+  "signalTime": "2026-09-12T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7798056,
-    "returnPct": -22.019,
+    "value": 7813340,
+    "returnPct": -21.867,
     "positions": [
       "ETH",
-      "KAITO"
+      "RE",
+      "ORCA",
+      "DOS"
     ],
-    "trades": 812,
+    "trades": 816,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "NEAR",
-        "name": "니어프로토콜",
+        "symbol": "KAITO",
+        "name": "카이토",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "KAITO",
-        "name": "카이토",
-        "comment": "완성 1시간봉 6/7점·RSI 52.1·거래량 2.32배"
+        "symbol": "RE",
+        "name": "리",
+        "comment": "완성 1시간봉 6/7점·RSI 65.4·거래량 1.24배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ORCA",
+        "name": "오르카",
+        "comment": "완성 1시간봉 6/7점·RSI 58.5·거래량 1.97배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "DOS",
+        "name": "댑오에스",
+        "comment": "완성 1시간봉 6/7점·RSI 65.4·거래량 1.80배"
       }
     ]
   },
@@ -36,5 +50,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-12T08:52:29+09:00",
-  "coinUpdatedAt": "2026-09-12T06:58:05+09:00"
+  "coinUpdatedAt": "2026-09-12T09:02:45+09:00"
 }
