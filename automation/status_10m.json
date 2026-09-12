@@ -1,25 +1,29 @@
 {
-  "time": "2026-09-13T06:27:21+09:00",
-  "signalTime": "2026-09-13T03:00:00+09:00",
+  "time": "2026-09-13T07:07:36+09:00",
+  "signalTime": "2026-09-13T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7944895,
-    "returnPct": -20.551,
+    "value": 7924801,
+    "returnPct": -20.752,
     "positions": [
       "DOS",
-      "MINA",
-      "AAVE",
       "TREE",
       "STX"
     ],
-    "trades": 827,
+    "trades": 829,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "MINA",
+        "name": "미나",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "AAVE",
+        "name": "에이브",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -33,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-13T06:27:21+09:00",
-  "coinUpdatedAt": "2026-09-13T04:56:50+09:00"
+  "coinUpdatedAt": "2026-09-13T07:07:36+09:00"
 }
