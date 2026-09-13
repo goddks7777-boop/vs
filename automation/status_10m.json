@@ -1,31 +1,24 @@
 {
-  "time": "2026-09-14T05:43:28+09:00",
-  "signalTime": "2026-09-14T03:00:00+09:00",
+  "time": "2026-09-14T06:43:03+09:00",
+  "signalTime": "2026-09-14T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7663193,
-    "returnPct": -23.368,
+    "value": 7661049,
+    "returnPct": -23.39,
     "positions": [
       "DOS",
-      "CHZ",
       "KNC",
       "THETA",
       "ZRO"
     ],
-    "trades": 841,
+    "trades": 842,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZRO",
-        "name": "레이어제로",
-        "comment": "완성 1시간봉 6/7점·RSI 56.9·거래량 1.34배"
+        "symbol": "CHZ",
+        "name": "칠리즈",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -39,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-14T05:43:28+09:00",
-  "coinUpdatedAt": "2026-09-14T04:35:51+09:00"
+  "coinUpdatedAt": "2026-09-14T06:43:03+09:00"
 }
