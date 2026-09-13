@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-14T00:05:47+09:00",
-  "signalTime": "2026-09-13T21:00:00+09:00",
+  "time": "2026-09-14T02:23:08+09:00",
+  "signalTime": "2026-09-14T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7819656,
-    "returnPct": -21.803,
+    "value": 7694069,
+    "returnPct": -23.059,
     "positions": [
       "DOS",
       "CHZ",
@@ -16,28 +16,10 @@
     "trades": 839,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "WAVES",
-        "name": "웨이브",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "MTL",
-        "name": "메탈",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "KNC",
-        "name": "카이버네트워크",
-        "comment": "완성 1시간봉 7/7점·RSI 65.4·거래량 3.89배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "THETA",
-        "name": "쎄타토큰",
-        "comment": "완성 1시간봉 7/7점·RSI 58.5·거래량 3.69배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -51,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-14T00:05:47+09:00",
-  "coinUpdatedAt": "2026-09-13T22:57:46+09:00"
+  "coinUpdatedAt": "2026-09-14T02:23:08+09:00"
 }
