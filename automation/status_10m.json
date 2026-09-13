@@ -1,29 +1,24 @@
 {
-  "time": "2026-09-13T10:01:14+09:00",
-  "signalTime": "2026-09-13T07:00:00+09:00",
+  "time": "2026-09-13T13:36:33+09:00",
+  "signalTime": "2026-09-13T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7881129,
-    "returnPct": -21.189,
+    "value": 7960646,
+    "returnPct": -20.394,
     "positions": [
       "DOS",
       "TREE",
-      "WAVES"
+      "WAVES",
+      "MTL"
     ],
-    "trades": 831,
+    "trades": 832,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
         "type": "BUY",
-        "symbol": "WAVES",
-        "name": "웨이브",
-        "comment": "완성 1시간봉 7/7점·RSI 65.5·거래량 1.30배"
+        "symbol": "MTL",
+        "name": "메탈",
+        "comment": "완성 1시간봉 7/7점·RSI 60.8·거래량 3.42배"
       }
     ]
   },
@@ -37,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-13T10:01:14+09:00",
-  "coinUpdatedAt": "2026-09-13T09:00:27+09:00"
+  "coinUpdatedAt": "2026-09-13T13:36:33+09:00"
 }
