@@ -1,23 +1,24 @@
 {
-  "time": "2026-09-15T05:36:29+09:00",
-  "signalTime": "2026-09-15T03:00:00+09:00",
+  "time": "2026-09-15T07:36:14+09:00",
+  "signalTime": "2026-09-15T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7165389,
-    "returnPct": -28.346,
+    "value": 7156255,
+    "returnPct": -28.437,
     "positions": [
       "XRP",
       "WAL",
-      "RED"
+      "RED",
+      "UNI"
     ],
-    "trades": 859,
+    "trades": 860,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "FIL",
-        "name": "파일코인",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "UNI",
+        "name": "유니스왑",
+        "comment": "완성 1시간봉 7/7점·RSI 58.2·거래량 1.36배"
       }
     ]
   },
@@ -31,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-15T05:36:29+09:00",
-  "coinUpdatedAt": "2026-09-15T04:15:42+09:00"
+  "coinUpdatedAt": "2026-09-15T07:36:14+09:00"
 }
