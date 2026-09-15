@@ -1,47 +1,34 @@
 {
-  "time": "2026-09-16T05:09:31+09:00",
-  "signalTime": "2026-09-16T03:00:00+09:00",
+  "time": "2026-09-16T07:16:42+09:00",
+  "signalTime": "2026-09-16T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6913447,
-    "returnPct": -30.866,
+    "value": 6909591,
+    "returnPct": -30.904,
     "positions": [
-      "POWR",
       "ARB",
-      "WLFI"
+      "G"
     ],
-    "trades": 879,
+    "trades": 882,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "ASTR",
-        "name": "아스타",
+        "symbol": "POWR",
+        "name": "파워렛저",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "G",
-        "name": "그래비티",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "RE",
-        "name": "리",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ARB",
-        "name": "아비트럼",
-        "comment": "완성 1시간봉 6/7점·RSI 63.7·거래량 2.11배"
-      },
-      {
-        "type": "BUY",
         "symbol": "WLFI",
         "name": "월드리버티파이낸셜",
-        "comment": "완성 1시간봉 6/7점·RSI 51.7·거래량 4.01배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "G",
+        "name": "그래비티",
+        "comment": "완성 1시간봉 7/7점·RSI 63.3·거래량 1.56배"
       }
     ]
   },
@@ -55,5 +42,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-16T05:09:31+09:00",
-  "coinUpdatedAt": "2026-09-16T04:13:57+09:00"
+  "coinUpdatedAt": "2026-09-16T07:16:42+09:00"
 }
