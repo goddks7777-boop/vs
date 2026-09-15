@@ -1,42 +1,42 @@
 {
-  "time": "2026-09-15T21:10:56+09:00",
-  "signalTime": "2026-09-15T19:00:00+09:00",
+  "time": "2026-09-16T00:41:54+09:00",
+  "signalTime": "2026-09-15T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6901140,
-    "returnPct": -30.989,
+    "value": 6895076,
+    "returnPct": -31.049,
     "positions": [
-      "UNI",
       "ASTR",
-      "VTHO",
-      "POWR"
+      "POWR",
+      "G",
+      "RE"
     ],
-    "trades": 870,
+    "trades": 874,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "CTC",
-        "name": "크레딧코인",
+        "symbol": "UNI",
+        "name": "유니스왑",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "ZIL",
-        "name": "질리카",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
         "symbol": "VTHO",
         "name": "비토르토큰",
-        "comment": "완성 1시간봉 6/7점·RSI 50.4·거래량 2.53배"
+        "comment": "가상 목표수익 +6%"
       },
       {
         "type": "BUY",
-        "symbol": "POWR",
-        "name": "파워렛저",
-        "comment": "완성 1시간봉 6/7점·RSI 58.4·거래량 13.77배"
+        "symbol": "G",
+        "name": "그래비티",
+        "comment": "완성 1시간봉 7/7점·RSI 66.5·거래량 1.69배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "RE",
+        "name": "리",
+        "comment": "완성 1시간봉 6/7점·RSI 55.3·거래량 1.34배"
       }
     ]
   },
@@ -50,5 +50,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-15T21:10:56+09:00",
-  "coinUpdatedAt": "2026-09-15T20:36:30+09:00"
+  "coinUpdatedAt": "2026-09-16T00:41:54+09:00"
 }
