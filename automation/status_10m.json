@@ -1,54 +1,30 @@
 {
-  "time": "2026-09-16T23:59:28+09:00",
-  "signalTime": "2026-09-16T22:00:00+09:00",
+  "time": "2026-09-17T03:30:29+09:00",
+  "signalTime": "2026-09-17T02:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6925009,
-    "returnPct": -30.75,
+    "value": 6718087,
+    "returnPct": -32.819,
     "positions": [
-      "PUNDIX",
       "FOLD",
       "IOST",
-      "RAY"
+      "RAY",
+      "SOPH"
     ],
-    "trades": 896,
+    "trades": 898,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "G",
-        "name": "그래비티",
+        "symbol": "PUNDIX",
+        "name": "펀디엑스",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "SELL",
-        "symbol": "SKR",
-        "name": "시커",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
+        "type": "BUY",
         "symbol": "SOPH",
         "name": "소폰",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "FOLD",
-        "name": "인터폴드",
-        "comment": "완성 1시간봉 7/7점·RSI 62.2·거래량 1.44배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "IOST",
-        "name": "아이오에스티",
-        "comment": "완성 1시간봉 7/7점·RSI 57.1·거래량 3.29배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "RAY",
-        "name": "레이디움",
-        "comment": "완성 1시간봉 6/7점·RSI 64.0·거래량 8.05배"
+        "comment": "완성 1시간봉 6/7점·RSI 63.4·거래량 1.27배"
       }
     ]
   },
@@ -62,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-16T23:59:28+09:00",
-  "coinUpdatedAt": "2026-09-16T23:45:52+09:00"
+  "coinUpdatedAt": "2026-09-17T03:30:29+09:00"
 }
