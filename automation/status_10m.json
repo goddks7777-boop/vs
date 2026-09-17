@@ -1,42 +1,42 @@
 {
-  "time": "2026-09-17T08:54:41+09:00",
-  "signalTime": "2026-09-17T07:00:00+09:00",
+  "time": "2026-09-17T10:51:07+09:00",
+  "signalTime": "2026-09-17T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6799205,
-    "returnPct": -32.008,
+    "value": 6941977,
+    "returnPct": -30.58,
     "positions": [
-      "RAY",
       "ADA",
       "ARX",
-      "LSK"
+      "IOST",
+      "SOPH"
     ],
-    "trades": 904,
+    "trades": 908,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "IOST",
-        "name": "아이오에스티",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "symbol": "RAY",
+        "name": "레이디움",
+        "comment": "가상 목표수익 +6%"
       },
       {
         "type": "SELL",
-        "symbol": "SOPH",
-        "name": "소폰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ARX",
-        "name": "아르키움",
-        "comment": "완성 1시간봉 7/7점·RSI 63.2·거래량 2.05배"
-      },
-      {
-        "type": "BUY",
         "symbol": "LSK",
         "name": "리스크",
-        "comment": "완성 1시간봉 6/7점·RSI 52.0·거래량 1.48배"
+        "comment": "가상 목표수익 +6%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "IOST",
+        "name": "아이오에스티",
+        "comment": "완성 1시간봉 7/7점·RSI 55.8·거래량 1.53배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SOPH",
+        "name": "소폰",
+        "comment": "완성 1시간봉 7/7점·RSI 61.2·거래량 2.87배"
       }
     ]
   },
@@ -50,5 +50,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-17T08:54:41+09:00",
-  "coinUpdatedAt": "2026-09-17T08:51:30+09:00"
+  "coinUpdatedAt": "2026-09-17T10:51:07+09:00"
 }
