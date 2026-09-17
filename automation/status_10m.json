@@ -1,23 +1,24 @@
 {
-  "time": "2026-09-18T05:22:59+09:00",
-  "signalTime": "2026-09-18T04:00:00+09:00",
+  "time": "2026-09-18T07:55:58+09:00",
+  "signalTime": "2026-09-18T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6760821,
-    "returnPct": -32.392,
+    "value": 6716576,
+    "returnPct": -32.834,
     "positions": [
       "ADA",
       "SUI",
-      "POL"
+      "POL",
+      "ENA"
     ],
-    "trades": 917,
+    "trades": 918,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SKR",
-        "name": "시커",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "ENA",
+        "name": "에테나",
+        "comment": "완성 1시간봉 6/7점·RSI 51.9·거래량 1.23배"
       }
     ]
   },
@@ -31,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-18T05:22:59+09:00",
-  "coinUpdatedAt": "2026-09-18T05:19:59+09:00"
+  "coinUpdatedAt": "2026-09-18T07:55:58+09:00"
 }
