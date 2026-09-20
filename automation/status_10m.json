@@ -1,43 +1,36 @@
 {
-  "time": "2026-09-20T15:03:42+09:00",
-  "signalTime": "2026-09-20T09:00:00+09:00",
+  "time": "2026-09-20T15:53:28+09:00",
+  "signalTime": "2026-09-20T14:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7564698,
-    "returnPct": -24.353,
+    "value": 7610130,
+    "returnPct": -23.899,
     "positions": [
       "STX",
       "PEPE",
-      "DATA",
       "DRV",
-      "SUI"
+      "GRVT"
     ],
-    "trades": 943,
+    "trades": 946,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "LA",
-        "name": "라그랑주",
-        "comment": "현재가 VWAP 하향 + -DI 우세"
+        "symbol": "DATA",
+        "name": "데이터네트워크",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "BLAST",
-        "name": "블라스트",
+        "symbol": "SUI",
+        "name": "수이",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "DRV",
-        "name": "디라이브",
-        "comment": "완성 1시간봉 7/7점·RSI 61.6·거래량 3.15배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "SUI",
-        "name": "수이",
-        "comment": "완성 1시간봉 7/7점·RSI 62.0·거래량 1.66배"
+        "symbol": "GRVT",
+        "name": "그래비티토큰",
+        "comment": "완성 1시간봉 7/7점·RSI 61.6·거래량 1.23배"
       }
     ]
   },
@@ -51,5 +44,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-20T15:03:42+09:00",
-  "coinUpdatedAt": "2026-09-20T10:31:13+09:00"
+  "coinUpdatedAt": "2026-09-20T15:53:28+09:00"
 }
