@@ -1,36 +1,54 @@
 {
-  "time": "2026-09-20T20:12:35+09:00",
-  "signalTime": "2026-09-20T14:00:00+09:00",
+  "time": "2026-09-20T20:55:49+09:00",
+  "signalTime": "2026-09-20T19:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7610130,
-    "returnPct": -23.899,
+    "value": 7369296,
+    "returnPct": -26.307,
     "positions": [
       "STX",
-      "PEPE",
-      "DRV",
-      "GRVT"
+      "BFC",
+      "T",
+      "TRX"
     ],
-    "trades": 946,
+    "trades": 952,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "DATA",
-        "name": "데이터네트워크",
+        "symbol": "PEPE",
+        "name": "페페",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "SUI",
-        "name": "수이",
+        "symbol": "DRV",
+        "name": "디라이브",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "GRVT",
+        "name": "그래비티토큰",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "GRVT",
-        "name": "그래비티토큰",
-        "comment": "완성 1시간봉 7/7점·RSI 61.6·거래량 1.23배"
+        "symbol": "BFC",
+        "name": "바이프로스트",
+        "comment": "완성 1시간봉 7/7점·RSI 62.7·거래량 1.74배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "T",
+        "name": "쓰레스홀드",
+        "comment": "완성 1시간봉 6/7점·RSI 59.3·거래량 2.36배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "TRX",
+        "name": "트론",
+        "comment": "완성 1시간봉 6/7점·RSI 67.9·거래량 1.53배"
       }
     ]
   },
@@ -44,5 +62,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-20T20:12:35+09:00",
-  "coinUpdatedAt": "2026-09-20T15:53:28+09:00"
+  "coinUpdatedAt": "2026-09-20T20:55:49+09:00"
 }
