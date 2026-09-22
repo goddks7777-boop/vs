@@ -1,31 +1,48 @@
 {
-  "time": "2026-09-22T10:15:14+09:00",
-  "signalTime": "2026-09-22T08:00:00+09:00",
+  "time": "2026-09-22T14:35:33+09:00",
+  "signalTime": "2026-09-22T13:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7499044,
-    "returnPct": -25.01,
+    "value": 7416798,
+    "returnPct": -25.832,
     "positions": [
-      "ONDO",
       "STRAX",
       "PEPE",
-      "AAVE",
-      "BCH"
+      "DOGE",
+      "ADA"
     ],
-    "trades": 973,
+    "trades": 978,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "CRO",
-        "name": "크로노스",
-        "comment": "가상 목표수익 +6%"
+        "symbol": "ONDO",
+        "name": "온도파이낸스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "AAVE",
+        "name": "에이브",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "BCH",
+        "name": "비트코인캐시",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "BCH",
-        "name": "비트코인캐시",
-        "comment": "완성 1시간봉 7/7점·RSI 60.8·거래량 1.28배"
+        "symbol": "DOGE",
+        "name": "도지코인",
+        "comment": "완성 1시간봉 7/7점·RSI 64.8·거래량 3.27배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ADA",
+        "name": "에이다",
+        "comment": "완성 1시간봉 7/7점·RSI 60.2·거래량 1.45배"
       }
     ]
   },
@@ -39,5 +56,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-22T10:15:14+09:00",
-  "coinUpdatedAt": "2026-09-22T09:49:57+09:00"
+  "coinUpdatedAt": "2026-09-22T14:35:33+09:00"
 }
