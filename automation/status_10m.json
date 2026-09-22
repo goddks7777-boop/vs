@@ -1,24 +1,30 @@
 {
-  "time": "2026-09-23T04:15:46+09:00",
-  "signalTime": "2026-09-23T02:00:00+09:00",
+  "time": "2026-09-23T06:42:52+09:00",
+  "signalTime": "2026-09-23T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7465741,
-    "returnPct": -25.343,
+    "value": 7413536,
+    "returnPct": -25.865,
     "positions": [
       "ADA",
       "XRP",
-      "SEI",
-      "HBAR"
+      "HBAR",
+      "AKT"
     ],
-    "trades": 984,
+    "trades": 986,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "SEI",
+        "name": "세이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "AKT",
+        "name": "아카시네트워크",
+        "comment": "완성 1시간봉 7/7점·RSI 65.2·거래량 1.46배"
       }
     ]
   },
@@ -32,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-23T04:15:46+09:00",
-  "coinUpdatedAt": "2026-09-23T03:48:03+09:00"
+  "coinUpdatedAt": "2026-09-23T06:42:52+09:00"
 }
