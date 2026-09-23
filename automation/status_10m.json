@@ -1,42 +1,30 @@
 {
-  "time": "2026-09-23T18:55:06+09:00",
-  "signalTime": "2026-09-23T14:00:00+09:00",
+  "time": "2026-09-23T21:42:04+09:00",
+  "signalTime": "2026-09-23T20:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7693005,
-    "returnPct": -23.07,
+    "value": 7540149,
+    "returnPct": -24.599,
     "positions": [
       "XRP",
-      "HBAR",
       "CHZ",
-      "WAVES"
+      "WAVES",
+      "DRV"
     ],
-    "trades": 990,
+    "trades": 992,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "ADA",
-        "name": "에이다",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "AKT",
-        "name": "아카시네트워크",
-        "comment": "가상 목표수익 +6%"
+        "symbol": "HBAR",
+        "name": "헤데라",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "CHZ",
-        "name": "칠리즈",
-        "comment": "완성 1시간봉 7/7점·RSI 57.8·거래량 1.45배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "WAVES",
-        "name": "웨이브",
-        "comment": "완성 1시간봉 7/7점·RSI 66.9·거래량 4.65배"
+        "symbol": "DRV",
+        "name": "디라이브",
+        "comment": "완성 1시간봉 7/7점·RSI 65.7·거래량 2.28배"
       }
     ]
   },
@@ -50,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-23T18:55:06+09:00",
-  "coinUpdatedAt": "2026-09-23T15:56:13+09:00"
+  "coinUpdatedAt": "2026-09-23T21:42:04+09:00"
 }
