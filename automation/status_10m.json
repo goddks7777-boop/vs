@@ -1,23 +1,24 @@
 {
-  "time": "2026-09-24T08:59:37+09:00",
-  "signalTime": "2026-09-24T07:00:00+09:00",
+  "time": "2026-09-24T10:24:13+09:00",
+  "signalTime": "2026-09-24T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7366860,
-    "returnPct": -26.331,
+    "value": 7402738,
+    "returnPct": -25.973,
     "positions": [
       "DRV",
       "ZRO",
-      "LIT"
+      "LIT",
+      "PROM"
     ],
-    "trades": 999,
+    "trades": 1000,
     "actions": [
       {
-        "type": "SELL",
+        "type": "BUY",
         "symbol": "PROM",
         "name": "프롬",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "comment": "완성 1시간봉 7/7점·RSI 57.1·거래량 8.99배"
       }
     ]
   },
@@ -31,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-24T08:59:37+09:00",
-  "coinUpdatedAt": "2026-09-24T08:10:03+09:00"
+  "coinUpdatedAt": "2026-09-24T10:24:13+09:00"
 }
