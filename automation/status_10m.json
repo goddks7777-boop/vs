@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-25T06:44:47+09:00",
-  "signalTime": "2026-09-25T04:00:00+09:00",
+  "time": "2026-09-25T08:17:44+09:00",
+  "signalTime": "2026-09-25T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7433499,
-    "returnPct": -25.665,
+    "value": 7440655,
+    "returnPct": -25.593,
     "positions": [
       "TRUMP",
       "DOGE",
@@ -16,16 +16,10 @@
     "trades": 1015,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "WAVES",
-        "name": "웨이브",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PENDLE",
-        "name": "펜들",
-        "comment": "완성 1시간봉 6/7점·RSI 66.2·거래량 2.03배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -39,5 +33,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-25T06:44:47+09:00",
-  "coinUpdatedAt": "2026-09-25T05:24:17+09:00"
+  "coinUpdatedAt": "2026-09-25T08:17:44+09:00"
 }
