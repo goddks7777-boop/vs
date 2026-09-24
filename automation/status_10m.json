@@ -1,24 +1,42 @@
 {
-  "time": "2026-09-24T13:34:20+09:00",
-  "signalTime": "2026-09-24T09:00:00+09:00",
+  "time": "2026-09-24T15:22:56+09:00",
+  "signalTime": "2026-09-24T14:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7402738,
-    "returnPct": -25.973,
+    "value": 7299637,
+    "returnPct": -27.004,
     "positions": [
-      "DRV",
       "ZRO",
-      "LIT",
-      "PROM"
+      "PROM",
+      "RAY",
+      "WAVES"
     ],
-    "trades": 1000,
+    "trades": 1004,
     "actions": [
       {
+        "type": "SELL",
+        "symbol": "DRV",
+        "name": "디라이브",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "LIT",
+        "name": "라이터",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
         "type": "BUY",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "완성 1시간봉 7/7점·RSI 57.1·거래량 8.99배"
+        "symbol": "RAY",
+        "name": "레이디움",
+        "comment": "완성 1시간봉 7/7점·RSI 65.3·거래량 1.97배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "WAVES",
+        "name": "웨이브",
+        "comment": "완성 1시간봉 7/7점·RSI 63.0·거래량 1.23배"
       }
     ]
   },
@@ -32,5 +50,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-24T13:34:20+09:00",
-  "coinUpdatedAt": "2026-09-24T10:24:13+09:00"
+  "coinUpdatedAt": "2026-09-24T15:22:56+09:00"
 }
