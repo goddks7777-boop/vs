@@ -1,43 +1,36 @@
 {
-  "time": "2026-09-26T19:10:32+09:00",
-  "signalTime": "2026-09-26T14:00:00+09:00",
+  "time": "2026-09-26T21:09:59+09:00",
+  "signalTime": "2026-09-26T20:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7737416,
-    "returnPct": -22.626,
+    "value": 7785322,
+    "returnPct": -22.147,
     "positions": [
       "SYRUP",
-      "TAO",
       "ADA",
       "UNI",
-      "FLOCK"
+      "SOL"
     ],
-    "trades": 1037,
+    "trades": 1040,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "PROM",
-        "name": "프롬",
+        "symbol": "TAO",
+        "name": "비트텐서",
         "comment": "가상 목표수익 +6%"
       },
       {
         "type": "SELL",
-        "symbol": "ARK",
-        "name": "아크",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "UNI",
-        "name": "유니스왑",
-        "comment": "완성 1시간봉 7/7점·RSI 62.4·거래량 1.73배"
-      },
-      {
-        "type": "BUY",
         "symbol": "FLOCK",
         "name": "플록",
-        "comment": "완성 1시간봉 7/7점·RSI 59.9·거래량 1.97배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SOL",
+        "name": "솔라나",
+        "comment": "완성 1시간봉 7/7점·RSI 60.4·거래량 1.31배"
       }
     ]
   },
@@ -51,5 +44,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-26T19:10:32+09:00",
-  "coinUpdatedAt": "2026-09-26T15:56:19+09:00"
+  "coinUpdatedAt": "2026-09-26T21:09:59+09:00"
 }
