@@ -1,31 +1,31 @@
 {
-  "time": "2026-09-26T09:38:34+09:00",
-  "signalTime": "2026-09-26T07:00:00+09:00",
+  "time": "2026-09-26T10:54:43+09:00",
+  "signalTime": "2026-09-26T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7599399,
-    "returnPct": -24.006,
+    "value": 7572810,
+    "returnPct": -24.272,
     "positions": [
-      "ONDO",
       "PROM",
       "SYRUP",
       "TAO",
-      "ADA"
+      "ADA",
+      "ARK"
     ],
-    "trades": 1031,
+    "trades": 1033,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "WLD",
-        "name": "월드코인",
-        "comment": "가상 목표수익 +6%"
+        "symbol": "ONDO",
+        "name": "온도파이낸스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ADA",
-        "name": "에이다",
-        "comment": "완성 1시간봉 7/7점·RSI 65.6·거래량 1.57배"
+        "symbol": "ARK",
+        "name": "아크",
+        "comment": "완성 1시간봉 7/7점·RSI 67.2·거래량 1.80배"
       }
     ]
   },
@@ -39,5 +39,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-26T09:38:34+09:00",
-  "coinUpdatedAt": "2026-09-26T08:30:58+09:00"
+  "coinUpdatedAt": "2026-09-26T10:54:43+09:00"
 }
