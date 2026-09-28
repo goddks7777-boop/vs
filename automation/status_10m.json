@@ -1,42 +1,28 @@
 {
-  "time": "2026-09-29T00:52:09+09:00",
-  "signalTime": "2026-09-28T21:00:00+09:00",
+  "time": "2026-09-29T05:13:46+09:00",
+  "signalTime": "2026-09-29T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6837677,
-    "returnPct": -31.623,
+    "value": 6851899,
+    "returnPct": -31.481,
     "positions": [
-      "SEI",
       "AZTEC",
-      "PUMP",
-      "BTT"
+      "PUMP"
     ],
-    "trades": 1074,
+    "trades": 1076,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "SOON",
-        "name": "쑨",
+        "symbol": "SEI",
+        "name": "세이",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "ONDO",
-        "name": "온도파이낸스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PUMP",
-        "name": "펌프펀",
-        "comment": "완성 1시간봉 7/7점·RSI 65.4·거래량 1.57배"
-      },
-      {
-        "type": "BUY",
         "symbol": "BTT",
         "name": "비트토렌트",
-        "comment": "완성 1시간봉 7/7점·RSI 60.1·거래량 1.86배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -50,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-29T00:52:09+09:00",
-  "coinUpdatedAt": "2026-09-28T22:31:35+09:00"
+  "coinUpdatedAt": "2026-09-29T05:13:46+09:00"
 }
