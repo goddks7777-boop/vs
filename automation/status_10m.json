@@ -1,24 +1,30 @@
 {
-  "time": "2026-09-28T08:03:22+09:00",
-  "signalTime": "2026-09-28T06:00:00+09:00",
+  "time": "2026-09-28T09:43:35+09:00",
+  "signalTime": "2026-09-28T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 7537641,
-    "returnPct": -24.624,
+    "value": 7520787,
+    "returnPct": -24.792,
     "positions": [
       "ZKC",
       "BTT",
-      "ATH",
-      "JUP"
+      "JUP",
+      "DATA"
     ],
-    "trades": 1060,
+    "trades": 1062,
     "actions": [
       {
+        "type": "SELL",
+        "symbol": "ATH",
+        "name": "에이셔",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
         "type": "BUY",
-        "symbol": "JUP",
-        "name": "주피터",
-        "comment": "완성 1시간봉 6/7점·RSI 66.9·거래량 4.34배"
+        "symbol": "DATA",
+        "name": "데이터네트워크",
+        "comment": "완성 1시간봉 7/7점·RSI 60.3·거래량 1.53배"
       }
     ]
   },
@@ -32,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-28T08:03:22+09:00",
-  "coinUpdatedAt": "2026-09-28T07:08:26+09:00"
+  "coinUpdatedAt": "2026-09-28T09:43:35+09:00"
 }
