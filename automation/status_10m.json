@@ -1,39 +1,21 @@
 {
-  "time": "2026-09-30T03:48:44+09:00",
-  "signalTime": "2026-09-30T02:00:00+09:00",
+  "time": "2026-09-30T07:25:23+09:00",
+  "signalTime": "2026-09-30T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6642784,
-    "returnPct": -33.572,
+    "value": 6661409,
+    "returnPct": -33.386,
     "positions": [
       "ICP"
     ],
     "trades": 1091,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "LINK",
-        "name": "체인링크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "FOLD",
-        "name": "인터폴드",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "XLM",
-        "name": "스텔라루멘",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "ETH",
-        "name": "이더리움",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -47,5 +29,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-30T03:48:44+09:00",
-  "coinUpdatedAt": "2026-09-30T03:15:09+09:00"
+  "coinUpdatedAt": "2026-09-30T07:25:23+09:00"
 }
