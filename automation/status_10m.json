@@ -1,11 +1,11 @@
 {
-  "time": "2026-09-30T16:23:49+09:00",
-  "signalTime": "2026-09-30T15:00:00+09:00",
+  "time": "2026-09-30T22:55:29+09:00",
+  "signalTime": "2026-09-30T21:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6677098,
-    "returnPct": -33.229,
+    "value": 6682828,
+    "returnPct": -33.172,
     "positions": [
       "CAP",
       "ZRO",
@@ -15,40 +15,10 @@
     "trades": 1102,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "BERA",
-        "name": "베라체인",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "SELL",
-        "symbol": "ENS",
-        "name": "이더리움네임서비스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "PROS",
-        "name": "파로스",
-        "comment": "ATR 가상손절 -3.00%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZRO",
-        "name": "레이어제로",
-        "comment": "완성 1시간봉 7/7점·RSI 64.2·거래량 1.55배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "TOSHI",
-        "name": "토시",
-        "comment": "완성 1시간봉 7/7점·RSI 57.8·거래량 3.73배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "MEW",
-        "name": "캣인어독스월드",
-        "comment": "완성 1시간봉 6/7점·RSI 66.8·거래량 2.68배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -62,5 +32,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-09-30T16:23:49+09:00",
-  "coinUpdatedAt": "2026-09-30T16:15:32+09:00"
+  "coinUpdatedAt": "2026-09-30T22:55:29+09:00"
 }
