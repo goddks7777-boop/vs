@@ -1,42 +1,30 @@
 {
-  "time": "2026-10-01T16:45:05+09:00",
-  "signalTime": "2026-10-01T09:00:00+09:00",
+  "time": "2026-10-01T17:40:05+09:00",
+  "signalTime": "2026-10-01T16:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 6569751,
-    "returnPct": -34.302,
+    "value": 6468827,
+    "returnPct": -35.312,
     "positions": [
       "PROS",
       "PLUME",
       "TRX",
-      "UP2"
+      "ADA"
     ],
-    "trades": 1110,
+    "trades": 1112,
     "actions": [
       {
-        "type": "BUY",
-        "symbol": "PROS",
-        "name": "파로스",
-        "comment": "완성 1시간봉 7/7점·RSI 67.2·거래량 41.80배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "PLUME",
-        "name": "플룸",
-        "comment": "완성 1시간봉 7/7점·RSI 61.3·거래량 1.49배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "TRX",
-        "name": "트론",
-        "comment": "완성 1시간봉 7/7점·RSI 60.1·거래량 1.93배"
-      },
-      {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "UP2",
         "name": "슈퍼폼",
-        "comment": "완성 1시간봉 7/7점·RSI 60.0·거래량 6.12배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ADA",
+        "name": "에이다",
+        "comment": "완성 1시간봉 7/7점·RSI 52.8·거래량 2.18배"
       }
     ]
   },
@@ -50,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-01T16:45:05+09:00",
-  "coinUpdatedAt": "2026-10-01T10:57:01+09:00"
+  "coinUpdatedAt": "2026-10-01T17:40:05+09:00"
 }
