@@ -1,34 +1,35 @@
 {
-  "time": "2026-10-04T05:09:19+09:00",
-  "signalTime": "2026-10-04T02:00:00+09:00",
+  "time": "2026-10-04T06:46:20+09:00",
+  "signalTime": "2026-10-04T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5714178,
-    "returnPct": -42.858,
+    "value": 5680537,
+    "returnPct": -43.195,
     "positions": [
-      "CHZ",
-      "AKT"
+      "AKT",
+      "STX",
+      "NEAR"
     ],
-    "trades": 1142,
+    "trades": 1145,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "IMX",
-        "name": "이뮤터블엑스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "MINA",
-        "name": "미나",
+        "symbol": "CHZ",
+        "name": "칠리즈",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "AKT",
-        "name": "아카시네트워크",
-        "comment": "완성 1시간봉 6/7점·RSI 67.2·거래량 4.27배"
+        "symbol": "STX",
+        "name": "스택스",
+        "comment": "완성 1시간봉 7/7점·RSI 60.8·거래량 2.34배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "NEAR",
+        "name": "니어프로토콜",
+        "comment": "완성 1시간봉 6/7점·RSI 53.4·거래량 2.00배"
       }
     ]
   },
@@ -42,5 +43,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-04T05:09:19+09:00",
-  "coinUpdatedAt": "2026-10-04T03:38:52+09:00"
+  "coinUpdatedAt": "2026-10-04T06:46:20+09:00"
 }
