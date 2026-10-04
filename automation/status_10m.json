@@ -1,11 +1,11 @@
 {
-  "time": "2026-10-05T06:28:14+09:00",
-  "signalTime": "2026-10-05T02:00:00+09:00",
+  "time": "2026-10-05T07:08:57+09:00",
+  "signalTime": "2026-10-05T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5828026,
-    "returnPct": -41.72,
+    "value": 5817968,
+    "returnPct": -41.82,
     "positions": [
       "NEAR",
       "SOL",
@@ -14,22 +14,10 @@
     "trades": 1153,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SAND",
-        "name": "샌드박스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "GMT",
-        "name": "스테픈",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "SEI",
-        "name": "세이",
-        "comment": "완성 1시간봉 7/7점·RSI 64.5·거래량 1.50배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -43,5 +31,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-05T06:28:14+09:00",
-  "coinUpdatedAt": "2026-10-05T03:54:26+09:00"
+  "coinUpdatedAt": "2026-10-05T07:08:57+09:00"
 }
