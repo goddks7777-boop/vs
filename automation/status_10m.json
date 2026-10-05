@@ -1,29 +1,41 @@
 {
-  "time": "2026-10-05T21:28:05+09:00",
-  "signalTime": "2026-10-05T14:00:00+09:00",
+  "time": "2026-10-06T00:20:53+09:00",
+  "signalTime": "2026-10-05T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5818754,
-    "returnPct": -41.812,
+    "value": 5689280,
+    "returnPct": -43.107,
     "positions": [
       "NEAR",
-      "SEI",
-      "XLM"
+      "ADA",
+      "ENA"
     ],
-    "trades": 1155,
+    "trades": 1159,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "SOL",
-        "name": "솔라나",
+        "symbol": "SEI",
+        "name": "세이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "XLM",
+        "name": "스텔라루멘",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "XLM",
-        "name": "스텔라루멘",
-        "comment": "완성 1시간봉 7/7점·RSI 60.8·거래량 1.67배"
+        "symbol": "ADA",
+        "name": "에이다",
+        "comment": "완성 1시간봉 7/7점·RSI 59.2·거래량 1.62배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ENA",
+        "name": "에테나",
+        "comment": "완성 1시간봉 6/7점·RSI 55.0·거래량 1.74배"
       }
     ]
   },
@@ -37,5 +49,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-05T21:28:05+09:00",
-  "coinUpdatedAt": "2026-10-05T15:46:27+09:00"
+  "coinUpdatedAt": "2026-10-06T00:20:53+09:00"
 }
