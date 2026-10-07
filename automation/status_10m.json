@@ -1,19 +1,35 @@
 {
-  "time": "2026-10-08T06:36:39+09:00",
-  "signalTime": "2026-10-08T03:00:00+09:00",
+  "time": "2026-10-08T08:43:55+09:00",
+  "signalTime": "2026-10-08T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5296170,
-    "returnPct": -47.038,
-    "positions": [],
-    "trades": 1180,
+    "value": 5285586,
+    "returnPct": -47.144,
+    "positions": [
+      "TRX",
+      "AVNT",
+      "WLFI"
+    ],
+    "trades": 1183,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "PROM",
-        "name": "프롬",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "TRX",
+        "name": "트론",
+        "comment": "완성 1시간봉 6/7점·RSI 60.9·거래량 2.25배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "AVNT",
+        "name": "베란타",
+        "comment": "완성 1시간봉 6/7점·RSI 66.1·거래량 1.42배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "WLFI",
+        "name": "월드리버티파이낸셜",
+        "comment": "완성 1시간봉 6/7점·RSI 60.3·거래량 1.67배"
       }
     ]
   },
@@ -27,5 +43,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-08T06:36:39+09:00",
-  "coinUpdatedAt": "2026-10-08T04:29:14+09:00"
+  "coinUpdatedAt": "2026-10-08T08:43:55+09:00"
 }
