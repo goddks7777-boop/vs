@@ -1,27 +1,29 @@
 {
-  "time": "2026-10-07T08:49:08+09:00",
-  "signalTime": "2026-10-07T04:00:00+09:00",
+  "time": "2026-10-07T09:14:38+09:00",
+  "signalTime": "2026-10-07T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5570883,
-    "returnPct": -44.291,
+    "value": 5558558,
+    "returnPct": -44.414,
     "positions": [
-      "ZRO"
+      "ZRO",
+      "AVAX",
+      "W"
     ],
-    "trades": 1171,
+    "trades": 1173,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "DRV",
-        "name": "디라이브",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "AVAX",
+        "name": "아발란체",
+        "comment": "완성 1시간봉 7/7점·RSI 67.4·거래량 2.45배"
       },
       {
-        "type": "SELL",
-        "symbol": "WLFI",
-        "name": "월드리버티파이낸셜",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "W",
+        "name": "웜홀",
+        "comment": "완성 1시간봉 6/7점·RSI 59.2·거래량 1.40배"
       }
     ]
   },
@@ -35,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-07T08:49:08+09:00",
-  "coinUpdatedAt": "2026-10-07T05:53:18+09:00"
+  "coinUpdatedAt": "2026-10-07T09:14:38+09:00"
 }
