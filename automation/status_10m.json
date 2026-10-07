@@ -1,34 +1,33 @@
 {
-  "time": "2026-10-07T18:21:00+09:00",
-  "signalTime": "2026-10-07T14:00:00+09:00",
+  "time": "2026-10-07T22:24:42+09:00",
+  "signalTime": "2026-10-07T21:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5463950,
-    "returnPct": -45.361,
+    "value": 5304267,
+    "returnPct": -46.957,
     "positions": [
-      "ZRO",
-      "STX"
+      "PROM"
     ],
-    "trades": 1176,
+    "trades": 1179,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "AVAX",
-        "name": "아발란체",
+        "symbol": "ZRO",
+        "name": "레이어제로",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "SELL",
-        "symbol": "W",
-        "name": "웜홀",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "symbol": "STX",
+        "name": "스택스",
+        "comment": "ATR 가상손절 -3.35%"
       },
       {
         "type": "BUY",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 6/7점·RSI 67.9·거래량 3.74배"
+        "symbol": "PROM",
+        "name": "프롬",
+        "comment": "완성 1시간봉 6/7점·RSI 55.8·거래량 1.80배"
       }
     ]
   },
@@ -42,5 +41,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-07T18:21:00+09:00",
-  "coinUpdatedAt": "2026-10-07T15:12:03+09:00"
+  "coinUpdatedAt": "2026-10-07T22:24:42+09:00"
 }
