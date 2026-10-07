@@ -1,33 +1,19 @@
 {
-  "time": "2026-10-08T01:42:46+09:00",
-  "signalTime": "2026-10-07T21:00:00+09:00",
+  "time": "2026-10-08T04:29:14+09:00",
+  "signalTime": "2026-10-08T03:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5304267,
-    "returnPct": -46.957,
-    "positions": [
-      "PROM"
-    ],
-    "trades": 1179,
+    "value": 5296170,
+    "returnPct": -47.038,
+    "positions": [],
+    "trades": 1180,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "ZRO",
-        "name": "레이어제로",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "ATR 가상손절 -3.35%"
-      },
-      {
-        "type": "BUY",
         "symbol": "PROM",
         "name": "프롬",
-        "comment": "완성 1시간봉 6/7점·RSI 55.8·거래량 1.80배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -41,5 +27,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-08T01:42:46+09:00",
-  "coinUpdatedAt": "2026-10-07T22:24:42+09:00"
+  "coinUpdatedAt": "2026-10-08T04:29:14+09:00"
 }
