@@ -1,35 +1,29 @@
 {
-  "time": "2026-10-08T10:17:27+09:00",
-  "signalTime": "2026-10-08T07:00:00+09:00",
+  "time": "2026-10-08T12:00:14+09:00",
+  "signalTime": "2026-10-08T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5285586,
-    "returnPct": -47.144,
+    "value": 5305621,
+    "returnPct": -46.944,
     "positions": [
       "TRX",
       "AVNT",
-      "WLFI"
+      "ORCA"
     ],
-    "trades": 1183,
+    "trades": 1185,
     "actions": [
       {
-        "type": "BUY",
-        "symbol": "TRX",
-        "name": "트론",
-        "comment": "완성 1시간봉 6/7점·RSI 60.9·거래량 2.25배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "AVNT",
-        "name": "베란타",
-        "comment": "완성 1시간봉 6/7점·RSI 66.1·거래량 1.42배"
-      },
-      {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "WLFI",
         "name": "월드리버티파이낸셜",
-        "comment": "완성 1시간봉 6/7점·RSI 60.3·거래량 1.67배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ORCA",
+        "name": "오르카",
+        "comment": "완성 1시간봉 6/7점·RSI 53.8·거래량 2.32배"
       }
     ]
   },
@@ -43,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-08T10:17:27+09:00",
-  "coinUpdatedAt": "2026-10-08T08:43:55+09:00"
+  "coinUpdatedAt": "2026-10-08T12:00:14+09:00"
 }
