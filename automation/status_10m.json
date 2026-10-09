@@ -1,21 +1,29 @@
 {
-  "time": "2026-10-09T09:25:58+09:00",
-  "signalTime": "2026-10-09T06:00:00+09:00",
+  "time": "2026-10-09T11:19:43+09:00",
+  "signalTime": "2026-10-09T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5142900,
-    "returnPct": -48.571,
+    "value": 5181786,
+    "returnPct": -48.182,
     "positions": [
-      "AVNT"
+      "AVNT",
+      "QUID",
+      "TIA"
     ],
-    "trades": 1189,
+    "trades": 1191,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "TRX",
-        "name": "트론",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "QUID",
+        "name": "스퀴드",
+        "comment": "완성 1시간봉 7/7점·RSI 64.4·거래량 1.25배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "TIA",
+        "name": "셀레스티아",
+        "comment": "완성 1시간봉 7/7점·RSI 60.6·거래량 1.60배"
       }
     ]
   },
@@ -29,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-09T09:25:58+09:00",
-  "coinUpdatedAt": "2026-10-09T07:21:05+09:00"
+  "coinUpdatedAt": "2026-10-09T11:19:43+09:00"
 }
