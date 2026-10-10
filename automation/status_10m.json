@@ -1,22 +1,28 @@
 {
-  "time": "2026-10-11T07:06:39+09:00",
-  "signalTime": "2026-10-11T04:00:00+09:00",
+  "time": "2026-10-11T08:56:14+09:00",
+  "signalTime": "2026-10-11T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 5131887,
-    "returnPct": -48.681,
+    "value": 5110255,
+    "returnPct": -48.897,
     "positions": [
-      "SAHARA",
-      "ZK"
+      "ZK",
+      "FOLD"
     ],
-    "trades": 1206,
+    "trades": 1208,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "AZTEC",
-        "name": "아즈텍",
-        "comment": "가상 목표수익 +6%"
+        "symbol": "SAHARA",
+        "name": "사하라에이아이",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "FOLD",
+        "name": "인터폴드",
+        "comment": "완성 1시간봉 7/7점·RSI 65.0·거래량 1.61배"
       }
     ]
   },
@@ -30,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-11T07:06:39+09:00",
-  "coinUpdatedAt": "2026-10-11T05:45:02+09:00"
+  "coinUpdatedAt": "2026-10-11T08:56:14+09:00"
 }
