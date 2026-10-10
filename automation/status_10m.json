@@ -1,41 +1,29 @@
 {
-  "time": "2026-10-10T23:45:29+09:00",
-  "signalTime": "2026-10-10T20:00:00+09:00",
+  "time": "2026-10-11T02:44:47+09:00",
+  "signalTime": "2026-10-11T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 4908565,
-    "returnPct": -50.914,
+    "value": 4946282,
+    "returnPct": -50.537,
     "positions": [
-      "TRUMP",
       "AZTEC",
-      "SAHARA"
+      "SAHARA",
+      "ZK"
     ],
-    "trades": 1203,
+    "trades": 1205,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "JUP",
-        "name": "주피터",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "META2",
-        "name": "메타다오",
+        "symbol": "TRUMP",
+        "name": "오피셜트럼프",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "AZTEC",
-        "name": "아즈텍",
-        "comment": "완성 1시간봉 7/7점·RSI 64.3·거래량 3.01배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "SAHARA",
-        "name": "사하라에이아이",
-        "comment": "완성 1시간봉 7/7점·RSI 58.4·거래량 1.26배"
+        "symbol": "ZK",
+        "name": "지케이싱크",
+        "comment": "완성 1시간봉 7/7점·RSI 61.4·거래량 2.23배"
       }
     ]
   },
@@ -49,5 +37,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-10T23:45:29+09:00",
-  "coinUpdatedAt": "2026-10-10T21:58:10+09:00"
+  "coinUpdatedAt": "2026-10-11T02:44:47+09:00"
 }
