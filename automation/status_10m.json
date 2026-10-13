@@ -1,22 +1,23 @@
 {
-  "time": "2026-10-14T03:20:11+09:00",
-  "signalTime": "2026-10-14T01:00:00+09:00",
+  "time": "2026-10-14T06:51:59+09:00",
+  "signalTime": "2026-10-14T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 4602424,
-    "returnPct": -53.976,
+    "value": 4576054,
+    "returnPct": -54.239,
     "positions": [
       "STX",
-      "AZTEC"
+      "AZTEC",
+      "BAT"
     ],
-    "trades": 1232,
+    "trades": 1233,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "RENDER",
-        "name": "렌더토큰",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "BAT",
+        "name": "베이직어텐션토큰",
+        "comment": "완성 1시간봉 7/7점·RSI 66.7·거래량 1.27배"
       }
     ]
   },
@@ -30,5 +31,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-14T03:20:11+09:00",
-  "coinUpdatedAt": "2026-10-14T02:11:39+09:00"
+  "coinUpdatedAt": "2026-10-14T06:51:59+09:00"
 }
