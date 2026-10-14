@@ -1,24 +1,42 @@
 {
-  "time": "2026-10-14T15:40:04+09:00",
-  "signalTime": "2026-10-14T13:00:00+09:00",
+  "time": "2026-10-14T19:30:51+09:00",
+  "signalTime": "2026-10-14T18:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 4594912,
-    "returnPct": -54.051,
+    "value": 4432342,
+    "returnPct": -55.677,
     "positions": [
       "AZTEC",
-      "BAT",
-      "PEPE",
-      "CASHCAT"
+      "CASHCAT",
+      "TRAC",
+      "KITE"
     ],
-    "trades": 1236,
+    "trades": 1240,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "BAT",
+        "name": "베이직어텐션토큰",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
+        "type": "SELL",
+        "symbol": "PEPE",
+        "name": "페페",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "TRAC",
+        "name": "오리진트레일",
+        "comment": "완성 1시간봉 7/7점·RSI 63.5·거래량 2.64배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "KITE",
+        "name": "카이트",
+        "comment": "완성 1시간봉 7/7점·RSI 63.9·거래량 1.49배"
       }
     ]
   },
@@ -32,5 +50,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-14T15:40:04+09:00",
-  "coinUpdatedAt": "2026-10-14T14:33:07+09:00"
+  "coinUpdatedAt": "2026-10-14T19:30:51+09:00"
 }
