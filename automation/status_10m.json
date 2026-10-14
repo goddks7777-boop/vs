@@ -1,11 +1,11 @@
 {
-  "time": "2026-10-15T02:25:33+09:00",
-  "signalTime": "2026-10-14T23:00:00+09:00",
+  "time": "2026-10-15T04:38:50+09:00",
+  "signalTime": "2026-10-15T03:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 4236179,
-    "returnPct": -57.638,
+    "value": 4236144,
+    "returnPct": -57.639,
     "positions": [
       "TRAC",
       "POD",
@@ -14,34 +14,10 @@
     "trades": 1245,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "AZTEC",
-        "name": "아즈텍",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "CASHCAT",
-        "name": "캐시캣",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "SELL",
-        "symbol": "KITE",
-        "name": "카이트",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "POD",
-        "name": "돌핀",
-        "comment": "완성 1시간봉 7/7점·RSI 59.1·거래량 1.74배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "A",
-        "name": "볼타",
-        "comment": "완성 1시간봉 7/7점·RSI 57.6·거래량 2.73배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -55,5 +31,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-15T02:25:33+09:00",
-  "coinUpdatedAt": "2026-10-15T00:25:24+09:00"
+  "coinUpdatedAt": "2026-10-15T04:38:50+09:00"
 }
