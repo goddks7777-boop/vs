@@ -1,11 +1,11 @@
 {
-  "time": "2026-10-18T04:23:51+09:00",
-  "signalTime": "2026-10-18T03:00:00+09:00",
+  "time": "2026-10-18T06:27:46+09:00",
+  "signalTime": "2026-10-18T05:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3574858,
-    "returnPct": -64.251,
+    "value": 3477455,
+    "returnPct": -65.225,
     "positions": [
       "SAND",
       "AXL"
@@ -13,16 +13,10 @@
     "trades": 1278,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "DRV",
-        "name": "디라이브",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "AXL",
-        "name": "엑셀라",
-        "comment": "완성 1시간봉 7/7점·RSI 59.7·거래량 1.24배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -36,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-18T04:23:51+09:00",
-  "coinUpdatedAt": "2026-10-18T04:10:24+09:00"
+  "coinUpdatedAt": "2026-10-18T06:27:46+09:00"
 }
