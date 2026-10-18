@@ -1,21 +1,22 @@
 {
-  "time": "2026-10-19T08:41:05+09:00",
-  "signalTime": "2026-10-19T05:00:00+09:00",
+  "time": "2026-10-19T08:45:11+09:00",
+  "signalTime": "2026-10-19T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3565733,
-    "returnPct": -64.343,
+    "value": 3548389,
+    "returnPct": -64.516,
     "positions": [
-      "ERA"
+      "ERA",
+      "BTC"
     ],
-    "trades": 1285,
+    "trades": 1286,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "HBAR",
-        "name": "헤데라",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "BTC",
+        "name": "비트코인",
+        "comment": "완성 1시간봉 6/7점·RSI 54.8·거래량 1.76배"
       }
     ]
   },
@@ -29,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-19T08:41:05+09:00",
-  "coinUpdatedAt": "2026-10-19T06:47:49+09:00"
+  "coinUpdatedAt": "2026-10-19T08:45:11+09:00"
 }
