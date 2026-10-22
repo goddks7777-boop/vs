@@ -1,23 +1,46 @@
 {
-  "time": "2026-10-22T10:52:51+09:00",
-  "signalTime": "2026-10-22T08:00:00+09:00",
+  "time": "2026-10-22T13:54:13+09:00",
+  "signalTime": "2026-10-22T12:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3467681,
-    "returnPct": -65.323,
+    "value": 3393805,
+    "returnPct": -66.062,
     "positions": [
-      "PENGU",
-      "BTC",
-      "XLM"
+      "SC",
+      "CP"
     ],
-    "trades": 1303,
+    "trades": 1308,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "PENGU",
+        "name": "펏지펭귄",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "BTC",
+        "name": "비트코인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "XLM",
+        "name": "스텔라루멘",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SC",
+        "name": "시아코인",
+        "comment": "완성 1시간봉 7/7점·RSI 62.6·거래량 1.90배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "CP",
+        "name": "클러스터프로토콜",
+        "comment": "완성 1시간봉 7/7점·RSI 59.3·거래량 4.71배"
       }
     ]
   },
@@ -31,5 +54,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-22T10:52:51+09:00",
-  "coinUpdatedAt": "2026-10-22T09:14:19+09:00"
+  "coinUpdatedAt": "2026-10-22T13:54:13+09:00"
 }
