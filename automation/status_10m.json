@@ -1,35 +1,27 @@
 {
-  "time": "2026-10-24T05:37:39+09:00",
-  "signalTime": "2026-10-24T03:00:00+09:00",
+  "time": "2026-10-24T07:10:50+09:00",
+  "signalTime": "2026-10-24T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 4116685,
-    "returnPct": -58.833,
+    "value": 4117446,
+    "returnPct": -58.826,
     "positions": [
-      "MEW",
-      "ARK",
-      "UP2"
+      "ARK"
     ],
-    "trades": 1319,
+    "trades": 1321,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "BFC",
-        "name": "바이프로스트",
-        "comment": "가상 목표수익 +6%"
+        "symbol": "MEW",
+        "name": "캣인어독스월드",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
-        "type": "BUY",
-        "symbol": "ARK",
-        "name": "아크",
-        "comment": "완성 1시간봉 7/7점·RSI 61.8·거래량 2.03배"
-      },
-      {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "UP2",
         "name": "슈퍼폼",
-        "comment": "완성 1시간봉 7/7점·RSI 65.9·거래량 1.27배"
+        "comment": "가상 목표수익 +6%"
       }
     ]
   },
@@ -43,5 +35,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-24T05:37:39+09:00",
-  "coinUpdatedAt": "2026-10-24T04:11:39+09:00"
+  "coinUpdatedAt": "2026-10-24T07:10:50+09:00"
 }
