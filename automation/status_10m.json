@@ -1,48 +1,30 @@
 {
-  "time": "2026-10-24T15:43:04+09:00",
-  "signalTime": "2026-10-24T13:00:00+09:00",
+  "time": "2026-10-24T18:27:33+09:00",
+  "signalTime": "2026-10-24T17:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 4522247,
-    "returnPct": -54.778,
+    "value": 4168832,
+    "returnPct": -58.312,
     "positions": [
-      "SLX",
       "UP2",
       "AI",
-      "ZKC"
+      "ZKC",
+      "IN"
     ],
-    "trades": 1328,
+    "trades": 1330,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "ARK",
-        "name": "아크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "symbol": "SLX",
+        "name": "솔스티스",
+        "comment": "현재가 VWAP 하향 + -DI 우세"
       },
       {
-        "type": "SELL",
+        "type": "BUY",
         "symbol": "IN",
         "name": "인피닛",
-        "comment": "가상 목표수익 +6%"
-      },
-      {
-        "type": "BUY",
-        "symbol": "UP2",
-        "name": "슈퍼폼",
-        "comment": "완성 1시간봉 7/7점·RSI 63.6·거래량 1.51배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "AI",
-        "name": "젠신",
-        "comment": "완성 1시간봉 7/7점·RSI 60.6·거래량 1.33배"
-      },
-      {
-        "type": "BUY",
-        "symbol": "ZKC",
-        "name": "바운드리스",
-        "comment": "완성 1시간봉 6/7점·RSI 55.0·거래량 1.91배"
+        "comment": "완성 1시간봉 7/7점·RSI 58.4·거래량 1.61배"
       }
     ]
   },
@@ -56,5 +38,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-24T15:43:04+09:00",
-  "coinUpdatedAt": "2026-10-24T14:13:21+09:00"
+  "coinUpdatedAt": "2026-10-24T18:27:33+09:00"
 }
