@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T14:02:58+09:00",
+  "updatedAt": "2026-10-27T14:18:41+09:00",
   "mode": "RESEARCH_ONLY",
   "actualOrders": 0,
   "method": {
@@ -23,104 +23,105 @@
     "scalp": {
       "label": "단타",
       "holding4hBars": 6,
-      "champion": "매집 개선형",
+      "champion": "매집 기본형",
       "challengers": [
-        "매집 기본형"
+        "추세 돌파형",
+        "매집 개선형"
       ],
       "results": [
         {
-          "strategy": "매집 개선형",
-          "training": {
-            "trades": 319,
-            "winRate": 50.47,
-            "expectancyPct": 1.038,
-            "profitFactor": 1.79,
-            "medianPct": 0.018
-          },
-          "validation": {
-            "trades": 149,
-            "winRate": 34.23,
-            "expectancyPct": 0.533,
-            "profitFactor": 1.212,
-            "medianPct": -1.216
-          },
-          "score": 0.402,
-          "approved": true
-        },
-        {
           "strategy": "매집 기본형",
           "training": {
-            "trades": 120,
-            "winRate": 53.33,
-            "expectancyPct": 1.427,
-            "profitFactor": 1.787,
-            "medianPct": 0.523
+            "trades": 115,
+            "winRate": 55.65,
+            "expectancyPct": 0.938,
+            "profitFactor": 1.507,
+            "medianPct": 1.066
           },
           "validation": {
-            "trades": 68,
-            "winRate": 32.35,
-            "expectancyPct": 0.39,
-            "profitFactor": 1.119,
-            "medianPct": -1.667
+            "trades": 58,
+            "winRate": 41.38,
+            "expectancyPct": 3.014,
+            "profitFactor": 2.158,
+            "medianPct": -1.085
           },
-          "score": 0.282,
+          "score": 1.527,
           "approved": true
         },
         {
           "strategy": "추세 돌파형",
           "training": {
-            "trades": 111,
-            "winRate": 36.94,
-            "expectancyPct": -0.644,
-            "profitFactor": 0.843,
-            "medianPct": -1.229
+            "trades": 110,
+            "winRate": 50.0,
+            "expectancyPct": 0.84,
+            "profitFactor": 1.294,
+            "medianPct": 0.025
           },
           "validation": {
-            "trades": 56,
-            "winRate": 46.43,
-            "expectancyPct": 4.288,
-            "profitFactor": 2.123,
-            "medianPct": -0.25
+            "trades": 60,
+            "winRate": 40.0,
+            "expectancyPct": 2.08,
+            "profitFactor": 1.316,
+            "medianPct": -3.256
           },
-          "score": 2.053,
+          "score": 0.771,
+          "approved": true
+        },
+        {
+          "strategy": "매집 개선형",
+          "training": {
+            "trades": 290,
+            "winRate": 47.93,
+            "expectancyPct": 0.702,
+            "profitFactor": 1.526,
+            "medianPct": -0.172
+          },
+          "validation": {
+            "trades": 145,
+            "winRate": 28.28,
+            "expectancyPct": 0.895,
+            "profitFactor": 1.34,
+            "medianPct": -1.571
+          },
+          "score": 0.519,
+          "approved": true
+        },
+        {
+          "strategy": "MA120 반등형",
+          "training": {
+            "trades": 54,
+            "winRate": 50.0,
+            "expectancyPct": 0.189,
+            "profitFactor": 1.084,
+            "medianPct": 0.168
+          },
+          "validation": {
+            "trades": 24,
+            "winRate": 41.67,
+            "expectancyPct": -1.536,
+            "profitFactor": 0.649,
+            "medianPct": -0.845
+          },
+          "score": -0.418,
           "approved": false
         },
         {
           "strategy": "매집 압축형",
           "training": {
-            "trades": 128,
-            "winRate": 50.0,
-            "expectancyPct": 0.016,
-            "profitFactor": 1.013,
-            "medianPct": -0.035
+            "trades": 106,
+            "winRate": 46.23,
+            "expectancyPct": -0.423,
+            "profitFactor": 0.679,
+            "medianPct": -0.2
           },
           "validation": {
-            "trades": 71,
-            "winRate": 23.94,
-            "expectancyPct": -2.208,
-            "profitFactor": 0.135,
-            "medianPct": -1.721
+            "trades": 57,
+            "winRate": 19.3,
+            "expectancyPct": -2.773,
+            "profitFactor": 0.136,
+            "medianPct": -2.903
           },
-          "score": -0.887,
-          "approved": false
-        },
-        {
-          "strategy": "MA120 반등형",
-          "training": {
-            "trades": 51,
-            "winRate": 56.86,
-            "expectancyPct": 1.511,
-            "profitFactor": 1.724,
-            "medianPct": 1.687
-          },
-          "validation": {
-            "trades": 24,
-            "winRate": 37.5,
-            "expectancyPct": -3.013,
-            "profitFactor": 0.323,
-            "medianPct": -1.168
-          },
-          "score": -1.053,
+          "score": -1.208,
           "approved": false
         }
       ]
@@ -136,96 +137,96 @@
         {
           "strategy": "매집 기본형",
           "training": {
-            "trades": 97,
-            "winRate": 57.73,
-            "expectancyPct": 5.111,
-            "profitFactor": 3.043,
-            "medianPct": 2.354
+            "trades": 95,
+            "winRate": 57.89,
+            "expectancyPct": 4.251,
+            "profitFactor": 2.53,
+            "medianPct": 2.79
           },
           "validation": {
-            "trades": 46,
-            "winRate": 39.13,
-            "expectancyPct": 2.67,
-            "profitFactor": 1.704,
-            "medianPct": -2.017
+            "trades": 47,
+            "winRate": 38.3,
+            "expectancyPct": 2.104,
+            "profitFactor": 1.491,
+            "medianPct": -2.4
           },
-          "score": 1.198,
+          "score": 0.907,
           "approved": true
         },
         {
           "strategy": "매집 개선형",
           "training": {
-            "trades": 181,
-            "winRate": 58.01,
-            "expectancyPct": 4.144,
-            "profitFactor": 2.776,
-            "medianPct": 1.155
+            "trades": 170,
+            "winRate": 55.88,
+            "expectancyPct": 4.334,
+            "profitFactor": 2.999,
+            "medianPct": 0.863
           },
           "validation": {
-            "trades": 77,
-            "winRate": 29.87,
-            "expectancyPct": 1.926,
-            "profitFactor": 1.382,
-            "medianPct": -3.639
+            "trades": 82,
+            "winRate": 21.95,
+            "expectancyPct": 0.71,
+            "profitFactor": 1.128,
+            "medianPct": -4.818
           },
-          "score": 0.686,
+          "score": 0.071,
           "approved": true
         },
         {
           "strategy": "추세 돌파형",
           "training": {
-            "trades": 85,
-            "winRate": 49.41,
-            "expectancyPct": 2.396,
-            "profitFactor": 1.535,
-            "medianPct": -0.008
+            "trades": 82,
+            "winRate": 53.66,
+            "expectancyPct": 1.678,
+            "profitFactor": 1.403,
+            "medianPct": 1.207
           },
           "validation": {
             "trades": 37,
-            "winRate": 51.35,
-            "expectancyPct": -0.065,
-            "profitFactor": 0.984,
-            "medianPct": 0.295
+            "winRate": 37.84,
+            "expectancyPct": -0.818,
+            "profitFactor": 0.851,
+            "medianPct": -2.541
           },
-          "score": 0.275,
-          "approved": false
-        },
-        {
-          "strategy": "매집 압축형",
-          "training": {
-            "trades": 81,
-            "winRate": 55.56,
-            "expectancyPct": 3.891,
-            "profitFactor": 2.627,
-            "medianPct": 0.606
-          },
-          "validation": {
-            "trades": 38,
-            "winRate": 10.53,
-            "expectancyPct": -5.311,
-            "profitFactor": 0.044,
-            "medianPct": -5.242
-          },
-          "score": -2.362,
+          "score": -0.29,
           "approved": false
         },
         {
           "strategy": "MA120 반등형",
           "training": {
-            "trades": 46,
-            "winRate": 65.22,
-            "expectancyPct": 4.439,
-            "profitFactor": 2.332,
-            "medianPct": 3.929
+            "trades": 47,
+            "winRate": 63.83,
+            "expectancyPct": 3.72,
+            "profitFactor": 2.211,
+            "medianPct": 3.57
           },
           "validation": {
-            "trades": 20,
-            "winRate": 30.0,
-            "expectancyPct": -6.931,
-            "profitFactor": 0.234,
-            "medianPct": -7.071
+            "trades": 18,
+            "winRate": 33.33,
+            "expectancyPct": -6.965,
+            "profitFactor": 0.195,
+            "medianPct": -3.848
           },
-          "score": -3.044,
+          "score": -2.74,
+          "approved": false
+        },
+        {
+          "strategy": "매집 압축형",
+          "training": {
+            "trades": 66,
+            "winRate": 51.52,
+            "expectancyPct": 4.631,
+            "profitFactor": 3.132,
+            "medianPct": 0.198
+          },
+          "validation": {
+            "trades": 42,
+            "winRate": 9.52,
+            "expectancyPct": -6.266,
+            "profitFactor": 0.009,
+            "medianPct": -6.516
+          },
+          "score": -2.833,
           "approved": false
         }
       ]
@@ -237,98 +238,98 @@
       "challengers": [],
       "results": [
         {
-          "strategy": "추세 돌파형",
-          "training": {
-            "trades": 58,
-            "winRate": 79.31,
-            "expectancyPct": 11.256,
-            "profitFactor": 6.831,
-            "medianPct": 8.344
-          },
-          "validation": {
-            "trades": 30,
-            "winRate": 40.0,
-            "expectancyPct": -1.284,
-            "profitFactor": 0.78,
-            "medianPct": -1.308
-          },
-          "score": -0.345,
-          "approved": false
-        },
-        {
           "strategy": "매집 기본형",
           "training": {
-            "trades": 62,
-            "winRate": 77.42,
-            "expectancyPct": 12.087,
-            "profitFactor": 9.469,
-            "medianPct": 11.789
+            "trades": 63,
+            "winRate": 74.6,
+            "expectancyPct": 11.225,
+            "profitFactor": 7.156,
+            "medianPct": 8.8
           },
           "validation": {
-            "trades": 33,
-            "winRate": 27.27,
-            "expectancyPct": -5.813,
-            "profitFactor": 0.299,
-            "medianPct": -3.036
+            "trades": 32,
+            "winRate": 37.5,
+            "expectancyPct": -2.543,
+            "profitFactor": 0.703,
+            "medianPct": -2.956
           },
-          "score": -2.236,
+          "score": -0.972,
           "approved": false
         },
         {
-          "strategy": "MA120 반등형",
+          "strategy": "추세 돌파형",
           "training": {
-            "trades": 38,
-            "winRate": 78.95,
-            "expectancyPct": 10.597,
-            "profitFactor": 5.805,
-            "medianPct": 9.345
+            "trades": 60,
+            "winRate": 68.33,
+            "expectancyPct": 7.899,
+            "profitFactor": 3.882,
+            "medianPct": 4.835
           },
           "validation": {
-            "trades": 18,
-            "winRate": 27.78,
-            "expectancyPct": -9.383,
-            "profitFactor": 0.072,
-            "medianPct": -7.195
+            "trades": 27,
+            "winRate": 25.93,
+            "expectancyPct": -1.927,
+            "profitFactor": 0.794,
+            "medianPct": -6.681
           },
-          "score": -3.958,
+          "score": -1.118,
           "approved": false
         },
         {
           "strategy": "매집 개선형",
           "training": {
-            "trades": 97,
-            "winRate": 70.1,
-            "expectancyPct": 9.987,
-            "profitFactor": 5.356,
-            "medianPct": 7.993
+            "trades": 92,
+            "winRate": 71.74,
+            "expectancyPct": 9.611,
+            "profitFactor": 5.876,
+            "medianPct": 4.663
           },
           "validation": {
             "trades": 33,
             "winRate": 15.15,
-            "expectancyPct": -10.786,
-            "profitFactor": 0.18,
-            "medianPct": -14.13
+            "expectancyPct": -10.455,
+            "profitFactor": 0.218,
+            "medianPct": -13.243
           },
-          "score": -5.128,
+          "score": -4.914,
+          "approved": false
+        },
+        {
+          "strategy": "MA120 반등형",
+          "training": {
+            "trades": 40,
+            "winRate": 70.0,
+            "expectancyPct": 9.511,
+            "profitFactor": 4.799,
+            "medianPct": 9.848
+          },
+          "validation": {
+            "trades": 17,
+            "winRate": 17.65,
+            "expectancyPct": -12.051,
+            "profitFactor": 0.062,
+            "medianPct": -11.371
+          },
+          "score": -5.322,
           "approved": false
         },
         {
           "strategy": "매집 압축형",
           "training": {
-            "trades": 57,
-            "winRate": 71.93,
-            "expectancyPct": 10.597,
-            "profitFactor": 8.822,
-            "medianPct": 8.353
+            "trades": 48,
+            "winRate": 72.92,
+            "expectancyPct": 9.299,
+            "profitFactor": 8.732,
+            "medianPct": 8.803
           },
           "validation": {
-            "trades": 21,
-            "winRate": 4.76,
-            "expectancyPct": -14.862,
-            "profitFactor": 0.075,
-            "medianPct": -13.645
+            "trades": 28,
+            "winRate": 10.71,
+            "expectancyPct": -12.837,
+            "profitFactor": 0.177,
+            "medianPct": -12.187
           },
-          "score": -6.543,
+          "score": -5.657,
           "approved": false
         }
       ]
@@ -337,20 +338,20 @@
   "bestAccumulation": {
     "strategy": "매집 기본형",
     "training": {
-      "trades": 97,
-      "winRate": 57.73,
-      "expectancyPct": 5.111,
-      "profitFactor": 3.043,
-      "medianPct": 2.354
+      "trades": 95,
+      "winRate": 57.89,
+      "expectancyPct": 4.251,
+      "profitFactor": 2.53,
+      "medianPct": 2.79
     },
     "validation": {
-      "trades": 46,
-      "winRate": 39.13,
-      "expectancyPct": 2.67,
-      "profitFactor": 1.704,
-      "medianPct": -2.017
+      "trades": 47,
+      "winRate": 38.3,
+      "expectancyPct": 2.104,
+      "profitFactor": 1.491,
+      "medianPct": -2.4
     },
-    "score": 1.198,
+    "score": 0.907,
     "approved": true
   },
   "errors": [
@@ -359,11 +360,11 @@
       "error": "4시간봉 160개 미만"
     },
     {
-      "symbol": "CT",
+      "symbol": "BMT",
       "error": "4시간봉 160개 미만"
     },
     {
-      "symbol": "GTC",
+      "symbol": "CT",
       "error": "4시간봉 160개 미만"
     }
   ],
@@ -372,25 +373,17 @@
       "symbol": "IRYS",
       "trades": 4,
       "winRate": 50.0,
-      "expectancyPct": 29.422,
-      "profitFactor": 5.82,
+      "expectancyPct": 21.338,
+      "profitFactor": 4.496,
       "medianPct": 2.637
     },
     {
-      "symbol": "SUI",
-      "trades": 3,
-      "winRate": 100.0,
-      "expectancyPct": 16.867,
-      "profitFactor": null,
-      "medianPct": 13.216
-    },
-    {
-      "symbol": "DOGE",
-      "trades": 3,
-      "winRate": 100.0,
-      "expectancyPct": 14.547,
-      "profitFactor": null,
-      "medianPct": 19.458
+      "symbol": "SOON",
+      "trades": 4,
+      "winRate": 50.0,
+      "expectancyPct": 12.931,
+      "profitFactor": 7.562,
+      "medianPct": 1.892
     },
     {
       "symbol": "WLD",
@@ -417,28 +410,20 @@
       "medianPct": 1.581
     },
     {
-      "symbol": "IOST",
-      "trades": 5,
-      "winRate": 40.0,
-      "expectancyPct": 9.223,
-      "profitFactor": 2.82,
-      "medianPct": -0.703
-    },
-    {
-      "symbol": "MTL",
-      "trades": 3,
-      "winRate": 100.0,
-      "expectancyPct": 9.04,
-      "profitFactor": null,
-      "medianPct": 3.574
-    },
-    {
-      "symbol": "MEGA",
+      "symbol": "SUI",
       "trades": 4,
       "winRate": 75.0,
-      "expectancyPct": 8.708,
-      "profitFactor": 3.189,
-      "medianPct": 12.396
+      "expectancyPct": 9.61,
+      "profitFactor": 4.16,
+      "medianPct": 8.404
+    },
+    {
+      "symbol": "DOGE",
+      "trades": 4,
+      "winRate": 75.0,
+      "expectancyPct": 9.058,
+      "profitFactor": 5.892,
+      "medianPct": 10.039
     },
     {
       "symbol": "ONDO",
@@ -449,68 +434,68 @@
       "medianPct": 10.492
     },
     {
+      "symbol": "ADA",
+      "trades": 4,
+      "winRate": 75.0,
+      "expectancyPct": 8.179,
+      "profitFactor": 6.844,
+      "medianPct": 9.881
+    },
+    {
+      "symbol": "XLM",
+      "trades": 4,
+      "winRate": 100.0,
+      "expectancyPct": 5.812,
+      "profitFactor": null,
+      "medianPct": 3.84
+    },
+    {
       "symbol": "SOL",
       "trades": 5,
-      "winRate": 60.0,
-      "expectancyPct": 5.665,
-      "profitFactor": 9.08,
-      "medianPct": 0.554
+      "winRate": 40.0,
+      "expectancyPct": 5.183,
+      "profitFactor": 5.832,
+      "medianPct": -1.361
     },
     {
       "symbol": "ETH",
-      "trades": 5,
-      "winRate": 40.0,
-      "expectancyPct": 5.385,
-      "profitFactor": 3.952,
-      "medianPct": -1.227
-    },
-    {
-      "symbol": "BLUR",
-      "trades": 5,
-      "winRate": 60.0,
-      "expectancyPct": 4.71,
-      "profitFactor": 3.473,
-      "medianPct": 3.309
-    },
-    {
-      "symbol": "GAS",
-      "trades": 5,
-      "winRate": 40.0,
-      "expectancyPct": 3.594,
-      "profitFactor": 2.452,
-      "medianPct": -3.32
+      "trades": 6,
+      "winRate": 33.33,
+      "expectancyPct": 3.287,
+      "profitFactor": 2.208,
+      "medianPct": -1.57
     },
     {
       "symbol": "XEC",
       "trades": 5,
       "winRate": 80.0,
-      "expectancyPct": 3.327,
-      "profitFactor": 6.587,
-      "medianPct": 3.32
+      "expectancyPct": 2.542,
+      "profitFactor": 5.269,
+      "medianPct": 3.275
+    },
+    {
+      "symbol": "TOSHI",
+      "trades": 4,
+      "winRate": 50.0,
+      "expectancyPct": 2.395,
+      "profitFactor": 1.465,
+      "medianPct": -0.117
     },
     {
       "symbol": "BTC",
-      "trades": 5,
-      "winRate": 40.0,
-      "expectancyPct": 3.167,
-      "profitFactor": 2.9,
-      "medianPct": -1.875
+      "trades": 6,
+      "winRate": 33.33,
+      "expectancyPct": 1.841,
+      "profitFactor": 1.842,
+      "medianPct": -2.061
     },
     {
-      "symbol": "T",
+      "symbol": "IN",
       "trades": 4,
       "winRate": 50.0,
-      "expectancyPct": 1.641,
-      "profitFactor": 1.684,
-      "medianPct": 3.642
-    },
-    {
-      "symbol": "EGLD",
-      "trades": 4,
-      "winRate": 50.0,
-      "expectancyPct": -0.147,
-      "profitFactor": 0.983,
-      "medianPct": 0.533
+      "expectancyPct": 0.38,
+      "profitFactor": 1.163,
+      "medianPct": -1.304
     },
     {
       "symbol": "ORDER",
@@ -521,12 +506,12 @@
       "medianPct": 0.096
     },
     {
-      "symbol": "BORA",
-      "trades": 6,
-      "winRate": 50.0,
-      "expectancyPct": -0.421,
-      "profitFactor": 0.833,
-      "medianPct": 0.287
+      "symbol": "BEAM",
+      "trades": 3,
+      "winRate": 66.67,
+      "expectancyPct": -0.436,
+      "profitFactor": 0.747,
+      "medianPct": 1.83
     },
     {
       "symbol": "POLYX",
@@ -535,6 +520,14 @@
       "expectancyPct": -0.759,
       "profitFactor": 0.812,
       "medianPct": -4.723
+    },
+    {
+      "symbol": "DATA",
+      "trades": 3,
+      "winRate": 33.33,
+      "expectancyPct": -0.942,
+      "profitFactor": 0.869,
+      "medianPct": -3.163
     },
     {
       "symbol": "BIRB",
@@ -553,20 +546,12 @@
       "medianPct": -0.71
     },
     {
-      "symbol": "GAME2",
-      "trades": 3,
-      "winRate": 33.33,
-      "expectancyPct": -1.515,
-      "profitFactor": 0.541,
-      "medianPct": -3.301
-    },
-    {
-      "symbol": "BOUNTY",
+      "symbol": "EGLD",
       "trades": 5,
-      "winRate": 20.0,
-      "expectancyPct": -1.588,
-      "profitFactor": 0.164,
-      "medianPct": -0.781
+      "winRate": 40.0,
+      "expectancyPct": -2.465,
+      "profitFactor": 0.729,
+      "medianPct": -11.738
     },
     {
       "symbol": "SOPH",
@@ -577,6 +562,14 @@
       "medianPct": -1.388
     },
     {
+      "symbol": "DOOD",
+      "trades": 4,
+      "winRate": 50.0,
+      "expectancyPct": -3.359,
+      "profitFactor": 0.454,
+      "medianPct": -0.526
+    },
+    {
       "symbol": "ERA",
       "trades": 5,
       "winRate": 20.0,
@@ -585,12 +578,20 @@
       "medianPct": -3.533
     },
     {
-      "symbol": "AI",
+      "symbol": "KAT",
       "trades": 4,
-      "winRate": 25.0,
-      "expectancyPct": -4.603,
-      "profitFactor": 0.077,
-      "medianPct": -5.448
+      "winRate": 50.0,
+      "expectancyPct": -3.68,
+      "profitFactor": 0.544,
+      "medianPct": -0.18
+    },
+    {
+      "symbol": "ALT",
+      "trades": 4,
+      "winRate": 0.0,
+      "expectancyPct": -3.716,
+      "profitFactor": 0.0,
+      "medianPct": -3.695
     },
     {
       "symbol": "ZIL",
