@@ -1,25 +1,28 @@
 {
-  "time": "2026-10-27T09:37:17+09:00",
-  "signalTime": "2026-10-27T05:00:00+09:00",
+  "time": "2026-10-27T09:45:32+09:00",
+  "signalTime": "2026-10-27T08:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3377369,
-    "returnPct": -66.226,
-    "positions": [],
-    "trades": 1360,
+    "value": 3370619,
+    "returnPct": -66.294,
+    "positions": [
+      "POD",
+      "BLUR"
+    ],
+    "trades": 1362,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "PYTH",
-        "name": "피스네트워크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "POD",
+        "name": "돌핀",
+        "comment": "완성 1시간봉 6/7점·RSI 65.4·거래량 2.29배"
       },
       {
-        "type": "SELL",
-        "symbol": "XEC",
-        "name": "이캐시",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "BLUR",
+        "name": "블러",
+        "comment": "완성 1시간봉 6/7점·RSI 64.8·거래량 2.55배"
       }
     ]
   },
@@ -33,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-27T09:37:17+09:00",
-  "coinUpdatedAt": "2026-10-27T06:32:14+09:00"
+  "coinUpdatedAt": "2026-10-27T09:45:32+09:00"
 }
