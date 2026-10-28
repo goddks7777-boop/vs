@@ -1,22 +1,28 @@
 {
-  "time": "2026-10-28T14:26:05+09:00",
-  "signalTime": "2026-10-28T08:00:00+09:00",
+  "time": "2026-10-28T15:21:25+09:00",
+  "signalTime": "2026-10-28T14:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3318542,
-    "returnPct": -66.815,
+    "value": 3248623,
+    "returnPct": -67.514,
     "positions": [
-      "CTC",
-      "XRP"
+      "XRP",
+      "ETH"
     ],
-    "trades": 1366,
+    "trades": 1368,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "CTC",
+        "name": "크레딧코인",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ETH",
+        "name": "이더리움",
+        "comment": "완성 1시간봉 7/7점·RSI 64.2·거래량 1.21배"
       }
     ]
   },
@@ -30,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-28T14:26:05+09:00",
-  "coinUpdatedAt": "2026-10-28T09:23:28+09:00"
+  "coinUpdatedAt": "2026-10-28T15:21:25+09:00"
 }
