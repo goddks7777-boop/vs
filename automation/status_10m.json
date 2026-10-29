@@ -1,22 +1,40 @@
 {
-  "time": "2026-10-29T10:17:21+09:00",
-  "signalTime": "2026-10-29T06:00:00+09:00",
+  "time": "2026-10-29T10:59:14+09:00",
+  "signalTime": "2026-10-29T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3249892,
-    "returnPct": -67.501,
+    "value": 3166855,
+    "returnPct": -68.331,
     "positions": [
-      "ETH",
-      "SOL"
+      "PEPE",
+      "KAT"
     ],
-    "trades": 1370,
+    "trades": 1374,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
+        "symbol": "ETH",
+        "name": "이더리움",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
         "symbol": "SOL",
         "name": "솔라나",
-        "comment": "완성 1시간봉 7/7점·RSI 61.8·거래량 3.96배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "PEPE",
+        "name": "페페",
+        "comment": "완성 1시간봉 7/7점·RSI 64.0·거래량 1.38배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "KAT",
+        "name": "카타나",
+        "comment": "완성 1시간봉 7/7점·RSI 65.3·거래량 5.49배"
       }
     ]
   },
@@ -30,5 +48,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-29T10:17:21+09:00",
-  "coinUpdatedAt": "2026-10-29T07:47:49+09:00"
+  "coinUpdatedAt": "2026-10-29T10:59:14+09:00"
 }
