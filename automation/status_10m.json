@@ -1,27 +1,22 @@
 {
-  "time": "2026-10-30T18:14:21+09:00",
-  "signalTime": "2026-10-30T13:00:00+09:00",
+  "time": "2026-10-30T20:38:48+09:00",
+  "signalTime": "2026-10-30T19:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3011347,
-    "returnPct": -69.887,
+    "value": 3090384,
+    "returnPct": -69.096,
     "positions": [
-      "MPLX"
+      "MPLX",
+      "ELF"
     ],
-    "trades": 1381,
+    "trades": 1382,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ZIL",
-        "name": "질리카",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
         "type": "BUY",
-        "symbol": "MPLX",
-        "name": "메타플렉스",
-        "comment": "완성 1시간봉 6/7점·RSI 57.9·거래량 2.02배"
+        "symbol": "ELF",
+        "name": "엘프",
+        "comment": "완성 1시간봉 7/7점·RSI 66.4·거래량 2.71배"
       }
     ]
   },
@@ -35,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-30T18:14:21+09:00",
-  "coinUpdatedAt": "2026-10-30T14:34:57+09:00"
+  "coinUpdatedAt": "2026-10-30T20:38:48+09:00"
 }
