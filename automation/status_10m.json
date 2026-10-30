@@ -1,22 +1,40 @@
 {
-  "time": "2026-10-31T00:58:44+09:00",
-  "signalTime": "2026-10-30T19:00:00+09:00",
+  "time": "2026-10-31T02:11:44+09:00",
+  "signalTime": "2026-10-31T01:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 3090384,
-    "returnPct": -69.096,
+    "value": 2894463,
+    "returnPct": -71.055,
     "positions": [
-      "MPLX",
-      "ELF"
+      "SOPH",
+      "DOS"
     ],
-    "trades": 1382,
+    "trades": 1386,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
+        "symbol": "MPLX",
+        "name": "메타플렉스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
         "symbol": "ELF",
         "name": "엘프",
-        "comment": "완성 1시간봉 7/7점·RSI 66.4·거래량 2.71배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "SOPH",
+        "name": "소폰",
+        "comment": "완성 1시간봉 6/7점·RSI 65.0·거래량 1.59배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "DOS",
+        "name": "댑오에스",
+        "comment": "완성 1시간봉 6/7점·RSI 56.0·거래량 1.50배"
       }
     ]
   },
@@ -30,5 +48,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-10-31T00:58:44+09:00",
-  "coinUpdatedAt": "2026-10-30T20:38:48+09:00"
+  "coinUpdatedAt": "2026-10-31T02:11:44+09:00"
 }
