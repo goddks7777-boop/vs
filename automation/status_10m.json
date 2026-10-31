@@ -1,28 +1,28 @@
 {
-  "time": "2026-11-01T04:30:57+09:00",
-  "signalTime": "2026-11-01T01:00:00+09:00",
+  "time": "2026-11-01T05:42:50+09:00",
+  "signalTime": "2026-11-01T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2749825,
-    "returnPct": -72.502,
+    "value": 2613782,
+    "returnPct": -73.862,
     "positions": [
-      "MPLX",
-      "NMR"
+      "NMR",
+      "XPL"
     ],
-    "trades": 1390,
+    "trades": 1392,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "DOS",
-        "name": "댑오에스",
+        "symbol": "MPLX",
+        "name": "메타플렉스",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "NMR",
-        "name": "뉴메레르",
-        "comment": "완성 1시간봉 7/7점·RSI 67.5·거래량 1.38배"
+        "symbol": "XPL",
+        "name": "플라즈마",
+        "comment": "완성 1시간봉 6/7점·RSI 58.0·거래량 1.50배"
       }
     ]
   },
@@ -36,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-01T04:30:57+09:00",
-  "coinUpdatedAt": "2026-11-01T02:46:12+09:00"
+  "coinUpdatedAt": "2026-11-01T05:42:50+09:00"
 }
