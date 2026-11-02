@@ -1,28 +1,21 @@
 {
-  "time": "2026-11-03T04:50:19+09:00",
-  "signalTime": "2026-11-02T21:00:00+09:00",
+  "time": "2026-11-03T07:30:14+09:00",
+  "signalTime": "2026-11-03T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2091810,
-    "returnPct": -79.082,
+    "value": 1957750,
+    "returnPct": -80.422,
     "positions": [
-      "LA",
-      "GTC"
+      "LA"
     ],
-    "trades": 1402,
+    "trades": 1403,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "STX",
-        "name": "스택스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
         "symbol": "GTC",
         "name": "깃코인",
-        "comment": "완성 1시간봉 7/7점·RSI 64.2·거래량 6.60배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -36,5 +29,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-03T04:50:19+09:00",
-  "coinUpdatedAt": "2026-11-02T22:48:03+09:00"
+  "coinUpdatedAt": "2026-11-03T07:30:14+09:00"
 }
