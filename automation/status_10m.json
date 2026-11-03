@@ -1,21 +1,22 @@
 {
-  "time": "2026-11-03T10:53:39+09:00",
-  "signalTime": "2026-11-03T06:00:00+09:00",
+  "time": "2026-11-03T12:40:37+09:00",
+  "signalTime": "2026-11-03T11:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1957750,
-    "returnPct": -80.422,
+    "value": 1953963,
+    "returnPct": -80.46,
     "positions": [
-      "LA"
+      "LA",
+      "CASHCAT"
     ],
-    "trades": 1403,
+    "trades": 1404,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "GTC",
-        "name": "깃코인",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "CASHCAT",
+        "name": "캐시캣",
+        "comment": "완성 1시간봉 7/7점·RSI 54.7·거래량 1.65배"
       }
     ]
   },
@@ -29,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-03T10:53:39+09:00",
-  "coinUpdatedAt": "2026-11-03T07:30:14+09:00"
+  "coinUpdatedAt": "2026-11-03T12:40:37+09:00"
 }
