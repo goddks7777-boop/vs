@@ -1,11 +1,11 @@
 {
-  "time": "2026-11-08T04:26:08+09:00",
-  "signalTime": "2026-11-08T02:00:00+09:00",
+  "time": "2026-11-08T07:18:44+09:00",
+  "signalTime": "2026-11-08T06:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2295499,
-    "returnPct": -77.045,
+    "value": 2278720,
+    "returnPct": -77.213,
     "positions": [
       "CT",
       "MEGA"
@@ -13,16 +13,10 @@
     "trades": 1430,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "BLEND",
-        "name": "플루언트",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
-      },
-      {
-        "type": "BUY",
-        "symbol": "MEGA",
-        "name": "메가이더",
-        "comment": "완성 1시간봉 7/7점·RSI 65.8·거래량 1.33배"
+        "type": "WATCH",
+        "symbol": "MARKET",
+        "name": "전체시장",
+        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
       }
     ]
   },
@@ -36,5 +30,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-08T04:26:08+09:00",
-  "coinUpdatedAt": "2026-11-08T03:36:53+09:00"
+  "coinUpdatedAt": "2026-11-08T07:18:44+09:00"
 }
