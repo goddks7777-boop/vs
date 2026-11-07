@@ -1,28 +1,40 @@
 {
-  "time": "2026-11-07T11:03:51+09:00",
-  "signalTime": "2026-11-07T09:00:00+09:00",
+  "time": "2026-11-07T16:05:44+09:00",
+  "signalTime": "2026-11-07T15:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2334225,
-    "returnPct": -76.658,
+    "value": 2283455,
+    "returnPct": -77.165,
     "positions": [
-      "PEPE",
-      "XTZ"
+      "CT",
+      "BLEND"
     ],
-    "trades": 1424,
+    "trades": 1428,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "CYBER",
-        "name": "사이버",
+        "symbol": "PEPE",
+        "name": "페페",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "XTZ",
+        "name": "테조스",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "XTZ",
-        "name": "테조스",
-        "comment": "완성 1시간봉 7/7점·RSI 57.2·거래량 1.45배"
+        "symbol": "CT",
+        "name": "콘크리트",
+        "comment": "완성 1시간봉 7/7점·RSI 58.3·거래량 1.40배"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BLEND",
+        "name": "플루언트",
+        "comment": "완성 1시간봉 7/7점·RSI 64.9·거래량 1.35배"
       }
     ]
   },
@@ -36,5 +48,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-07T11:03:51+09:00",
-  "coinUpdatedAt": "2026-11-07T10:08:04+09:00"
+  "coinUpdatedAt": "2026-11-07T16:05:44+09:00"
 }
