@@ -1,22 +1,28 @@
 {
-  "time": "2026-11-07T07:19:51+09:00",
-  "signalTime": "2026-11-07T05:00:00+09:00",
+  "time": "2026-11-07T10:08:04+09:00",
+  "signalTime": "2026-11-07T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2372925,
-    "returnPct": -76.271,
+    "value": 2334225,
+    "returnPct": -76.658,
     "positions": [
       "PEPE",
-      "CYBER"
+      "XTZ"
     ],
-    "trades": 1422,
+    "trades": 1424,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "CYBER",
+        "name": "사이버",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "XTZ",
+        "name": "테조스",
+        "comment": "완성 1시간봉 7/7점·RSI 57.2·거래량 1.45배"
       }
     ]
   },
@@ -30,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-07T07:19:51+09:00",
-  "coinUpdatedAt": "2026-11-07T06:30:32+09:00"
+  "coinUpdatedAt": "2026-11-07T10:08:04+09:00"
 }
