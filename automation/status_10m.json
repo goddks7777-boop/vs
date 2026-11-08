@@ -1,28 +1,33 @@
 {
-  "time": "2026-11-09T04:50:40+09:00",
-  "signalTime": "2026-11-08T22:00:00+09:00",
+  "time": "2026-11-09T08:04:19+09:00",
+  "signalTime": "2026-11-09T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2136200,
-    "returnPct": -78.638,
+    "value": 2080549,
+    "returnPct": -79.195,
     "positions": [
-      "MEGA",
-      "ARB"
+      "TRX"
     ],
-    "trades": 1434,
+    "trades": 1437,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "MET2",
-        "name": "메테오라",
+        "symbol": "MEGA",
+        "name": "메가이더",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "SELL",
+        "symbol": "ARB",
+        "name": "아비트럼",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "ARB",
-        "name": "아비트럼",
-        "comment": "완성 1시간봉 7/7점·RSI 59.1·거래량 2.84배"
+        "symbol": "TRX",
+        "name": "트론",
+        "comment": "완성 1시간봉 7/7점·RSI 61.1·거래량 13.41배"
       }
     ]
   },
@@ -36,5 +41,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-09T04:50:40+09:00",
-  "coinUpdatedAt": "2026-11-08T23:56:19+09:00"
+  "coinUpdatedAt": "2026-11-09T08:04:19+09:00"
 }
