@@ -1,22 +1,28 @@
 {
-  "time": "2026-11-08T07:55:11+09:00",
-  "signalTime": "2026-11-08T06:00:00+09:00",
+  "time": "2026-11-08T10:32:01+09:00",
+  "signalTime": "2026-11-08T09:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 2278720,
-    "returnPct": -77.213,
+    "value": 2224239,
+    "returnPct": -77.758,
     "positions": [
-      "CT",
-      "MEGA"
+      "MEGA",
+      "MET2"
     ],
-    "trades": 1430,
+    "trades": 1432,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "CT",
+        "name": "콘크리트",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "MET2",
+        "name": "메테오라",
+        "comment": "완성 1시간봉 7/7점·RSI 61.5·거래량 1.88배"
       }
     ]
   },
@@ -30,5 +36,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-08T07:55:11+09:00",
-  "coinUpdatedAt": "2026-11-08T07:18:44+09:00"
+  "coinUpdatedAt": "2026-11-08T10:32:01+09:00"
 }
