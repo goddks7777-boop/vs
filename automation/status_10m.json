@@ -1,19 +1,21 @@
 {
-  "time": "2026-11-11T08:42:26+09:00",
-  "signalTime": "2026-11-11T02:00:00+09:00",
+  "time": "2026-11-11T08:44:17+09:00",
+  "signalTime": "2026-11-11T07:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1906620,
-    "returnPct": -80.934,
-    "positions": [],
-    "trades": 1442,
+    "value": 1902810,
+    "returnPct": -80.972,
+    "positions": [
+      "LIT"
+    ],
+    "trades": 1443,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "PYTH",
-        "name": "피스네트워크",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "LIT",
+        "name": "라이터",
+        "comment": "완성 1시간봉 6/7점·RSI 67.8·거래량 3.87배"
       }
     ]
   },
@@ -27,5 +29,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-11T08:42:26+09:00",
-  "coinUpdatedAt": "2026-11-11T03:36:58+09:00"
+  "coinUpdatedAt": "2026-11-11T08:44:17+09:00"
 }
