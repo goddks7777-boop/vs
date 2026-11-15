@@ -1,19 +1,21 @@
 {
-  "time": "2026-11-15T15:34:22+09:00",
-  "signalTime": "2026-11-15T08:00:00+09:00",
+  "time": "2026-11-15T16:43:52+09:00",
+  "signalTime": "2026-11-15T15:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1589015,
-    "returnPct": -84.11,
-    "positions": [],
-    "trades": 1456,
+    "value": 1585840,
+    "returnPct": -84.142,
+    "positions": [
+      "VVV"
+    ],
+    "trades": 1457,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "BUY",
+        "symbol": "VVV",
+        "name": "베니스토큰",
+        "comment": "완성 1시간봉 6/7점·RSI 61.7·거래량 2.08배"
       }
     ]
   },
@@ -27,5 +29,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-15T15:34:22+09:00",
-  "coinUpdatedAt": "2026-11-15T09:56:01+09:00"
+  "coinUpdatedAt": "2026-11-15T16:43:52+09:00"
 }
