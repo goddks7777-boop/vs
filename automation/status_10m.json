@@ -1,27 +1,27 @@
 {
-  "time": "2026-11-18T11:41:12+09:00",
-  "signalTime": "2026-11-18T06:00:00+09:00",
+  "time": "2026-11-18T12:55:37+09:00",
+  "signalTime": "2026-11-18T11:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1630387,
-    "returnPct": -83.696,
+    "value": 1601705,
+    "returnPct": -83.983,
     "positions": [
-      "DATA"
+      "ERA"
     ],
-    "trades": 1463,
+    "trades": 1465,
     "actions": [
       {
         "type": "SELL",
-        "symbol": "CT",
-        "name": "콘크리트",
+        "symbol": "DATA",
+        "name": "데이터네트워크",
         "comment": "완성 1시간봉 조합점수 3점 이하"
       },
       {
         "type": "BUY",
-        "symbol": "DATA",
-        "name": "데이터네트워크",
-        "comment": "완성 1시간봉 7/7점·RSI 65.4·거래량 1.69배"
+        "symbol": "ERA",
+        "name": "칼데라",
+        "comment": "완성 1시간봉 7/7점·RSI 58.2·거래량 1.63배"
       }
     ]
   },
@@ -35,5 +35,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-18T11:41:12+09:00",
-  "coinUpdatedAt": "2026-11-18T07:50:48+09:00"
+  "coinUpdatedAt": "2026-11-18T12:55:37+09:00"
 }
