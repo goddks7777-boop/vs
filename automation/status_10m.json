@@ -1,19 +1,21 @@
 {
-  "time": "2026-11-19T10:07:02+09:00",
-  "signalTime": "2026-11-19T04:00:00+09:00",
+  "time": "2026-11-19T11:26:46+09:00",
+  "signalTime": "2026-11-19T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1486632,
-    "returnPct": -85.134,
-    "positions": [],
-    "trades": 1466,
+    "value": 1483661,
+    "returnPct": -85.163,
+    "positions": [
+      "SOON"
+    ],
+    "trades": 1467,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "ERA",
-        "name": "칼데라",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "SOON",
+        "name": "쑨",
+        "comment": "완성 1시간봉 7/7점·RSI 55.2·거래량 3.86배"
       }
     ]
   },
@@ -27,5 +29,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-19T10:07:02+09:00",
-  "coinUpdatedAt": "2026-11-19T05:58:53+09:00"
+  "coinUpdatedAt": "2026-11-19T11:26:46+09:00"
 }
