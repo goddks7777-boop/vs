@@ -1,21 +1,27 @@
 {
-  "time": "2026-11-20T13:26:49+09:00",
-  "signalTime": "2026-11-20T09:00:00+09:00",
+  "time": "2026-11-20T17:41:31+09:00",
+  "signalTime": "2026-11-20T16:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1405687,
-    "returnPct": -85.943,
+    "value": 1241485,
+    "returnPct": -87.585,
     "positions": [
-      "IRYS"
+      "BMT"
     ],
-    "trades": 1471,
+    "trades": 1473,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "IRYS",
         "name": "아이리스",
-        "comment": "완성 1시간봉 7/7점·RSI 63.9·거래량 5.26배"
+        "comment": "ATR 가상손절 -10.84%"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BMT",
+        "name": "버블맵스",
+        "comment": "완성 1시간봉 7/7점·RSI 66.5·거래량 2.47배"
       }
     ]
   },
@@ -29,5 +35,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-20T13:26:49+09:00",
-  "coinUpdatedAt": "2026-11-20T10:15:58+09:00"
+  "coinUpdatedAt": "2026-11-20T17:41:31+09:00"
 }
