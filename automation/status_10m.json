@@ -1,21 +1,27 @@
 {
-  "time": "2026-11-22T18:57:58+09:00",
-  "signalTime": "2026-11-22T14:00:00+09:00",
+  "time": "2026-11-22T23:30:36+09:00",
+  "signalTime": "2026-11-22T22:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1236404,
-    "returnPct": -87.636,
+    "value": 1084049,
+    "returnPct": -89.16,
     "positions": [
-      "ENSO"
+      "ELSA"
     ],
-    "trades": 1477,
+    "trades": 1479,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "ENSO",
         "name": "엔소",
-        "comment": "완성 1시간봉 7/7점·RSI 63.1·거래량 1.32배"
+        "comment": "완성 1시간봉 조합점수 3점 이하"
+      },
+      {
+        "type": "BUY",
+        "symbol": "ELSA",
+        "name": "헤이엘사",
+        "comment": "완성 1시간봉 7/7점·RSI 59.4·거래량 3.26배"
       }
     ]
   },
@@ -29,5 +35,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-22T18:57:58+09:00",
-  "coinUpdatedAt": "2026-11-22T15:07:53+09:00"
+  "coinUpdatedAt": "2026-11-22T23:30:36+09:00"
 }
