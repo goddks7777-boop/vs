@@ -1,21 +1,27 @@
 {
-  "time": "2026-11-24T19:37:26+09:00",
-  "signalTime": "2026-11-24T13:00:00+09:00",
+  "time": "2026-11-25T01:01:09+09:00",
+  "signalTime": "2026-11-24T23:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1295665,
-    "returnPct": -87.043,
+    "value": 1228343,
+    "returnPct": -87.717,
     "positions": [
-      "EGLD"
+      "BIGTIME"
     ],
-    "trades": 1483,
+    "trades": 1485,
     "actions": [
       {
-        "type": "BUY",
+        "type": "SELL",
         "symbol": "EGLD",
         "name": "멀티버스엑스",
-        "comment": "완성 1시간봉 7/7점·RSI 67.6·거래량 1.40배"
+        "comment": "현재가 VWAP 하향 + -DI 우세"
+      },
+      {
+        "type": "BUY",
+        "symbol": "BIGTIME",
+        "name": "빅타임",
+        "comment": "완성 1시간봉 7/7점·RSI 66.9·거래량 14.60배"
       }
     ]
   },
@@ -29,5 +35,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-24T19:37:26+09:00",
-  "coinUpdatedAt": "2026-11-24T14:20:15+09:00"
+  "coinUpdatedAt": "2026-11-25T01:01:09+09:00"
 }
