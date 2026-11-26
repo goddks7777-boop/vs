@@ -1,325 +1,325 @@
 {
-  "updatedAt": "2026-11-25T17:53:18+09:00",
+  "updatedAt": "2026-11-26T17:38:38+09:00",
   "source": "Upbit KRW-BTC completed daily candles",
   "firstDate": "2017-09-25",
-  "lastDate": "2026-11-24",
-  "days": 3348,
+  "lastDate": "2026-11-25",
+  "days": 3349,
   "forwardDays": 30,
   "regimeRule": "당시 종가와 200일선 위치 + 200일선 20일 기울기",
   "current": {
-    "date": "2026-11-24",
-    "price": 81441000.0,
+    "date": "2026-11-25",
+    "price": 82005000.0,
     "regime": "하락",
-    "rsi": 14.424315925111799,
-    "ma200GapPct": -20.247324268889745,
-    "ma200SlopePct": -2.253781916237263,
-    "drawdownPct": -54.24945649426158,
-    "cyclePosition": 0.31689668342330995
+    "rsi": 15.831065717374287,
+    "ma200GapPct": -19.549469179048963,
+    "ma200SlopePct": -2.399028435087547,
+    "drawdownPct": -53.932622141328345,
+    "cyclePosition": 0.899078212578837
   },
   "marketNow": {
-    "snapshotTime": "2026-11-25T09:33:12+09:00",
+    "snapshotTime": "2026-11-26T11:13:28+09:00",
     "source": "Upbit KRW market 24h snapshot",
     "sizeMetric": "24시간 누적 거래대금",
     "colorMetric": "24시간 등락률",
     "items": [
       {
-        "symbol": "EGLD",
-        "name": "멀티버스엑스",
-        "price": 7350.0,
-        "change24": -10.037,
-        "value24": 165357332090.3586
-      },
-      {
-        "symbol": "USDS",
-        "name": "유에스디에스",
-        "price": 4321.0,
-        "change24": -11.816,
-        "value24": 107356843431.32677
-      },
-      {
-        "symbol": "USDT",
-        "name": "테더",
-        "price": 1362.0,
-        "change24": 0,
-        "value24": 98910870578.95094
-      },
-      {
-        "symbol": "XRP",
-        "name": "엑스알피(리플)",
-        "price": 1257.0,
-        "change24": -0.159,
-        "value24": 97569449653.50737
-      },
-      {
         "symbol": "BTC",
         "name": "비트코인",
-        "price": 81255000.0,
-        "change24": -0.228,
-        "value24": 97126700444.65465
-      },
-      {
-        "symbol": "0G",
-        "name": "제로지",
-        "price": 231.0,
-        "change24": -10.117,
-        "value24": 72453372575.55574
-      },
-      {
-        "symbol": "SAHARA",
-        "name": "사하라에이아이",
-        "price": 7.25,
-        "change24": -7.761,
-        "value24": 57528365813.917534
-      },
-      {
-        "symbol": "ELF",
-        "name": "엘프",
-        "price": 71.2,
-        "change24": -10.553,
-        "value24": 54146856593.6773
-      },
-      {
-        "symbol": "KAVA",
-        "name": "카바",
-        "price": 74.0,
-        "change24": 30.511,
-        "value24": 50199912666.57416
-      },
-      {
-        "symbol": "ETH",
-        "name": "이더리움",
-        "price": 2279000.0,
-        "change24": -0.35,
-        "value24": 42527139822.13603
-      },
-      {
-        "symbol": "SKY",
-        "name": "스카이프로토콜",
-        "price": 172.0,
-        "change24": 104.762,
-        "value24": 39194664819.717636
-      },
-      {
-        "symbol": "PIEVERSE",
-        "name": "파이버스",
-        "price": 4149.0,
-        "change24": -1.238,
-        "value24": 34153534902.599365
-      },
-      {
-        "symbol": "MMT",
-        "name": "모멘텀",
-        "price": 299.0,
-        "change24": -0.333,
-        "value24": 29122127854.999
-      },
-      {
-        "symbol": "SOL",
-        "name": "솔라나",
-        "price": 95000.0,
-        "change24": 0.105,
-        "value24": 27312318050.038754
-      },
-      {
-        "symbol": "CYBER",
-        "name": "사이버",
-        "price": 422.0,
-        "change24": 35.691,
-        "value24": 20934511404.069294
-      },
-      {
-        "symbol": "PROS",
-        "name": "파로스",
-        "price": 929.0,
-        "change24": 1.088,
-        "value24": 19776897917.725143
-      },
-      {
-        "symbol": "NEAR",
-        "name": "니어프로토콜",
-        "price": 3905.0,
-        "change24": -0.762,
-        "value24": 18529828510.94166
-      },
-      {
-        "symbol": "DOS",
-        "name": "댑오에스",
-        "price": 137.0,
-        "change24": -2.143,
-        "value24": 16871446391.125177
-      },
-      {
-        "symbol": "ELSA",
-        "name": "헤이엘사",
-        "price": 101.0,
-        "change24": -1.942,
-        "value24": 15063644204.134516
-      },
-      {
-        "symbol": "WAVES",
-        "name": "웨이브",
-        "price": 290.0,
-        "change24": 14.173,
-        "value24": 14535339502.20706
-      },
-      {
-        "symbol": "SANC",
-        "name": "생텀",
-        "price": 86.8,
-        "change24": 11.14,
-        "value24": 14206152913.82029
-      },
-      {
-        "symbol": "PROM",
-        "name": "프롬",
-        "price": 6115.0,
-        "change24": -1.846,
-        "value24": 12334754971.389938
-      },
-      {
-        "symbol": "MANTRA",
-        "name": "만트라",
-        "price": 5.01,
-        "change24": 8.207,
-        "value24": 12001535642.352755
-      },
-      {
-        "symbol": "MON",
-        "name": "모나드",
-        "price": 12.8,
-        "change24": -0.775,
-        "value24": 11206427091.767479
-      },
-      {
-        "symbol": "IRYS",
-        "name": "아이리스",
-        "price": 22.1,
-        "change24": -2.212,
-        "value24": 10382000871.655441
-      },
-      {
-        "symbol": "AI",
-        "name": "젠신",
-        "price": 22.3,
-        "change24": -3.463,
-        "value24": 10310984838.164095
-      },
-      {
-        "symbol": "BLUR",
-        "name": "블러",
-        "price": 14.4,
-        "change24": 4.348,
-        "value24": 9950155528.490004
+        "price": 82673000.0,
+        "change24": 0.815,
+        "value24": 137104807887.33694
       },
       {
         "symbol": "BIGTIME",
         "name": "빅타임",
-        "price": 6.1,
-        "change24": 9.515,
-        "value24": 9762909940.977333
+        "price": 8.61,
+        "change24": -5.696,
+        "value24": 129534339512.46458
       },
       {
-        "symbol": "XLM",
-        "name": "스텔라루멘",
-        "price": 169.0,
-        "change24": -1.17,
-        "value24": 9640214750.013817
+        "symbol": "XRP",
+        "name": "엑스알피(리플)",
+        "price": 1298.0,
+        "change24": 1.964,
+        "value24": 113610817051.0387
       },
       {
-        "symbol": "ENA",
-        "name": "에테나",
-        "price": 132.0,
-        "change24": -1.493,
-        "value24": 9367412538.325829
+        "symbol": "USDT",
+        "name": "테더",
+        "price": 1356.0,
+        "change24": -0.147,
+        "value24": 95177499738.26259
+      },
+      {
+        "symbol": "ETH",
+        "name": "이더리움",
+        "price": 2313000.0,
+        "change24": 0.653,
+        "value24": 63119812746.41919
+      },
+      {
+        "symbol": "SKY",
+        "name": "스카이프로토콜",
+        "price": 110.0,
+        "change24": -11.29,
+        "value24": 62033576954.34603
+      },
+      {
+        "symbol": "SLX",
+        "name": "솔스티스",
+        "price": 47.1,
+        "change24": 2.838,
+        "value24": 61845641432.73303
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "파이버스",
+        "price": 5240.0,
+        "change24": 9.258,
+        "value24": 43912482550.64832
+      },
+      {
+        "symbol": "MMT",
+        "name": "모멘텀",
+        "price": 437.0,
+        "change24": 0.46,
+        "value24": 39773908648.66354
+      },
+      {
+        "symbol": "SOL",
+        "name": "솔라나",
+        "price": 96850.0,
+        "change24": 1.308,
+        "value24": 37167456307.00624
+      },
+      {
+        "symbol": "MOVE",
+        "name": "무브먼트",
+        "price": 9.15,
+        "change24": 33.968,
+        "value24": 33785382208.843685
+      },
+      {
+        "symbol": "USDS",
+        "name": "유에스디에스",
+        "price": 4705.0,
+        "change24": 27.576,
+        "value24": 32793956895.20472
+      },
+      {
+        "symbol": "FCT2",
+        "name": "피르마체인",
+        "price": 8.53,
+        "change24": -5.222,
+        "value24": 25967235922.068443
+      },
+      {
+        "symbol": "EGLD",
+        "name": "멀티버스엑스",
+        "price": 6015.0,
+        "change24": -0.083,
+        "value24": 25759778470.555927
+      },
+      {
+        "symbol": "MOODENG",
+        "name": "무뎅",
+        "price": 38.4,
+        "change24": -1.285,
+        "value24": 25572424522.018143
+      },
+      {
+        "symbol": "WAVES",
+        "name": "웨이브",
+        "price": 248.0,
+        "change24": -3.502,
+        "value24": 25080039327.56315
+      },
+      {
+        "symbol": "WAXP",
+        "name": "왁스",
+        "price": 4.77,
+        "change24": -2.851,
+        "value24": 20907493704.036392
+      },
+      {
+        "symbol": "NEAR",
+        "name": "니어프로토콜",
+        "price": 4210.0,
+        "change24": 1.666,
+        "value24": 20737706072.13356
+      },
+      {
+        "symbol": "0G",
+        "name": "제로지",
+        "price": 186.0,
+        "change24": -9.709,
+        "value24": 20707506968.69349
+      },
+      {
+        "symbol": "LAYER",
+        "name": "솔레이어",
+        "price": 64.8,
+        "change24": 5.195,
+        "value24": 19367108055.23609
+      },
+      {
+        "symbol": "CYBER",
+        "name": "사이버",
+        "price": 320.0,
+        "change24": -7.514,
+        "value24": 17801754831.442265
+      },
+      {
+        "symbol": "DOS",
+        "name": "댑오에스",
+        "price": 107.0,
+        "change24": -5.31,
+        "value24": 15499305594.097275
+      },
+      {
+        "symbol": "MON",
+        "name": "모나드",
+        "price": 15.1,
+        "change24": 0.667,
+        "value24": 13083652750.376863
+      },
+      {
+        "symbol": "MANTRA",
+        "name": "만트라",
+        "price": 4.88,
+        "change24": -2.789,
+        "value24": 12661754058.130219
+      },
+      {
+        "symbol": "PROS",
+        "name": "파로스",
+        "price": 939.0,
+        "change24": -1.054,
+        "value24": 11708840890.616007
       },
       {
         "symbol": "DOGE",
         "name": "도지코인",
-        "price": 75.2,
-        "change24": -0.133,
-        "value24": 8863556627.467894
-      },
-      {
-        "symbol": "BREV",
-        "name": "브레비스",
-        "price": 81.1,
-        "change24": -1.218,
-        "value24": 8448952682.114165
-      },
-      {
-        "symbol": "SUI",
-        "name": "수이",
-        "price": 880.0,
-        "change24": -0.34,
-        "value24": 7043292294.433143
-      },
-      {
-        "symbol": "ONDO",
-        "name": "온도파이낸스",
-        "price": 377.0,
-        "change24": -0.528,
-        "value24": 7042614788.227442
-      },
-      {
-        "symbol": "RE",
-        "name": "리",
-        "price": 268.0,
-        "change24": -2.545,
-        "value24": 6771494361.445425
-      },
-      {
-        "symbol": "WLD",
-        "name": "월드코인",
-        "price": 318.0,
-        "change24": -0.935,
-        "value24": 5698095278.728997
-      },
-      {
-        "symbol": "QKC",
-        "name": "쿼크체인",
-        "price": 2.67,
-        "change24": 3.891,
-        "value24": 5051252359.345623
-      },
-      {
-        "symbol": "ENSO",
-        "name": "엔소",
-        "price": 534.0,
-        "change24": -2.555,
-        "value24": 4870005520.877325
-      },
-      {
-        "symbol": "ONG",
-        "name": "온톨로지가스",
-        "price": 70.3,
-        "change24": -2.632,
-        "value24": 4705546366.352576
+        "price": 77.3,
+        "change24": 1.711,
+        "value24": 11490991743.205551
       },
       {
         "symbol": "DKA",
         "name": "디카르고",
-        "price": 3.84,
-        "change24": 13.947,
-        "value24": 4420332869.17118
+        "price": 3.5,
+        "change24": -3.581,
+        "value24": 11230341638.505627
+      },
+      {
+        "symbol": "KAVA",
+        "name": "카바",
+        "price": 50.1,
+        "change24": -7.394,
+        "value24": 11219572813.057442
+      },
+      {
+        "symbol": "BLUR",
+        "name": "블러",
+        "price": 15.4,
+        "change24": -1.911,
+        "value24": 11103222727.673014
+      },
+      {
+        "symbol": "XLM",
+        "name": "스텔라루멘",
+        "price": 175.0,
+        "change24": 0.575,
+        "value24": 10960516968.022284
+      },
+      {
+        "symbol": "IRYS",
+        "name": "아이리스",
+        "price": 21.7,
+        "change24": -1.81,
+        "value24": 9759598968.622046
+      },
+      {
+        "symbol": "META2",
+        "name": "메타다오",
+        "price": 3771.0,
+        "change24": -3.826,
+        "value24": 9081206531.193165
+      },
+      {
+        "symbol": "ONDO",
+        "name": "온도파이낸스",
+        "price": 390.0,
+        "change24": 1.828,
+        "value24": 8967742172.367273
+      },
+      {
+        "symbol": "OPG",
+        "name": "오픈그라디언트",
+        "price": 208.0,
+        "change24": -0.952,
+        "value24": 8964621097.181276
+      },
+      {
+        "symbol": "ME",
+        "name": "매직에덴",
+        "price": 55.5,
+        "change24": 9.901,
+        "value24": 8842541779.538355
+      },
+      {
+        "symbol": "ENA",
+        "name": "에테나",
+        "price": 140.0,
+        "change24": 2.19,
+        "value24": 8836638158.047022
+      },
+      {
+        "symbol": "DRV",
+        "name": "디라이브",
+        "price": 485.0,
+        "change24": -0.615,
+        "value24": 8812747730.711985
+      },
+      {
+        "symbol": "PROM",
+        "name": "프롬",
+        "price": 7000.0,
+        "change24": -1.408,
+        "value24": 7471879259.21571
+      },
+      {
+        "symbol": "BABY",
+        "name": "바빌론",
+        "price": 12.3,
+        "change24": 3.361,
+        "value24": 7438729000.892709
+      },
+      {
+        "symbol": "SUI",
+        "name": "수이",
+        "price": 923.0,
+        "change24": 1.989,
+        "value24": 7073544684.625801
       }
     ],
     "breadth": {
       "listed": 300,
-      "up": 48,
-      "down": 216,
-      "flat": 36,
-      "top10SharePct": 58.115342378708014,
-      "btcChangePct": -0.228,
-      "altMedianChangePct": -0.503
+      "up": 207,
+      "down": 69,
+      "flat": 24,
+      "top10SharePct": 50.66272697459259,
+      "btcChangePct": 0.815,
+      "altMedianChangePct": 0.826
     }
   },
   "regimeAnalysis": {
     "상승": {
       "baseline": {
-        "count": 1465,
-        "avgForward30Pct": 4.729284930820824,
-        "hitRate": 52.491467576791806,
-        "medianForward30Pct": 0.878227331908521
+        "count": 1466,
+        "avgForward30Pct": 4.7101680839572335,
+        "hitRate": 52.455661664392906,
+        "medianForward30Pct": 0.8652733119139389
       },
       "indicators": [
         {
@@ -328,18 +328,18 @@
           "hitRate": 69.89795918367348,
           "medianForward30Pct": 5.884170420864598,
           "indicator": "60일 신고가",
-          "edgePct": 6.458468482380643,
-          "hitEdgePp": 17.406491606881673,
+          "edgePct": 6.477585329244233,
+          "hitEdgePp": 17.442297519280572,
           "meaningful": true
         },
         {
-          "count": 201,
-          "avgForward30Pct": -1.9869177427563325,
-          "hitRate": 42.78606965174129,
-          "medianForward30Pct": -3.983011221945132,
+          "count": 202,
+          "avgForward30Pct": -2.092408311213995,
+          "hitRate": 42.57425742574257,
+          "medianForward30Pct": -4.005854396844533,
           "indicator": "RSI 35 이하",
-          "edgePct": -6.716202673577156,
-          "hitEdgePp": -9.705397925050512,
+          "edgePct": -6.802576395171228,
+          "hitEdgePp": -9.881404238650333,
           "meaningful": true
         },
         {
@@ -348,8 +348,8 @@
           "hitRate": 57.17761557177615,
           "medianForward30Pct": 1.9806145803589859,
           "indicator": "OBV 20일 상승",
-          "edgePct": 2.586252203259532,
-          "hitEdgePp": 4.686147994984346,
+          "edgePct": 2.605369050123122,
+          "hitEdgePp": 4.721953907383245,
           "meaningful": false
         },
         {
@@ -358,28 +358,28 @@
           "hitRate": 52.139037433155075,
           "medianForward30Pct": 0.8180929453085128,
           "indicator": "RSI 50~65",
-          "edgePct": 1.5038645840959024,
-          "hitEdgePp": -0.352430143636731,
+          "edgePct": 1.5229814309594927,
+          "hitEdgePp": -0.31662423123783157,
           "meaningful": false
         },
         {
-          "count": 1465,
-          "avgForward30Pct": 4.729284930820824,
-          "hitRate": 52.491467576791806,
-          "medianForward30Pct": 0.878227331908521,
+          "count": 1466,
+          "avgForward30Pct": 4.7101680839572335,
+          "hitRate": 52.455661664392906,
+          "medianForward30Pct": 0.8652733119139389,
           "indicator": "가격 200일선 위",
           "edgePct": 0.0,
           "hitEdgePp": 0.0,
           "meaningful": false
         },
         {
-          "count": 1325,
-          "avgForward30Pct": 4.620393030575278,
-          "hitRate": 50.943396226415096,
-          "medianForward30Pct": 0.471952535059339,
+          "count": 1326,
+          "avgForward30Pct": 4.599339934344676,
+          "hitRate": 50.90497737556561,
+          "medianForward30Pct": 0.4343247820440155,
           "indicator": "50일선 > 200일선",
-          "edgePct": -0.10889190024554551,
-          "hitEdgePp": -1.5480713503767092,
+          "edgePct": -0.1108281496125576,
+          "hitEdgePp": -1.5506842888272985,
           "meaningful": false
         },
         {
@@ -388,18 +388,18 @@
           "hitRate": 50.970873786407765,
           "medianForward30Pct": 0.13987855925613468,
           "indicator": "거래량 1.5배",
-          "edgePct": -1.0106475010883873,
-          "hitEdgePp": -1.5205937903840407,
+          "edgePct": -0.991530654224797,
+          "hitEdgePp": -1.4847878779851413,
           "meaningful": false
         },
         {
-          "count": 463,
-          "avgForward30Pct": 2.7136622725884667,
-          "hitRate": 47.94816414686825,
-          "medianForward30Pct": -0.6473308870596939,
+          "count": 464,
+          "avgForward30Pct": 2.6576069388733963,
+          "hitRate": 47.8448275862069,
+          "medianForward30Pct": -0.664162329437723,
           "indicator": "730일 고점 대비 -30%",
-          "edgePct": -2.015622658232357,
-          "hitEdgePp": -4.543303429923554,
+          "edgePct": -2.0525611450838372,
+          "hitEdgePp": -4.610834078186009,
           "meaningful": false
         }
       ]
@@ -586,10 +586,10 @@
     },
     "전체": {
       "baseline": {
-        "count": 3118,
-        "avgForward30Pct": 4.034378678823382,
-        "hitRate": 54.29762668377165,
-        "medianForward30Pct": 1.4458016748553626
+        "count": 3119,
+        "avgForward30Pct": 4.025616129528728,
+        "hitRate": 54.280218018595704,
+        "medianForward30Pct": 1.4450405887867168
       },
       "indicators": [
         {
@@ -598,18 +598,18 @@
           "hitRate": 71.15384615384616,
           "medianForward30Pct": 8.027791532614636,
           "indicator": "60일 신고가",
-          "edgePct": 7.4387478162806655,
-          "hitEdgePp": 16.856219470074514,
+          "edgePct": 7.44751036557532,
+          "hitEdgePp": 16.873628135250456,
           "meaningful": true
         },
         {
-          "count": 655,
-          "avgForward30Pct": -0.5577896888547603,
-          "hitRate": 47.48091603053435,
-          "medianForward30Pct": -0.6787187473693113,
+          "count": 656,
+          "avgForward30Pct": -0.5924516139802929,
+          "hitRate": 47.40853658536585,
+          "medianForward30Pct": -0.6874822405788517,
           "indicator": "RSI 35 이하",
-          "edgePct": -4.592168367678142,
-          "hitEdgePp": -6.816710653237294,
+          "edgePct": -4.6180677435090205,
+          "hitEdgePp": -6.871681433229853,
           "meaningful": true
         },
         {
@@ -618,18 +618,18 @@
           "hitRate": 57.330827067669176,
           "medianForward30Pct": 3.2267876537239393,
           "indicator": "OBV 20일 상승",
-          "edgePct": 2.3038621782553017,
-          "hitEdgePp": 3.0332003838975297,
+          "edgePct": 2.312624727549956,
+          "hitEdgePp": 3.050609049073472,
           "meaningful": false
         },
         {
-          "count": 1666,
-          "avgForward30Pct": 5.958066633547041,
-          "hitRate": 55.28211284513805,
-          "medianForward30Pct": 1.9016886192319782,
+          "count": 1667,
+          "avgForward30Pct": 5.940517695811737,
+          "hitRate": 55.248950209958004,
+          "medianForward30Pct": 1.9007155635062611,
           "indicator": "가격 200일선 위",
-          "edgePct": 1.9236879547236594,
-          "hitEdgePp": 0.9844861613664051,
+          "edgePct": 1.9149015662830093,
+          "hitEdgePp": 0.9687321913622995,
           "meaningful": false
         },
         {
@@ -638,18 +638,18 @@
           "hitRate": 52.879581151832454,
           "medianForward30Pct": 1.0004309661036048,
           "indicator": "RSI 50~65",
-          "edgePct": 1.5315984037571413,
-          "hitEdgePp": -1.4180455319391925,
+          "edgePct": 1.5403609530517954,
+          "hitEdgePp": -1.40063686676325,
           "meaningful": false
         },
         {
-          "count": 1610,
-          "avgForward30Pct": 5.1438789638685405,
-          "hitRate": 53.41614906832298,
-          "medianForward30Pct": 1.1012959011286738,
+          "count": 1611,
+          "avgForward30Pct": 5.126225399911325,
+          "hitRate": 53.382991930477964,
+          "medianForward30Pct": 1.0919228684271642,
           "indicator": "50일선 > 200일선",
-          "edgePct": 1.1095002850451587,
-          "hitEdgePp": -0.8814776154486665,
+          "edgePct": 1.1006092703825976,
+          "hitEdgePp": -0.8972260881177405,
           "meaningful": false
         },
         {
@@ -658,18 +658,18 @@
           "hitRate": 54.1371158392435,
           "medianForward30Pct": 1.16403068107358,
           "indicator": "거래량 1.5배",
-          "edgePct": -0.5133632130416079,
-          "hitEdgePp": -0.16051084452814735,
+          "edgePct": -0.5046006637469538,
+          "hitEdgePp": -0.14310217935220493,
           "meaningful": false
         },
         {
-          "count": 1845,
-          "avgForward30Pct": 3.38305365854134,
-          "hitRate": 53.98373983739837,
-          "medianForward30Pct": 1.515312069513608,
+          "count": 1846,
+          "avgForward30Pct": 3.368601293303125,
+          "hitRate": 53.95449620801733,
+          "medianForward30Pct": 1.513986622857677,
           "indicator": "730일 고점 대비 -30%",
-          "edgePct": -0.6513250202820418,
-          "hitEdgePp": -0.3138868463732791,
+          "edgePct": -0.6570148362256027,
+          "hitEdgePp": -0.32572181057837213,
           "meaningful": false
         }
       ]
@@ -864,10 +864,10 @@
     },
     {
       "start": "2025-03-26",
-      "end": "2026-11-24",
+      "end": "2026-11-25",
       "startPrice": 128556000.0,
-      "endPrice": 81441000.0,
-      "returnPct": -36.64939792775132,
+      "endPrice": 82005000.0,
+      "returnPct": -36.2106786147671,
       "lowPoint": {
         "date": "2026-11-20",
         "price": 81134000.0
@@ -891,10 +891,10 @@
         "changePct": -54.4219177466561
       },
       "baseline": {
-        "count": 579,
-        "avgForward30Pct": -0.590070801660932,
-        "hitRate": 52.84974093264248,
-        "medianForward30Pct": 0.8165982469765964
+        "count": 580,
+        "avgForward30Pct": -0.6292189771256615,
+        "hitRate": 52.758620689655174,
+        "medianForward30Pct": 0.7777077506790686
       },
       "bestIndicators": [
         {
@@ -903,23 +903,23 @@
           "hitRate": 47.55244755244755,
           "medianForward30Pct": -0.13299857501526402,
           "indicator": "RSI 50~65",
-          "edgePct": 0.7552060660004544
+          "edgePct": 0.794354241465184
+        },
+        {
+          "count": 270,
+          "avgForward30Pct": -0.11850238787925085,
+          "hitRate": 53.333333333333336,
+          "medianForward30Pct": 1.531850932008505,
+          "indicator": "730일 고점 대비 -30%",
+          "edgePct": 0.5107165892464107
         },
         {
           "count": 269,
-          "avgForward30Pct": -0.03234063998584999,
-          "hitRate": 53.53159851301115,
-          "medianForward30Pct": 1.5510406878152638,
-          "indicator": "730일 고점 대비 -30%",
-          "edgePct": 0.5577301616750819
-        },
-        {
-          "count": 268,
-          "avgForward30Pct": -0.7358004086213571,
-          "hitRate": 54.850746268656714,
-          "medianForward30Pct": 0.9946363396344693,
+          "avgForward30Pct": -0.8196673683335605,
+          "hitRate": 54.646840148698885,
+          "medianForward30Pct": 0.9823759582793468,
           "indicator": "가격 200일선 위",
-          "edgePct": -0.14572960696042514
+          "edgePct": -0.19044839120789891
         }
       ],
       "turningPointMethod": "윈도우 내부에서 과거 가격을 사후 확인해 최대 저점→후속 고점, 최대 고점→후속 저점을 선택"
