@@ -1,21 +1,19 @@
 {
-  "time": "2026-11-27T23:25:10+09:00",
-  "signalTime": "2026-11-27T19:00:00+09:00",
+  "time": "2026-11-28T05:14:35+09:00",
+  "signalTime": "2026-11-28T04:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
     "value": 1078004,
     "returnPct": -89.22,
-    "positions": [
-      "SAND"
-    ],
-    "trades": 1493,
+    "positions": [],
+    "trades": 1494,
     "actions": [
       {
-        "type": "WATCH",
-        "symbol": "MARKET",
-        "name": "전체시장",
-        "comment": "10분 점검 결과 새 매수·매도 조건 없음"
+        "type": "SELL",
+        "symbol": "SAND",
+        "name": "샌드박스",
+        "comment": "완성 1시간봉 조합점수 3점 이하"
       }
     ]
   },
@@ -29,5 +27,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-27T23:25:10+09:00",
-  "coinUpdatedAt": "2026-11-27T20:30:14+09:00"
+  "coinUpdatedAt": "2026-11-28T05:14:35+09:00"
 }
