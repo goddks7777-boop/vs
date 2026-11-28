@@ -1,19 +1,21 @@
 {
-  "time": "2026-11-28T07:51:11+09:00",
-  "signalTime": "2026-11-28T04:00:00+09:00",
+  "time": "2026-11-28T11:45:10+09:00",
+  "signalTime": "2026-11-28T10:00:00+09:00",
   "mode": "PAPER_ONLY",
   "actualOrders": 0,
   "coin": {
-    "value": 1078004,
-    "returnPct": -89.22,
-    "positions": [],
-    "trades": 1494,
+    "value": 1075849,
+    "returnPct": -89.242,
+    "positions": [
+      "SLX"
+    ],
+    "trades": 1495,
     "actions": [
       {
-        "type": "SELL",
-        "symbol": "SAND",
-        "name": "샌드박스",
-        "comment": "완성 1시간봉 조합점수 3점 이하"
+        "type": "BUY",
+        "symbol": "SLX",
+        "name": "솔스티스",
+        "comment": "완성 1시간봉 7/7점·RSI 62.1·거래량 2.11배"
       }
     ]
   },
@@ -27,5 +29,5 @@
     "analyzed": 2762
   },
   "stockUpdatedAt": "2026-11-28T07:51:11+09:00",
-  "coinUpdatedAt": "2026-11-28T05:14:35+09:00"
+  "coinUpdatedAt": "2026-11-28T11:45:10+09:00"
 }
